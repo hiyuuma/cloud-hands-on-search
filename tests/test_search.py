@@ -94,6 +94,117 @@ def test_short_query_like_fallback(db):
     assert res
 
 
+def _text(r):
+    return " ".join(
+        str(r.get(k) or "")
+        for k in ("title", "title_ja", "summary_ja", "domain")
+    ) + " " + " ".join(r.get("services") or [])
+
+
+def test_short_query_word_boundary(db):
+    # I2: "AI" は独立した語としてのみマッチし、
+    # "Available"/"Availability" のような単語中の部分一致は除外する
+    import re
+
+    res = search(db, "AI", limit=500)
+    assert res, "AI でヒットなし"
+    bounded = re.compile(r"(?<![0-9A-Za-z])ai(?![0-9A-Za-z])", re.IGNORECASE)
+    for r in res:
+        assert bounded.search(_text(r)), r["title"]
+
+
+def test_unknown_mode_rejected(db):
+    with pytest.raises(ValueError):
+        search(db, "Fargate", mode="xor")
+
+
+def test_or_mode(db):
+    # OR 検索は AND の結果を包含し、各語が独立にヒットする
+    and_res = search(db, "Fargate PostgreSQL", mode="and", limit=500)
+    or_res = search(db, "Fargate PostgreSQL", mode="or", limit=500)
+    and_ids = {r["id"] for r in and_res}
+    or_ids = {r["id"] for r in or_res}
+    assert and_ids <= or_ids
+    assert len(or_ids) > len(and_ids)
+    for r in or_res:
+        t = _text(r).lower()
+        assert "fargate" in t or "postgresql" in t
+
+
+def test_phrase_mode(db):
+    # フレーズ検索は連続する文字列にのみマッチする
+    res = search(db, "Kubernetes in Google Cloud", mode="phrase", limit=20)
+    assert res, "フレーズでヒットなし"
+    for r in res:
+        assert "kubernetes in google cloud" in _text(r).lower()
+
+
+def test_phrase_mode_short(db):
+    # 短いフレーズも単語境界ルールで扱う ("AI" は単語中にマッチしない)
+    import re
+
+    res = search(db, "AI", mode="phrase", limit=500)
+    assert res
+    bounded = re.compile(r"(?<![0-9A-Za-z])ai(?![0-9A-Za-z])", re.IGNORECASE)
+    assert all(bounded.search(_text(r)) for r in res)
+
+
+def test_level_filter_multi_values(db):
+    # I4: "intermediate;advanced" のような複数値は各要素にマッチする
+    res_adv = search(db, "", level="advanced", limit=500)
+    res_int = search(db, "", level="intermediate", limit=500)
+    multi = next(
+        r for r in res_adv
+        if r["source_catalog"] == "azure" and len(r.get("levels") or []) > 1
+    )
+    assert "advanced" in multi["levels"]
+    assert multi["id"] in {r["id"] for r in res_int}
+    # level 文字列 (後方互換フィールド) も保持されている
+    assert ";" in multi["level"]
+
+
+# I2: ゴールデンクエリ拡充。実データに存在が確認済みの語だけを使う。
+# 各タプルは (クエリ, 期待条件の説明)。
+GOLDEN_QUERIES = [
+    ("Fargate", "タイトルに Fargate を含むレコードが上位に来る"),
+    ("MCP", "MCP をタイトル/要約に含むレコードがヒット"),
+    ("PostgreSQL", "Azure Database for PostgreSQL 系がヒット"),
+    ("Kubernetes", "Kubernetes をタイトル等に含むレコードがヒット"),
+    ("Lambda", "Lambda を含むレコードがヒット"),
+    ("VPC", "VPC を含むレコードがヒット"),
+    ("IAM", "IAM を含むレコードがヒット"),
+    ("Terraform", "Terraform を含むレコードがヒット"),
+    ("コンテナ", "コンテナ (日本語部分一致) がヒット"),
+    ("セキュリティ", "セキュリティ関連レコードがヒット"),
+    ("ネットワーク", "ネットワーク関連レコードがヒット"),
+    ("データベース", "データベース関連レコードがヒット"),
+    ("RAG", "RAG を含むレコードがヒット"),
+    ("Cloud Run", "Cloud Run を含むレコードがヒット"),
+    ("AI", "短い語でも独立した語としてヒット (ノイズなし)"),
+]
+
+
+@pytest.mark.parametrize("query", [q for q, _ in GOLDEN_QUERIES],
+                         ids=[q for q, _ in GOLDEN_QUERIES])
+def test_golden_queries(db, query):
+    """全ゴールデンクエリで、検索対象テキストに語を含むレコードが
+    少なくとも1件ヒットすることを検証する。"""
+    import re
+
+    res = search(db, query, limit=10)
+    assert res, f"{query} でヒットなし"
+    if len(query) < 3:
+        pat = re.compile(
+            r"(?<![0-9A-Za-z])" + re.escape(query) + r"(?![0-9A-Za-z])",
+            re.IGNORECASE,
+        )
+    else:
+        pat = re.compile(re.escape(query), re.IGNORECASE)
+    assert any(pat.search(_text(r)) for r in res), (
+        f"{query}: 語を含む結果なし {_text(res[0])[:120]}"
+    )
+
+
 def test_unknown_filter_rejected(db):
     with pytest.raises(ValueError):
         search(db, "x", bogus_filter=1)

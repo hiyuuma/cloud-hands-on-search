@@ -8,9 +8,14 @@
           - ペナルティなし
     同点は duration_min が短い方 → id の順 (完全に決定的)
 
-候補選定は「合計所要時間が空き時間を超えない」貪欲パック:
-    スコア順に、duration_min が判明していて残り時間内に収まるものを採用する。
+候補選定は「合計所要時間が空き時間を超えない範囲でスコア合計を最大化」する
+ナップサック DP (I3):
+    duration_min 判明レコードについて 0/1 ナップサックを解き、空き時間内で
+    スコア合計が最大の組合せを選ぶ。件数は limit まで。
+    同スコアのタイは (合計時間が小さい方 → より前の候補) で決定的に解く。
     duration 不明のものは時間にカウントせず末尾に回す (上限を破らないため)。
+    空き時間が大きすぎる場合 (全判明レコードの合計を超える) は DP を
+    省略し、スコア順に limit 件を取る (このとき全件が常に収まるため最適)。
 
 出力は候補リストと同伴型フォーマット「今日の流れと所要時間・課金の見立て」。
 """
@@ -75,6 +80,52 @@ def _access_note(r):
     return a
 
 
+def _pack_knapsack(known, minutes, limit):
+    """duration_min 判明レコードの 0/1 ナップサックを DP で解く。
+
+    known は決定的ソート済みの (score, rec, reasons) リスト (duration>0)。
+    dp[w] = (最大スコア, 選んだ添字のタプル) とし、更新は厳密に
+    スコア向上時のみ行うため同入力は常に同じ結果になる。
+    タイの解は「より小さい合計時間 w」を優先する。
+    """
+    total = sum(r["duration_min"] for _, r, _ in known)
+    if total <= minutes:
+        # 全件収まる場合はスコア順に limit 件取るのが最適
+        return known[:limit]
+    if minutes > 20000:
+        # 巨大な空き時間では DP 状態数が増えすぎるため、安全側として
+        # 収まるものをスコア順に取る (実用上のフォールバック)
+        picked = []
+        used = 0
+        for s, r, reasons in known:
+            d = r["duration_min"]
+            if used + d <= minutes and len(picked) < limit:
+                picked.append((s, r, reasons))
+                used += d
+        return picked
+
+    dp = {0: (0, ())}  # 合計時間 -> (スコア, 添字タプル)
+    for i, (s, r, _) in enumerate(known):
+        d = r["duration_min"]
+        if d > minutes:
+            continue
+        additions = {}
+        for w, (sc, idxs) in dp.items():
+            nw = w + d
+            if nw > minutes or len(idxs) >= limit:
+                continue
+            nsc = sc + s
+            cur = dp.get(nw, additions.get(nw))
+            if cur is None or nsc > cur[0]:
+                additions[nw] = (nsc, idxs + (i,))
+        dp.update(additions)
+
+    best_score = max(sc for sc, _ in dp.values())
+    # 同スコアでは合計時間が小さい方を選ぶ (決定的)
+    best_w = min(w for w, (sc, _) in dp.items() if sc == best_score)
+    return [known[i] for i in dp[best_w][1]]
+
+
 def recommend(records, *, minutes, interests=(), plan_month=None, limit=10):
     """候補リストを返す。
 
@@ -97,24 +148,22 @@ def recommend(records, *, minutes, interests=(), plan_month=None, limit=10):
                        t[1].get("duration_min") or 0, t[1]["id"])
     )
 
-    picked, remaining = [], minutes
-    deferred = []
-    for s, r, reasons in scored:
-        d = r.get("duration_min")
-        if d is not None and d <= remaining:
-            picked.append({**r, "_score": s, "_reasons": reasons})
-            remaining -= d
-            if len(picked) >= limit:
-                break
-        else:
-            deferred.append({**r, "_score": s, "_reasons": reasons})
+    known = [t for t in scored if t[1].get("duration_min") is not None]
+    unknown = [t for t in scored if t[1].get("duration_min") is None]
+
+    packed = _pack_knapsack(known, minutes, limit)
+    # 出力順は従来どおりスコア順 (ソート順のまま)
+    order = {id(r): i for i, (_, r, _) in enumerate(scored)}
+    picked = [
+        {**r, "_score": s, "_reasons": reasons}
+        for s, r, reasons in sorted(packed, key=lambda t: order[id(t[1])])
+    ]
 
     # duration 不明 (時間枠を消費しない) を空き枠の末尾に追加
-    for item in deferred:
+    for s, r, reasons in unknown:
         if len(picked) >= limit:
             break
-        if item.get("duration_min") is None:
-            picked.append(item)
+        picked.append({**r, "_score": s, "_reasons": reasons})
 
     return picked
 

@@ -29,6 +29,16 @@ def test_search_cli_filter(db, capsys):
     assert "Azure" in out
 
 
+def test_search_cli_mode(db, capsys):
+    # I2: CLI でも OR / phrase 検索モードが使える
+    assert main(["--db", db, "search", "Fargate PostgreSQL",
+                 "--mode", "or", "--limit", "5"]) == 0
+    assert "件ヒット" in capsys.readouterr().out
+    assert main(["--db", db, "search", "Kubernetes in Google Cloud",
+                 "--mode", "phrase", "--limit", "5"]) == 0
+    assert "件ヒット" in capsys.readouterr().out
+
+
 def test_recommend_cli(db, capsys):
     assert main(["--db", db, "recommend", "--minutes", "90",
                  "--interest", "MCP", "コンテナ"]) == 0

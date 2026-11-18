@@ -1,0 +1,960 @@
+[
+ {
+  "description": "Build hands-on Kubernetes experience managing, securing, and scaling production applications.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "高",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "本番向け Kubernetes クラスタの構築・管理・セキュリティ・スケーリングをハンズオンで学ぶ CKA 対策の中核コース",
+  "title": "Kubernetes Fundamentals (LFS258)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/kubernetes-fundamentals/"
+ },
+ {
+  "description": "Learn how to containerize, host, deploy, and configure an application in a multi-node cluster.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "高",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "アプリのコンテナ化からマルチノードクラスタへのデプロイ・監視までを学ぶ CKAD 対策コース",
+  "title": "Kubernetes for Developers (LFD259)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/kubernetes-for-developers/"
+ },
+ {
+  "description": "The course, along with real-world experience and study, will provide the skills and knowledge also tested by the Kubernetes Security Specialist (CKS) exam.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "高",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "サプライチェーンから実行時まで Kubernetes セキュリティ全般を学ぶ CKS 対策コース",
+  "title": "Kubernetes Security Essentials (LFS260)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/kubernetes-security-essentials-lfs260/"
+ },
+ {
+  "description": "Get an in-depth primer on this powerful system for managing containerized applications in a clustered environment.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$0",
+  "priority_for_user": "高",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "Kubernetes の起源・アーキテクチャ・基本コンポーネントを学ぶ無料の入門コース",
+  "title": "Introduction to Kubernetes (LFS158)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/introduction-to-kubernetes/"
+ },
+ {
+  "description": "This Kubernetes and Cloud Native Essentials course provides an overview of cloud native technologies and how container orchestration systems can help to implement and maintain them.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$99",
+  "priority_for_user": "高",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "クラウドネイティブ技術とコンテナオーケストレーションの全体像を掴む KCNA 対策入門コース",
+  "title": "Kubernetes and Cloud Native Essentials (LFS250)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/"
+ },
+ {
+  "description": "Learn how to install, spin up, manage, and troubleshoot containers.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "高",
+  "services": [
+   "Docker",
+   "Containers"
+  ],
+  "summary_ja": "コンテナランタイム・ネットワーク・ストレージ・Docker を体系的に学ぶコンテナ基礎コース",
+  "title": "Containers Fundamentals (LFS253)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/containers-fundamentals/"
+ },
+ {
+  "description": "Learn about Helm, and how it's used in real-world scenarios to manage the lifecycle of applications on Kubernetes.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "中",
+  "services": [
+   "Kubernetes",
+   "Helm"
+  ],
+  "summary_ja": "Helm チャートの作成からアプリライフサイクル管理までを実践的に学ぶコース",
+  "title": "Managing Kubernetes Applications with Helm (LFS244)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/managing-kubernetes-applications-with-helm-lfs244/"
+ },
+ {
+  "description": "Learn how to monitor your systems and services effectively with Prometheus.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$99",
+  "priority_for_user": "中",
+  "services": [
+   "Prometheus",
+   "Kubernetes"
+  ],
+  "summary_ja": "Prometheus によるシステム監視と Kubernetes スタックのオブザーバビリティ構築を学ぶ PCA 対策コース",
+  "title": "Monitoring Systems and Services with Prometheus (LFS241)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/monitoring-systems-and-services-with-prometheus-lfs241/"
+ },
+ {
+  "description": "Learn to streamline Kubernetes workflows with Argo tools.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$99",
+  "priority_for_user": "中",
+  "services": [
+   "Argo",
+   "Kubernetes",
+   "GitOps"
+  ],
+  "summary_ja": "Argo で Kubernetes のデプロイ・ロールアウト・GitOps ワークフローを管理する CAPA 対策コース",
+  "title": "DevOps and Workflow Management with Argo (LFS256)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/devops-and-workflow-management-with-argo-lfs256/"
+ },
+ {
+  "description": "Dive into Istio, the secure, feature-rich, service mesh solution for Kubernetes-based microservices architecture.",
+  "domain": "ネットワーク",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$99",
+  "priority_for_user": "中",
+  "services": [
+   "Istio",
+   "Kubernetes",
+   "Service Mesh"
+  ],
+  "summary_ja": "Istio サービスメッシュの導入・トラフィック管理・セキュリティを学ぶ ICA 対策コース",
+  "title": "Istio Service Mesh Essentials (LFS245)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/istio-service-mesh-essentials-lfs245/"
+ },
+ {
+  "description": "Learn how to manage the challenges posed by distributed systems using service mesh technologies such as Envoy Proxy and the SMI specification.",
+  "domain": "ネットワーク",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "低",
+  "services": [
+   "Service Mesh",
+   "Envoy",
+   "Kubernetes"
+  ],
+  "summary_ja": "Envoy や SMI などサービスメッシュ技術で分散システムの課題に対処する基礎コース",
+  "title": "Service Mesh Fundamentals (LFS243)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/service-mesh-fundamentals-lfs243/"
+ },
+ {
+  "description": "Get the skills necessary to deploy Fluentd and Fluent Bit in a wide range of production settings.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "低",
+  "services": [
+   "Fluentd",
+   "Fluent Bit",
+   "Kubernetes"
+  ],
+  "summary_ja": "Fluentd / Fluent Bit によるクラウドネイティブなログ収集・集約・転送を学ぶコース",
+  "title": "Cloud Native Logging with Fluentd and Fluent Bit (LFS242)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/cloud-native-logging-with-fluentd-lfs242/"
+ },
+ {
+  "description": "Master the skills required to build, deploy, and manage serverless applications on Kubernetes using Knative.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "中",
+  "services": [
+   "Knative",
+   "Kubernetes",
+   "Serverless"
+  ],
+  "summary_ja": "Knative Serving/Eventing で Kubernetes 上のサーバーレスアプリを構築・運用するコース",
+  "title": "Serverless and Event-Driven Applications with Knative (LFS246)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/serverless-and-event-driven-applications-with-knative-lfs246/"
+ },
+ {
+  "description": "Learn to implement and enforce security policies with Kyverno to manage Kubernetes resources effectively.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "中",
+  "services": [
+   "Kyverno",
+   "Kubernetes"
+  ],
+  "summary_ja": "Kyverno のポリシー作成・適用・レポートで Kubernetes のセキュリティとコンプライアンスを強化するコース",
+  "title": "Mastering Kubernetes Security with Kyverno (LFS255)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/mastering-kubernetes-security-with-kyverno-lfs255/"
+ },
+ {
+  "description": "Develop the skills to configure and optimize KEDA for a variety of Kubernetes environments.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "中",
+  "services": [
+   "KEDA",
+   "Kubernetes"
+  ],
+  "summary_ja": "KEDA によるイベント駆動オートスケーリングの構成と最適化を学ぶコース",
+  "title": "Mastering Kubernetes Event-Driven Autoscaling with KEDA (LFS257)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/mastering-kubernetes-event-driven-autoscaling-with-keda-lfs257/"
+ },
+ {
+  "description": "Get the skills to implement DevSecOps practices into the software development and delivery processes.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "中",
+  "services": [
+   "DevSecOps",
+   "Kubernetes",
+   "Docker",
+   "CI/CD"
+  ],
+  "summary_ja": "SAST・イメージスキャン・IaC コンプライアンスなど DevSecOps を CI/CD に組み込む実践コース",
+  "title": "Implementing DevSecOps (LFS262)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/implementing-devsecops-lfs262/"
+ },
+ {
+  "description": "Get the skills to deploy software with confidence using CI/CD processes & tools.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "中",
+  "services": [
+   "CI/CD",
+   "Jenkins",
+   "Argo CD",
+   "Docker",
+   "Kubernetes"
+  ],
+  "summary_ja": "Jenkins・Docker・Argo CD を使った CI/CD と継続的デリバリーの基礎を学ぶコース",
+  "title": "DevOps and SRE Fundamentals: Implementing Continuous Delivery (LFS261)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/devops-and-sre-fundamentals-implementing-continuous-delivery-lfs261/"
+ },
+ {
+  "description": "Learn how to automate and streamline your development and QA processes with Docker.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "中",
+  "services": [
+   "Docker",
+   "Podman",
+   "Containers"
+  ],
+  "summary_ja": "Docker・Podman・Buildah などオープンなコンテナエコシステムを開発/QA 向けに学ぶコース",
+  "title": "Containers for Developers and Quality Assurance (LFD254)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/containers-for-developers-and-quality-assurance/"
+ },
+ {
+  "description": "Discover FinOps and cloud cost management with OpenCost, empowering your decision-making with key metrics.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$299",
+  "priority_for_user": "低",
+  "services": [
+   "OpenCost",
+   "Kubernetes",
+   "FinOps",
+   "Prometheus"
+  ],
+  "summary_ja": "OpenCost で Kubernetes のコストを可視化し FinOps の実践につなげるコース",
+  "title": "Cloud Cost Monitoring for FinOps with OpenCost (LFS248)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/cloud-cost-monitoring-for-finops-with-opencost-lfs248/"
+ },
+ {
+  "description": "Get a practical introduction to using Cilium as the networking plug-in for Kubernetes, including installation, observability with Hubble, securing network connections, and multi-cluster support - all based on eBPF for scalability.",
+  "domain": "ネットワーク",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$0",
+  "priority_for_user": "高",
+  "services": [
+   "Cilium",
+   "eBPF",
+   "Kubernetes"
+  ],
+  "summary_ja": "eBPF ベースの Cilium で Kubernetes ネットワークの接続・観測・保護を学ぶ無料入門コース",
+  "title": "Introduction to Cilium (LFS146)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/introduction-to-cilium-lfs146/"
+ },
+ {
+  "description": "Learn how you can monitor, connect, and secure microservices using Istio service mesh, the most widely adopted service mesh in production.",
+  "domain": "ネットワーク",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$0",
+  "priority_for_user": "中",
+  "services": [
+   "Istio",
+   "Kubernetes",
+   "Service Mesh"
+  ],
+  "summary_ja": "Istio サービスメッシュでマイクロサービスの接続・保護・観測を始める無料入門コース",
+  "title": "Introduction to Istio (LFS144)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/introduction-to-istio-lfs144/"
+ },
+ {
+  "description": "Explore the origins, deployment options, individual components and common integrations of Kubeflow.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$0",
+  "priority_for_user": "低",
+  "services": [
+   "Kubeflow",
+   "Kubernetes",
+   "AI/ML"
+  ],
+  "summary_ja": "Kubernetes 上の ML ツールキット Kubeflow の構成とデータ準備からモデル運用までを概観する無料コース",
+  "title": "Introduction to AI/ML Toolkits with Kubeflow (LFS147)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/introduction-to-ai-ml-toolkits-with-kubeflow-lfs147/"
+ },
+ {
+  "description": "Learn to use OpenTelemetry to build and manage unified observability, skills increasingly important to IT developers and engineers career growth.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$0",
+  "priority_for_user": "中",
+  "services": [
+   "OpenTelemetry",
+   "Observability"
+  ],
+  "summary_ja": "OpenTelemetry の計装と Collector でトレース・メトリクス・ログの統合オブザーバビリティを始める無料コース",
+  "title": "Getting Started with OpenTelemetry (LFS148)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/getting-started-with-opentelemetry-lfs148/"
+ },
+ {
+  "description": "Learn hands-on to evaluate flags, run experiments, and manage rollouts with OpenFeature for safer, faster, and more reliable software delivery.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$0",
+  "priority_for_user": "低",
+  "services": [
+   "OpenFeature",
+   "DevOps"
+  ],
+  "summary_ja": "OpenFeature でフィーチャーフラグ・カナリアリリース・実験を安全に行う無料コース",
+  "title": "Feature Flagging with OpenFeature (LFS140)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/feature-flagging-with-openfeature-lfs140/"
+ },
+ {
+  "description": "Learn how to build serverless functions that can run on any cloud, without being restricted by limits on the execution duration, languages available, or the size of your code.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$0",
+  "priority_for_user": "中",
+  "services": [
+   "Serverless",
+   "OpenFaaS",
+   "Kubernetes"
+  ],
+  "summary_ja": "OpenFaaS を使い Kubernetes 上でポータブルなサーバーレス関数を構築する無料入門コース",
+  "title": "Introduction to Serverless on Kubernetes (LFS157)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/introduction-to-serverless-on-kubernetes-lfs157/"
+ },
+ {
+  "description": "This course is designed as preparation for the Certified Kubernetes Security Specialist Exam.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$3495",
+  "priority_for_user": "中",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "CKS 対策の講師主導コース。クラスタ構築から実行時まで Kubernetes セキュリティをハンズオンで深掘りする",
+  "title": "Kubernetes Security Fundamentals (LFS460)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/kubernetes-security-fundamentals-lfs460/"
+ },
+ {
+  "description": "Learn how to containerize, host, deploy, and configure an application in a multi-node cluster.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$3495",
+  "priority_for_user": "中",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "CKAD 対策の講師主導コース。アプリのコンテナ化とマルチノードクラスタへのデプロイを学ぶ",
+  "title": "Kubernetes for App Developers (LFD459)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/kubernetes-for-app-developers/"
+ },
+ {
+  "description": "Learn the core concepts typically used to build and administer a Kubernetes cluster in production using vendor-independent tools.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$3495",
+  "priority_for_user": "高",
+  "services": [
+   "Kubernetes",
+   "kubeadm",
+   "Helm"
+  ],
+  "summary_ja": "CKA 対策の講師主導コース。kubeadm での本番クラスタ構築・運用・セキュリティ・ストレージを学ぶ",
+  "title": "Kubernetes Administration (LFS458)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/kubernetes-administration/"
+ },
+ {
+  "description": "This course will teach you the skills you need to become a professional Linux cloud technician.",
+  "domain": "OS・Linux",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$3495",
+  "priority_for_user": "中",
+  "services": [
+   "Linux"
+  ],
+  "summary_ja": "クラウド環境での Linux 管理（ネットワーク・サービス・ユーザー管理・仮想化・コンテナ）を学ぶ講師主導コース",
+  "title": "Linux for Cloud Technicians (LFS303)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/linux-for-cloud-technicians-lfs303/"
+ },
+ {
+  "description": "Build cloud native IAM skills and secure microservices with Keycloak using OAuth2, OIDC, and SSO for modern developers and DevOps pros.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "1 day of Instructor-led class time",
+  "level": "Intermediate",
+  "price_text": "$995",
+  "priority_for_user": "中",
+  "services": [
+   "Keycloak",
+   "OAuth2",
+   "OIDC",
+   "Kubernetes"
+  ],
+  "summary_ja": "Keycloak で OAuth2/OIDC/SSO を実装しマイクロサービスを保護する1日講師主導ワークショップ",
+  "title": "Designing Secure Microservices with Keycloak (LFWS305)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/designing-secure-microservices-with-keycloak-lfws305/"
+ },
+ {
+  "description": "Learn to secure, scale, and monitor Kubernetes environments using Cilium in this one-day workshop built for professionals managing modern cloud native workloads.",
+  "domain": "ネットワーク",
+  "duration_text": "1 day of Instructor-led class time",
+  "level": "Intermediate",
+  "price_text": "$995",
+  "priority_for_user": "中",
+  "services": [
+   "Cilium",
+   "eBPF",
+   "Kubernetes",
+   "Hubble"
+  ],
+  "summary_ja": "Cilium と Hubble で Kubernetes ネットワークの保護・観測を行う1日講師主導ワークショップ",
+  "title": "Cilium in Action: Kubernetes Security & Insight (LFWS315)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/cilium-in-action-kubernetes-security-and-insight-lfws315/"
+ },
+ {
+  "description": "Grow your cloud native career with Kubernetes troubleshooting skills learned with hands-on labs and real-world scenarios.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$995",
+  "priority_for_user": "中",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "Pod・サービス・ネットワーク・ストレージ・ノードの障害診断をハンズオンで学ぶ講師主導ワークショップ",
+  "title": "Kubernetes Troubleshooting (LFWS313)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/kubernetes-troubleshooting-lfws313/"
+ },
+ {
+  "description": "Gain hands-on eBPF skills to secure, monitor, and optimize Kubernetes—advancing your cloud and security leadership expertise.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$995",
+  "priority_for_user": "低",
+  "services": [
+   "eBPF",
+   "Cilium",
+   "Tetragon",
+   "Linux"
+  ],
+  "summary_ja": "eBPF でカーネルプログラミングとランタイムセキュリティ・オブザーバビリティを学ぶ講師主導ワークショップ",
+  "title": "eBPF Essentials: Security and Observability (LFWS304)",
+  "type": "course",
+  "url": "https://training.linuxfoundation.org/training/ebpf-essentials-security-and-observability-lfws304/"
+ },
+ {
+  "description": "The Certified Kubernetes Administrator (CKA) program provides assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$445",
+  "priority_for_user": "高",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "Kubernetes 管理者の実技能力を証明する CNCF/LF の代表的認定試験（パフォーマンスベース）",
+  "title": "Certified Kubernetes Administrator (CKA)",
+  "type": "certification",
+  "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"
+ },
+ {
+  "description": "The Certified Kubernetes Application Developer exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$445",
+  "priority_for_user": "高",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "Kubernetes 上のクラウドネイティブアプリ設計・構築・デプロイ能力を証明する認定試験",
+  "title": "Certified Kubernetes Application Developer (CKAD)",
+  "type": "certification",
+  "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/"
+ },
+ {
+  "description": "The Certified Kubernetes Security Specialist (CKS) is an accomplished Kubernetes practitioner (as evidenced by holding the CKA credential) who has demonstrated competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$445",
+  "priority_for_user": "高",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "CKA 取得が前提。コンテナと Kubernetes のセキュリティ実践能力を証明する上級認定試験",
+  "title": "Certified Kubernetes Security Specialist (CKS)",
+  "type": "certification",
+  "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/"
+ },
+ {
+  "description": "The Kubernetes and Cloud Native Associate (KCNA) exam demonstrates a user's foundational knowledge and skills in Kubernetes and the wider cloud native ecosystem.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$250",
+  "priority_for_user": "中",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "Kubernetes とクラウドネイティブエコシステムの基礎知識を証明する入門認定試験",
+  "title": "Kubernetes and Cloud Native Associate (KCNA)",
+  "type": "certification",
+  "url": "https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"
+ },
+ {
+  "description": "The Kubernetes and Cloud Native Security Associate (KCSA) exam demonstrates a user's understanding of the baseline security configuration of Kubernetes clusters and cloud native technologies.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "",
+  "level": "Beginner",
+  "price_text": "$250",
+  "priority_for_user": "中",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "Kubernetes とクラウドネイティブのセキュリティ基礎を証明する入門認定試験",
+  "title": "Kubernetes and Cloud Native Security Associate (KCSA)",
+  "type": "certification",
+  "url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/"
+ },
+ {
+  "description": "The Certified Kubernetes Administrator (CKA) program provides assurance that CKAs have the competency to perform the responsibilities of Kubernetes administrators. The Certified Kubernetes Security Specialist (CKS) program provides assurance that a CKS has competence for securing container-based applications.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Intermediate",
+  "price_text": "$1245",
+  "priority_for_user": "中",
+  "services": [
+   "Kubernetes"
+  ],
+  "summary_ja": "CKA・CKAD・CKS の3試験をまとめた受験バンドル（単体合計より割安）",
+  "title": "Certified Kubernetes Administrator (CKA) + Certified Kubernetes Application Developer (CKAD) + Certified Kubernetes Security Specialist (CKS) Exam Bundle",
+  "type": "bundle",
+  "url": "https://training.linuxfoundation.org/training/cka-ckad-cks-exam-bundle/"
+ },
+ {
+  "title": "Certified Kubernetes Network Engineer (CKNE)",
+  "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-network-engineer-ckne/",
+  "type": "certification",
+  "level": "Intermediate",
+  "duration_text": "",
+  "price_text": "$445",
+  "description": "CKNE validates hands-on skills in designing, securing, and troubleshooting Kubernetes networking for platform, network, and SRE roles.",
+  "domain": "ネットワーク",
+  "services": [
+   "Kubernetes",
+   "Cilium",
+   "Networking"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Kubernetes ネットワークの設計・保護・トラブルシュート能力を証明する認定試験（CKA レベルの管理スキル前提）"
+ },
+ {
+  "title": "Certified Cloud Native Platform Engineer (CNPE)",
+  "url": "https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineer-cnpe/",
+  "type": "certification",
+  "level": "Intermediate",
+  "duration_text": "",
+  "price_text": "$445",
+  "description": "Show you can build tools and automation that empower developers—and grow your career with the CNPE certification.",
+  "domain": "その他",
+  "services": [
+   "Kubernetes",
+   "Platform Engineering"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "エンタープライズ向けクラウドネイティブプラットフォームの設計・保護・スケールを問う上位認定試験"
+ },
+ {
+  "title": "Certified Cloud Native Platform Engineering Associate (CNPA)",
+  "url": "https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineering-associate-cnpa/",
+  "type": "certification",
+  "level": "Beginner",
+  "duration_text": "Duration of Exam 120 minutes",
+  "price_text": "$250",
+  "description": "Show you can build tools and automation that empower developers—and grow your career with the CNPA certification.",
+  "domain": "その他",
+  "services": [
+   "Platform Engineering",
+   "GitOps",
+   "Kubernetes"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "プラットフォームエンジニアリングの基礎（GitOps・オブザーバビリティ・IDP）を証明する入門認定試験"
+ },
+ {
+  "title": "Prometheus Certified Associate (PCA)",
+  "url": "https://training.linuxfoundation.org/certification/prometheus-certified-associate/",
+  "type": "certification",
+  "level": "Beginner",
+  "duration_text": "Duration of Exam 90 minutes",
+  "price_text": "$250",
+  "description": "The Prometheus Certified Associate (PCA) exam demonstrates an engineer's foundational knowledge of observability and skills using Prometheus, the open source systems monitoring and alerting toolkit.",
+  "domain": "その他",
+  "services": [
+   "Prometheus",
+   "Observability"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Prometheus とオブザーバビリティ基礎（PromQL・アラート・ダッシュボード）を証明する認定試験"
+ },
+ {
+  "title": "Istio Certified Associate (ICA)",
+  "url": "https://training.linuxfoundation.org/certification/istio-certified-associate-ica/",
+  "type": "certification",
+  "level": "Intermediate",
+  "duration_text": "",
+  "price_text": "$250",
+  "description": "The ICA is a pre-professional certification designed for engineers, CI/CD practitioners or anyone with special interests in Istio.",
+  "domain": "ネットワーク",
+  "services": [
+   "Istio",
+   "Service Mesh",
+   "Kubernetes"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Istio の導入・トラフィック管理・ワークロード保護の基礎能力を証明する認定試験"
+ },
+ {
+  "title": "Certified Argo Project Associate (CAPA)",
+  "url": "https://training.linuxfoundation.org/certification/certified-argo-project-associate-capa/",
+  "type": "certification",
+  "level": "Beginner",
+  "duration_text": "",
+  "price_text": "$250",
+  "description": "The Certified Argo Project Associate (CAPA) exam demonstrates a user's ability to navigate the Argo Project ecosystem including when and why to use each tool.",
+  "domain": "コンテナ",
+  "services": [
+   "Argo",
+   "Argo CD",
+   "GitOps",
+   "Kubernetes"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Argo Workflows / CD / Rollouts / Events のエコシステム理解を証明する認定試験"
+ },
+ {
+  "title": "Cilium Certified Associate (CCA)",
+  "url": "https://training.linuxfoundation.org/certification/cilium-certified-associate-cca/",
+  "type": "certification",
+  "level": "Beginner",
+  "duration_text": "Duration of Exam 90 minutes",
+  "price_text": "$250",
+  "description": "The Cilium Certified Associate (CCA) exam confirms a user's knowledge of connecting, securing, and observing Kubernetes clusters using Cilium.",
+  "domain": "ネットワーク",
+  "services": [
+   "Cilium",
+   "eBPF",
+   "Kubernetes",
+   "Hubble"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Cilium で Kubernetes クラスタを接続・保護・観測する基礎能力を証明する認定試験"
+ },
+ {
+  "title": "Kyverno Certified Associate (KCA)",
+  "url": "https://training.linuxfoundation.org/certification/kyverno-certified-associate-kca/",
+  "type": "certification",
+  "level": "Beginner",
+  "duration_text": "",
+  "price_text": "$250",
+  "description": "Kyverno expertise shows you understand the advanced aspects of cloud management and security, one of today's most in-demand skill sets.",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "Kyverno",
+   "Kubernetes"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Kyverno による Kubernetes ポリシー管理とセキュリティの理解を証明する認定試験"
+ },
+ {
+  "title": "OpenTelemetry Certified Associate (OTCA)",
+  "url": "https://training.linuxfoundation.org/certification/opentelemetry-certified-associate-otca/",
+  "type": "certification",
+  "level": "Beginner",
+  "duration_text": "",
+  "price_text": "$250",
+  "description": "Prove your expertise in OpenTelemetry, the industry standard for tracing, metrics, & logs, with the OpenTelemetry Certified Associate (OTCA) exam.",
+  "domain": "その他",
+  "services": [
+   "OpenTelemetry",
+   "Observability"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "OpenTelemetry の API/SDK と Collector によるオブザーバビリティ実装力を証明する認定試験"
+ },
+ {
+  "title": "Certified Backstage Associate (CBA)",
+  "url": "https://training.linuxfoundation.org/certification/certified-backstage-associate-cba/",
+  "type": "certification",
+  "level": "Beginner",
+  "duration_text": "",
+  "price_text": "$250",
+  "description": "The Certified Backstage Associate (CBA) exam is for developers looking to enhance their skills in building developer portals with Backstage.",
+  "domain": "その他",
+  "services": [
+   "Backstage",
+   "Platform Engineering"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Backstage で開発者ポータルを構築するスキルを証明する認定試験"
+ },
+ {
+  "title": "Scaling Cloud Native Applications with KEDA (LFEL1014)",
+  "url": "https://training.linuxfoundation.org/express-learning/scaling-cloud-native-applications-with-keda-lfel1014/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "",
+  "price_text": "$0",
+  "description": "Enroll today to quickly understand how to design and deploy applications that can dynamically scale based on actual demand in Kubernetes.",
+  "domain": "コンテナ",
+  "services": [
+   "KEDA",
+   "Kubernetes"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "KEDA のアーキテクチャとスケーラーを短時間で学ぶ無料の Express Learning コース"
+ },
+ {
+  "title": "CKNE Certification Pathway",
+  "url": "https://training.linuxfoundation.org/certification/ckne-certification-pathway/",
+  "type": "bundle",
+  "level": "Intermediate",
+  "duration_text": "",
+  "price_text": "$645",
+  "description": "Build Kubernetes networking skills with the CKNE Certification Pathway, including learning modules, hands-on labs, and the exam.",
+  "domain": "ネットワーク",
+  "services": [
+   "Kubernetes",
+   "Networking"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "学習モジュール＋ハンズオンラボ＋CKNE 試験を一体化した認定パスウェイ"
+ },
+ {
+  "title": "Linux Foundation Certified System Administrator (LFCS)",
+  "url": "https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/",
+  "type": "certification",
+  "level": "",
+  "duration_text": "",
+  "price_text": "",
+  "description": "The Linux Foundation Certified System Administrator exam is ideal for candidates looking to validate their Linux system administration skill set.",
+  "domain": "OS・Linux",
+  "services": [
+   "Linux"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "実務タスク形式で Linux システム管理スキルを証明する LF の代表的認定試験"
+ },
+ {
+  "title": "Linux Foundation Certified IT Associate (LFCA)",
+  "url": "https://training.linuxfoundation.org/certification/certified-it-associate/",
+  "type": "certification",
+  "level": "",
+  "duration_text": "",
+  "price_text": "",
+  "description": "The Linux Foundation Certified IT Associate (LFCA) exam demonstrates a user's expertise and skills in fundamental information technology functions, especially in cloud computing. It is ideal for those getting started in an IT career.",
+  "domain": "OS・Linux",
+  "services": [
+   "Linux",
+   "Cloud Computing"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Linux・クラウド・DevOps など IT 基礎全般を問う入門認定試験"
+ },
+ {
+  "title": "Introduction to Linux (LFS101)",
+  "url": "https://training.linuxfoundation.org/training/introduction-to-linux/",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "price_text": "$0",
+  "description": "Develop a good working knowledge of Linux.",
+  "domain": "OS・Linux",
+  "services": [
+   "Linux"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "主要ディストリビューションを GUI とコマンドラインの両面から学ぶ無料の Linux 入門コース"
+ },
+ {
+  "title": "Linux System Administration Essentials (LFS207)",
+  "url": "https://training.linuxfoundation.org/training/linux-system-administration-essentials-lfs207/",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "price_text": "$299",
+  "description": "Get the background and training you need to start working as a Linux SysAdmin.",
+  "domain": "OS・Linux",
+  "services": [
+   "Linux",
+   "Git"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Debian 系と Red Hat 系の管理・構成・アップグレードを実ラボで学ぶ LFCS 対策の基礎コース"
+ },
+ {
+  "title": "Linux for Cloud Technicians Essentials (LFS203)",
+  "url": "https://training.linuxfoundation.org/training/linux-for-cloud-technicians-essentials-lfs203/",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "price_text": "",
+  "description": "This course provides essential knowledge for configuring and managing Linux systems and containers, expanding on the standard administration knowledge and incorporating critical tasks and operations commonly used in cloud environments.",
+  "domain": "OS・Linux",
+  "services": [
+   "Linux",
+   "Containers"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "クラウド環境での Linux 管理（ネットワーク・サービス・仮想化・コンテナ）を学ぶ e ラーニング版コース"
+ },
+ {
+  "title": "Fundamentals of Open Source IT and Cloud Computing (LFS200)",
+  "url": "https://training.linuxfoundation.org/training/fundamentals-of-open-source-it-and-cloud-computing-lfs200/",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "price_text": "",
+  "description": "The intent of this course is to take you on a journey from little or no knowledge of IT topics to the knowledge needed to demonstrate Linux and cloud environment proficiencies.",
+  "domain": "OS・Linux",
+  "services": [
+   "Linux",
+   "Cloud Computing"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Linux とクラウドの基礎をゼロから学ぶ LFCA 対策コース"
+ },
+ {
+  "title": "Linux System Administration (LFS307)",
+  "url": "https://training.linuxfoundation.org/training/linux-system-administration-lfs307/",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "price_text": "",
+  "description": "This course will teach you the skills you need to become a professional Linux systems administrator.",
+  "domain": "OS・Linux",
+  "services": [
+   "Linux"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "LFS207 と同内容を講師主導で学ぶ LFCS 対策コース（ファイルシステム・LVM・ネットワーク・セキュリティ等）"
+ },
+ {
+  "title": "Introduction to Open Source Development, Git and Linux (LFD201)",
+  "url": "https://training.linuxfoundation.org/training/introduction-to-open-source-development-git-and-linux/",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "price_text": "",
+  "description": "Learn how to develop open source software.",
+  "domain": "OS・Linux",
+  "services": [
+   "Linux",
+   "Git",
+   "Open Source"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "オープンソース開発の進め方・ライセンス・Git・Linux 基礎をまとめて学ぶ入門コース"
+ }
+]

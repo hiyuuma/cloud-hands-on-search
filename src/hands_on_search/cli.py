@@ -42,6 +42,7 @@ def cmd_search(args):
     results = search(
         db,
         args.query,
+        mode=args.mode,
         cloud=args.cloud,
         domain=args.domain,
         service=args.service,
@@ -195,6 +196,10 @@ def build_parser():
 
     s = sub.add_parser("search", help="キーワード検索")
     s.add_argument("query", nargs="?", default="")
+    s.add_argument(
+        "--mode", choices=("and", "or", "phrase"), default="and",
+        help="検索モード (既定: and = 全語一致)",
+    )
     s.add_argument("--cloud")
     s.add_argument("--domain")
     s.add_argument("--service")

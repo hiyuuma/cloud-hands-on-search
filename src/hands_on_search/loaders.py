@@ -10,8 +10,39 @@ from .normalize import normalize_services, parse_duration_minutes
 AWS_SEARCH_URL = (
     "https://skillbuilder.aws/search?searchText={title}&typeId=aws_builder_lab"
 )
+# Google Skills の公式カタログ検索。元データの 58 レコードが実際に
+# この形式の URL を持つため、実在が確認できるパターンとして採用する。
+GOOGLE_SEARCH_URL = "https://www.skills.google/catalog?locale=ja&search={title}"
+# Microsoft Learn の公式検索 (実在確認済み)。plan オーバーレイの Azure 行用。
+AZURE_SEARCH_URL = "https://learn.microsoft.com/ja-jp/search/?terms={title}"
 
 CLOUD_BY_CATALOG = {"aws": "AWS", "azure": "Azure", "google": "GCP"}
+
+_SEARCH_URL_BY_CLOUD = {
+    "AWS": AWS_SEARCH_URL,
+    "Azure": AZURE_SEARCH_URL,
+    "GCP": GOOGLE_SEARCH_URL,
+}
+
+# AWS plan_month の "2027-03 データ基盤 / 分析" 型 (月 + テーマ複合値)
+_PLAN_MONTH_SPLIT = re.compile(r"^(\d{4}-\d{2})\s+(.+)$")
+
+
+def _is_google_catalog_search_url(url):
+    """skills.google の /catalog へのリンクはラボ本体ではなく検索結果への導線。"""
+    try:
+        path = urllib.parse.urlparse(url).path.rstrip("/")
+    except ValueError:
+        return False
+    return path.endswith("/catalog")
+
+
+def _search_link_for_cloud(cloud, title):
+    """cloud から分かる公式検索 URL を生成する。分からなければ None。"""
+    tmpl = _SEARCH_URL_BY_CLOUD.get(cloud)
+    if not tmpl or not title:
+        return None
+    return tmpl.format(title=urllib.parse.quote(title))
 
 
 def _link(url, kind, source):
@@ -35,6 +66,7 @@ def _base(record_id, catalog, title, raw):
         "services": [],
         "domain": None,
         "level": None,
+        "levels": [],
         "duration_min": None,
         "access": None,
         "priority": None,
@@ -56,7 +88,14 @@ def normalize_aws(item):
     rec["duration_min"] = parse_duration_minutes(item.get("duration"))
     rec["access"] = item.get("access") or None
     rec["priority"] = item.get("priority_for_user") or None
-    rec["plan_month"] = item.get("plan_month") or None
+    # I4: "2027-03 データ基盤 / 分析" のような月+テーマ複合値を分割する。
+    # 分割できない形式は推測せずそのまま plan_month に保持する。
+    raw_month = (item.get("plan_month") or "").strip()
+    m = _PLAN_MONTH_SPLIT.match(raw_month)
+    if m:
+        rec["plan_month"], rec["plan_theme"] = m.group(1), m.group(2)
+    else:
+        rec["plan_month"] = raw_month or None
     url = (item.get("url") or "").strip()
     if url:
         rec["link"] = _link(url, "direct", "aws")
@@ -73,7 +112,14 @@ def normalize_azure(item):
     rec["summary_ja"] = item.get("summary_ja") or item.get("summary") or None
     rec["services"] = normalize_services(item.get("main_services"))
     rec["domain"] = item.get("domain") or None
-    rec["level"] = item.get("levels") or None
+    # I4: "intermediate;advanced" のような複数値を levels リストとして保持。
+    # level には元の文字列を残す (後方互換)。
+    raw_levels = item.get("levels") or None
+    rec["level"] = raw_levels
+    if raw_levels:
+        rec["levels"] = [
+            s.strip() for s in str(raw_levels).split(";") if s.strip()
+        ]
     rec["duration_min"] = parse_duration_minutes(item.get("duration_in_minutes"))
     rec["priority"] = item.get("priority_for_user") or None
     rec["plan_month"] = item.get("plan_month") or None
@@ -101,8 +147,16 @@ def normalize_google(item):
     rec["plan_month"] = item.get("plan_month") or item.get("plan_month_hint") or None
     url = (item.get("url") or "").strip()
     if url:
-        rec["link"] = _link(url, "direct", "google")
-    # 直接URLが無く、確実な公式検索パターンも無いため kind=none のまま (捏造しない)
+        # /catalog へのリンクは検索結果への導線であり direct ではない
+        kind = "search" if _is_google_catalog_search_url(url) else "direct"
+        rec["link"] = _link(url, kind, "google")
+    else:
+        # 元データ内に実在する公式カタログ検索パターンで search 導線を生成
+        rec["link"] = _link(
+            GOOGLE_SEARCH_URL.format(title=urllib.parse.quote(title)),
+            "search",
+            "google",
+        )
     return rec
 
 
@@ -121,6 +175,12 @@ def normalize_plan(item):
     url = (item.get("url") or "").strip()
     if url:
         rec["link"] = _link(url, "direct", "plan")
+    else:
+        # I1: vendor 側と同じ扱い。cloud が分かれば確認済みの公式検索
+        # パターンで search 導線を生成し、分からなければ none のままにする。
+        search_url = _search_link_for_cloud(rec["cloud"], rec["title"])
+        if search_url:
+            rec["link"] = _link(search_url, "search", rec["cloud"].lower())
     return rec
 
 

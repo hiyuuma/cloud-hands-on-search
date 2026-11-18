@@ -1,0 +1,1376 @@
+[
+ {
+  "description": "Packer must first be installed on the machine you want to run it on.",
+  "domain": "IaC",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer"
+  ],
+  "summary_ja": "Packer CLIをローカルマシンにインストールする導入チュートリアル",
+  "title": "Install Packer",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/docker-get-started/get-started-install-cli"
+ },
+ {
+  "description": "With Packer installed, let's just dive right into it and build our first image. Packer can create images for many platforms with anything pre-installed. In this example, you will build a Docker image with Packer.",
+  "domain": "コンテナ",
+  "duration_text": "7min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "Docker"
+  ],
+  "summary_ja": "Packerで最初のDockerイメージをビルドする基礎チュートリアル",
+  "title": "Build an image",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/docker-get-started/docker-get-started-build-image"
+ },
+ {
+  "description": "Packer fully supports automated provisioning in order to install software onto machines prior to turning them into images.",
+  "domain": "IaC",
+  "duration_text": "6min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "Docker"
+  ],
+  "summary_ja": "イメージ化前にソフトウェアを自動プロビジョニングする方法を学ぶ",
+  "title": "Provision",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/docker-get-started/docker-get-started-provision"
+ },
+ {
+  "description": "Packer templates can be parameterized using variables.",
+  "domain": "IaC",
+  "duration_text": "6min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "Docker"
+  ],
+  "summary_ja": "Packerテンプレートを変数でパラメータ化する方法を学ぶ",
+  "title": "Variables",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/docker-get-started/docker-get-started-variables"
+ },
+ {
+  "description": "Create multiple images for multiple platforms in parallel, from one Packer template, by creating a source. Build Ubuntu and Ubuntu Focal images for Docker.",
+  "domain": "コンテナ",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "Docker"
+  ],
+  "summary_ja": "1つのテンプレートから複数イメージを並列ビルドする方法を学ぶ",
+  "title": "Parallel builds",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/docker-get-started/docker-get-started-parallel-builds"
+ },
+ {
+  "description": "Packer also has the ability to modify the artifact of a build once the instance has been shut down",
+  "domain": "コンテナ",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "Docker"
+  ],
+  "summary_ja": "ビルド後のアーティファクトをポストプロセッサで加工する方法を学ぶ",
+  "title": "Post-processors",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/docker-get-started/docker-get-started-post-processors"
+ },
+ {
+  "description": "With Packer installed, let's build an Amazon EC2 AMI.",
+  "domain": "IaC",
+  "duration_text": "9min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "AWS",
+   "EC2 AMI"
+  ],
+  "summary_ja": "PackerでAmazon EC2 AMIをビルドするAWS入門チュートリアル",
+  "title": "Build an image",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started-build-image"
+ },
+ {
+  "description": "Packer fully supports automated provisioning in order to install software onto machines prior to turning them into images.",
+  "domain": "IaC",
+  "duration_text": "7min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "AWS"
+  ],
+  "summary_ja": "AWS AMI作成時にソフトウェアを自動プロビジョニングする方法を学ぶ",
+  "title": "Provision",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started-provision"
+ },
+ {
+  "description": "Packer templates can be parameterized using variables.",
+  "domain": "IaC",
+  "duration_text": "6min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "AWS"
+  ],
+  "summary_ja": "AWS向けPackerテンプレートを変数でパラメータ化する方法を学ぶ",
+  "title": "Variables",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started-variables"
+ },
+ {
+  "description": "Create multiple images for multiple platforms in parallel, from one Packer template, by creating a source. Build Ubuntu and Ubuntu Focal images for AWS EBS.",
+  "domain": "IaC",
+  "duration_text": "4min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "AWS"
+  ],
+  "summary_ja": "AWS EBS向けに複数イメージを並列ビルドする方法を学ぶ",
+  "title": "Parallel builds",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started-parallel-builds"
+ },
+ {
+  "description": "Create a Vagrant box with Packer post-processors.",
+  "domain": "IaC",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "AWS",
+   "Vagrant"
+  ],
+  "summary_ja": "PackerポストプロセッサでVagrant boxを作成する方法を学ぶ",
+  "title": "Post-processors - Vagrant",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started-post-processors-vagrant"
+ },
+ {
+  "description": "Push an artifact's metadata to the Packer registry. Explore the Packer registry dashboard and view version details.",
+  "domain": "IaC",
+  "duration_text": "6min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer"
+  ],
+  "summary_ja": "アーティファクトのメタデータをHCP Packerレジストリへプッシュする",
+  "title": "Push artifact metadata to the HCP Packer registry",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/hcp-get-started/hcp-push-artifact-metadata"
+ },
+ {
+  "description": "Create an HCP Packer channel and assign a version to the channel. Query the release channel and deploy the artifact with Terraform.",
+  "domain": "IaC",
+  "duration_text": "9min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer",
+   "Terraform"
+  ],
+  "summary_ja": "HCP Packerチャネルでバージョンを管理しTerraformでデプロイする",
+  "title": "Control artifacts with channels",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/hcp-get-started/hcp-artifact-channels"
+ },
+ {
+  "description": "Immediately revoke an artifact version to ensure no one uses insecure artifacts.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "6min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer"
+  ],
+  "summary_ja": "安全でないアーティファクトバージョンを即時失効させる方法を学ぶ",
+  "title": "Immediately revoke insecure artifact versions",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/hcp-get-started/hcp-immediately-revoke-artifact-versions"
+ },
+ {
+  "description": "Create a child artifact using a parent artifact from your HCP Packer registry.",
+  "domain": "IaC",
+  "duration_text": "7min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer"
+  ],
+  "summary_ja": "親アーティファクトから子アーティファクトを作成する方法を学ぶ",
+  "title": "Create child artifact from parent artifact",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/hcp-get-started/hcp-create-child-artifact"
+ },
+ {
+  "description": "Schedule an artifact version revocation to ensure no one uses outdated artifacts.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "7min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer"
+  ],
+  "summary_ja": "古いアーティファクトの失効をスケジュールしてコンプライアンスを保つ",
+  "title": "Schedule artifact version revocation for compliance",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/hcp/hcp-schedule-image-iterations-revocation"
+ },
+ {
+  "description": "Configure an HCP Terraform run task for HCP Packer that helps enforce security and compliance best practices.",
+  "domain": "IaC",
+  "duration_text": "4min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer",
+   "HCP Terraform"
+  ],
+  "summary_ja": "HCP Terraformのrun taskでPackerイメージのセキュリティ統制を設定する",
+  "title": "Set up HCP Terraform run task for HCP Packer",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/hcp/setup-hcp-terraform-run-task"
+ },
+ {
+  "description": "Use an HCP Terraform run task to validate HCP Packer data source artifacts and ensure that your Terraform configuration does not use revoked artifacts.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "12min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer",
+   "HCP Terraform"
+  ],
+  "summary_ja": "run taskでデータソース経由の失効済みアーティファクト利用を検出する",
+  "title": "Identify compromised artifacts with HCP Terraform",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/hcp/run-tasks-data-source-image-validation"
+ },
+ {
+  "description": "Use an HCP Terraform run task to detect when Terraform resources use revoked artifact versions, or reference hard-coded or untracked image IDs.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "15min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer",
+   "HCP Terraform"
+  ],
+  "summary_ja": "run taskでリソースの失効イメージや未追跡イメージID利用を検出する",
+  "title": "Enforce artifact compliance with HCP Terraform",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/hcp/run-tasks-resource-image-validation"
+ },
+ {
+  "description": "Revoke an artifact and its descendants in HCP Packer using inherited revocation. Prevent new deploys of artifacts with security vulnerabilities.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "19min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer"
+  ],
+  "summary_ja": "継承失効でアーティファクトとその子孫を一括失効させる方法を学ぶ",
+  "title": "Revoke an artifact and its descendants using inherited revocation",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/hcp/revoke-image"
+ },
+ {
+  "description": "Push an artifact's software bill of material (SBOM) to the Packer registry and scan it for vulnerabilities. Use enforced provisioners to ensure builds follow best security practices.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "12min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer",
+   "SBOM"
+  ],
+  "summary_ja": "SBOMをHCP Packerに登録し脆弱性スキャンと強制プロビジョナを使う",
+  "title": "Track Packer artifact package metadata with HCP Packer",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/hcp/track-artifact-package-metadata"
+ },
+ {
+  "description": "Create a golden image pipeline with HCP Packer. Build an application image on the base with Packer and provision it on AWS with Terraform.",
+  "domain": "IaC",
+  "duration_text": "43min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer",
+   "AWS",
+   "Terraform"
+  ],
+  "summary_ja": "HCP Packerでゴールデンイメージパイプラインを構築しAWSへ展開する",
+  "title": "Build a golden image pipeline with HCP Packer",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/cloud-production/golden-image-with-hcp-packer"
+ },
+ {
+  "description": "Use Packer to build consistent artifacts for multiple cloud providers and store metadata in HCP Packer. Deploy artifacts to AWS and Azure with Terraform.",
+  "domain": "IaC",
+  "duration_text": "18min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer",
+   "AWS",
+   "Azure",
+   "Terraform"
+  ],
+  "summary_ja": "AWS/Azure向けに一貫したアーティファクトを構築しTerraformで展開する",
+  "title": "Standardize artifacts across multiple cloud providers",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/cloud-production/multicloud"
+ },
+ {
+  "description": "Automate and scale Packer builds across your organization with Packer, HCP Packer, and GitHub actions. Configure your repository as a source of truth to automatically tag your builds and update your artifact channels.",
+  "domain": "IaC",
+  "duration_text": "15min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCP Packer",
+   "GitHub Actions"
+  ],
+  "summary_ja": "GitHub ActionsでPackerビルドとチャネル更新を自動化する方法を学ぶ",
+  "title": "Automate Packer with GitHub Actions",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/cloud-production/github-actions"
+ },
+ {
+  "description": "With Packer installed, let's build a Windows Amazon EC2 AMI.",
+  "domain": "IaC",
+  "duration_text": "8min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "AWS",
+   "Windows"
+  ],
+  "summary_ja": "PackerでWindowsのAmazon EC2 AMIをビルドする方法を学ぶ",
+  "title": "Build a Windows image",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/cloud-production/aws-windows-image"
+ },
+ {
+  "description": "Use the hcl2_upgrade Packer command to convert a Packer JSON configuration template to its formatted HCL2 counterpart. Then, add a provisioner and post-processor to the HCL2 template.",
+  "domain": "IaC",
+  "duration_text": "9min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Packer",
+  "services": [
+   "Packer",
+   "HCL"
+  ],
+  "summary_ja": "hcl2_upgradeでJSONテンプレートをHCL2へ変換する方法を学ぶ",
+  "title": "Upgrade Packer JSON template to HCL2",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/packer/tutorials/configuration-language/hcl2-upgrade"
+ },
+ {
+  "description": "Learn how HCP Boundary replaces VPNs and SSH bastions with identity-based, credential-free access to dynamic infrastructure, and get an overview of what you will build in this getting started series.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "3min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary"
+  ],
+  "summary_ja": "VPN/踏み台を置き換えるIDベースアクセスとしてのBoundary概要を学ぶ",
+  "title": "Introduction to Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/get-started-hcp/hcp-getting-started-intro"
+ },
+ {
+  "description": "Compare HCP Boundary and Boundary Community Edition features side by side, including credential injection, session recording, automatic upgrades, and managed infrastructure support.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "3min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary"
+  ],
+  "summary_ja": "HCP BoundaryとCommunity Editionの機能差を比較する",
+  "title": "Compare HCP Boundary and Boundary Community Edition",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/get-started-hcp/hcp-getting-started-cloud"
+ },
+ {
+  "description": "Install the Boundary CLI, Boundary Desktop Client, and Client Agent on macOS, Windows, or Linux to manage HCP Boundary or Boundary Enterprise clusters and connect to targets.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "11min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary"
+  ],
+  "summary_ja": "Boundary CLI/デスクトップ/Client Agentをインストールする",
+  "title": "Install Boundary clients",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/get-started-hcp/hcp-getting-started-install"
+ },
+ {
+  "description": "Deploy a production-ready HCP Boundary cluster in minutes by logging into the HCP Portal, selecting a tier, and configuring an administrator account.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "4min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary"
+  ],
+  "summary_ja": "HCPポータルからHCP Boundaryクラスタをデプロイする",
+  "title": "Deploy an HCP Boundary cluster",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/get-started-hcp/hcp-getting-started-create"
+ },
+ {
+  "description": "Access your HCP Boundary cluster using the Boundary Admin UI or CLI, create your first org scope, and export the environment variables needed for subsequent tutorials.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary"
+  ],
+  "summary_ja": "Admin UI/CLIでHCP Boundaryへアクセスしorgスコープを作る",
+  "title": "Access HCP Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/get-started-hcp/hcp-getting-started-console"
+ },
+ {
+  "description": "Configure a TCP target in HCP Boundary, create a project scope, and connect to an Ubuntu host over SSH through a Boundary session using the CLI or Admin UI.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "10min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary",
+   "SSH"
+  ],
+  "summary_ja": "TCPターゲットを設定しSSHで最初のホストへBoundary経由接続する",
+  "title": "Connect to your first target",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/get-started-hcp/hcp-getting-started-connect"
+ },
+ {
+  "description": "Configure a static credential store in HCP Boundary, store a username and password credential, and broker those credentials to a client when they connect to a TCP target over SSH.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "9min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary"
+  ],
+  "summary_ja": "静的クレデンシャルストアで認証情報をブローカー配布する",
+  "title": "Broker static credentials to your first target",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/get-started-hcp/hcp-getting-started-credentials"
+ },
+ {
+  "description": "Use the Boundary Desktop Client or Client Agent to browse available targets, start sessions, and connect to hosts through HCP Boundary without managing connection details manually.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "7min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary"
+  ],
+  "summary_ja": "デスクトップクライアント/Client Agentでターゲットへ接続する",
+  "title": "Connect with the Desktop Client or Client Agent",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/get-started-hcp/hcp-getting-started-desktop-app"
+ },
+ {
+  "description": "Manage HCP Boundary resources including scopes, users, groups, roles, targets, and sessions using the CLI, Admin UI, and Terraform provider across this tutorial series.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "3min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary",
+   "Terraform"
+  ],
+  "summary_ja": "HCP Boundaryのリソース管理全体像をCLI/UI/Terraformで把握する",
+  "title": "Manage HCP Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/hcp-administration/hcp-manage-intro"
+ },
+ {
+  "description": "Create org and project scopes in HCP Boundary to partition resources, assign ownership, and enforce least-privilege access for users and groups within each scope boundary.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "8min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary"
+  ],
+  "summary_ja": "org/projectスコープでリソース分割と最小権限を実現する",
+  "title": "Manage scopes with HCP Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/hcp-administration/hcp-manage-scopes"
+ },
+ {
+  "description": "Configure host catalogs, host sets, and targets in HCP Boundary to define the endpoints users can reach through Boundary sessions, using the CLI, Admin UI, or Terraform provider.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "10min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary",
+   "Terraform"
+  ],
+  "summary_ja": "ホストカタログ/ホストセット/ターゲットをHCP Boundaryで管理する",
+  "title": "Manage targets with HCP Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/hcp-administration/hcp-manage-targets"
+ },
+ {
+  "description": "Create users, accounts, and groups in HCP Boundary to assign role-based access controls (RBAC) at the org scope, and verify that group membership correctly inherits the permissions of the assigned role.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "10min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary",
+   "RBAC"
+  ],
+  "summary_ja": "ユーザー/グループを作成しRBACの継承を確認する",
+  "title": "Manage users and groups with HCP Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/hcp-administration/hcp-manage-users-groups"
+ },
+ {
+  "description": "Create and configure roles in HCP Boundary by assigning permission grants and principals such as users and groups to control what each principal can read, list, or modify.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "8min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary",
+   "RBAC"
+  ],
+  "summary_ja": "ロールと許可グラントでプリンシパルの権限を制御する",
+  "title": "Manage roles and permissions with HCP Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/hcp-administration/hcp-manage-roles"
+ },
+ {
+  "description": "Start a Boundary session by connecting to a target in HCP Boundary, read the session details to understand the session resource model, and cancel an active session using the CLI or Admin UI.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "8min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary"
+  ],
+  "summary_ja": "セッションの開始・詳細確認・キャンセルを管理する",
+  "title": "Manage sessions with HCP Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/hcp-administration/hcp-manage-sessions"
+ },
+ {
+  "description": "Register a self-managed Boundary worker with HCP Boundary to provide secure access to targets on private networks, using the worker-led or controller-led authentication flow.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "15min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary"
+  ],
+  "summary_ja": "自己管理ワーカーをHCP Boundaryへ登録しプライベートNWへ接続する",
+  "title": "Manage workers with HCP Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/hcp-administration/hcp-manage-workers"
+ },
+ {
+  "description": "Configure multi-hop sessions in HCP Boundary by chaining ingress and egress self-managed workers to provide secure access to targets on private networks without inbound firewall rules.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "15min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary"
+  ],
+  "summary_ja": "ワーカーを多段接続するマルチホップセッションを構成する",
+  "title": "Manage multi-hop sessions with HCP Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/hcp-administration/hcp-manage-multi-hop"
+ },
+ {
+  "description": "Configure SSH credential injection with HCP Boundary and HashiCorp Vault so users connect to SSH targets through Boundary sessions without ever receiving the underlying SSH private key.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "20min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary",
+   "Vault",
+   "SSH"
+  ],
+  "summary_ja": "Vault連携でSSH秘密鍵を渡さずにクレデンシャル注入する",
+  "title": "Manage SSH keys with HCP Boundary and Vault",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/hcp-administration/hcp-ssh-cred-injection"
+ },
+ {
+  "description": "Manage Boundary Community Edition scopes, users, groups, roles, targets, and workers using the CLI, Admin UI, and the official Terraform provider.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "3min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Terraform"
+  ],
+  "summary_ja": "Community Editionのリソース管理全体像を把握する",
+  "title": "Manage Boundary Community Edition resources",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/community-administration/community-manage-intro"
+ },
+ {
+  "description": "Create Boundary scopes to partition resources across global, org, and project levels and assign resource ownership to principals using the CLI or Terraform.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "8min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Terraform"
+  ],
+  "summary_ja": "global/org/projectスコープを作成し所有権を割り当てる",
+  "title": "Manage scopes",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/community-administration/community-manage-scopes"
+ },
+ {
+  "description": "Create Boundary host catalogs, host sets, and TCP targets using the CLI, Admin UI, or Terraform provider in Community Edition, then verify connectivity.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "10min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Terraform"
+  ],
+  "summary_ja": "Community EditionでホストカタログとTCPターゲットを作成する",
+  "title": "Manage targets",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/community-administration/community-manage-targets"
+ },
+ {
+  "description": "Create Boundary users and groups, link them to auth method accounts, and assign them as principals to roles to control access across org and project scopes.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "10min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary"
+  ],
+  "summary_ja": "ユーザー/グループを作成しロールへプリンシパルとして割り当てる",
+  "title": "Manage users and groups",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/community-administration/community-manage-users-groups"
+ },
+ {
+  "description": "Create Boundary roles, attach grants that define allowed actions on resources, and assign user and group principals at global, org, or project scope levels.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "8min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "RBAC"
+  ],
+  "summary_ja": "ロールとグラントでスコープ単位の権限を定義する",
+  "title": "Manage roles and permissions",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/community-administration/community-manage-roles"
+ },
+ {
+  "description": "Connect to a Boundary target to start a session, inspect session metadata, cancel active sessions, and explore advanced authorization flows using the CLI.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "8min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary"
+  ],
+  "summary_ja": "セッション開始・検査・キャンセルと認可フローを学ぶ",
+  "title": "Manage sessions",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/community-administration/community-manage-sessions"
+ },
+ {
+  "description": "Register a Boundary Community Edition worker in Docker, verify registration with the controller, and confirm that target sessions route through the worker.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "15min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Docker"
+  ],
+  "summary_ja": "DockerでCommunity Editionワーカーを登録し疎通を確認する",
+  "title": "Manage workers",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/community-administration/community-manage-workers"
+ },
+ {
+  "description": "Upgrade a self-managed Boundary deployment to a new version, back up the PostgreSQL database, and run the database migration before restarting controllers and workers.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "13min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "PostgreSQL"
+  ],
+  "summary_ja": "自己管理BoundaryのアップグレードとDBマイグレーション手順を学ぶ",
+  "title": "Upgrade Boundary and run database migration",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/self-managed-deployment/upgrade-version"
+ },
+ {
+  "description": "Configure worker tags and target worker filters in Boundary to control which workers handle session traffic and enforce network segmentation across regions.",
+  "domain": "ネットワーク",
+  "duration_text": "18min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary"
+  ],
+  "summary_ja": "ワーカータグとフィルタでセッション経路とNWセグメンテーションを制御する",
+  "title": "Configure worker-aware targets",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/worker-management/target-aware-workers"
+ },
+ {
+  "description": "Collect and visualize Boundary worker and controller metrics using Prometheus and Grafana for Boundary Enterprise and Boundary Community Edition deployments.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "20min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Prometheus",
+   "Grafana"
+  ],
+  "summary_ja": "Prometheus/GrafanaでBoundaryのメトリクスを可視化する",
+  "title": "Visualize Boundary metrics with Prometheus and Grafana",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/self-managed-deployment/prometheus-metrics"
+ },
+ {
+  "description": "Configure Boundary event sinks and filtering expressions to capture structured audit logs, route them to file or stdout destinations, and visualize session and authentication events in Elasticsearch and Kibana.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "20min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Elasticsearch",
+   "Kibana"
+  ],
+  "summary_ja": "イベントシンクとフィルタで監査ログを収集・可視化する",
+  "title": "Event filtering and sink configuration",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/self-managed-deployment/event-logging"
+ },
+ {
+  "description": "Secure Azure SQL Database access with Boundary OIDC, Azure Active Directory, and Vault credential brokering for role-based developer and admin access.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "1hr 40min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Azure SQL Database",
+   "Microsoft Entra ID",
+   "Vault",
+   "OIDC"
+  ],
+  "summary_ja": "OIDC/Entra ID/Vault連携でAzure SQLへの安全なアクセスを構成する",
+  "title": "Secure access to Azure SQL database",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/self-managed-deployment/azure-sql-database"
+ },
+ {
+  "description": "Configure the LDAP auth method for Boundary to delegate authentication to an LDAP directory, create managed groups, and assign roles based on group membership.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "18min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "LDAP"
+  ],
+  "summary_ja": "LDAP認証とマネージドグループによるロール割り当てを構成する",
+  "title": "Configure LDAP authentication for Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/identity-management/ldap-auth"
+ },
+ {
+  "description": "Configure the Boundary OIDC auth method with Auth0 to delegate authentication, manage auth method states, and use managed groups for access control.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "18min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "OIDC",
+   "Auth0"
+  ],
+  "summary_ja": "Auth0をOIDCプロバイダとしてBoundary認証に連携する",
+  "title": "OIDC authentication with Auth0",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/identity-management/oidc-auth0"
+ },
+ {
+  "description": "Configure the Boundary OIDC auth method with Okta to delegate authentication and let users log in to Boundary with their Okta credentials.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "18min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "OIDC",
+   "Okta"
+  ],
+  "summary_ja": "Okta資格情報でBoundaryへログインできるようOIDC連携する",
+  "title": "OIDC authentication with Okta",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/identity-management/oidc-okta"
+ },
+ {
+  "description": "Configure the Boundary OIDC auth method with Microsoft Entra ID to delegate authentication and let users log in with their Azure credentials.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "18min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "OIDC",
+   "Microsoft Entra ID",
+   "Azure"
+  ],
+  "summary_ja": "Microsoft Entra IDとOIDC連携しAzure資格情報でログインする",
+  "title": "OIDC authentication with Microsoft Azure",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/identity-management/oidc-azure"
+ },
+ {
+  "description": "Configure OIDC managed groups in Boundary to automate role assignment based on group membership from Auth0, Okta, or Microsoft Entra ID (Azure Active Directory).",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "13min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "OIDC",
+   "Auth0",
+   "Okta",
+   "Microsoft Entra ID"
+  ],
+  "summary_ja": "IdPグループメンバーシップに基づくロール自動割り当てを構成する",
+  "title": "Manage OIDC identity provider groups",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/identity-management/oidc-idp-groups"
+ },
+ {
+  "description": "Integrate HCP Boundary and HashiCorp Vault to broker Vault secrets to clients for a PostgreSQL database target, using static credentials surfaced during session initialization.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "20min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary",
+   "Vault",
+   "PostgreSQL"
+  ],
+  "summary_ja": "HCP BoundaryとVaultでPostgreSQL向け認証情報をブローカー配布する",
+  "title": "HCP Boundary Vault credential brokering quickstart",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/credential-management/hcp-vault-cred-brokering-quickstart"
+ },
+ {
+  "description": "Inject SSH certificates dynamically into HCP Boundary sessions using the HashiCorp Vault SSH Secrets Engine, so users connect to SSH targets without ever handling private keys.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "20min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary",
+   "Vault",
+   "SSH"
+  ],
+  "summary_ja": "Vault SSHシークレットエンジンでSSH証明書を動的に注入する",
+  "title": "SSH certificate injection with HCP Boundary and Vault",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/credential-management/hcp-certificate-injection"
+ },
+ {
+  "description": "Inject SSH credentials into HCP Boundary sessions using a private Vault cluster, with a self-managed worker routing credential requests so Vault never needs a public endpoint.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "20min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "HCP Boundary",
+   "Vault",
+   "SSH"
+  ],
+  "summary_ja": "プライベートVaultから公開エンドポイントなしでSSH認証情報を注入する",
+  "title": "HCP credential injection with private Vault",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/credential-management/hcp-private-vault-cred-injection"
+ },
+ {
+  "description": "Integrate Vault with Boundary Community Edition to broker dynamic database credentials directly to user sessions without distributing long-lived passwords.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "20min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Vault"
+  ],
+  "summary_ja": "Community EditionとVaultで動的DB認証情報をセッションへ配布する",
+  "title": "Vault credential brokering quickstart",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/credential-management/community-vault-cred-brokering-quickstart"
+ },
+ {
+  "description": "Enable SSH and RDP session recording in HCP Boundary or Boundary Enterprise using MinIO or another S3-compatible storage backend.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "25min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "MinIO",
+   "S3"
+  ],
+  "summary_ja": "MinIO等のS3互換ストレージでSSH/RDPセッション記録を有効化する",
+  "title": "Enable session recording with S3-compatible storage",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/host-management/minio-session-rec"
+ },
+ {
+  "description": "Enable and configure Boundary session recording with AWS S3 storage and Vault credential injection to capture SSH and RDP sessions for compliance review.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "25min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "AWS S3",
+   "Vault"
+  ],
+  "summary_ja": "AWS S3とVault注入でセッション記録を構成しコンプライアンス対応する",
+  "title": "Enable session recording with AWS and Vault",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/host-management/aws-session-rec-vault"
+ },
+ {
+  "description": "Configure a Boundary dynamic host catalog with AWS to automatically discover and update EC2 target hosts using IAM credentials and host tag filters.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "20min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "AWS",
+   "EC2",
+   "IAM"
+  ],
+  "summary_ja": "AWS動的ホストカタログでEC2ホストをタグ条件で自動発見する",
+  "title": "Dynamic host catalogs on AWS",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/host-management/aws-host-catalogs"
+ },
+ {
+  "description": "Configure a Boundary dynamic host catalog with Microsoft Azure to automatically discover Azure VM targets using Entra ID credentials and host tag filters.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "20min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Azure",
+   "Microsoft Entra ID"
+  ],
+  "summary_ja": "Azure動的ホストカタログでVMターゲットを自動発見する",
+  "title": "Dynamic host catalogs on Azure",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/host-management/azure-host-catalogs"
+ },
+ {
+  "description": "Configure a Boundary dynamic host catalog with Google Cloud Platform (GCP) to automatically discover and sync GCP virtual machine instances as Boundary hosts and host sets.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "20min",
+  "level": "",
+  "priority_for_user": "中",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "GCP"
+  ],
+  "summary_ja": "GCP動的ホストカタログでVMインスタンスを自動同期する",
+  "title": "Dynamic host catalogs on GCP",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/host-management/gcp-host-catalogs"
+ },
+ {
+  "description": "Configure remote, just-in-time access to Kubernetes clusters using Boundary and Vault. Vault generates short-lived service account tokens so users never store permanent credentials.",
+  "domain": "コンテナ",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Vault",
+   "Kubernetes"
+  ],
+  "summary_ja": "BoundaryとVaultでKubernetesへJITアクセスする概要を学ぶ",
+  "title": "Secure Kubernetes access with Boundary and Vault",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/kubernetes-connect/kubernetes-getting-started-intro"
+ },
+ {
+  "description": "Deploy Boundary, Vault, and a local Kubernetes cluster with minikube to prepare the lab environment for credential-brokered Kubernetes access.",
+  "domain": "コンテナ",
+  "duration_text": "18min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Vault",
+   "Kubernetes",
+   "minikube"
+  ],
+  "summary_ja": "minikube上にBoundary/Vault/Kubernetesのラボ環境を構築する",
+  "title": "Set up Kubernetes and Vault for Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/kubernetes-connect/kubernetes-getting-started-setup"
+ },
+ {
+  "description": "Configure Boundary, Vault, and Kubernetes to grant developers just-in-time credential-brokered access to Kubernetes clusters using HCP Boundary or dev mode.",
+  "domain": "コンテナ",
+  "duration_text": "8min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Vault",
+   "Kubernetes"
+  ],
+  "summary_ja": "開発者向けJITクレデンシャルブローカーアクセスを構成する",
+  "title": "Configure Boundary, Vault, and Kubernetes for secure access",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/kubernetes-connect/kubernetes-getting-started-config"
+ },
+ {
+  "description": "Connect to a Kubernetes target using the Boundary CLI or Boundary Desktop Client with brokered credentials from Vault. No permanent tokens are stored locally.",
+  "domain": "コンテナ",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "高",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Vault",
+   "Kubernetes"
+  ],
+  "summary_ja": "Vault配布の認証情報でKubernetesターゲットへ接続する",
+  "title": "Connect to Kubernetes using Boundary",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/kubernetes-connect/kubernetes-getting-started-connect"
+ },
+ {
+  "description": "Plan a production-grade Boundary Enterprise deployment using recommended hardware sizing, network topology, load balancing, database configuration, and failure tolerance patterns for infrastructure architects and operators.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "15min",
+  "level": "",
+  "priority_for_user": "低",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Boundary Enterprise"
+  ],
+  "summary_ja": "Boundary Enterpriseの本番リファレンスアーキテクチャを学ぶ",
+  "title": "Boundary Enterprise reference architecture",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/enterprise/ent-reference-architecture"
+ },
+ {
+  "description": "Deploy a Boundary Enterprise cluster on VMs or bare-metal servers running Debian or RedHat Linux by following the patterns and practices defined in the Boundary Enterprise reference architecture.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "15min",
+  "level": "",
+  "priority_for_user": "低",
+  "product": "Boundary",
+  "services": [
+   "Boundary",
+   "Boundary Enterprise"
+  ],
+  "summary_ja": "リファレンス構成に沿ってBoundary EnterpriseをVMへデプロイする",
+  "title": "Boundary Enterprise deployment guide",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/boundary/tutorials/enterprise/ent-deployment-guide"
+ },
+ {
+  "description": "Set up your HCP organization and project and activate HCP Waypoint.",
+  "domain": "その他",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "低",
+  "product": "Waypoint",
+  "services": [
+   "Waypoint",
+   "HCP Waypoint"
+  ],
+  "summary_ja": "HCP組織/プロジェクトを準備しHCP Waypointを有効化する",
+  "title": "Get started with HCP Waypoint",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/waypoint/tutorials/hcp-waypoint/get-started-hcp"
+ },
+ {
+  "description": "Set up role based access control (RBAC) for HCP Waypoint, which gives permission for platform teams to define pre-approved infrastructure, and developers to deploy it.",
+  "domain": "その他",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "低",
+  "product": "Waypoint",
+  "services": [
+   "Waypoint",
+   "HCP Waypoint",
+   "RBAC"
+  ],
+  "summary_ja": "HCP WaypointのRBACでプラットフォーム/開発者の権限を分ける",
+  "title": "Set up RBAC",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/waypoint/tutorials/hcp-waypoint/set-up-rbac"
+ },
+ {
+  "description": "Create a reusable Waypoint template that lets developers start new applications with a pre-populated GitHub repo and self-serve, pre-approved application infrastructure.",
+  "domain": "その他",
+  "duration_text": "10min",
+  "level": "",
+  "priority_for_user": "低",
+  "product": "Waypoint",
+  "services": [
+   "Waypoint",
+   "HCP Waypoint",
+   "GitHub"
+  ],
+  "summary_ja": "セルフサービス用Waypointテンプレートを作成する",
+  "title": "Create a Waypoint template",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/waypoint/tutorials/hcp-waypoint/create-template"
+ },
+ {
+  "description": "Create a Waypoint application from a reusable template.",
+  "domain": "その他",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "低",
+  "product": "Waypoint",
+  "services": [
+   "Waypoint",
+   "HCP Waypoint"
+  ],
+  "summary_ja": "再利用テンプレートからWaypointアプリケーションを作成する",
+  "title": "Use a Waypoint template",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/waypoint/tutorials/hcp-waypoint/use-template"
+ },
+ {
+  "description": "Create a reusable Waypoint add-on that lets developers self-serve additional infrastructure for their applications.",
+  "domain": "その他",
+  "duration_text": "10min",
+  "level": "",
+  "priority_for_user": "低",
+  "product": "Waypoint",
+  "services": [
+   "Waypoint",
+   "HCP Waypoint"
+  ],
+  "summary_ja": "追加インフラ用Waypointアドオンを作成する",
+  "title": "Create an add-on",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/waypoint/tutorials/hcp-waypoint/create-addon"
+ },
+ {
+  "description": "Install a Waypoint add-on.",
+  "domain": "その他",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "低",
+  "product": "Waypoint",
+  "services": [
+   "Waypoint",
+   "HCP Waypoint"
+  ],
+  "summary_ja": "Waypointアドオンをインストールする",
+  "title": "Install an add-on",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/waypoint/tutorials/hcp-waypoint/install-addon"
+ },
+ {
+  "description": "Create a reusable Waypoint action that lets developers perform day 2 operations to maintain applications.",
+  "domain": "その他",
+  "duration_text": "10min",
+  "level": "",
+  "priority_for_user": "低",
+  "product": "Waypoint",
+  "services": [
+   "Waypoint",
+   "HCP Waypoint"
+  ],
+  "summary_ja": "Day 2運用のためのWaypointアクションを作成する",
+  "title": "Create an action",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/waypoint/tutorials/hcp-waypoint/create-action"
+ },
+ {
+  "description": "Destroy a Waypoint application and the infrastructure associated with it.",
+  "domain": "その他",
+  "duration_text": "5min",
+  "level": "",
+  "priority_for_user": "低",
+  "product": "Waypoint",
+  "services": [
+   "Waypoint",
+   "HCP Waypoint"
+  ],
+  "summary_ja": "Waypointアプリケーションと関連インフラを破棄する",
+  "title": "Destroy application resources",
+  "type": "tutorial",
+  "url": "https://developer.hashicorp.com/waypoint/tutorials/hcp-waypoint/destroy-project-resources"
+ }
+]

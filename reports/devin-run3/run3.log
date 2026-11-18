@@ -1,0 +1,11 @@
+ソースとテストを把握しました。実装前に実データ上の語彙と I1 の検証可能性を確認します。実データを確認しました。Google の元データ内に `https://www.skills.google/catalog?locale=ja&search=<title>` という公式カタログ検索 URL が58件実在するため、I1 はこのパターンを根拠に `kind=search` を付けられます。`learn.microsoft.com/ja-jp/search/?terms=` も実在を確認しました。実装に入ります。`loaders.py` を更新します。`db.py` に `levels` カラムを追加します。`search.py` を書き換えます（単語境界マッチ + OR/phrase モード + levels フィルタ）。`return_or_append` という余計なヘルパーが残ったので修正します。`recommend.py` の貪欲パックをナップサックDPに置き換えます。CLI に `--mode` を追加します。実データに "Available" が含まれるか確認し、テストを実行します。実データに "Available"/"Availability" が存在するのを確認しました（ノイズテストに使えます）。`related.py` と `link_report.py` を確認します。テストを追加します。まず `test_search.py` に I2 のテストを追記。`test_etl.py` に I1/I4 のテストを追加します。`test_recommend.py` にナップサックDPのテストを追加します。`test_cli.py` に `--mode` のテストを追加。73件全パス。ETL を再生成して実数を確認します。導線100%（none=0）を達成しました。レポート用にゴールデンクエリの実測とCLI動作を記録します。全検証クリア。REPORT.md を作成します。I1〜I4 の実装が完了しました。全73テストパス（既存42 + 新規31)、build/ も再生成済みです。
+
+**I1 導線100%化**: 元データ内に58件実在する `https://www.skills.google/catalog?locale=ja&search=<title>` パターンを根拠に、URL無しの Google 22件へ kind=search を付与 → none は全カタログで **0件**。ついでに `/catalog` リンク58件を direct→search に再分類（direct/search の厳密区別）。plan 側にも cloud 別の確認済みパターンで同じ扱いを適用（Azure は learn.microsoft.com/ja-jp/search の実在を確認）。
+
+**I2 検索精度**: 3文字未満の語は ASCII 英数字の単語境界マッチに限定し `"AI"→"Available"` ノイズを除去（「生成AI」は維持）。`--mode and|or|phrase` を API/CLI 双方に追加。ゴールデンクエリは実データ確認済み15件に拡充し parametrized テスト化。
+
+**I3 推薦**: スコア順貪欲を 0/1 ナップサックDP（時間≤空き・件数≤limit でスコア合計最大化）に置換。A(60分,9点)/B+C(30分,6点ずつ）の罠入力で DP が合計12を選ぶことをテスト実証。duration不明の末尾追加仕様は維持。
+
+**I4 正規化**: AWS plan_month 157件を全件 `YYYY-MM`+`plan_theme` に分割（不能0件）。Azure `levels` リスト追加（複数値2件）、`level` 元文字列は互換維持。level フィルタは要素単位でマッチ。
+
+成果物： `reports/devin-run3/REPORT.md`、再生成済みの `build/unified.json`・`link_report.*`・`catalog.db`（direct 669 / search 224 / none 0)。制約どおり git コミット・元データ変更・pip 追加はしていません。

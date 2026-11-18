@@ -18,6 +18,7 @@ CREATE TABLE IF NOT EXISTS records (
     services TEXT NOT NULL,      -- JSON array
     domain TEXT,
     level TEXT,
+    levels TEXT,               -- JSON array (複数 level 値。I4)
     duration_min INTEGER,
     access TEXT,
     priority TEXT,
@@ -46,11 +47,11 @@ CREATE VIRTUAL TABLE IF NOT EXISTS records_fts USING fts5(
 
 _COLUMNS = [
     "id", "source_catalog", "title", "title_ja", "summary_ja", "cloud",
-    "services", "domain", "level", "duration_min", "access", "priority",
+    "services", "domain", "level", "levels", "duration_min", "access", "priority",
     "plan_month", "plan_theme", "link", "related", "raw",
 ]
 
-_JSON_COLUMNS = {"services", "link", "related", "raw"}
+_JSON_COLUMNS = {"services", "levels", "link", "related", "raw"}
 
 
 def record_to_row(rec):

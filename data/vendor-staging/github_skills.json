@@ -1,0 +1,609 @@
+[
+  {
+    "title": "Agent Orchestration: Build Your AI Dream Team",
+    "url": "https://github.com/skills/agent-orchestration-build-your-ai-dream-team",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than one hour",
+    "description": "This Skills Exercise is about Agent Orchestration through the CLI",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot CLI",
+      "Custom Agents"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "Copilot CLI のカスタムエージェントで計画・設計・実装・検証を分担させる"
+  },
+  {
+    "title": "Agentic Workflows That Read the Room",
+    "url": "https://github.com/skills/agentic-workflows-that-read-the-room",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 45 minutes",
+    "description": "This is a GitHub Skills exercise on how to get started with Agentic Workflows where we will create simple use case to show the power of an Agentic Workflow",
+    "domain": "AI",
+    "services": [
+      "GitHub Agentic Workflows",
+      "GitHub Copilot"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "GitHub Agentic Workflows を導入し AI ワークフローを作成する"
+  },
+  {
+    "title": "AI in Actions",
+    "url": "https://github.com/skills/ai-in-actions",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 30 minutes",
+    "description": "Integrate AI models directly into your GitHub Actions workflows using GitHub Models.",
+    "domain": "AI",
+    "services": [
+      "GitHub Actions",
+      "GitHub Models"
+    ],
+    "priority_for_user": "低",
+    "summary_ja": "GitHub Models を Actions ワークフローに組み込む（Models は提供終了済み）"
+  },
+  {
+    "title": "Build and test a multi-tier application with GitHub Copilot",
+    "url": "https://github.com/skills/build-applications-w-copilot-agent-mode",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "90–120 minutes",
+    "description": "GitHub Copilot: The agent awakens - Building applications with GitHub Copilot Agent Mode",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot",
+      "Copilot Agent Mode"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "Copilot エージェントモードで多層アプリを実装・テスト・レビューする"
+  },
+  {
+    "title": "Remove commit history",
+    "url": "https://github.com/skills/change-commit-history",
+    "type": "interactive-course",
+    "level": "Intermediate",
+    "duration_text": "less than 1 hour",
+    "description": "A skills course on changing the commit history with Git",
+    "domain": "開発・Git",
+    "services": [
+      "Git"
+    ],
+    "priority_for_user": "低",
+    "summary_ja": "Git のコミット履歴を変更・整理する中級テクニック"
+  },
+  {
+    "title": "Code with GitHub Codespaces and Visual Studio Code",
+    "url": "https://github.com/skills/code-with-codespaces",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than an hour",
+    "description": "Develop code using GitHub Codespaces and Visual Studio Code!",
+    "domain": "開発・Git",
+    "services": [
+      "GitHub Codespaces",
+      "Visual Studio Code"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "Codespaces と VS Code で事前構成済みの開発環境を使う"
+  },
+  {
+    "title": "Communicate using Markdown",
+    "url": "https://github.com/skills/communicate-using-markdown",
+    "type": "interactive-course",
+    "level": "Beginner",
+    "duration_text": "less than one hour",
+    "description": "Organize ideas and collaborate using Markdown, a lightweight language for text formatting.",
+    "domain": "その他",
+    "services": [
+      "Markdown"
+    ],
+    "priority_for_user": "低",
+    "summary_ja": "Markdown 記法でアイデア整理とコラボレーションを行う基礎コース"
+  },
+  {
+    "title": "Configuring a CodeQL language matrix",
+    "url": "https://github.com/skills/configure-codeql-language-matrix",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 30 minutes",
+    "description": "Learn how to simplify your code scanning workflows with CodeQL language matrices",
+    "domain": "セキュリティ・IAM",
+    "services": [
+      "CodeQL"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "CodeQL の言語マトリクスでコードスキャンのワークフローを簡素化する"
+  },
+  {
+    "title": "Connect the dots in a GitHub repository",
+    "url": "https://github.com/skills/connect-the-dots",
+    "type": "interactive-course",
+    "level": "Beginner",
+    "duration_text": "less than 15 min",
+    "description": "Useful tips when navigating through your repository",
+    "domain": "開発・Git",
+    "services": [
+      "GitHub"
+    ],
+    "priority_for_user": "低",
+    "summary_ja": "リポジトリ内の情報のつながりをたどる GitHub ナビゲーションのコツ"
+  },
+  {
+    "title": "GitHub Copilot Code Review",
+    "url": "https://github.com/skills/copilot-code-review",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 1 hour",
+    "description": "Leverage GitHub Copilot code review to promote code quality and catch issues before they reach production.",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "Copilot コードレビューで品質を高め本番前の問題を検出する"
+  },
+  {
+    "title": "Create AI Powered Actions",
+    "url": "https://github.com/skills/create-ai-powered-actions",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 1 hour",
+    "description": "Build intelligent Javascript based GitHub Actions that leverage GitHub Models.",
+    "domain": "AI",
+    "services": [
+      "GitHub Actions",
+      "GitHub Models"
+    ],
+    "priority_for_user": "低",
+    "summary_ja": "GitHub Models を活用する AI 対応 JavaScript アクションを作る（Models は提供終了済み）"
+  },
+  {
+    "title": "Create applications with the Copilot CLI",
+    "url": "https://github.com/skills/create-applications-with-the-copilot-cli",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 60 minutes",
+    "description": "Use GitHub Copilot CLI to manage issues and build a Node.js calculator application.",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot CLI"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "Copilot CLI で Issue 管理と Node.js アプリ構築を行う"
+  },
+  {
+    "title": "Customize Your GitHub Copilot Experience",
+    "url": "https://github.com/skills/customize-your-github-copilot-experience",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 30 minutes",
+    "description": "Customize GitHub Copilot's behavior with custom instructions, prompts, and chat modes for your specific development workflows.",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "カスタム指示やプロンプトで Copilot の振る舞いを自分の開発フローに合わせる"
+  },
+  {
+    "title": "Deploy to Azure",
+    "url": "https://github.com/skills/deploy-to-azure",
+    "type": "interactive-course",
+    "level": "Beginner",
+    "duration_text": "less than 2 hours",
+    "description": "Create two deployment workflows using GitHub Actions and Microsoft Azure.",
+    "domain": "CI-CD",
+    "services": [
+      "GitHub Actions",
+      "Microsoft Azure"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "GitHub Actions から Azure へデプロイするワークフローを2本構築する"
+  },
+  {
+    "title": "Expand your team with Copilot",
+    "url": "https://github.com/skills/expand-your-team-with-copilot",
+    "type": "interactive-course",
+    "level": "All levels",
+    "duration_text": "less than one hour",
+    "description": "Let Copilot coding agent tackle your issues directly on GitHub. No coding environment needed.",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot",
+      "Copilot Coding Agent"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "Copilot コーディングエージェントに Issue を直接任せる運用を学ぶ"
+  },
+  {
+    "title": "Getting Started with GitHub Copilot",
+    "url": "https://github.com/skills/getting-started-with-github-copilot",
+    "type": "interactive-course",
+    "level": "All levels",
+    "duration_text": "less than one hour",
+    "description": "Learn, build, debug, and ship faster than ever with your favorite AI pair programmer.",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "GitHub Copilot の基本操作と活用法を1時間弱で習得する入門コース"
+  },
+  {
+    "title": "GitHub Pages",
+    "url": "https://github.com/skills/github-pages",
+    "type": "interactive-course",
+    "level": "Beginner",
+    "duration_text": "less than one hour",
+    "description": "Create a site or blog from your GitHub repositories with GitHub Pages.",
+    "domain": "その他",
+    "services": [
+      "GitHub Pages"
+    ],
+    "priority_for_user": "低",
+    "summary_ja": "リポジトリからサイトやブログを公開する GitHub Pages 入門"
+  },
+  {
+    "title": "Hello GitHub Actions",
+    "url": "https://github.com/skills/hello-github-actions",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 30 minutes",
+    "description": "Create and run a GitHub Actions workflow.",
+    "domain": "CI-CD",
+    "services": [
+      "GitHub Actions"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "GitHub Actions のワークフローを初めて作成・実行する入門コース"
+  },
+  {
+    "title": "Idea to App with GitHub Spark",
+    "url": "https://github.com/skills/idea-to-app-with-spark",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 1 hour",
+    "description": "Turn your thoughts into real web apps by simply describing them, no coding required!",
+    "domain": "AI",
+    "services": [
+      "GitHub Spark"
+    ],
+    "priority_for_user": "低",
+    "summary_ja": "自然言語の説明だけで Web アプリを作る GitHub Spark 入門"
+  },
+  {
+    "title": "Idea to Merge with the Copilot App",
+    "url": "https://github.com/skills/idea-to-merge-with-the-copilot-app",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "roughly 55 minutes",
+    "description": "Exercise: Idea to Merge with the Copilot App",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot App"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "Copilot アプリ内でアイデアから PR マージまでを完結させる"
+  },
+  {
+    "title": "Integrate MCP with GitHub Copilot",
+    "url": "https://github.com/skills/integrate-mcp-with-copilot",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than one hour",
+    "description": "Learn how to use MCP Servers with GitHub Copilot",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot",
+      "MCP"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "MCP サーバーを GitHub Copilot に接続して開発ワークフローを拡張する"
+  },
+  {
+    "title": "Enable CodeQL to secure your source code",
+    "url": "https://github.com/skills/introduction-to-codeql",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 30 minutes",
+    "description": "Enable code scanning and secure your code with CodeQL.",
+    "domain": "セキュリティ・IAM",
+    "services": [
+      "CodeQL",
+      "Code Scanning"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "CodeQL でコードスキャンを有効化しセキュアなコードを保つ"
+  },
+  {
+    "title": "Introduction to Git",
+    "url": "https://github.com/skills/introduction-to-git",
+    "type": "interactive-course",
+    "level": "Beginner",
+    "duration_text": "less than 60 minutes",
+    "description": "Use Git version control to work on a game using command line (CLI) and VS Code",
+    "domain": "開発・Git",
+    "services": [
+      "Git"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "CLI と VS Code で Git のバージョン管理の基礎を学ぶ入門コース"
+  },
+  {
+    "title": "Introduction to GitHub",
+    "url": "https://github.com/skills/introduction-to-github",
+    "type": "interactive-course",
+    "level": "Beginner",
+    "duration_text": "less than one hour",
+    "description": "Get started using GitHub in less than an hour.",
+    "domain": "開発・Git",
+    "services": [
+      "GitHub"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "GitHub の基本操作（リポジトリ、ブランチ、コミット、PR）を1時間弱で体験する入門コース"
+  },
+  {
+    "title": "Introduction to Repository Management",
+    "url": "https://github.com/skills/introduction-to-repository-management",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than one hour",
+    "description": "Learn the basics of several GitHub features that can help support a collaborative, friendly, and healthy project.",
+    "domain": "その他",
+    "services": [
+      "GitHub"
+    ],
+    "priority_for_user": "低",
+    "summary_ja": "健全なコラボレーションを支えるリポジトリ管理機能の基礎"
+  },
+  {
+    "title": "Introduction to secret protection",
+    "url": "https://github.com/skills/introduction-to-secret-scanning",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 15 minutes",
+    "description": "Enable secret scanning to identify plain-text credentials and prevent them from being written to your repository",
+    "domain": "セキュリティ・IAM",
+    "services": [
+      "Secret Scanning"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "シークレットスキャンを有効化し認証情報の混入を防ぐ"
+  },
+  {
+    "title": "Migrate Azure DevOps Repository",
+    "url": "https://github.com/skills/migrate-ado-repository",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 60 minutes",
+    "description": "Create a sample Azure DevOps project then migrate it to GitHub using the CLI.",
+    "domain": "その他",
+    "services": [
+      "GitHub CLI",
+      "Azure DevOps"
+    ],
+    "priority_for_user": "低",
+    "summary_ja": "Azure DevOps のプロジェクトを CLI で GitHub へ移行する手順"
+  },
+  {
+    "title": "Modernize Your Legacy Code with GitHub Copilot",
+    "url": "https://github.com/skills/modernize-your-legacy-code-with-github-copilot",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 30 minutes",
+    "description": "Modernize a school's legacy accounting system from Cobol to Node.js with the help of GitHub Copilot.",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "Copilot を使って COBOL のレガシー会計システムを Node.js へ近代化する"
+  },
+  {
+    "title": "Publish Docker Images",
+    "url": "https://github.com/skills/publish-docker-images",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 1 hour",
+    "description": "Build and publish Docker images using GitHub Actions.",
+    "domain": "CI-CD",
+    "services": [
+      "GitHub Actions",
+      "Docker"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "Actions で Docker イメージをビルドして公開する自動化を学ぶ"
+  },
+  {
+    "title": "Create a release based workflow",
+    "url": "https://github.com/skills/release-based-workflow",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 1 hour",
+    "description": "Create a release based workflow that is built on the foundations of the GitHub flow",
+    "domain": "CI-CD",
+    "services": [
+      "GitHub Actions",
+      "GitHub Flow"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "GitHub フローを土台にしたリリースベースの開発ワークフローを構築する"
+  },
+  {
+    "title": "Resolve Merge Conflicts",
+    "url": "https://github.com/skills/resolve-merge-conflicts",
+    "type": "interactive-course",
+    "level": "Beginner",
+    "duration_text": "less than 30 minutes",
+    "description": "Learn why conflicts happen and how to resolve them.",
+    "domain": "開発・Git",
+    "services": [
+      "Git"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "マージコンフリクトの発生理由と解消手順を実践する"
+  },
+  {
+    "title": "Create and use reusable workflows",
+    "url": "https://github.com/skills/reusable-workflows",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than an hour",
+    "description": "Learn how to create reusable GitHub Actions workflows and call them from another workflow.",
+    "domain": "CI-CD",
+    "services": [
+      "GitHub Actions"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "再利用可能ワークフローを作り、別のワークフローから呼び出す"
+  },
+  {
+    "title": "Review pull requests",
+    "url": "https://github.com/skills/review-pull-requests",
+    "type": "interactive-course",
+    "level": "Beginner",
+    "duration_text": "less than 30 minutes",
+    "description": "Collaborate and work together on GitHub.",
+    "domain": "開発・Git",
+    "services": [
+      "GitHub",
+      "Pull Requests"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "プルリクエストのレビューとコラボレーションの進め方を学ぶ"
+  },
+  {
+    "title": "Scale institutional knowledge using Copilot Spaces",
+    "url": "https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 30 minutes",
+    "description": "Learn how Copilot Spaces can scale institutional knowledge and streamline organizational processes.",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot",
+      "Copilot Spaces"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "Copilot Spaces で組織の知識共有を効率化する方法を学ぶ"
+  },
+  {
+    "title": "Secure Code Game",
+    "url": "https://github.com/skills/secure-code-game",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": null,
+    "description": "Learn to code securely while having fun through our popular open source in-editor experience, designed for developers, students, and anyone curious about security.",
+    "domain": "セキュリティ・IAM",
+    "services": [
+      "GitHub Advanced Security"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "ゲーム形式でセキュアコーディングを学ぶブラウザ完結型の演習"
+  },
+  {
+    "title": "Secure your repository's supply chain",
+    "url": "https://github.com/skills/secure-repository-supply-chain",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": null,
+    "description": "Secure your supply chain, understand dependencies in your environment, know about vulnerabilities in those dependencies and patch them",
+    "domain": "セキュリティ・IAM",
+    "services": [
+      "Dependabot",
+      "GitHub Advanced Security"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "依存関係の把握と脆弱性対応でリポジトリのサプライチェーンを守る"
+  },
+  {
+    "title": "Ship with Quality",
+    "url": "https://github.com/skills/ship-with-quality",
+    "type": "interactive-course",
+    "level": "Intermediate",
+    "duration_text": "less than 45 minutes",
+    "description": "Ship faster with automated quality signals to identify defects, monitor test coverage, and enforce checks during pull requests.",
+    "domain": "CI-CD",
+    "services": [
+      "GitHub Actions",
+      "Pull Requests"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "テストカバレッジや品質シグナルを PR のチェックに組み込む"
+  },
+  {
+    "title": "Test and Debug with GitHub Copilot",
+    "url": "https://github.com/skills/test-and-debug-with-github-copilot",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 45 minutes",
+    "description": "GitHub Skills exercise: test and debug with GitHub Copilot",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "Copilot をテストとデバッグの相方として使い、提案を証拠で検証する"
+  },
+  {
+    "title": "Test with Actions",
+    "url": "https://github.com/skills/test-with-actions",
+    "type": "interactive-course",
+    "level": "Beginner",
+    "duration_text": "less than 60 minutes",
+    "description": "Create workflows that enable you to use Continuous Integration (CI) for your projects.",
+    "domain": "CI-CD",
+    "services": [
+      "GitHub Actions"
+    ],
+    "priority_for_user": "高",
+    "summary_ja": "Actions で単体テストとカバレッジレポートを自動化し CI を構築する"
+  },
+  {
+    "title": "Work with Workflow Artifacts",
+    "url": "https://github.com/skills/workflow-artifacts",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than an hour",
+    "description": "Learn how to upload, preview, download, and reuse workflow artifacts in GitHub Actions.",
+    "domain": "CI-CD",
+    "services": [
+      "GitHub Actions"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "ワークフローのアーティファクトをアップロード・再利用する方法を学ぶ"
+  },
+  {
+    "title": "Write JavaScript Actions",
+    "url": "https://github.com/skills/write-javascript-actions",
+    "type": "interactive-course",
+    "level": null,
+    "duration_text": "less than 1 hour",
+    "description": "Write your own GitHub JavaScript Action and automate customized tasks unique to your workflow.",
+    "domain": "CI-CD",
+    "services": [
+      "GitHub Actions",
+      "JavaScript"
+    ],
+    "priority_for_user": "中",
+    "summary_ja": "独自の JavaScript アクションを作成してワークフローを自動化する"
+  },
+  {
+    "title": "Your first extension for GitHub Copilot",
+    "url": "https://github.com/skills/your-first-extension-for-github-copilot",
+    "type": "interactive-course",
+    "level": "Intermediate",
+    "duration_text": "less than one hour",
+    "description": "Teach GitHub Copilot about your industry, lingo, and company processes.",
+    "domain": "AI",
+    "services": [
+      "GitHub Copilot",
+      "Copilot Extensions"
+    ],
+    "priority_for_user": "低",
+    "summary_ja": "Copilot 拡張機能の作り方（拡張機能自体は MCP への移行で非推奨化）"
+  }
+]

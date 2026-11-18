@@ -28,8 +28,11 @@ CLI は argparse ベースです。build/catalog.db が無い場合は自動で 
 
     # キーワード検索 (絞り込み: --cloud/--domain/--service/--level/
     #   --max-minutes/--access/--priority/--month, --limit で件数)
+    # --mode and(既定)/or/phrase で検索モードを切替
     PYTHONPATH=src python3 -m hands_on_search.cli search Fargate --limit 5
     PYTHONPATH=src python3 -m hands_on_search.cli search PostgreSQL --cloud Azure --max-minutes 120
+    PYTHONPATH=src python3 -m hands_on_search.cli search "Fargate PostgreSQL" --mode or
+    PYTHONPATH=src python3 -m hands_on_search.cli search "Kubernetes in Google Cloud" --mode phrase
 
     # 空き時間と関心キーワードから推薦 (所要時間と課金の見立て付き)
     PYTHONPATH=src python3 -m hands_on_search.cli recommend --minutes 90 --interest MCP コンテナ --month 2026-11

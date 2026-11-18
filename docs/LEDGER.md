@@ -43,6 +43,35 @@
   プロセス生存を確認済み
 - チェックバック: cron `hands-on-search-run1-check` を Run 2 用に更新し
   2026-11-18 16:02 JST に再設定
+- **Run 2 完了・司令塔検収合格 (2026-11-18 15:23)**: EXIT=0。司令塔が独立検証:
+  pytest 42 passed 再実行、stats (893件、direct 727=81.4% / search 144 / none 22)、
+  ゴールデンクエリ実測 (Fargate は目標ラボが2位、PostgreSQL は Applied Skills が
+  3位、いずれも direct URL つき)、recommend と export-plan の出力を確認
+  (タイトル=リンク、課金の見立ては不明を「不明・要確認」と正直表記)。
+  コミット e9de00c
+
+## 納品 (T6 GitHub / T7 スペース)
+
+- **GitHub public リポジトリ作成・push 済み (2026-11-18)**:
+  https://github.com/hiyuuma/cloud-hands-on-search (PUBLIC, master)
+  GitHub 側 API で contents (src/tests/data/docs/reports/web) を確認済み。
+  web/unified-compact.json (893件・656KB、スペース用) も push 済み
+- **未完 1点: CI ワークフロー (.github/workflows/ci.yml) の push が権限で拒否**:
+  gh の OAuth トークンに workflow スコープが無く、GitHub コネクタ (App) からも
+  403 (integration に workflow 権限なし)。ファイルはローカルブランチ
+  `pending-ci` に保持済み。解錠手順: ユーザーが `gh auth refresh -h github.com
+  -s workflow` のデバイスフローを承認 → 司令塔が push し Actions 通過を確認
+- T7 スペース: artifact slug `kuraudoxue-xi-katarogujian-suo` で静的スペースの
+  ビルドを起動済み (2026-11-18)。完了ハンドオフ待ち
+- **T7 スペース完成 (2026-11-18)**: ビルダー側監査2回で最終 pass (コンソール
+  エラーなし、モバイル横溢れなし)。実操作プローブで検証済み: 「Fargate」検索が
+  実データ一致の2件のみ、GCP チップで Google のみに絞り込み、推薦 (120分・
+  関心「コンテナ Kubernetes」) が時間配分・理由・導線種別つきで生成、リセット動作。
+  初回監査の指摘 (見出しの「全件導線」が導線なし22件と矛盾) は実数表記
+  (導線871件 / 22件は元データにURLが無く導線なしと明示) に修正して解消。
+  外部リンク遷移自体は監査環境のロックダウンで検証不可のため、href が元データの
+  URL と一致することをもって導線の正確さを確認 (この留保は完了報告に明記)。
+  スペースは既定で非公開のまま
 
 ## 後続
 
