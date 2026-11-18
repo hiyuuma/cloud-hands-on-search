@@ -1,0 +1,310 @@
+[
+ {
+  "title": "Admin Beginner",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/force_com_admin_beginner",
+  "type": "trail",
+  "level": "Foundational",
+  "duration_text": "~7 hrs 20 mins",
+  "description": "Start your #AwesomeAdmin journey by learning the basics of customizing Salesforce.",
+  "domain": "その他",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Salesforce管理者の基礎を学ぶ入門トレイル"
+ },
+ {
+  "title": "Developer Beginner",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/force_com_dev_beginner",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~14 hrs 10 mins",
+  "description": "Learn the basics of how to develop apps on the Salesforce Platform.",
+  "domain": "開発・Git",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Apex/LWCなどSalesforce開発の基礎トレイル"
+ },
+ {
+  "title": "Admin Intermediate",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/force_com_admin_intermediate",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~11 hrs 45 mins",
+  "description": "Supercharge your skills and apps by using point-and-click tools to solve common business needs.",
+  "domain": "その他",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "管理者向け中級のポイント&クリック活用トレイル"
+ },
+ {
+  "title": "Developer Intermediate",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/force_com_dev_intermediate?trailmix_creator_id=mswami10&trailmix_slug=target",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~14 hrs 35 mins",
+  "description": "Take your apps to the next level with powerful integration and mobile tools.",
+  "domain": "開発・Git",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "連携とモバイルを扱う開発者向け中級トレイル"
+ },
+ {
+  "title": "Build Agentforce Solutions with Low-Code Tools",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/build-agentforce-solutions-with-low-code-tools",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~5 hrs 50 mins",
+  "description": "Configure, extend, and deploy Agentforce agents using declarative tools like Flow, Agent Studio, and DevOps Center.",
+  "domain": "AI",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Flow等のローコードでAgentforceエージェントを構築するトレイル"
+ },
+ {
+  "title": "Design and Implement AI Agents with Agentforce",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/design-and-implement-ai-agents-with-agentforce",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~9 hrs 13 mins",
+  "description": "Plan, build, test, deploy, and monitor an AI agent with Agentforce.",
+  "domain": "AI",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Agentforceエージェントの設計から監視までを学ぶトレイル"
+ },
+ {
+  "title": "Get Ready for Agentforce",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/get-ready-for-agentforce/",
+  "type": "trail",
+  "level": "",
+  "duration_text": "~1 hr 45 mins",
+  "description": "Learn how Agentforce fits your business goals, launch your first agent, and build a plan for AI success.",
+  "domain": "AI",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Agentforceの概要と最初のエージェント起動を学ぶ短時間トレイル"
+ },
+ {
+  "title": "Automate Workflows and Ground AI with Trusted Data for the Agentic Era",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/automate-workflows-and-ground-ai-with-trusted-data",
+  "type": "trail",
+  "level": "",
+  "duration_text": "~29 hrs 39 mins",
+  "description": "Learn to prepare trusted data, automate business processes with Flow, ground generative AI in CRM data, design autonomous Agentforce agents, connect workflows to external systems, and operate it all at production scale.",
+  "domain": "AI",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "信頼データとFlowで生成AIをグラウンディングする総合トレイル"
+ },
+ {
+  "title": "AI Trust, Security, and Governance for the Agentic Era",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/ai-trust-security-governance",
+  "type": "trail",
+  "level": "",
+  "duration_text": "",
+  "description": "Build the knowledge to deploy AI and autonomous agents safely — covering data security, the Agentforce Trust Layer, Agentforce guardrails, AI governance frameworks, and the latest Salesforce thinking on governing agents at enterprise scale.",
+  "domain": "AI",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "AIエージェントの信頼性・セキュリティ・ガバナンスを学ぶトレイル"
+ },
+ {
+  "title": "Drive Productivity with Salesforce AI",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/drive-productivity-with-einstein-ai",
+  "type": "trail",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn to use out-of-the-box Salesforce AI products, get hands-on, and prep for the AI Specialist Certification.",
+  "domain": "AI",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Salesforce AI製品の活用とAI Specialist認定準備のトレイル"
+ },
+ {
+  "title": "Build with Agentforce Service",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/build-with-agentforce-for-service?journey=agentforce-for-service",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "",
+  "description": "Deliver agentic service outcomes across your business.",
+  "domain": "AI",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "サービス業務向けAgentforce活用トレイル"
+ },
+ {
+  "title": "Make Agentforce Service Smarter",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/service_einstein",
+  "type": "trail",
+  "level": "",
+  "duration_text": "~1 hr 55 mins",
+  "description": "Enhance your customer service with Einstein Bots and other artificial intelligence (AI) features.",
+  "domain": "AI",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Einstein Bots等でカスタマーサービスを高度化するトレイル"
+ },
+ {
+  "title": "Secure Your App",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/secure-your-app",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~19 hrs 15 mins",
+  "description": "Trust is our #1 value; increase trust by ensuring your Salesforce instance is protected.",
+  "domain": "その他",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "ユーザー/データセキュリティでアプリを守るトレイル"
+ },
+ {
+  "title": "Secure Your Environment",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/secure-your-environment",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~19 hrs 15 mins",
+  "description": "Trust is our #1 value. Increase trust by ensuring your Salesforce instance is protected.",
+  "domain": "その他",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "認証・アクセス管理を含む環境セキュリティのトレイル"
+ },
+ {
+  "title": "Automate Business Processes as an Admin",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/automate-business-processes-2",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~18 hrs 50 mins",
+  "description": "Learn how to speed up processes through automation.",
+  "domain": "その他",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "管理者向け業務プロセス自動化トレイル"
+ },
+ {
+  "title": "Implement Low-Code Automation",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/implement-low-code-automation",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~25 hrs 25 mins",
+  "description": "Learn how to speed up processes through automation on Salesforce.",
+  "domain": "その他",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "ローコード自動化の実装トレイル"
+ },
+ {
+  "title": "Explore the Software Development Lifecycle for Salesforce Admins",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/explore-the-software-development-lifecycle-for-salesforce-admins",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~1 hr 30 mins",
+  "description": "Apply software development principles to Salesforce administration.",
+  "domain": "開発・Git",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "管理者向けにSDLCの原則を学ぶトレイル"
+ },
+ {
+  "title": "Learn Essential Software Development Skills for Admins",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/learn-essential-software-development-skills-for-admins",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~4 hrs 40 mins",
+  "description": "Add software development skills to your admin toolkit.",
+  "domain": "開発・Git",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "ApexやSOQLなど管理者向け開発基礎トレイル"
+ },
+ {
+  "title": "Slack: Connect Data, Apps, and AI",
+  "url": "https://trailhead.salesforce.com/content/learn/trails/slack-connect-data-apps-and-ai?journey=slack",
+  "type": "trail",
+  "level": "Intermediate",
+  "duration_text": "~6 hrs 9 mins",
+  "description": "Bring everything your team needs into one place for seamless collaboration.",
+  "domain": "その他",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "SlackとSalesforceデータ・AIを連携するトレイル"
+ },
+ {
+  "title": "Data Quality",
+  "url": "https://trailhead.salesforce.com/content/learn/modules/data_quality",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Discover strategies for assessing and improving the quality of your data in Salesforce.",
+  "domain": "その他",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Salesforceのデータ品質を評価・改善するモジュール"
+ },
+ {
+  "title": "Formulas and Validations",
+  "url": "https://trailhead.salesforce.com/content/learn/modules/point_click_business_logic",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Tailor your apps without writing code by using point-and-click logic.",
+  "domain": "その他",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "数式と入力規則でノーコードにアプリを調整するモジュール"
+ },
+ {
+  "title": "Lightning Experience Customization",
+  "url": "https://trailhead.salesforce.com/content/learn/modules/lex_customization",
+  "type": "module",
+  "level": "Foundational",
+  "duration_text": "~3 hrs",
+  "description": "Customize the Lightning Experience user interface without writing any code.",
+  "domain": "その他",
+  "services": [
+   "Salesforce"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Lightning ExperienceのUIカスタマイズ基礎モジュール"
+ }
+]

@@ -1,0 +1,266 @@
+[
+ {
+  "title": "Introduction to LangGraph - Python",
+  "url": "https://academy.langchain.com/courses/intro-to-langgraph",
+  "type": "course",
+  "level": null,
+  "duration_text": "6 hours of video content",
+  "description": "Learn the basics of LangGraph - our framework for building agentic and multi-agent applications. Separate from the LangChain package, LangGraph helps developers add better precision and control into agentic workflows. (55 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangGraph",
+   "LangSmith"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LangGraph 公式入門。状態・メモリ・HITL・デプロイまで55レッスンで学ぶ本命"
+ },
+ {
+  "title": "Introduction to LangChain - Python",
+  "url": "https://academy.langchain.com/courses/foundation-introduction-to-langchain-python",
+  "type": "course",
+  "level": null,
+  "duration_text": "1.5 hours of video content",
+  "description": "Learn how to build AI agents with LangChain. Get started quickly using pre-built architectures and model integrations, then debug your agents with LangSmith Observability. (30 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangChain",
+   "LangSmith"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LangChain で AI エージェント構築を始める公式入門 (MCP・マルチエージェント含む)"
+ },
+ {
+  "title": "Introduction to Deep Agents",
+  "url": "https://academy.langchain.com/courses/foundation-introduction-to-deepagents",
+  "type": "course",
+  "level": null,
+  "duration_text": "0.5 hours of video content",
+  "description": "Learn how to build long-running agents for complex workflows with Deep Agents, LangChain's open-source agent harness. You'll explore what an agent harness is, how it accelerates development, and how to use LangSmith to improve your agents. (46 lessons)",
+  "domain": "AI",
+  "services": [
+   "Deep Agents",
+   "LangChain",
+   "LangSmith"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "長時間稼働エージェント向けハーネス Deep Agents の公式入門"
+ },
+ {
+  "title": "Building and Deploying Managed Agents",
+  "url": "https://academy.langchain.com/courses/managed-agents",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "Learn to build and deploy production agents with LangSmith Managed Agents in this LangChain Academy course, with a managed runtime, connections, user auth and evals that catch problems early. (24 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangSmith",
+   "Managed Agents"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LangSmith Managed Agents で本番エージェントを構築・デプロイする"
+ },
+ {
+  "title": "Project: Ambient Agents with LangGraph",
+  "url": "https://academy.langchain.com/courses/ambient-agents",
+  "type": "course",
+  "level": null,
+  "duration_text": "2.5 hours of video content",
+  "description": "Build your own ambient agent to manage your email. You'll learn the fundamentals of LangGraph as you build an email assistant from scratch, and use LangSmith to evaluate its performance. (28 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangGraph",
+   "LangSmith"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "メール管理アンビエントエージェントを LangGraph で作るプロジェクトコース"
+ },
+ {
+  "title": "Quickstart: LangChain Essentials - Python",
+  "url": "https://academy.langchain.com/courses/langchain-essentials-python",
+  "type": "course",
+  "level": null,
+  "duration_text": "1 hour of video content",
+  "description": "Learn the core elements of LangChain. Build with create_agent, a powerful and extensible agent building block. Learn how to work with messages, tools, MCP, streaming, structured outputs, and more. (18 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangChain",
+   "MCP"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "create_agent・ツール・MCP・構造化出力など LangChain の核を1時間で掴む"
+ },
+ {
+  "title": "Quickstart: LangGraph Essentials - Python",
+  "url": "https://academy.langchain.com/courses/langgraph-essentials-python",
+  "type": "course",
+  "level": null,
+  "duration_text": "1 hour of video content",
+  "description": "Learn the essential components of LangGraph — including State, Nodes, Edges, and Memory — and put them into practice by building an email workflow. (13 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangGraph"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LangGraph の State・Node・Edge・Memory をメールワークフローで掴む短編"
+ },
+ {
+  "title": "Quickstart: LangChain Essentials - TypeScript",
+  "url": "https://academy.langchain.com/courses/quickstart-langchain-essentials-typescript",
+  "type": "course",
+  "level": null,
+  "duration_text": "0.5 hours of video content",
+  "description": "Learn the core elements of LangChain. Build with create_agent, a powerful and extensible agent building block. Learn how to work with messages, tools, MCP, streaming, structured outputs, and more. (17 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangChain",
+   "MCP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LangChain Essentials の TypeScript 版。create_agent と MCP を短時間で"
+ },
+ {
+  "title": "Quickstart: LangGraph Essentials - TypeScript",
+  "url": "https://academy.langchain.com/courses/quickstart-langgraph-essentials-typescript",
+  "type": "course",
+  "level": null,
+  "duration_text": "1 hour of video content",
+  "description": "Learn the essential components of LangGraph — including State, Nodes, Edges, and Memory — and put them into practice by building an email workflow. (13 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangGraph"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LangGraph Essentials の TypeScript 版。メールワークフローで基礎を掴む"
+ },
+ {
+  "title": "Introduction to Agent Observability & Evaluations",
+  "url": "https://academy.langchain.com/courses/intro-to-langsmith",
+  "type": "course",
+  "level": null,
+  "duration_text": "7.5 hours of video content",
+  "description": "Learn the essentials of agent observability & evaluations with LangSmith — our platform for agent development. Continuously improve your agents with LangSmith's tools for observability, evaluation, and prompt engineering. (43 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangSmith"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LangSmith によるエージェントの可観測性と評価の基礎を7.5時間で学ぶ"
+ },
+ {
+  "title": "Quickstart: LangSmith Essentials",
+  "url": "https://academy.langchain.com/courses/quickstart-langsmith-essentials",
+  "type": "course",
+  "level": null,
+  "duration_text": "0.5 hours of video content",
+  "description": "Learn the essentials of LangSmith — the comprehensive platform for agent engineering that helps teams use live production data for continuous testing and improvement. (22 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangSmith"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LangSmith のトレーシング・評価・デプロイの要点を短時間で掴む"
+ },
+ {
+  "title": "Building Reliable Agents with LangSmith",
+  "url": "https://academy.langchain.com/courses/building-reliable-agents",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "Take an agent from first run to production-ready system through iterative cycles of improvement. You'll learn how to do this with LangSmith, our agent engineering platform for observing and evaluating agents. (29 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangSmith"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "観測と評価の反復でエージェントを本番品質に引き上げる実践コース"
+ },
+ {
+  "title": "Autonomous Agent Improvement with LangSmith Engine",
+  "url": "https://academy.langchain.com/courses/langsmith-engine",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "We walk through how to iterate through the Agent Development Lifecycle by identifying errors in production traces, proposing fixes, running experiments to validate them, and monitoring deployed changes for regressions. (12 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangSmith",
+   "LangSmith Engine"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "本番トレースから自動で改善案を出す LangSmith Engine と ADLC の実践"
+ },
+ {
+  "title": "Monitoring Production Agents",
+  "url": "https://academy.langchain.com/courses/production-monitoring",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "Learn how to monitor and improve agents in production. Dive into how to track costs, uncover trends with trace analysis, and monitor quality and latency. (37 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangSmith"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "本番エージェントのコスト・品質・レイテンシ監視を LangSmith で学ぶ"
+ },
+ {
+  "title": "Introduction to LangSmith Agent Server",
+  "url": "https://academy.langchain.com/courses/langsmith-deployment",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "Learn to deploy, manage, and control your agents with LangSmith Agent Server. (37 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangSmith",
+   "LangGraph"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LangSmith Agent Server へのエージェントのデプロイと運用・認証を学ぶ"
+ },
+ {
+  "title": "dcode Essentials",
+  "url": "https://academy.langchain.com/courses/dcode-essentials",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "Unlock the fundamentals of Deep Agents Code (dcode) and elevate your programming skills to effectively use coding agents in development. (9 lessons)",
+  "domain": "AI",
+  "services": [
+   "Deep Agents",
+   "dcode"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "コーディングエージェント Deep Agents Code (dcode) の基礎。Skills・MCP・サブエージェント設定"
+ },
+ {
+  "title": "LangSmith Fleet",
+  "url": "https://academy.langchain.com/courses/quickstart-agent-builder",
+  "type": "course",
+  "level": null,
+  "duration_text": "1.5 hours of video content",
+  "description": "Start creating agents using everyday language. Learn how to build no-code agents for real work with LangSmith Fleet.",
+  "domain": "AI",
+  "services": [
+   "LangSmith",
+   "LangSmith Fleet"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "自然言語でノーコードエージェントを作る LangSmith Fleet 入門"
+ },
+ {
+  "title": "LCAE Practice Exam",
+  "url": "https://academy.langchain.com/courses/lcae-practice-exam",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "A practice exam for the LangChain Certified Agent Engineer exam. (5 lessons)",
+  "domain": "AI",
+  "services": [
+   "LangChain"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "LangChain Certified Agent Engineer 認定試験の公式模擬試験 (無料)"
+ }
+]

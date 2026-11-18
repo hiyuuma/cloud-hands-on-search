@@ -1,0 +1,188 @@
+[
+ {
+  "description": "In this course, you will learn how to use the most common FortiGate features. This course also covers the fundamentals of FortiGate in the cloud and FortiSASE.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": null,
+  "level": "NSE 4",
+  "priority_for_user": "高",
+  "services": [
+   "FortiGate",
+   "FortiOS"
+  ],
+  "summary_ja": "FortiGateの主要機能と運用を学ぶ中核コース（NSE 4対応・現行はFortiOS 8.0）",
+  "title": "FortiOS Administrator",
+  "type": "course",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortios-administrator"
+ },
+ {
+  "description": "",
+  "domain": "ネットワーク",
+  "duration_text": null,
+  "level": null,
+  "priority_for_user": "高",
+  "services": [
+   "FortiGate",
+   "SD-WAN"
+  ],
+  "summary_ja": "Fortinet SD-WANの設計・運用を学ぶコース",
+  "title": "SD-WAN Enterprise Administrator",
+  "type": "course",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_sd-wan-architect"
+ },
+ {
+  "description": "",
+  "domain": "セキュリティ・IAM",
+  "duration_text": null,
+  "level": null,
+  "priority_for_user": "高",
+  "services": [
+   "Fortinet",
+   "Public Cloud"
+  ],
+  "summary_ja": "パブリッククラウド向けFortinetセキュリティの設計を学ぶコース",
+  "title": "Public Cloud Security Architect",
+  "type": "course",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_public-cloud-security-architect"
+ },
+ {
+  "description": "",
+  "domain": "セキュリティ・IAM",
+  "duration_text": null,
+  "level": null,
+  "priority_for_user": "中",
+  "services": [
+   "FortiManager"
+  ],
+  "summary_ja": "FortiManagerによるFortiGate一元管理を学ぶコース",
+  "title": "FortiManager Administrator",
+  "type": "course",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortimanager-administrator"
+ },
+ {
+  "description": "",
+  "domain": "セキュリティ・IAM",
+  "duration_text": null,
+  "level": null,
+  "priority_for_user": "中",
+  "services": [
+   "FortiAnalyzer"
+  ],
+  "summary_ja": "FortiAnalyzerの管理・運用を学ぶコース",
+  "title": "FortiAnalyzer Administrator",
+  "type": "course",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortianalyzer-administrator"
+ },
+ {
+  "description": "",
+  "domain": "セキュリティ・IAM",
+  "duration_text": null,
+  "level": null,
+  "priority_for_user": "中",
+  "services": [
+   "FortiAnalyzer"
+  ],
+  "summary_ja": "FortiAnalyzerによるログ分析・レポート作成を学ぶコース",
+  "title": "FortiAnalyzer Analyst",
+  "type": "course",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortianalyzer-analyst"
+ },
+ {
+  "description": "",
+  "domain": "セキュリティ・IAM",
+  "duration_text": null,
+  "level": null,
+  "priority_for_user": "中",
+  "services": [
+   "FortiSIEM"
+  ],
+  "summary_ja": "FortiSIEMによるセキュリティ監視・インシデント分析を学ぶコース",
+  "title": "FortiSIEM Analyst",
+  "type": "course",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortisiem-analyst"
+ },
+ {
+  "description": "",
+  "domain": "セキュリティ・IAM",
+  "duration_text": null,
+  "level": null,
+  "priority_for_user": "中",
+  "services": [
+   "FortiSASE"
+  ],
+  "summary_ja": "FortiSASEの管理・運用を学ぶコース",
+  "title": "FortiSASE Enterprise Administrator",
+  "type": "course",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortisase-enterprise-administrator"
+ },
+ {
+  "description": "",
+  "domain": "セキュリティ・IAM",
+  "duration_text": null,
+  "level": null,
+  "priority_for_user": "中",
+  "services": [
+   "FortiWeb"
+  ],
+  "summary_ja": "FortiWeb（WAF）の管理・運用を学ぶコース",
+  "title": "FortiWeb Administrator",
+  "type": "course",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortiweb-administrator"
+ },
+ {
+  "description": "",
+  "domain": "セキュリティ・IAM",
+  "duration_text": null,
+  "level": null,
+  "priority_for_user": "中",
+  "services": [
+   "Fortinet"
+  ],
+  "summary_ja": "ネットワークセキュリティ製品のサポート・トラブルシューティングを学ぶコース",
+  "title": "Network Security Support Engineer",
+  "type": "course",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_network-security-support-engineer"
+ },
+ {
+  "title": "FortiAuthenticator 8.0 Administrator",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortiauthenticator-administrator",
+  "type": "course",
+  "level": "",
+  "duration_text": "18 hours",
+  "description": "Total course duration (estimated): 18 hours (Lecture 12 hours + Lab 6 hours). Product version: FortiAuthenticator 8.0.",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "FortiAuthenticator"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "FortiAuthenticatorによる認証基盤の管理を学ぶ無料セルフペース (講義12h+ラボ6h)"
+ },
+ {
+  "title": "FortiSwitch 7.6 Administrator",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortiswitch-administrator",
+  "type": "course",
+  "level": "",
+  "duration_text": "18 hours",
+  "description": "Total course duration (estimated): 18 hours. Product version: FortiSwitch 7.6.",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "FortiSwitch"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "FortiSwitchの管理を学ぶ無料セルフペース"
+ },
+ {
+  "title": "FortiGate 7.6 Operator",
+  "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortigate-operator",
+  "type": "course",
+  "level": "",
+  "duration_text": "8 hours",
+  "description": "Total course duration (estimated): 8 hours. Product version: FortiOS 7.6.",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "FortiGate",
+   "FortiOS"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "FortiGateの運用操作を学ぶ無料セルフペース"
+ }
+]

@@ -1,0 +1,417 @@
+[
+ {
+  "title": "AIの能力と限界",
+  "url": "https://academy.claude.com/ja/courses/ai-capabilities-and-limitations",
+  "type": "course",
+  "level": "",
+  "duration_text": "3h 30m",
+  "description": "13レッスン・1クイズ、修了バッジあり。料金表示なし (前提条件の記載なし)。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Claudeの能力と限界を理解する入門コース"
+ },
+ {
+  "title": "ビルダーのためのAI活用力",
+  "url": "https://academy.claude.com/ja/courses/ai-fluency-for-builders",
+  "type": "course",
+  "level": "",
+  "duration_text": "3h",
+  "description": "9レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "開発者向けにAI活用の型を学ぶコース"
+ },
+ {
+  "title": "クリエイティブワークのためのAI活用力",
+  "url": "https://academy.claude.com/ja/courses/ai-fluency-for-creative-work",
+  "type": "course",
+  "level": "",
+  "duration_text": "5h",
+  "description": "8レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "クリエイティブ業務でのAI活用コース"
+ },
+ {
+  "title": "教育者のためのAI活用力",
+  "url": "https://academy.claude.com/ja/courses/ai-fluency-for-educators",
+  "type": "course",
+  "level": "",
+  "duration_text": "1h 30m",
+  "description": "4レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "教育者向けAI活用の入門コース"
+ },
+ {
+  "title": "非営利団体向けAI活用力",
+  "url": "https://academy.claude.com/ja/courses/ai-fluency-for-nonprofits",
+  "type": "course",
+  "level": "",
+  "duration_text": "4h",
+  "description": "9レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "非営利団体向けAI活用コース"
+ },
+ {
+  "title": "pK-12向けAI活用力トレーナー養成",
+  "url": "https://academy.claude.com/ja/courses/ai-fluency-for-pk-12-train-the-trainer",
+  "type": "course",
+  "level": "",
+  "duration_text": "45m",
+  "description": "4レッスン。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "初等教育向けAI活用の指導者養成コース"
+ },
+ {
+  "title": "pK–12教育者のためのAI活用力",
+  "url": "https://academy.claude.com/ja/courses/ai-fluency-for-k-12-educators",
+  "type": "course",
+  "level": "",
+  "duration_text": "3h",
+  "description": "10レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "初等・中等教育者向けAI活用コース"
+ },
+ {
+  "title": "中小企業のためのAI活用力",
+  "url": "https://academy.claude.com/ja/courses/ai-fluency-for-small-businesses",
+  "type": "course",
+  "level": "",
+  "duration_text": "3h 30m",
+  "description": "8レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "中小企業向けAI活用コース"
+ },
+ {
+  "title": "学生向けAI活用力",
+  "url": "https://academy.claude.com/ja/courses/ai-fluency-for-students",
+  "type": "course",
+  "level": "",
+  "duration_text": "3h",
+  "description": "5レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "学生向けAI活用の入門コース"
+ },
+ {
+  "title": "AI活用力：フレームワーク&基礎",
+  "url": "https://academy.claude.com/ja/courses/ai-fluency-framework-foundations",
+  "type": "course",
+  "level": "",
+  "duration_text": "4h",
+  "description": "14レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "AI活用力フレームワークの基礎コース"
+ },
+ {
+  "title": "効果的な人間とエージェントのチームを構築する（ベータ）",
+  "url": "https://academy.claude.com/ja/courses/building-effective-human-agent-teams",
+  "type": "course",
+  "level": "",
+  "duration_text": "45m",
+  "description": "5レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude",
+   "AI Agent"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "人間とAIエージェントの協働チーム設計を学ぶコース"
+ },
+ {
+  "title": "Claude APIを使った構築",
+  "url": "https://academy.claude.com/ja/courses/building-with-the-claude-api",
+  "type": "course",
+  "level": "",
+  "duration_text": "9h",
+  "description": "67レッスン・8クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude API"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Claude APIでのアプリ構築を体系的に学ぶ本格コース"
+ },
+ {
+  "title": "Claude 101",
+  "url": "https://academy.claude.com/ja/courses/claude-101",
+  "type": "course",
+  "level": "",
+  "duration_text": "2h 30m",
+  "description": "13レッスン・1クイズ、修了バッジあり。一部機能は有料プランが必要との記載あり。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Claudeの基本操作と活用を学ぶ入門コース"
+ },
+ {
+  "title": "Claude Code 101",
+  "url": "https://academy.claude.com/ja/courses/claude-code-101",
+  "type": "course",
+  "level": "",
+  "duration_text": "1h 30m",
+  "description": "12レッスン・1クイズ、修了バッジあり。前提: Claudeアカウント (有料プラン) またはAPIキー。",
+  "domain": "開発・Git",
+  "services": [
+   "Claude Code"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Claude Codeの基礎を学ぶ入門コース"
+ },
+ {
+  "title": "実践Claude Code",
+  "url": "https://academy.claude.com/ja/courses/claude-code-in-action",
+  "type": "course",
+  "level": "",
+  "duration_text": "1h",
+  "description": "9レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "開発・Git",
+  "services": [
+   "Claude Code"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Claude Codeの実践的な使い方を学ぶコース"
+ },
+ {
+  "title": "Google Cloud上のClaude",
+  "url": "https://academy.claude.com/ja/courses/claude-with-google-cloud-s-vertex-ai",
+  "type": "course",
+  "level": "",
+  "duration_text": "8h 30m",
+  "description": "66レッスン・9クイズ、修了バッジあり。前提: Python、JSON、Google Cloudアカウント、Claude APIキー。",
+  "domain": "AI",
+  "services": [
+   "Claude",
+   "Vertex AI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Vertex AI経由でClaudeを使う構築コース"
+ },
+ {
+  "title": "Claude Platform 101",
+  "url": "https://academy.claude.com/ja/courses/claude-platform-101",
+  "type": "course",
+  "level": "",
+  "duration_text": "1h 30m",
+  "description": "13レッスン・1クイズ、修了バッジあり。前提: コード読解、Claude Consoleアカウントとクレジット。",
+  "domain": "AI",
+  "services": [
+   "Claude Platform"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Claude Platformの基礎を学ぶ入門コース"
+ },
+ {
+  "title": "Amazon BedrockでのClaude",
+  "url": "https://academy.claude.com/ja/courses/claude-with-amazon-bedrock",
+  "type": "course",
+  "level": "",
+  "duration_text": "8h",
+  "description": "65レッスン・8クイズ、修了バッジあり。前提: Python、JSON、Bedrockアクセス権のあるAWSアカウント。",
+  "domain": "AI",
+  "services": [
+   "Claude",
+   "Amazon Bedrock"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Amazon Bedrock経由でClaudeを使う構築コース"
+ },
+ {
+  "title": "Claude Enterpriseを自信を持って導入する：ロールアウトを形作る5つの決定",
+  "url": "https://academy.claude.com/ja/courses/deploying-claude-enterprise-with-confidence",
+  "type": "course",
+  "level": "",
+  "duration_text": "2h 30m",
+  "description": "14レッスン・1クイズ、修了バッジあり。前提: 知識不要、Enterprise Ownerアクセス推奨。",
+  "domain": "AI",
+  "services": [
+   "Claude Enterprise"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Claude Enterprise導入の意思決定を学ぶコース"
+ },
+ {
+  "title": "Agent Skills入門",
+  "url": "https://academy.claude.com/ja/courses/introduction-to-agent-skills",
+  "type": "course",
+  "level": "",
+  "duration_text": "1h",
+  "description": "6レッスン。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Agent Skills",
+   "Claude"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Agent Skillsの仕組みと作り方の入門コース"
+ },
+ {
+  "title": "Claude Cowork入門",
+  "url": "https://academy.claude.com/ja/courses/introduction-to-claude-cowork",
+  "type": "course",
+  "level": "",
+  "duration_text": "2h 30m",
+  "description": "14レッスン・1クイズ、修了バッジあり。前提: 有料Claudeプラン、Claudeデスクトップアプリ。",
+  "domain": "AI",
+  "services": [
+   "Claude Cowork"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Claude Coworkの入門コース"
+ },
+ {
+  "title": "Claude Tag入門",
+  "url": "https://academy.claude.com/ja/courses/introduction-to-claude-tag",
+  "type": "course",
+  "level": "",
+  "duration_text": "2h 30m",
+  "description": "11レッスン・1クイズ、修了バッジあり。前提: Claude Tagがワークスペースにインストール済み。",
+  "domain": "AI",
+  "services": [
+   "Claude Tag"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Claude Tagの入門コース (Academy限定)"
+ },
+ {
+  "title": "Evals入門",
+  "url": "https://academy.claude.com/ja/courses/introduction-to-evals",
+  "type": "course",
+  "level": "",
+  "duration_text": "1h",
+  "description": "4レッスン・1クイズ、修了バッジあり。前提: Messages API、Python。",
+  "domain": "AI",
+  "services": [
+   "Claude API",
+   "Evals"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LLMアプリの評価 (Evals) 入門コース"
+ },
+ {
+  "title": "Model Context Protocol入門",
+  "url": "https://academy.claude.com/ja/courses/introduction-to-model-context-protocol",
+  "type": "course",
+  "level": "",
+  "duration_text": "1h",
+  "description": "10レッスン・1クイズ、修了バッジあり。前提: Python、async/await、API、Anthropic APIキー。",
+  "domain": "AI",
+  "services": [
+   "MCP",
+   "Claude API"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "MCPの基礎を学ぶ入門コース"
+ },
+ {
+  "title": "サブエージェント入門",
+  "url": "https://academy.claude.com/ja/courses/introduction-to-subagents",
+  "type": "course",
+  "level": "",
+  "duration_text": "45m",
+  "description": "4レッスン。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude Code",
+   "Subagents"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "サブエージェントの概念と使い方の入門コース"
+ },
+ {
+  "title": "Model Context Protocol: 高度なトピック",
+  "url": "https://academy.claude.com/ja/courses/model-context-protocol-advanced-topics",
+  "type": "course",
+  "level": "",
+  "duration_text": "1h 30m",
+  "description": "11レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "MCP"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "MCPの高度なトピックを学ぶコース"
+ },
+ {
+  "title": "AI活用力を教える",
+  "url": "https://academy.claude.com/ja/courses/teaching-ai-fluency",
+  "type": "course",
+  "level": "",
+  "duration_text": "4h 30m",
+  "description": "7レッスン・1クイズ、修了バッジあり。料金表示なし。",
+  "domain": "AI",
+  "services": [
+   "Claude"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "AI活用力を他者に教えるためのコース"
+ },
+ {
+  "title": "AIネイティブSDLCプレイブック",
+  "url": "https://academy.claude.com/ja/courses/ai-native-sdlc-playbook",
+  "type": "course",
+  "level": "",
+  "duration_text": "1h",
+  "description": "14レッスン。料金表示なし。",
+  "domain": "開発・Git",
+  "services": [
+   "Claude",
+   "SDLC"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "AIネイティブな開発ライフサイクルの実践コース (Academy限定)"
+ },
+ {
+  "title": "Messages API を使ったツール使用",
+  "url": "https://academy.claude.com/ja/courses/tool-use-with-the-messages-api",
+  "type": "course",
+  "level": "",
+  "duration_text": "1h 30m",
+  "description": "9レッスン・1クイズ、修了バッジあり。前提: Claude Platform 101を先に受講。",
+  "domain": "AI",
+  "services": [
+   "Claude API",
+   "Tool Use"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Messages APIのツール使用を学ぶコース"
+ }
+]

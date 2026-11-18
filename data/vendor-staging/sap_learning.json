@@ -1,0 +1,240 @@
+[
+ {
+  "title": "Learning the Basics of ABAP Programming on SAP BTP",
+  "url": "https://learning.sap.com/courses/learning-the-basics-of-abap-programming-on-sap-btp-de",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "After completing this course, developers will be able to: create an ABAP Cloud project in ADT, implement conditional logic, work with data types and variables, analyze runtime errors, retrieve data from the database, and debug an ABAP program. (Recorded URL is the German-locale variant surfaced in SAP's index.)",
+  "domain": "開発・Git",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "SAP BTP上でABAPプログラミング基礎を学ぶコース"
+ },
+ {
+  "title": "Getting Started with SAP Forms Service by Adobe",
+  "url": "https://learning.sap.com/courses/getting-started-with-sap-forms-service-by-adobe",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Introducing SAP Forms service by Adobe, describing the architecture and data flow, using SAP Fiori app 'Maintain Forms', understanding Adobe LiveCycle Designer, and structuring a form.",
+  "domain": "開発・Git",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "SAP Forms Service by Adobeの入門コース"
+ },
+ {
+  "title": "Getting Started with Creating an SAP Fiori Elements App Based on an OData v4 RAP Service",
+  "url": "https://learning.sap.com/courses/getting-started-with-creating-an-sap-fiori-elements-app-based-on-an-odata-v4-rap-service",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "After completing this learning journey, developers will be able to explain the benefits of using SAP Fiori elements, configure UI features using ABAP CDS annotations, and use SAP Fiori tools to create SAP Fiori elements applications.",
+  "domain": "開発・Git",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "RAPサービスからFiori Elementsアプリを作るコース"
+ },
+ {
+  "title": "Setting Up Joule Across your Organizational System Landscapes",
+  "url": "https://learning.sap.com/courses/setting-up-joule-across-your-organizational-system-landscapes?source=social-Developer_Community-Upskill-Image-Educate/Enable-Global-N/A-Joule-SAP.com&campaigncode=CRM-XB23-MKT-DGECOML&sprinklrid=15011667762",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "After completing this course, you will be able to master fundamental functionalities of Joule in the SAP landscape and set up Joule with SAP SuccessFactors and SAP S/4HANA Cloud Private Edition.",
+  "domain": "AI",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "組織全体へのJoule導入・設定を学ぶコース"
+ },
+ {
+  "title": "Boosting AI-driven Business Transformation with Joule Agents",
+  "url": "https://learning.sap.com/courses/boosting-ai-driven-business-transformation-with-joule-agents",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Master agentic AI's transformative business potential and explain AI agents' impact on business processes, including Joule agents' capabilities, SAP application integration, and AI Agent Hub.",
+  "domain": "AI",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Jouleエージェントによる業務変革を学ぶコース"
+ },
+ {
+  "title": "Introducing Joule",
+  "url": "https://learning.sap.com/courses/introducing-joule",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Explain the Joule ecosystem, including role-based Joule Assistants, Joule Agents, and skills, and how it enables intelligent, connected workflows across SAP and non-SAP systems.",
+  "domain": "AI",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Jouleのエコシステムを概観する入門コース"
+ },
+ {
+  "title": "Introducing SAP Business AI for SAP Customer Experience",
+  "url": "https://learning.sap.com/courses/introducing-sap-business-ai-for-sap-customer-experience",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Understand how Business AI in SAP CX powered by SAP Customer Experience and SAP Joule enables intelligent, end-to-end customer journeys across marketing, sales, and service.",
+  "domain": "AI",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "SAP CX向けBusiness AIの紹介コース"
+ },
+ {
+  "title": "Create Applications and Extensions using SAP Build Code",
+  "url": "https://learning.sap.com/courses/create-applications-and-extensions-using-sap-build-code",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "In this course designed for development, technology, and application consultants, participants will gain a deep understanding of SAP Build Code, focusing on harnessing the power of its AI-enhanced tools, particularly Joule. (Course BTP100)",
+  "domain": "開発・Git",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Joule搭載のSAP Build Codeでアプリと拡張を作るコース"
+ },
+ {
+  "title": "Implementing SAP S/4HANA Cloud Public Edition",
+  "url": "https://learning.sap.com/courses/implementing-sap-s-4hana-cloud-public-edition",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "After completing this course, you will be able to explain and execute core implementation project tasks to deploy, adopt, and extend SAP S/4HANA Cloud Public Edition.",
+  "domain": "その他",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "S/4HANA Cloud Public Editionの導入タスクを学ぶコース"
+ },
+ {
+  "title": "Implementing SAP S/4HANA Cloud Private Edition",
+  "url": "https://learning.sap.com/courses/implementing-sap-s-4hana-cloud-private-edition",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "After completing this course, you will be able to explain and execute core implementation project tasks to deploy, adopt, and extend SAP S/4HANA Cloud Private Edition, including building the implementation team, defining system landscapes, and setting up systems.",
+  "domain": "その他",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "S/4HANA Cloud Private Editionの導入を学ぶコース"
+ },
+ {
+  "title": "Implementing SAP S/4HANA Cloud, public edition - Service Management",
+  "url": "https://learning.sap.com/courses/implementing-sap-s-4hana-cloud-public-edition-service-management",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "This course will prepare you to understand, explain and implement key features of on-site service processes in SAP S/4HANA Cloud Public Edition, service.",
+  "domain": "その他",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "S/4HANA Cloudのサービス管理実装コース"
+ },
+ {
+  "title": "Executing Basic ERP Processes with SAP S/4HANA",
+  "url": "https://learning.sap.com/courses/executing-basic-erp-processes-with-sap-s-4hana",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Perform basic business processes in SAP S/4HANA for procure-to-pay, plan-to-produce, and order-to-cash.",
+  "domain": "その他",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "S/4HANAで基本ERPプロセスを実行するコース"
+ },
+ {
+  "title": "Exploring SAP Cloud ERP",
+  "url": "https://learning.sap.com/courses/exploring-sap-cloud-erp",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "",
+  "description": "This course is designed to provide an introduction to the SAP Autonomous Enterprise, help you understand the SAP Cloud ERP solutions, distinguish among deployment options, and prepare for an implementation project with a Cloud Mindset.",
+  "domain": "その他",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "SAP Cloud ERPの全体像を学ぶ入門コース"
+ },
+ {
+  "title": "Discovering the Basics of SAP S/4HANA Manufacturing",
+  "url": "https://learning.sap.com/courses/discovering-the-basics-of-s-4hana-manufacturing",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "After completing this course, consultants and business users will be able to explain the basic steps of supply chain planning, the basics of demand management, basic concepts of material requirements planning, and the production types supported with SAP S/4HANA.",
+  "domain": "その他",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "S/4HANA製造の基礎を学ぶコース"
+ },
+ {
+  "title": "Discovering SAP S/4HANA Service",
+  "url": "https://learning.sap.com/courses/discovering-sap-s-4hana-service",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "After completing this course, business users will be able to identify SAP Solutions for Service Processing and describe the key functional areas of service in SAP S/4HANA Cloud Public and Private Edition.",
+  "domain": "その他",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "S/4HANAサービスの概要を学ぶコース"
+ },
+ {
+  "title": "Develop extensions with SAP Cloud Application Programming Model",
+  "url": "https://learning.sap.com/courses/develop-extensions-with-sap-cloud-application-programming-model",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "After completing this course, you will be able to create a Node.js-based extension from scratch with the SAP Cloud Application Programming Model (CAP), enrich it with an SAP Fiori elements user interface, custom code, external service and security features, and deploy it.",
+  "domain": "開発・Git",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "CAPでNode.js拡張アプリを開発するコース"
+ },
+ {
+  "title": "Discovering Fundamental Cloud Concepts",
+  "url": "https://learning.sap.com/courses/discovering-fundamental-cloud-concepts",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "At the end of this course, learners will be able to describe the difference between cloud computing and on-premise installations, differentiate various cloud service models, and understand data centers and their role in delivering cloud services.",
+  "domain": "その他",
+  "services": [
+   "SAP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "クラウドの基礎概念を学ぶ汎用入門コース"
+ }
+]

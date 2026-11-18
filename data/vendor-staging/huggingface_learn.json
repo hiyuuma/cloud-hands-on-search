@@ -1,0 +1,185 @@
+[
+ {
+  "title": "LLM Course",
+  "url": "https://huggingface.co/learn/nlp-course",
+  "type": "course",
+  "level": null,
+  "duration_text": "approximately 6-8 hours of work per week (per chapter)",
+  "description": "This course will teach you about large language models (LLMs) and natural language processing (NLP) using libraries from the Hugging Face ecosystem — Transformers, Datasets, Tokenizers, and Accelerate — as well as the Hugging Face Hub. It's completely free and without ads.",
+  "domain": "AI",
+  "services": [
+   "Transformers",
+   "Datasets",
+   "Tokenizers",
+   "Accelerate"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Transformers・Datasets・Tokenizers で LLM/NLP を体系的に学ぶ HF の旗艦コース"
+ },
+ {
+  "title": "AI Agents Course",
+  "url": "https://huggingface.co/learn/agents-course",
+  "type": "course",
+  "level": "Beginner to Expert",
+  "duration_text": "approximately 3-4 hours of work per week (per chapter)",
+  "description": "This free course will take you on a journey, from beginner to expert, in understanding, using and building AI agents. Study AI Agents in theory, design, and practice, learn to use established AI Agent libraries such as smolagents, LlamaIndex, and LangGraph, and earn a certificate of completion by completing assignments.",
+  "domain": "AI",
+  "services": [
+   "smolagents",
+   "LangGraph",
+   "LlamaIndex"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "smolagents・LangGraph・LlamaIndex で AI エージェントを構築する本命コース (無料認定あり)"
+ },
+ {
+  "title": "Model Context Protocol (MCP) Course",
+  "url": "https://huggingface.co/learn/mcp-course",
+  "type": "course",
+  "level": null,
+  "duration_text": "approximately 3-4 hours of work per week (per chapter)",
+  "description": "This free course, built in partnership with Anthropic, will take you from beginner to informed in understanding, using, and building applications with MCP. You'll understand how MCP works and how to build your own AI applications that leverage external data and tools using the latest MCP standards.",
+  "domain": "AI",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Anthropic 協力の MCP 公式コース。外部ツール連携アプリ構築と無料認定に対応"
+ },
+ {
+  "title": "Context Course",
+  "url": "https://huggingface.co/learn/context-course",
+  "type": "course",
+  "level": null,
+  "duration_text": "roughly 2-3 hours per unit (one unit per week)",
+  "description": "This course is about context engineering for AI code agents: structuring knowledge so an agent can efficiently find what it needs, when it needs it. Across six units you'll build portable skills, wire up tools through the Model Context Protocol (MCP), package those pieces into plugins, coordinate sub-agents for larger tasks, and study how a minimal agent loop actually works.",
+  "domain": "AI",
+  "services": [
+   "MCP",
+   "Claude Code",
+   "Codex",
+   "OpenCode"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "コードエージェント向けコンテキストエンジニアリング。Skills・MCP・サブエージェントを体系化"
+ },
+ {
+  "title": "a smol course",
+  "url": "https://huggingface.co/learn/smol-course",
+  "type": "course",
+  "level": "Beginner to Expert",
+  "duration_text": "approximately 3-4 hours of work per week (per chapter)",
+  "description": "A comprehensive course to fine-tuning language models. Study instruction tuning, supervised fine-tuning, preference alignment, evaluation, vision language models and more, and learn to use established fine-tuning frameworks and tools like TRL and Transformers.",
+  "domain": "AI",
+  "services": [
+   "TRL",
+   "Transformers",
+   "PEFT"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LLM ファインチューニング特化の短編コース。SFT・DPO・評価を TRL で実践"
+ },
+ {
+  "title": "Deep Reinforcement Learning Course",
+  "url": "https://huggingface.co/learn/deep-rl-course",
+  "type": "course",
+  "level": "Beginner to Expert",
+  "duration_text": "approximately 3-4 hours of work per week (per chapter)",
+  "description": "This course will teach you about Deep Reinforcement Learning from beginner to expert. It's completely free and open-source. Study Deep RL in theory and practice, learn to use famous Deep RL libraries such as Stable Baselines3, RL Baselines3 Zoo, Sample Factory and CleanRL, and train agents in unique environments.",
+  "domain": "AI",
+  "services": [
+   "Stable Baselines3",
+   "CleanRL",
+   "Sample Factory"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "深層強化学習を基礎から学ぶ無料コース。Stable Baselines3 等でエージェントを訓練"
+ },
+ {
+  "title": "Community Computer Vision Course",
+  "url": "https://huggingface.co/learn/computer-vision-course",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "A community-driven course on computer vision. Throughout this course, we'll cover everything from the basics to the latest advancements in computer vision — CNNs, Vision Transformers, multimodal models, generative models, and basic computer vision tasks — structured to include theory, practical tutorials, and engaging challenges.",
+  "domain": "AI",
+  "services": [
+   "Transformers",
+   "Vision Transformers"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "コミュニティ主導のコンピュータビジョン入門〜先端までを扱うコース"
+ },
+ {
+  "title": "Audio Course",
+  "url": "https://huggingface.co/learn/audio-course",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "Welcome to this course on using transformers for audio. You'll learn how to use them to tackle a range of audio-related tasks — speech recognition, audio classification, or generating speech from text — and train your own audio transformers leveraging powerful pre-trained models. All the materials in this course are 100% free, public and open-source.",
+  "domain": "AI",
+  "services": [
+   "Transformers"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "音声認識・音声分類・音声合成など音声向け Transformers のコース"
+ },
+ {
+  "title": "Diffusion Models Course",
+  "url": "https://huggingface.co/learn/diffusion-course",
+  "type": "course",
+  "level": null,
+  "duration_text": "approximately 6-8 hours of work per week (per chapter)",
+  "description": "In this free course, you will study the theory behind diffusion models, learn how to generate images and audio with the popular Diffusers library, train your own diffusion models from scratch, fine-tune existing diffusion models on new datasets, and explore conditional generation and guidance.",
+  "domain": "AI",
+  "services": [
+   "Diffusers"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "拡散モデルの理論と Diffusers による画像・音声生成、ファインチューニングを学ぶ"
+ },
+ {
+  "title": "Robotics Course",
+  "url": "https://huggingface.co/learn/robotics-course",
+  "type": "course",
+  "level": null,
+  "duration_text": "approximately 30-45 minutes per unit",
+  "description": "This free course will take you on a journey, from classical robotics to modern learning-based approaches, in understanding, implementing, and applying machine learning techniques to real robotic systems. You will learn to use LeRobot, work with real robotics datasets, and implement state-of-the-art algorithms.",
+  "domain": "AI",
+  "services": [
+   "LeRobot",
+   "PyTorch"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "古典ロボティクスから学習ベース手法までを LeRobot で実践する無料コース"
+ },
+ {
+  "title": "Machine Learning for Games Course",
+  "url": "https://huggingface.co/learn/ml-games-course",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "This course will teach you how to integrate AI models for innovative gameplay, featuring intelligent NPCs, and how to use AI tools to help your game development pipeline — generating textures, AI voice actors, and building your own game demo (content uses the Unity Game Engine).",
+  "domain": "AI",
+  "services": [
+   "Unity"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Unity ゲーム開発に AI モデルや生成ツールを組み込むためのコース"
+ },
+ {
+  "title": "Machine Learning for 3D Course",
+  "url": "https://huggingface.co/learn/ml-for-3d-course",
+  "type": "course",
+  "level": null,
+  "duration_text": "",
+  "description": "In this course, you'll learn what's going on — the current big picture of machine learning for 3D, why it matters, and how to do it yourself: build your own generative 3D demo, covering meshes, Gaussian splatting, and NeRFs.",
+  "domain": "AI",
+  "services": [
+   "Diffusers"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "3D 生成 (メッシュ・Gaussian Splatting・NeRF) と機械学習の交差点を学ぶ"
+ }
+]

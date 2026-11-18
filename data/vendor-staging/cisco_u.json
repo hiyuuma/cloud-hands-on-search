@@ -1,0 +1,330 @@
+[
+ {
+  "description": "Gain a foundation in computer networking concepts, terminology, and architecture to advance your career in networking.",
+  "domain": "ネットワーク",
+  "duration_text": "14 hours",
+  "level": "Beginner",
+  "priority_for_user": "高",
+  "services": [
+   "Cisco"
+  ],
+  "summary_ja": "ネットワークの概念・用語・アーキテクチャの基礎を固める無料ラーニングパス",
+  "title": "Network Fundamentals for Network Adjacent Engineers",
+  "type": "learning-path",
+  "url": "https://u.cisco.com/paths/network-fundamentals-network-adjacent-engineers-173"
+ },
+ {
+  "description": "Gain an introductory understanding of the Cisco network simulation tool, Cisco Modeling Labs.",
+  "domain": "ネットワーク",
+  "duration_text": "8h 30m",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Cisco",
+   "Cisco Modeling Labs"
+  ],
+  "summary_ja": "ネットワークシミュレータCisco Modeling Labsの入門パス（ラボ中心・CE 6単位）",
+  "title": "Introduction to Network Simulations with Cisco Modeling Labs",
+  "type": "learning-path",
+  "url": "https://u.cisco.com/paths/243"
+ },
+ {
+  "description": "Develop the automation and network programmability knowledge to begin a career as an entry-level network automation engineer.",
+  "domain": "ネットワーク",
+  "duration_text": "28h 40m",
+  "level": "Intermediate",
+  "priority_for_user": "中",
+  "services": [
+   "Cisco"
+  ],
+  "summary_ja": "ネットワーク自動化・プログラマビリティの基礎を学ぶ中級パス（CE 16単位）",
+  "title": "Understanding Cisco Network Automation Essentials",
+  "type": "learning-path",
+  "url": "https://u.cisco.com/paths/3"
+ },
+ {
+  "description": "Learn how to install, operate, manage, troubleshoot, and maintain a Cisco Modeling Labs (CML) server.",
+  "domain": "ネットワーク",
+  "duration_text": "4h 30m",
+  "level": "Intermediate",
+  "priority_for_user": "低",
+  "services": [
+   "Cisco",
+   "Cisco Modeling Labs"
+  ],
+  "summary_ja": "CMLサーバーの導入・運用・保守を学ぶ管理者向けパス（CE 5単位）",
+  "title": "Administering Cisco Modeling Labs",
+  "type": "learning-path",
+  "url": "https://u.cisco.com/paths/administering-cisco-modeling-labs-240"
+ },
+ {
+  "title": "Advanced Automation with Cisco Modeling Labs",
+  "url": "https://u.cisco.com/paths/advanced-automation-with-cisco-modeling-labs-241",
+  "type": "learning-path",
+  "level": "Intermediate",
+  "duration_text": "7h 55m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco Modeling Labs",
+   "自動化"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Cisco Modeling Labsでのネットワーク自動化を進めるラーニングパス (CMLAPI)"
+ },
+ {
+  "title": "AI Agent Fundamentals",
+  "url": "https://u.cisco.com/paths/ai-agent-fundamentals-21543",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "2h 34m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "AI",
+  "services": [
+   "AI Agent",
+   "Cisco"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "AIエージェントの基礎を学ぶ入門ラーニングパス (AGTFNDU)"
+ },
+ {
+  "title": "AI Foundations for Legal Professionals",
+  "url": "https://u.cisco.com/paths/ai-foundations-legal-professionals-21609",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "8h 31m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "AI",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "法務職向けのAI基礎ラーニングパス (AILAW)"
+ },
+ {
+  "title": "Application Performance Monitoring Essentials for Cisco AppDynamics",
+  "url": "https://u.cisco.com/paths/application-performance-monitoring-essentials-cisco-appdynamics-22137",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "2h 30m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "可観測性・監視",
+  "services": [
+   "AppDynamics"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "AppDynamicsによるアプリ性能監視の基礎パス"
+ },
+ {
+  "title": "CCNA Learning Preview",
+  "url": "https://u.cisco.com/paths/ccna-learning-preview-21312",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "3h 30m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "CCNA",
+   "Cisco"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "CCNA学習のプレビュー版ラーニングパス"
+ },
+ {
+  "title": "CCSI Fundamentals",
+  "url": "https://u.cisco.com/paths/ccsi-fundamentals-265",
+  "type": "learning-path",
+  "level": "Advanced",
+  "duration_text": "12h 30m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Cisco認定インストラクター (CCSI) の基礎パス (CFND)"
+ },
+ {
+  "title": "Cisco AI Business Practitioner",
+  "url": "https://u.cisco.com/paths/cisco-ai-business-practitioner-20706",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "16h 19m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "AI",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "ビジネス視点でAI活用を学ぶ実践者向けパス (AIBIZ)"
+ },
+ {
+  "title": "Cisco Energy Networking Systems and Panduit Fault Managed Power",
+  "url": "https://u.cisco.com/paths/cisco-energy-networking-systems-panduit-fault-managed-power-21345",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "1h",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "エネルギーネットワーキングと障害管理電源の入門パス (CPFMP)"
+ },
+ {
+  "title": "Cisco Provider Connectivity Assurance - Analytics",
+  "url": "https://u.cisco.com/paths/cisco-provider-connectivity-assurance-analytics-20569",
+  "type": "learning-path",
+  "level": "Advanced",
+  "duration_text": "7h 42m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "通信事業者向け接続保証の分析パス"
+ },
+ {
+  "title": "Cisco Provider Connectivity Assurance - Introduction",
+  "url": "https://u.cisco.com/paths/cisco-provider-connectivity-assurance-introduction-20536",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "11h 35m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "通信事業者向け接続保証の入門パス"
+ },
+ {
+  "title": "Cisco Provider Connectivity Assurance - Orchestrator",
+  "url": "https://u.cisco.com/paths/cisco-provider-connectivity-assurance-orchestrator-20571",
+  "type": "learning-path",
+  "level": "Intermediate",
+  "duration_text": "9h 5m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "接続保証オーケストレーターのラーニングパス"
+ },
+ {
+  "title": "Cisco Provider Connectivity Assurance - Performance Elements",
+  "url": "https://u.cisco.com/paths/cisco-provider-connectivity-assurance-performance-elements-20772",
+  "type": "learning-path",
+  "level": "Intermediate",
+  "duration_text": "9h 20m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "接続保証のパフォーマンス要素を学ぶパス"
+ },
+ {
+  "title": "Cisco Provider Connectivity Assurance - Sensor Control",
+  "url": "https://u.cisco.com/paths/cisco-provider-connectivity-assurance-sensor-control-20570",
+  "type": "learning-path",
+  "level": "Intermediate",
+  "duration_text": "6h 22m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "接続保証センサー制御のラーニングパス"
+ },
+ {
+  "title": "Cisco ThousandEyes Essentials",
+  "url": "https://u.cisco.com/paths/cisco-thousandeyes-essentials-20465",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "5h 30m",
+  "description": "Cisco U. 無料ラーニングパス。詳細ページに「Retired July 28, 2026」の表示あり。",
+  "domain": "ネットワーク",
+  "services": [
+   "ThousandEyes"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "ThousandEyesの基礎パス (詳細ページに Retired July 28, 2026 と表示、ページ自体は閲覧可)"
+ },
+ {
+  "title": "Designing and Implementing Cisco Service Provider Cloud Network Infrastructure",
+  "url": "https://u.cisco.com/paths/designing-implementing-cisco-service-provider-cloud-network-infrastructure-235",
+  "type": "learning-path",
+  "level": "Intermediate",
+  "duration_text": "35h 20m",
+  "description": "Cisco U. ラーニングパス。詳細ページに「Free until Dec 10, 2026」の表示あり。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "サービスプロバイダ向けクラウドネットワーク基盤の設計・実装パス (SPCNI、2026-12-10まで無料表示)"
+ },
+ {
+  "title": "Evolution of Cisco Network Operating Systems",
+  "url": "https://u.cisco.com/paths/evolution-cisco-network-operating-systems-20396",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "3h 40m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco IOS"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "CiscoネットワークOSの進化を学ぶパス (IOSFREE)"
+ },
+ {
+  "title": "Securing Industrial IoT Networks with Cisco Technologies",
+  "url": "https://u.cisco.com/paths/securing-industrial-iot-networks-with-cisco-technologies-21211",
+  "type": "learning-path",
+  "level": "Intermediate",
+  "duration_text": "56h 11m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "Cisco",
+   "IoT"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "産業用IoTネットワークのセキュリティを学ぶ大規模パス (SIINCT)"
+ },
+ {
+  "title": "Understanding AI and LLMs as a Network Engineer",
+  "url": "https://u.cisco.com/paths/understanding-ai-llms-as-network-engineer-10324",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "55m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "AI",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "ネットワークエンジニア向けにAIとLLMを解説する短時間パス (AI4NE)"
+ },
+ {
+  "title": "Understanding Cisco Ultra-Reliable Wireless Backhaul Foundation",
+  "url": "https://u.cisco.com/paths/understanding-cisco-ultrareliable-wireless-backhaul-foundation-223",
+  "type": "learning-path",
+  "level": "Beginner",
+  "duration_text": "7h 49m",
+  "description": "Cisco U. 無料ラーニングパス。",
+  "domain": "ネットワーク",
+  "services": [
+   "Cisco"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "高信頼ワイヤレスバックホールの基礎パス (FMFNDU)"
+ }
+]

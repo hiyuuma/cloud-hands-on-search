@@ -1,0 +1,180 @@
+[
+ {
+  "description": "Learn the foundations of OpenShift through hands-on experience deploying and working with applications, using a no-cost OpenShift cluster through the Developer Sandbox.",
+  "domain": "コンテナ",
+  "duration_text": "3 hrs and 40 mins",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "OpenShift",
+   "Kubernetes"
+  ],
+  "summary_ja": "Developer Sandboxの無償クラスタでOpenShiftの基礎とアプリのデプロイを体験する学習パス",
+  "title": "Foundations of OpenShift",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/openshift/foundations-openshift"
+ },
+ {
+  "description": "The Developer Sandbox is a great platform for learning and experimenting with Red Hat OpenShift. Because OpenShift is built on Kubernetes, the sandbox is also a great platform for learning and experimenting with Kubernetes.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "高",
+  "services": [
+   "Kubernetes",
+   "OpenShift"
+  ],
+  "summary_ja": "Developer Sandboxを素のKubernetesとして使い、DBアプリの構築を通じて学ぶ実践パス",
+  "title": "Learn Kubernetes using the Developer Sandbox",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/openshift/learn-kubernetes-using-developer-sandbox-red-hat-openshift"
+ },
+ {
+  "description": "One way to store persistent data in OpenShift is by using a Persistent Volume Claim (PVC). In this learning path, you will learn how to create a PVC and access it with your pod.",
+  "domain": "コンテナ",
+  "duration_text": "30 mins",
+  "level": "",
+  "priority_for_user": "高",
+  "services": [
+   "OpenShift",
+   "Kubernetes"
+  ],
+  "summary_ja": "PVCを作成してPodから永続データにアクセスする方法を学ぶ学習パス",
+  "title": "Store persistent data in Red Hat OpenShift using PVCs",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/openshift/store-persistent-data-red-hat-openshift-using-pvcs"
+ },
+ {
+  "description": "In order to successfully begin automating with Ansible, you'll need to be familiar with a few basic Ansible concepts, terminology, and tools that will allow you to create Ansible content with confidence and accuracy.",
+  "domain": "IaC",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Ansible"
+  ],
+  "summary_ja": "Ansibleの基本概念・用語・開発ツールを学ぶ入門学習パス",
+  "title": "Foundations of Ansible",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/ansible/foundations-ansible"
+ },
+ {
+  "description": "Discover the basics of creating Ansible playbooks using practical examples, including key components such as plays, tasks, modules, and more.",
+  "domain": "IaC",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "高",
+  "services": [
+   "Ansible"
+  ],
+  "summary_ja": "Playbookの構成要素を実例で学び、変数・条件分岐・ループまで進む学習パス",
+  "title": "Get started with Ansible Playbooks",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/ansible/get-started-ansible-playbooks"
+ },
+ {
+  "description": "Discover Ansible Content Collections through practical examples that explain their advantages, and then create and use them in your Ansible automation.",
+  "domain": "IaC",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Ansible"
+  ],
+  "summary_ja": "コンテンツコレクションの利点と作成・利用方法を実例で学ぶ学習パス",
+  "title": "Getting started with Ansible Content Collections",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/ansible/getting-started-ansible-content-collections"
+ },
+ {
+  "description": "The Ansible extension for Visual Studio Code (VS Code) can significantly boost your efficiency, accuracy, and proficiency when writing automation code with Ansible. This learning path guides you through its features, helping beginners build a foundation and experienced users enhance their automation workflows.",
+  "domain": "IaC",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Ansible",
+   "VS Code"
+  ],
+  "summary_ja": "VS CodeのAnsible拡張機能の使い方とLightspeed連携を学ぶ学習パス",
+  "title": "Get started with the Ansible Visual Studio Code extension",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/ansible/get-started-ansible-visual-studio-code-extension"
+ },
+ {
+  "description": "Integrate Red Hat Developer Hub with Red Hat Ansible Automation Platform under a single sign-on system using the Red Hat build of Keycloak. We cover the setup process, from deploying the necessary components to configuring single sign-on.",
+  "domain": "IaC",
+  "duration_text": "2 hrs and 28 mins",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Ansible",
+   "Red Hat Developer Hub"
+  ],
+  "summary_ja": "Developer HubとAnsibleをKeycloakでSSO連携させる構成を学ぶ学習パス",
+  "title": "Integrate Red Hat Developer Hub with Red Hat Ansible Automation Platform",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/ansible/integrate-red-hat-developer-hub-red-hat-ansible-automation-platform"
+ },
+ {
+  "description": "Build a LAMP stack application on Red Hat Enterprise Linux 10 using hardened images and bootc to turn containers into a bootable, verified virtual machine.",
+  "domain": "OS・Linux",
+  "duration_text": "1 hr and 20 mins",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "RHEL",
+   "Podman"
+  ],
+  "summary_ja": "RHEL 10の堅牢化イメージとbootcでLAMPスタックをブータブルVM化する学習パス",
+  "title": "Build a hardened LAMP stack and deploy it in image mode for Red Hat Enterprise Linux",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/rhel/build-hardened-lamp-stack-and-deploy-it-image-mode-red-hat-enterprise-linux"
+ },
+ {
+  "description": "Image mode for Red Hat Enterprise Linux (RHEL) is a new deployment method that uses a container-native approach to build, deploy, and manage the operating system as a bootable container. This learning path guides you through building an application in RHEL with Podman Desktop.",
+  "domain": "OS・Linux",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "RHEL",
+   "Podman Desktop"
+  ],
+  "summary_ja": "Podman DesktopでRHELイメージモードのブータブルコンテナイメージを構築する学習パス",
+  "title": "Build and run a bootable container image with image mode for RHEL and Podman Desktop",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/rhel/build-and-run-bootable-container-image-image-mode-rhel-and-podman-desktop"
+ },
+ {
+  "description": "Use the Red Hat build of Podman Desktop to create a minimal, bootable Java application image with Quarkus for Red Hat Enterprise Linux (RHEL) image mode. Integrate the application into a bootable container.",
+  "domain": "OS・Linux",
+  "duration_text": "40 mins",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "RHEL",
+   "Podman Desktop",
+   "Quarkus"
+  ],
+  "summary_ja": "QuarkusアプリをRHELイメージモードのブータブルイメージにする学習パス",
+  "title": "Build and deploy a Java application using Quarkus with image mode for RHEL and the Red Hat build of Podman Desktop",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/rhel/build-and-deploy-java-application-using-quarkus-image-mode-rhel-and-red-hat-build-podman"
+ },
+ {
+  "description": "This learning path shows you how to use Red Hat Lightspeed's image builder and compliance services to build hardened systems with customized security policies. Then report and remediate compliance issues without having to deploy new infrastructure.",
+  "domain": "OS・Linux",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "RHEL",
+   "Red Hat Lightspeed"
+  ],
+  "summary_ja": "Lightspeedのイメージビルダーとコンプライアンスで堅牢化したRHELビルドを作る学習パス",
+  "title": "Harden new builds with Red Hat Lightspeed image builder and compliance",
+  "type": "learning-path",
+  "url": "https://developers.redhat.com/learn/rhel/harden-new-builds-lightspeed-image-builder-and-compliance"
+ }
+]

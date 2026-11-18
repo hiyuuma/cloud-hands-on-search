@@ -1,0 +1,282 @@
+[
+ {
+  "title": "Enterprise Architecture (EA) Fundamentals",
+  "url": "https://learning.servicenow.com/lxp/en/application-portfolio-management/enterprise-architecture-ea-fundamentals?course_id=7afbb6d287ae2e505aa9ca2d0ebb35de&id=learning_course_prev",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "This on-demand course provides an overview of the ServiceNow Enterprise Architecture solution including features and capabilities, with interactive components such as video demonstrations, confidence checks, and hands-on lab activities.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "エンタープライズアーキテクチャ基盤の概要コース"
+ },
+ {
+  "title": "GRC: Business Continuity Management (BCM) Implementation (Xanadu)",
+  "url": "https://nowlearning.servicenow.com/lxp/en/governance-risk-and-compliance/grc-business-continuity-management-bcm?id=learning_course_prev&course_id=bb4e87be83cdda100593bcffeeaad343",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "In this on demand course, attendees gain the skills for effective implementation of the Business Continuity Management application.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "事業継続管理(BCM)の実装コース"
+ },
+ {
+  "title": "ServiceNow Platform Implementation (Yokohama)",
+  "url": "https://learning.servicenow.com/lxp/en/now-platform/servicenow-platform-implementation-on-demand?course_id=7e48493d4728a6944f97dc84f16d431b&id=learning_course_prev",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "ServiceNow Platform Implementation (SNPI) training enables attendees to successfully implement core ServiceNow AI Platform functionality using the Now Create methodology.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "プラットフォーム実装の進め方を学ぶ基幹コース"
+ },
+ {
+  "title": "IT Service Management (ITSM) Implementation On Demand (Zurich)",
+  "url": "https://nowlearning.servicenow.com/lxp/en/it-service-management/it-service-management-itsm-implementation-on-demand?id=learning_course_prev&course_id=d4ad6a6993a729d02fac74096cba10f8",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "The ServiceNow ITSM Implementation course imparts practical skills to expedite ITSM implementations, covering Incident, Problem, Change and Release Management, Service Catalog and Request Management, and Service Portfolio Management.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "ITSM実装の実践スキルを学ぶコース"
+ },
+ {
+  "title": "Collaborative Work Management (CWM) Essentials",
+  "url": "https://learning.servicenow.com/lxp/en/strategic-portfolio-management/collaborative-work-management-cwm-essentials?course_id=9b8b0175c340f650c6009313e40131c0&id=learning_course_prev&s=1&ssa=3",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "This on-demand course combines expert-led videos, interactive activities, and hands-on labs, giving you practical experience to confidently manage Agile or ad hoc teams and maximize the capabilities of the CWM workspace.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "共同作業管理(CWM)の基礎コース"
+ },
+ {
+  "title": "ITSM Fundamentals LabX",
+  "url": "https://learning.servicenow.com/lxp/en/itsm-fundamentals-zurich-simstudio?course_id=9b4668b31b677ed05d2b0d00604bcb1f&id=learning_course_prev&s=1&ssa=3",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "ITSM Fundamentals LabX is a simulation-based course built on Sim Studio that gives you hands-on experience with ServiceNow ITSM applications.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "シミュレーションでITSMを体験するLabXコース"
+ },
+ {
+  "title": "Operational Technology (OT) Essentials (Vancouver)",
+  "url": "https://learning.servicenow.com/lxp/en/operational-technology/operational-technology-ot-essentials?course_id=785c96d4c344391043395230a0013155&id=learning_course_prev",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "In this on-demand course, attendees navigate the setup, configuration, and usage of the ServiceNow Operational Technology Manager and Industrial Process Manager applications.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "運用技術(OT)管理の基礎コース"
+ },
+ {
+  "title": "TSOM Visibility and Event Management Implementation Bootcamp OnDemand- Yokohama",
+  "url": "https://learning.servicenow.com/lxp/en/telecommunications-service-management/tsom-visibility-and-event-management?id=learning_course_prev&course_id=8ea3f0f7872f1ad4bfe94088dabb350d",
+  "type": "course",
+  "level": "",
+  "duration_text": "7 hours 10 minutes",
+  "description": "This two-day bootcamp is designed to provide an understanding of key telecom capabilities, including discovery, discrepancy audits, and event management. (Course retiring 01/12/2027)",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "通信向け可視化とイベント管理のブートキャンプ"
+ },
+ {
+  "title": "Discovery Basics for Software Asset Management (SAM)",
+  "url": "https://learning.servicenow.com/lxp/en/it-asset-management/discovery-basics-for-software-asset-management-sam?id=learning_course_prev&course_id=6dd25c9f1bb104d056c70fe0cd4bcb57",
+  "type": "course",
+  "level": "",
+  "duration_text": "2 hours 55 minutes",
+  "description": "This course explores using the integration between ServiceNow Discovery and ServiceNow Software Asset Management (SAM) Professional to automatically find and populate software installation information within your data center.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "DiscoveryとSAM連携の基礎コース"
+ },
+ {
+  "title": "Finance Case Management Implementation Bootcamp",
+  "url": "https://learning.servicenow.com/lxp/en/source-to-pay-operations/finance-case-management-implementation-bootcamp-on?id=learning_course_prev&course_id=e9d570a29717c7d02192b37de053af2e&s=1&ssa=3",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "In this course, we explore the ServiceNow Finance Case Management (FCM) application, including use cases, benefits, foundational data, and an end-to-end demonstration of FCM.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "財務ケース管理の実装ブートキャンプ"
+ },
+ {
+  "title": "Introduction to Strategic Planning Workspace",
+  "url": "https://learning.servicenow.com/lxp/en/strategic-portfolio-management/introduction-to-strategic-planning-workspace?id=learning_course_prev&course_id=40d94281931462d03cc0322d6cba105f",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Get ready to explore a high-level overview of the ServiceNow Strategic Planning Workspace (SPW) within Strategic Portfolio Management (SPM). This asynchronous, on-demand course includes engaging videos, interactive activities, and confidence checks.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "戦略計画ワークスペースの入門コース"
+ },
+ {
+  "title": "Learning JavaScript on the Now Platform",
+  "url": "https://learning.servicenow.com/lxp/en/now-platform/learning-javascript-on-the-now-platform?course_id=8cdb2ad5975de9505b0b7ec11153af34&id=learning_course_prev",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn JavaScript on the Now Platform with ServiceNow's own Chuck Tomasi, including obtaining a personal developer's instance and JavaScript statement syntax introduction.",
+  "domain": "開発・Git",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Now Platform上でJavaScriptを学ぶコース"
+ },
+ {
+  "title": "Introduction to Scripting in ServiceNow",
+  "url": "https://learning.servicenow.com/lxp/en/now-platform/introduction-to-scripting-in-servicenow?course_id=4e2bcc3a93ebb9105402393d6cba102c&id=learning_course_prev&s=1&ssa=3",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Introduction to Scripting in ServiceNow covers the basics of scripting in the Now Platform, including ServiceNow APIs, client-side and server-side scripts, and REST.",
+  "domain": "開発・Git",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "ServiceNowスクリプティング入門コース"
+ },
+ {
+  "title": "Welcome to ServiceNow",
+  "url": "https://nowlearning.servicenow.com/lxp/en/now-platform/welcome-to-servicenow",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "ServiceNow's flagship introductory course: explore the seven core areas of ServiceNow and how to navigate the Platform. It is quick, free, and the on-demand format allows you to work at your own pace.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "ServiceNow全体像をつかむ定番の入門コース"
+ },
+ {
+  "title": "ServiceNow Administration Fundamentals On Demand",
+  "url": "https://learning.servicenow.com/lxp/en/now-platform/servicenow-administration-fundamentals-on-demand",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "The introduction-to-intermediate course for those performing ServiceNow System Administration responsibilities; prerequisite training for the Certified System Administrator (CSA) exam.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "システム管理の基礎から中級までを学ぶCSA前提コース"
+ },
+ {
+  "title": "Certified System Administrator (CSA) Learning Path",
+  "url": "https://learning.servicenow.com/lxp/en/now-platform/certified-system-administrator-csa-learning-path",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "",
+  "description": "Learning path for the Certified System Administrator (CSA) credential, built around ServiceNow Fundamentals / Administration Fundamentals on-demand training.",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "CSA認定に向けた学習パス"
+ },
+ {
+  "title": "Introduction to Generative AI",
+  "url": "https://nowlearning.servicenow.com/lxp/en/now-platform/introduction-to-generative-ai",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "This course introduces ServiceNow's Generative AI Experience—Now Assist—and covers its innovative suite of generative AI features integrated into the platform across all workflow offerings.",
+  "domain": "AI",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Now AssistなどServiceNow生成AIの入門コース"
+ },
+ {
+  "title": "Mobile Introduction",
+  "url": "https://nowlearning.servicenow.com/lxp/en/now-platform/mobile-introduction",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Introduction to ServiceNow mobile capabilities (course listed in Now Learning mobile learning series).",
+  "domain": "その他",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "ServiceNowモバイル入門コース"
+ },
+ {
+  "title": "Mobile Development Essentials",
+  "url": "https://nowlearning.servicenow.com/lxp/en/now-platform/mobile-development-essentials",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "",
+  "description": "Learning path for mobile development essentials on the Now Platform.",
+  "domain": "開発・Git",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "モバイル開発の基礎学習パス"
+ },
+ {
+  "title": "Mobile Create and Use Functions",
+  "url": "https://nowlearning.servicenow.com/lxp/en/now-platform/mobile-create-and-use-functions",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Course on creating and using functions in ServiceNow mobile apps.",
+  "domain": "開発・Git",
+  "services": [
+   "ServiceNow"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "モバイルアプリの関数作成・利用コース"
+ }
+]
