@@ -1,0 +1,18 @@
+Now `search.py`:Cleaning up a leftover dead variable in `_fts_candidates`:`MATCH` can't be used in a SELECT expression — I need a second query for the title-hit set:Now `recommend.py`:Now `cli.py`:Rebuild DB and smoke-test search:Search works. ETL needs `PYTHONPATH=src`:Now tests:Found it — `_ensure_db(path=DB_PATH)` binds the default at definition time, before `main` updates `DB_PATH`. Fixing:All 42 tests pass. Smoke-test remaining CLI commands and check the warning fix:All good (the `show` miss is expected — the real build has no `data/local/plan.json`). Now update README and finish the report:Run 2 完了です。`docs/LEDGER.md` の差分は司令塔側の既存変更なので触っていません。
+
+## 実装内容
+
+- **T3 検索** (`search.py`, `db.py` 拡張): FTS5 `tokenize='trigram'` の `records_fts` 仮想テーブルで title/title_ja/summary_ja/services/domain を検索。絞り込み 8 種 (cloud/domain/service/level/max_minutes/access/priority/plan_month 前方一致)。ランキングは「タイトル全語一致 > bm25 > id」で完全決定的。3文字未満クエリと FTS 0件は LIKE にフォールバック。
+- **T4 推薦** (`recommend.py`): 決定論的スコア (タイトル/サービス一致+3、要約+2、計画月+2、優先度+1〜2) + 空き時間内の貪欲パック。各候補に理由付き。`format_plan` が「今日の流れと所要時間・課金の見立て」を出力 — access 不明は「不明・要確認」、金額推測なし。
+- **T5 CLI** (`cli.py`): `search / recommend / show / stats / export-plan`。全出力に link 表示、export-plan は全タイトルが `[title](url)` リンク。
+- **ついで対応**: `__init__.py` を遅延 import にし `python -m hands_on_search.etl` の RuntimeWarning を解消。README に使用例を追記。
+
+## ゴールデンクエリ (全て合格)
+
+- Fargate → 期待レコードが 2 位、MCP → 複数ヒット、PostgreSQL → Azure の "Configure and migrate..." が 3 位、Kubernetes → 複数ヒット
+
+## テスト
+
+`.venv/bin/python -m pytest tests/ -q` → **42 passed** (Run 1 の 16 + 新規 26)。詳細は `reports/devin-run2/REPORT.md` に記録済み。
+
+既知の制限: LIKE フォールバックは単語中にもヒット ("AI"→"Available")、MATCH は全語 AND のみ、貪欲パックは最適解ではなく近似 — いずれも REPORT.md に明記。

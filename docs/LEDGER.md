@@ -25,6 +25,24 @@
   - 15:16 3回目を `--permission-mode smart` で起動 (exec セッション proc_2f4d15c8db2b、
     ログ reports/devin-run1/run1c.log)。プロセス生存と拒否警告なしを確認済み
 - チェックバック: one-shot cron `hands-on-search-run1-check`、2026-11-18 15:57 JST 目安
+- **Run 1 完了・司令塔検収合格 (2026-11-18 15:15)**: Devin は EXIT=0 で約5分で完走。
+  司令塔が独立検証: pytest 16 passed を再実行で確認、unified 893件
+  (aws 167 / azure 550 / google 176)、link 実数 (aws direct 23・search 144、
+  azure direct 550、google direct 154・none 22) が報告と一致、
+  direct URL の捏造検査 (元データに無い direct が 0件)、ID 一意性を確認。
+  コミット 657bd56
+
+## Run 2: T3 検索 / T4 推薦 / T5 CLI (Devin CLI / SWE-2)
+
+- 指示書: docs/DEVIN_RUN2_PROMPT.md
+- 期待成果物: search / recommend / cli モジュール、追加テスト、
+  reports/devin-run2/REPORT.md
+- 初回起動 (15:15) は起動約30秒後にランタイム再起動で SIGTERM 終了、成果物ゼロ・
+  git クリーンを司令塔が確認済み。Run 1 の成果 (コミット済み) に影響なし
+- 再起動 (15:20): 同一内容で再投入 (exec proc_e5ac78a14d7c、ログ run2b.log)、
+  プロセス生存を確認済み
+- チェックバック: cron `hands-on-search-run1-check` を Run 2 用に更新し
+  2026-11-18 16:02 JST に再設定
 
 ## 後続
 

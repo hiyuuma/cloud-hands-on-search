@@ -29,6 +29,19 @@ CREATE TABLE IF NOT EXISTS records (
 );
 CREATE INDEX IF NOT EXISTS idx_records_catalog ON records(source_catalog);
 CREATE INDEX IF NOT EXISTS idx_records_cloud ON records(cloud);
+
+-- T3: FTS5 trigram 全文検索。日本語の部分一致を効かせるため trigram を使う
+-- (unicode61 等のトークナイザは日本語の単語分割ができず実質全文一致になる)。
+-- services は検索対象に含めるため JSON ではなく空白区切りテキストで入れる。
+CREATE VIRTUAL TABLE IF NOT EXISTS records_fts USING fts5(
+    id UNINDEXED,
+    title,
+    title_ja,
+    summary_ja,
+    services,
+    domain,
+    tokenize = 'trigram'
+);
 """
 
 _COLUMNS = [
@@ -67,6 +80,21 @@ def build_db(records, path):
             f"INSERT INTO records ({', '.join(_COLUMNS)}) "
             f"VALUES ({', '.join('?' * len(_COLUMNS))})",
             [record_to_row(r) for r in records],
+        )
+        conn.executemany(
+            "INSERT INTO records_fts (id, title, title_ja, summary_ja,"
+            " services, domain) VALUES (?, ?, ?, ?, ?, ?)",
+            [
+                (
+                    r["id"],
+                    r.get("title") or "",
+                    r.get("title_ja") or "",
+                    r.get("summary_ja") or "",
+                    " ".join(r.get("services") or []),
+                    r.get("domain") or "",
+                )
+                for r in records
+            ],
         )
         conn.commit()
     finally:
