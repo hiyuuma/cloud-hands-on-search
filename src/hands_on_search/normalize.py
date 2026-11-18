@@ -8,10 +8,18 @@ _DUR_TOKEN = re.compile(
     re.IGNORECASE,
 )
 
+# "an hour" / "one hour" のような英語の数詞表現 (GitHub Skills 等で使われる)
+_DUR_WORD_NUM = re.compile(
+    r"\b(?:an?|one)\s+(?=(?:hours?|hrs?|minutes?|mins?)\b)",
+    re.IGNORECASE,
+)
+
 
 def parse_duration_minutes(value):
     """'1h', '1h 30m', '45 minutes', '1 hour', '43' 等を分に変換する。
 
+    "less than 30 minutes" は上限の 30 を返す。"90–120 minutes" のような
+    レンジ表記は後側の値 (上限) を返す。"1 day ..." のような日単位や
     不明・空欄は None。推測で埋めない。
     """
     if value is None:
@@ -21,6 +29,7 @@ def parse_duration_minutes(value):
     s = str(value).strip()
     if not s:
         return None
+    s = _DUR_WORD_NUM.sub("1 ", s)
     # 純粋な数値 (Azure duration_in_minutes 等) はそのまま分とみなす
     if re.fullmatch(r"\d+(?:\.\d+)?", s):
         return int(float(s))

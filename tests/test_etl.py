@@ -11,8 +11,16 @@ VENDOR = ROOT / "data/vendor"
 
 def test_vendor_counts(vendor_only_records):
     counts = Counter(r["source_catalog"] for r in vendor_only_records)
-    assert counts == {"aws": 167, "azure": 550, "google": 176}
-    assert len(vendor_only_records) == 893
+    assert counts == {
+        "aws": 167,
+        "azure": 550,
+        "google": 176,
+        "hashicorp": 499,
+        "linux_foundation": 59,
+        "github_skills": 42,
+        "oracle": 89,
+    }
+    assert len(vendor_only_records) == 1582
 
 
 def test_plan_fixture_ingested(records):
@@ -59,6 +67,13 @@ def _raw_url_set():
     g = json.loads((VENDOR / "google_skills.json").read_text("utf-8"))
     for it in g:
         add(it.get("url"))
+    # Run 4 追加カタログ: 全レコードが直接 URL を持つ
+    for name in (
+        "hashicorp", "linux_foundation", "github_skills", "oracle_oci"
+    ):
+        items = json.loads((VENDOR / f"{name}.json").read_text("utf-8"))
+        for it in items:
+            add(it.get("url"))
     plan = json.loads(
         (ROOT / "tests/fixtures/plan_sample.json").read_text("utf-8")
     )
@@ -203,3 +218,124 @@ def test_azure_primary_link_is_url_ja(records):
         if raw.get("url_ja"):
             assert r["link"]["kind"] == "direct"
             assert r["link"]["url"] == raw["url_ja"]
+
+
+# ---- Run 4: 新規4カタログ (hashicorp / linux_foundation / github_skills /
+#      oracle) の統合 ----
+
+NEW_CATALOGS = ("hashicorp", "linux_foundation", "github_skills", "oracle")
+
+
+def test_new_catalogs_all_direct_links(vendor_only_records):
+    """staging 由来の4カタログは全件 kind=direct (実在確認済み URL)。"""
+    for r in vendor_only_records:
+        if r["source_catalog"] in NEW_CATALOGS:
+            assert r["link"]["kind"] == "direct", r["id"]
+            assert r["link"]["url"].startswith("http"), r["id"]
+            assert r["link"]["source"] == r["source_catalog"]
+
+
+def test_hashicorp_unique_ids_via_url_path(vendor_only_records):
+    """hashicorp は同名タイトルが製品横断・コレクション間で重複するため、
+    一意な URL パス由来の ID を使う。"""
+    hc = [
+        r for r in vendor_only_records
+        if r["source_catalog"] == "hashicorp"
+    ]
+    ids = [r["id"] for r in hc]
+    assert len(ids) == len(set(ids)) == 499
+    assert all(i.startswith("hashicorp:") for i in ids)
+
+
+def test_new_catalog_common_fields(vendor_only_records):
+    """title/services/priority/summary_ja が staging の値を尊重している。"""
+    for r in vendor_only_records:
+        if r["source_catalog"] not in NEW_CATALOGS:
+            continue
+        raw = r["raw"]
+        assert r["title"] == raw["title"]
+        assert r["priority"] == (raw.get("priority_for_user") or None)
+        assert r["summary_ja"] == (raw.get("summary_ja") or None)
+        assert r["services"] == raw.get("services") or []
+        assert r["cloud"] == "その他"
+
+
+def test_new_catalog_duration_conversion(vendor_only_records):
+    """duration_text -> duration_min の代表変換と、空欄が None になること。"""
+    by_cat = {}
+    for r in vendor_only_records:
+        by_cat.setdefault(r["source_catalog"], []).append(r)
+
+    hc = {(r["raw"].get("duration_text") or ""): r["duration_min"]
+          for r in by_cat["hashicorp"]}
+    assert hc["19min"] == 19
+    assert hc["1hr 30min"] == 90
+    assert hc[""] is None
+
+    oc = {(r["raw"].get("duration_text") or ""): r["duration_min"]
+          for r in by_cat["oracle"]}
+    assert oc["26h 30m"] == 1590
+    assert oc["1 hour, 30 minutes"] == 90
+    assert oc["2 hours, 15 minutes"] == 135
+    assert oc["45 minutes"] == 45
+    assert oc["3 hours"] == 180
+
+    gh = {(r["raw"].get("duration_text") or ""): r["duration_min"]
+          for r in by_cat["github_skills"]}
+    assert gh["less than 30 minutes"] == 30
+    assert gh["less than one hour"] == 60
+    assert gh["less than an hour"] == 60
+    assert gh["90–120 minutes"] == 120  # レンジ表記は上限を採用
+    assert gh[""] is None
+
+
+def test_linux_foundation_access_from_price(records):
+    """LF は price_text から access を判定: $0/Free→Free, 正の価格→Paid,
+    空欄→unknown (価格原文は raw に残る)。"""
+    lf = [r for r in records if r["source_catalog"] == "linux_foundation"]
+    assert len(lf) == 59
+    for r in lf:
+        price = (r["raw"].get("price_text") or "").strip()
+        if not price:
+            assert r["access"] == "unknown", r["id"]
+        elif price in ("$0", "Free"):
+            assert r["access"] == "Free", r["id"]
+        else:
+            assert r["access"] == "Paid", r["id"]
+            assert r["raw"]["price_text"] == price  # 原文保持
+
+
+def test_other_new_catalogs_free(records):
+    """HashiCorp チュートリアル / GitHub Skills / Oracle MyLearn・LiveLabs
+    は無料が出典確認済みのため access=Free。"""
+    for r in records:
+        if r["source_catalog"] in ("hashicorp", "github_skills", "oracle"):
+            assert r["access"] == "Free", r["id"]
+
+
+def test_new_catalog_duration_coverage(vendor_only_records):
+    """変換不能 (非空だが分に直せない表記) の件数を固定する。
+    現状は LF の "1 day of Instructor-led class time" 2件のみ。"""
+    unconvertible = {}
+    empty = {}
+    for r in vendor_only_records:
+        if r["source_catalog"] not in NEW_CATALOGS:
+            continue
+        cat = r["source_catalog"]
+        text = (r["raw"].get("duration_text") or "").strip()
+        if not text:
+            empty[cat] = empty.get(cat, 0) + 1
+        elif r["duration_min"] is None:
+            unconvertible.setdefault(cat, []).append(text)
+    assert unconvertible == {
+        "linux_foundation": [
+            "1 day of Instructor-led class time",
+            "1 day of Instructor-led class time",
+        ]
+    }
+    assert empty == {
+        "hashicorp": 22,
+        "linux_foundation": 54,
+        "github_skills": 2,
+        "oracle": 15,
+    }

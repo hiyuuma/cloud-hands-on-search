@@ -47,6 +47,35 @@ def test_golden_kubernetes(db):
     assert any("Kubernetes" in t for t in _titles(res))
 
 
+# Run 4: 新規カタログを対象にしたゴールデンクエリ追加検証
+
+def test_golden_terraform_hashicorp_top(db):
+    """Terraform で HashiCorp 公式チュートリアルが上位に来る。"""
+    res = search(db, "Terraform", limit=10)
+    hc = [r for r in res if r["source_catalog"] == "hashicorp"]
+    assert hc, _titles(res)
+    assert hc[0]["link"]["kind"] == "direct"
+    assert "developer.hashicorp.com" in hc[0]["link"]["url"]
+
+
+def test_golden_kubernetes_linux_foundation(db):
+    """Kubernetes で Linux Foundation のコースがヒットする。"""
+    res = search(db, "Kubernetes", limit=10)
+    assert any(
+        r["source_catalog"] == "linux_foundation" for r in res
+    ), _titles(res)
+
+
+def test_golden_mcp_livelabs(db):
+    """MCP で LiveLabs の "Put AI Agents to Work with MCP" がヒットする。"""
+    res = search(db, "MCP", limit=15)
+    assert any(
+        r["source_catalog"] == "oracle"
+        and "Put AI Agents to Work with MCP" in (r["title"] or "")
+        for r in res
+    ), _titles(res)
+
+
 def test_title_match_ranks_above_summary(db):
     # "PostgreSQL" はタイトルに含むレコードが先に来るべき
     res = search(db, "PostgreSQL", limit=10)

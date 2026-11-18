@@ -1,14 +1,26 @@
 # cloud-hands-on-search
 
-3クラウド (AWS / Azure / Google) の学習カタログを統合し、日本語で検索・推薦でき、
+3クラウド (AWS / Azure / Google) + HashiCorp / Linux Foundation / GitHub Skills /
+Oracle (OCI) の学習カタログを統合し、日本語で検索・推薦でき、
 見つけたらその場で始められる URL 導線が必ず付く検索エンジン。
 
 開発中です。計画と進捗は docs/PLAN.md と docs/LEDGER.md を参照してください。
 
 ## データについて
 
-- data/vendor/ の各社カタログは、公式カタログ (AWS Skill Builder / Microsoft Learn /
-  Google Skills) の公開情報をもとに作成したメタデータです
+- data/vendor/ の各社カタログは、公式カタログの公開情報をもとに作成した
+  メタデータです (計 1,582 件):
+
+  | カタログ | ファイル | 件数 |
+  |---|---|---|
+  | AWS Skill Builder (Builder Labs) | aws_builder_labs.json | 167 |
+  | Microsoft Learn (Azure) | azure_learn.json | 550 |
+  | Google Skills | google_skills.json | 176 |
+  | HashiCorp Developer チュートリアル | hashicorp.json | 499 |
+  | Linux Foundation トレーニング | linux_foundation.json | 59 |
+  | GitHub Skills | github_skills.json | 42 |
+  | Oracle MyLearn / LiveLabs (OCI) | oracle_oci.json | 89 |
+
 - 個人の学習計画はこのリポジトリに含みません。手元の計画ファイルは
   data/local/plan.json に置くとローカルオーバーレイとして取り込まれます
   (data/local/ は .gitignore 対象です)

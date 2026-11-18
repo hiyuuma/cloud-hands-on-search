@@ -1,0 +1,16 @@
+Now checking search.py/cli.py for hardcoded catalog assumptions, and verifying slug uniqueness for new catalogs.調査完了。実装に入ります。まず staging ファイルを `data/vendor/` へ移動します。新カタログ用のテストを test_etl.py 末尾に追加します。84 テスト全通過。ETL を再生成して計測します。README を更新します。最終検証: テスト再実行と CLI の stats/検索の実動確認。完了しました。Run 4 の実装内容の要約です。
+
+## 実施内容
+
+- **データ移動**: `data/vendor-staging/` の 4 ファイルを `data/vendor/` へ `git mv`(hashicorp 499 / linux_foundation 59 / github_skills 42 / oracle 89)
+- **ローダ**: `loaders.py` に共通正規化 `_normalize_staged` + 4 ローダを追加。hashicorp は同名タイトルが 17 組重複するため URL パスから ID を生成
+- **duration**: `parse_duration_minutes` を拡張し、"less than one hour" 系の英語数詞に対応。変換不能は LF の `"1 day of Instructor-led class time"` 2件のみ
+- **billing**: hashicorp/github_skills/oracle は `Free`、LF は price_text から `Paid 44 / Free 9 / unknown 6`(`Paid` を新語彙として追加、価格原文は raw に保持)
+- **導線**: 新カタログ全件 `kind=direct`、捏造検出テストの元データ集合を拡張
+- **T2**: github_skills ↔ azure のタイトル一致 2 組のみ新規リンク、格上げなし
+- **テスト**: 73 → **84 passed**(新規 11)。Terraform/Kubernetes/MCP の新ゴールデンクエリを機械検証(MCP の LiveLabs 対象は 6 位に実測)
+- **再生成**: build/unified.json (1,582件) / link_report / catalog.db / web/unified-compact.json
+- **README**: カタログ一覧を 7 カタログ・計 1,582 件に更新
+- **レポート**: `reports/devin-run4/REPORT.md` に充足率・変換不能件数・billing 根拠・ゴールデン実測・既知の制限を記載
+
+コミットは指示どおり行っていません。

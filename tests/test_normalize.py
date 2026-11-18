@@ -50,3 +50,24 @@ def test_normalize_title():
     )
     # 記号・大小・全角半角ゆれ
     assert normalize_title("EC2: 入門！") == normalize_title("ec2 入門!")
+
+
+def test_duration_run4_notations():
+    """Run 4 staging の多様な表記 (指示書の代表例 + 実データの表記)。"""
+    assert parse_duration_minutes("26h 30m") == 1590
+    assert parse_duration_minutes("1 hour, 30 minutes") == 90
+    assert parse_duration_minutes("2 hours, 15 minutes") == 135
+    assert parse_duration_minutes("15 minutes") == 15
+    assert parse_duration_minutes("3 hours") == 180
+    assert parse_duration_minutes("10min") == 10
+    assert parse_duration_minutes("1hr 40min") == 100
+    # "less than X" は上限 X、"a/an/one hour" は 60 分
+    assert parse_duration_minutes("less than 30 minutes") == 30
+    assert parse_duration_minutes("less than one hour") == 60
+    assert parse_duration_minutes("less than an hour") == 60
+    assert parse_duration_minutes("roughly 55 minutes") == 55
+    assert parse_duration_minutes("Duration of Exam 90 minutes") == 90
+    # レンジ表記は後側 (上限) を採用
+    assert parse_duration_minutes("90–120 minutes") == 120
+    # 日単位は変換できないので None
+    assert parse_duration_minutes("1 day of Instructor-led class time") is None

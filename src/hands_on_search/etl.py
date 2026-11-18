@@ -12,7 +12,16 @@ from pathlib import Path
 
 from .db import build_db
 from .link_report import link_report, link_report_markdown
-from .loaders import load_aws, load_azure, load_google, load_plan
+from .loaders import (
+    load_aws,
+    load_azure,
+    load_github_skills,
+    load_google,
+    load_hashicorp,
+    load_linux_foundation,
+    load_oracle,
+    load_plan,
+)
 from .related import build_related
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -21,6 +30,10 @@ DEFAULT_PATHS = {
     "aws": REPO_ROOT / "data/vendor/aws_builder_labs.json",
     "azure": REPO_ROOT / "data/vendor/azure_learn.json",
     "google": REPO_ROOT / "data/vendor/google_skills.json",
+    "hashicorp": REPO_ROOT / "data/vendor/hashicorp.json",
+    "linux_foundation": REPO_ROOT / "data/vendor/linux_foundation.json",
+    "github_skills": REPO_ROOT / "data/vendor/github_skills.json",
+    "oracle": REPO_ROOT / "data/vendor/oracle_oci.json",
     "plan": REPO_ROOT / "data/local/plan.json",
 }
 
@@ -37,6 +50,10 @@ def load_all(paths=None):
     records += load_aws(paths["aws"])
     records += load_azure(paths["azure"])
     records += load_google(paths["google"])
+    records += load_hashicorp(paths["hashicorp"])
+    records += load_linux_foundation(paths["linux_foundation"])
+    records += load_github_skills(paths["github_skills"])
+    records += load_oracle(paths["oracle"])
     plan_path = Path(paths["plan"]) if paths.get("plan") else None
     if plan_path and plan_path.exists():
         records += load_plan(plan_path)

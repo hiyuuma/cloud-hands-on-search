@@ -160,6 +160,81 @@ def normalize_google(item):
     return rec
 
 
+# Run 4 追加分 (HashiCorp / Linux Foundation / GitHub Skills / Oracle) は
+# 3クラウド外のカタログのため cloud は「その他」に統一する (元の値は raw に残る)。
+_OTHER_CLOUD = "その他"
+
+
+def _lf_access(price_text):
+    """Linux Foundation: price_text の有無で課金を判定する。
+
+    "$0" / "Free" 表記は無料、"$<正>" は有料、空欄は不明 (推測しない)。
+    価格原文は raw.price_text に残る。
+    """
+    p = (price_text or "").strip()
+    if not p:
+        return "unknown"
+    if p.lower() == "free":
+        return "Free"
+    try:
+        amount = float(p.lstrip("$").replace(",", ""))
+    except ValueError:
+        return "unknown"
+    return "Free" if amount == 0 else "Paid"
+
+
+def _normalize_staged(item, catalog, record_id, access):
+    """Run 4 の staging 形式カタログ共通の正規化。
+
+    全レコードが実在確認済みの直接 URL を持つため link は常に direct。
+    level は出典の値をそのまま保持し、空欄は推測しない。
+    """
+    rec = _base(record_id, catalog, item.get("title", ""), item)
+    rec["cloud"] = _OTHER_CLOUD
+    rec["summary_ja"] = item.get("summary_ja") or None
+    rec["services"] = normalize_services(item.get("services"))
+    rec["domain"] = item.get("domain") or None
+    raw_level = item.get("level") or None
+    rec["level"] = raw_level
+    if raw_level:
+        rec["levels"] = [
+            s.strip() for s in str(raw_level).split(";") if s.strip()
+        ]
+    rec["duration_min"] = parse_duration_minutes(item.get("duration_text"))
+    rec["access"] = access
+    rec["priority"] = item.get("priority_for_user") or None
+    rec["link"] = _link((item.get("url") or "").strip(), "direct", catalog)
+    return rec
+
+
+def normalize_hashicorp(item):
+    """HashiCorp チュートリアルは全件無料。同名タイトルが製品横断で
+    存在するため、一意な URL パスから ID を取る。"""
+    path = urllib.parse.urlparse(item.get("url") or "").path
+    rid = "hashicorp:" + _slug(path or item.get("title", ""))
+    return _normalize_staged(item, "hashicorp", rid, "Free")
+
+
+def normalize_linux_foundation(item):
+    rid = "linux_foundation:" + _slug(item.get("title", ""))
+    return _normalize_staged(
+        item, "linux_foundation", rid, _lf_access(item.get("price_text"))
+    )
+
+
+def normalize_github_skills(item):
+    """GitHub Skills のインタラクティブコースは全件無料。"""
+    rid = "github_skills:" + _slug(item.get("title", ""))
+    return _normalize_staged(item, "github_skills", rid, "Free")
+
+
+def normalize_oracle(item):
+    """Oracle MyLearn ラーニングパスと LiveLabs ワークショップは全件無料
+    (収集報告 reports/catalog-expansion/oracle.md の出典確認に基づく)。"""
+    rid = "oracle:" + _slug(item.get("title", ""))
+    return _normalize_staged(item, "oracle", rid, "Free")
+
+
 def normalize_plan(item):
     pid = item.get("id") or _slug(item.get("title", ""))
     rec = _base("plan:" + str(pid), "plan", item.get("title", ""), item)
@@ -198,6 +273,26 @@ def load_azure(path):
 def load_google(path):
     items = json.loads(Path(path).read_text(encoding="utf-8"))
     return [normalize_google(it) for it in items]
+
+
+def load_hashicorp(path):
+    items = json.loads(Path(path).read_text(encoding="utf-8"))
+    return [normalize_hashicorp(it) for it in items]
+
+
+def load_linux_foundation(path):
+    items = json.loads(Path(path).read_text(encoding="utf-8"))
+    return [normalize_linux_foundation(it) for it in items]
+
+
+def load_github_skills(path):
+    items = json.loads(Path(path).read_text(encoding="utf-8"))
+    return [normalize_github_skills(it) for it in items]
+
+
+def load_oracle(path):
+    items = json.loads(Path(path).read_text(encoding="utf-8"))
+    return [normalize_oracle(it) for it in items]
 
 
 def load_plan(path):
