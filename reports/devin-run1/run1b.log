@@ -1,0 +1,7 @@
+Warning: --sandbox always uses the autonomous permission mode; ignoring --permission-mode smart.
+Error: Sandbox initialization failed: Error: bubblewrap (bwrap) is not installed, which is required for sandbox mode.
+
+Install it for your distribution:
+  Ubuntu/Debian: sudo apt-get install bubblewrap
+  Fedora:        sudo dnf install bubblewrap
+  Arch Linux:    sudo pacman -S bubblewrap. Unset DEVIN_SANDBOX to proceed without OS-level isolation.

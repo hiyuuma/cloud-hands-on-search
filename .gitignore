@@ -8,3 +8,5 @@ data/local/
 dist/
 build/
 *.egg-info/
+build/
+.venv/

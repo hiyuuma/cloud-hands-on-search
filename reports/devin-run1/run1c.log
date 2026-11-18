@@ -1,0 +1,20 @@
+Data understood. Now I'll create the package structure. First an initial `REPORT.md`, then the source modules.Now the tests.All 16 tests pass and build outputs are generated. Let me check related-link stats for the report.Run 1 完了です。全テスト通過、コミットはしていません。
+
+## 成果物
+
+- `src/hands_on_search/` — `normalize.py` / `loaders.py` / `related.py` / `link_report.py` / `db.py` / `etl.py`（標準ライブラリのみ）
+- `tests/` — pytest 16 件（`conftest.py` で `src/` を sys.path に追加）
+- `build/` — `unified.json`, `link_report.{json,md}`, `catalog.db`（生成物、gitignore 済）
+- `reports/devin-run1/REPORT.md` — 実数入りの完了報告
+
+## 結果サマリ
+
+- **取り込み**: vendor 893 件（aws 167 / azure 550 / google 176）+ plan フィクスチャ 3 件、欠落なし・ID 一意
+- **link カバレッジ**: aws direct 23 / search 144、azure direct 550（url_ja 主導線）、google direct 154 / none 22。search/none の扱いは指示どおり（捏造なし、テストで機械検証）
+- **T2**: `plan:HO-SAMPLE-003` ⇔ AWS "Deploy and Scale Containerized Applications with AWS Fargate" が双方向 related で結ばれ、plan 側の link が AWS の direct URL に格上げ（`source: aws`）
+- **テスト**: `.venv/bin/python -m pytest tests/ -q` → **16 passed**
+
+## 備考（REPORT.md にも記載）
+
+- システムに pytest が無かったため `.venv`（gitignore 済）に pytest のみ導入しました。`python3 -m pytest tests/ -q` はその venv 経由で実行可能です
+- AWS/Google は元データに ID が無いためタイトルスラッグで採番、日英の意味的同義（「入門」↔"Getting Started"）はマッチしない既知の制限があります

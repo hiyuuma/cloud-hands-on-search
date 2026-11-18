@@ -15,7 +15,16 @@
 - 期待成果物: src/hands_on_search/ (ETL + link + related)、tests/ (pytest)、
   reports/devin-run1/REPORT.md (link カバレッジ実数つき)
 - 合否: vendor 893件の取り込み、捏造検出テスト、Fargate 横断リンクテスト等が全通過
-- 状態: 起動準備中 (台帳作成時点)
+- 初回コミット: 2ca0ccd (計画・台帳・指示書・vendor データ・フィクスチャ)
+- 起動の顛末 (2026-11-18):
+  - 15:07 初回起動は workspace trust 未承認で即終了 (EXIT=1, 成果物ゼロ)。
+    ~/.local/share/devin/cli/trusted_workspaces.json にこのワークスペースを追加して解消
+  - 15:08 2回目は permission-mode 既定 (auto) で exec ツールが軒並み拒否されたため、
+    成果物ゼロの段階で司令塔が停止
+  - sandbox モードは bwrap 未導入で使用不可と確認
+  - 15:16 3回目を `--permission-mode smart` で起動 (exec セッション proc_2f4d15c8db2b、
+    ログ reports/devin-run1/run1c.log)。プロセス生存と拒否警告なしを確認済み
+- チェックバック: one-shot cron `hands-on-search-run1-check`、2026-11-18 15:57 JST 目安
 
 ## 後続
 
@@ -23,3 +32,6 @@
 - Run 3: T4 推薦 + T5 CLI + README
 - 納品: GitHub public リポジトリ hiyuuma/cloud-hands-on-search を司令塔が作成し
   push、Actions (T6) の通過を GitHub 側で確認してから完了報告
+- T7 Muse スペース版 UI (2026-11-18 ユーザー追加指示で PLAN に追加):
+  統一データを同梱した静的スペースで、検索・絞り込み・推薦をブラウザ内で完結。
+  既定は非公開、公開リンク化は別途承認後。着手は T1 の統一データ検収後
