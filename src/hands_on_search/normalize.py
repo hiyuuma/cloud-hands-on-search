@@ -2,6 +2,7 @@
 
 import re
 import unicodedata
+import urllib.parse
 
 _DUR_TOKEN = re.compile(
     r"(\d+(?:\.\d+)?)\s*(hours?|hrs?|h|minutes?|mins?|m)\b",
@@ -86,3 +87,41 @@ def normalize_url(url):
     s = str(url).strip().lower()
     s = s.split("#", 1)[0]
     return s.rstrip("/")
+
+
+# link_lang 判定 (Run 6): 「収録リンク URL が指すページの言語」。
+# パターンは実データで確認したものだけを使う (推測で埋めない):
+#   - パスに ja ロケールのセグメント: learn.microsoft.com/ja-jp/ (azure 550),
+#     academy.claude.com/ja/ (anthropic 29)
+#   - クエリの locale/hl/lang=ja: skills.google ?locale=ja (google 80)
+#   - oracle.com の japanese- スラグ: mylearn.oracle.com/ou/learning-path/
+#     japanese-... (oracle 1)
+_JA_LOCALE_SEGMENTS = {"ja", "ja-jp", "ja_jp"}
+_JA_QUERY_KEYS = ("locale", "hl", "lang")
+
+
+def detect_link_lang(url):
+    """リンク URL が指すページの言語を決定的に判定し "ja" / "en" を返す。
+
+    URL に日本語ロケールが明示されている場合のみ "ja"。それ以外は "en"
+    (プラットフォームに日本語版が別途存在しても、収録リンクが英語ページ
+    なら "en")。kind=search の検索導線 URL も同じルールで判定する。
+    """
+    if not url:
+        return "en"
+    try:
+        parts = urllib.parse.urlsplit(str(url))
+    except ValueError:
+        return "en"
+    segs = {s.lower() for s in parts.path.split("/") if s}
+    if segs & _JA_LOCALE_SEGMENTS:
+        return "ja"
+    qs = urllib.parse.parse_qs(parts.query)
+    for key in _JA_QUERY_KEYS:
+        if any(v.lower().startswith("ja") for v in qs.get(key, [])):
+            return "ja"
+    if parts.netloc.lower().endswith("oracle.com") and any(
+        s.lower().startswith("japanese-") for s in segs
+    ):
+        return "ja"
+    return "en"

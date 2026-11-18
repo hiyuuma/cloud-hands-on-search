@@ -18,7 +18,7 @@ from .db import _COLUMNS, row_to_record
 
 _FILTERS = (
     "cloud", "domain", "service", "level",
-    "max_duration_min", "access", "priority", "plan_month",
+    "max_duration_min", "access", "priority", "plan_month", "link_lang",
 )
 
 _MODES = ("and", "or", "phrase")
@@ -181,6 +181,8 @@ def _apply_filters(records, f):
         if f.get("plan_month") and not (r.get("plan_month") or "").startswith(
             f["plan_month"]
         ):
+            return False
+        if f.get("link_lang") and (r.get("link_lang") or "") != f["link_lang"]:
             return False
         return True
 

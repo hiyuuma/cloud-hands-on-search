@@ -51,6 +51,7 @@ def cmd_search(args):
         access=args.access,
         priority=args.priority,
         plan_month=args.month,
+        link_lang=args.link_lang,
         limit=args.limit,
     )
     print(f"{len(results)} 件ヒット")
@@ -61,7 +62,7 @@ def cmd_search(args):
             f"   {r.get('cloud') or '-'} / {r.get('level') or '-'}"
             f" / {d}分" if d else f"   {r.get('cloud') or '-'} / {r.get('level') or '-'} / 所要時間不明"
         )
-        print(f"   {_link_str(r)}")
+        print(f"   {_link_str(r)} (lang: {r.get('link_lang')})")
     return 0
 
 
@@ -119,6 +120,7 @@ def cmd_show(args):
     print(f"priority:    {r.get('priority')}")
     print(f"plan_month:  {r.get('plan_month')}")
     print(f"link:        {_link_str(r)}")
+    print(f"link_lang:   {r.get('link_lang')}")
     if r.get("related"):
         print(f"related:     {', '.join(r['related'])}")
     return 0
@@ -208,6 +210,10 @@ def build_parser():
     s.add_argument("--access")
     s.add_argument("--priority")
     s.add_argument("--month", help="plan_month 前方一致 (例 2026-11)")
+    s.add_argument(
+        "--lang", choices=("ja", "en"), dest="link_lang",
+        help="リンク先ページの言語で絞り込み (ja/en)",
+    )
     s.add_argument("--limit", type=int, default=10)
     s.set_defaults(func=cmd_search)
 

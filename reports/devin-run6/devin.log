@@ -1,0 +1,17 @@
+実データで日本語URLパターンを確認する。判定ルールを確認した。次にテスト側でスキーマのキーを固定している箇所を確認する。方針が決まった。まず進捗レポートを作成し、実装に入る。ETL を再実行して実測を確認する。実測 660 件で一致。unified-compact.json を再生成する。テストを追加する。plan フィクスチャの Azure 検索リンクも `ja-jp` なので `records` 上の ja は 661 になる。テストを実態に合わせる。全117件パス (既存96 + 新規21)。README を更新し、CLI を目視確認する。動作確認済み。最終レポートを書く。完了しました。`reports/devin-run6/REPORT.md` に全結果を記録しています。
+
+## 実施内容
+
+- **`link_lang` フィールド追加** (`"ja"` / `"en"`): 定義は「収録リンク URL が指すページの言語」。`normalize.detect_link_lang()` に決定的ルールを集約し、各 `load_*` の出口で `_with_link_lang` により一括付与
+- **判定パターン** (実データ確認済みのみ):
+  - パスセグメント `ja`/`ja-jp` → azure 550 + anthropic 29
+  - クエリ `locale`/`hl`/`lang=ja` → google 80
+  - `*.oracle.com` の `japanese-` スラグ → oracle 1
+- **実測 ja = 660件 / en = 1,413件**、期待値と完全一致 (カタログ別内訳も一致)。テストで固定済み
+- **CLI**: `search --lang ja|en` フィルタ追加、結果行に `(lang: xx)`、`show` に `link_lang:` 表示
+- **DB**: `records.link_lang` カラム追加、`search(link_lang=...)` フィルタ対応
+- **web/unified-compact.json**: link_lang を含む 15キー・2,073件で再生成
+- **README**: 定義 (リンク先の言語であり日本語版の有無とは別) を明記
+- **テスト**: `tests/test_link_lang.py` 新規21件 — **117 passed** (既存96件は無改変で全通過)
+
+気づき: テストフィクスチャの plan 1件が `learn.microsoft.com/ja-jp/search` への search 導線を持つため、plan 込みデータでは ja=661 になります (search リンクも同ルールで判定する仕様どおりの挙動)。git コミットは指示どおり行っていません。

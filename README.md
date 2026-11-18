@@ -55,6 +55,14 @@ Oracle (OCI) + 各社公式ラーニングカタログ (計31ソース) を統�
 全レコードに link が付きます。kind=direct はラボへの直行URL (元データに実在する
 もののみ)、kind=search は公式検索への導線です。直接URLを推測で作ることはしません。
 
+各レコードの link_lang は「収録されているリンク URL が指すページの言語」
+("ja" / "en") です。URL に日本語ロケールが明示されているもの
+(learn.microsoft.com/ja-jp/、academy.claude.com/ja/、skills.google の
+locale=ja、oracle.com の japanese- スラグ) のみ "ja" と判定し、それ以外は
+"en" です。プラットフォームに日本語版が別途存在しても、収録リンクが
+英語ページなら "en" になります (リンク先の言語が定義であり、日本語版の
+有無とは別です)。現状の内訳は ja 660件 / en 1,413件です。
+
 ## 使い方 (CLI)
 
 事前に ETL で DB を生成します (build/ は生成物です):
@@ -64,7 +72,7 @@ Oracle (OCI) + 各社公式ラーニングカタログ (計31ソース) を統�
 CLI は argparse ベースです。build/catalog.db が無い場合は自動で ETL を実行します。
 
     # キーワード検索 (絞り込み: --cloud/--domain/--service/--level/
-    #   --max-minutes/--access/--priority/--month, --limit で件数)
+    #   --max-minutes/--access/--priority/--month/--lang, --limit で件数)
     # --mode and(既定)/or/phrase で検索モードを切替
     PYTHONPATH=src python3 -m hands_on_search.cli search Fargate --limit 5
     PYTHONPATH=src python3 -m hands_on_search.cli search PostgreSQL --cloud Azure --max-minutes 120

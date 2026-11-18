@@ -5,7 +5,11 @@ import re
 import urllib.parse
 from pathlib import Path
 
-from .normalize import normalize_services, parse_duration_minutes
+from .normalize import (
+    detect_link_lang,
+    normalize_services,
+    parse_duration_minutes,
+)
 
 AWS_SEARCH_URL = (
     "https://skillbuilder.aws/search?searchText={title}&typeId=aws_builder_lab"
@@ -73,9 +77,20 @@ def _base(record_id, catalog, title, raw):
         "plan_month": None,
         "plan_theme": None,
         "link": _link("", "none", catalog),
+        "link_lang": "en",
         "related": [],
         "raw": raw,
     }
+
+
+def _with_link_lang(records):
+    """link.url から link_lang を決定的に付与する (Run 6)。
+
+    link を確定した後に呼ぶ必要があるため、各 load_* の出口で適用する。
+    """
+    for rec in records:
+        rec["link_lang"] = detect_link_lang((rec.get("link") or {}).get("url"))
+    return records
 
 
 def normalize_aws(item):
@@ -251,7 +266,7 @@ def normalize_staged(item, catalog):
 
 def load_staged(path, catalog):
     items = json.loads(Path(path).read_text(encoding="utf-8"))
-    return [normalize_staged(it, catalog) for it in items]
+    return _with_link_lang([normalize_staged(it, catalog) for it in items])
 
 
 def normalize_plan(item):
@@ -280,40 +295,40 @@ def normalize_plan(item):
 
 def load_aws(path):
     items = json.loads(Path(path).read_text(encoding="utf-8"))
-    return [normalize_aws(it) for it in items]
+    return _with_link_lang([normalize_aws(it) for it in items])
 
 
 def load_azure(path):
     data = json.loads(Path(path).read_text(encoding="utf-8"))
     items = data["items"] if isinstance(data, dict) else data
-    return [normalize_azure(it) for it in items]
+    return _with_link_lang([normalize_azure(it) for it in items])
 
 
 def load_google(path):
     items = json.loads(Path(path).read_text(encoding="utf-8"))
-    return [normalize_google(it) for it in items]
+    return _with_link_lang([normalize_google(it) for it in items])
 
 
 def load_hashicorp(path):
     items = json.loads(Path(path).read_text(encoding="utf-8"))
-    return [normalize_hashicorp(it) for it in items]
+    return _with_link_lang([normalize_hashicorp(it) for it in items])
 
 
 def load_linux_foundation(path):
     items = json.loads(Path(path).read_text(encoding="utf-8"))
-    return [normalize_linux_foundation(it) for it in items]
+    return _with_link_lang([normalize_linux_foundation(it) for it in items])
 
 
 def load_github_skills(path):
     items = json.loads(Path(path).read_text(encoding="utf-8"))
-    return [normalize_github_skills(it) for it in items]
+    return _with_link_lang([normalize_github_skills(it) for it in items])
 
 
 def load_oracle(path):
     items = json.loads(Path(path).read_text(encoding="utf-8"))
-    return [normalize_oracle(it) for it in items]
+    return _with_link_lang([normalize_oracle(it) for it in items])
 
 
 def load_plan(path):
     items = json.loads(Path(path).read_text(encoding="utf-8"))
-    return [normalize_plan(it) for it in items]
+    return _with_link_lang([normalize_plan(it) for it in items])

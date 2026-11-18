@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS records (
     plan_month TEXT,
     plan_theme TEXT,
     link TEXT NOT NULL,          -- JSON {url, kind, source}
+    link_lang TEXT,              -- リンク先ページの言語 "ja"/"en" (Run 6)
     related TEXT NOT NULL,       -- JSON array of ids
     raw TEXT NOT NULL            -- JSON original record
 );
@@ -48,7 +49,7 @@ CREATE VIRTUAL TABLE IF NOT EXISTS records_fts USING fts5(
 _COLUMNS = [
     "id", "source_catalog", "title", "title_ja", "summary_ja", "cloud",
     "services", "domain", "level", "levels", "duration_min", "access", "priority",
-    "plan_month", "plan_theme", "link", "related", "raw",
+    "plan_month", "plan_theme", "link", "link_lang", "related", "raw",
 ]
 
 _JSON_COLUMNS = {"services", "levels", "link", "related", "raw"}
