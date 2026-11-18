@@ -19,8 +19,33 @@ def test_vendor_counts(vendor_only_records):
         "linux_foundation": 59,
         "github_skills": 42,
         "oracle": 89,
+        # Run 5 追加分
+        "alibaba": 13,
+        "anthropic": 29,
+        "cisco": 23,
+        "confluent": 27,
+        "databricks": 51,
+        "datadog": 25,
+        "elastic": 7,
+        "fortinet": 13,
+        "freecodecamp": 12,
+        "huggingface": 12,
+        "ibm": 4,
+        "kaggle": 17,
+        "langchain": 18,
+        "mongodb": 21,
+        "neo4j": 60,
+        "nextjs": 31,
+        "nvidia": 11,
+        "portswigger": 31,
+        "redhat": 12,
+        "redis": 4,
+        "salesforce": 22,
+        "sap": 17,
+        "servicenow": 20,
+        "snowflake": 11,
     }
-    assert len(vendor_only_records) == 1582
+    assert len(vendor_only_records) == 2073
 
 
 def test_plan_fixture_ingested(records):
@@ -67,9 +92,17 @@ def _raw_url_set():
     g = json.loads((VENDOR / "google_skills.json").read_text("utf-8"))
     for it in g:
         add(it.get("url"))
-    # Run 4 追加カタログ: 全レコードが直接 URL を持つ
+    # Run 4 / Run 5 追加カタログ: 全レコードが直接 URL を持つ
     for name in (
-        "hashicorp", "linux_foundation", "github_skills", "oracle_oci"
+        "hashicorp", "linux_foundation", "github_skills", "oracle_oci",
+        # Run 5 (staging 由来24ファイル)
+        "alibaba_academy", "anthropic_academy", "cisco_u", "confluent",
+        "databricks_academy", "datadog", "elastic", "fortinet",
+        "freecodecamp", "huggingface_learn", "ibm_skillsbuild",
+        "kaggle_learn", "langchain_academy", "mongodb_university",
+        "neo4j_graphacademy", "nextjs_learn", "nvidia_dli", "portswigger",
+        "redhat_developer", "redis_university", "salesforce_trailhead",
+        "sap_learning", "servicenow", "snowflake",
     ):
         items = json.loads((VENDOR / f"{name}.json").read_text("utf-8"))
         for it in items:
@@ -338,4 +371,124 @@ def test_new_catalog_duration_coverage(vendor_only_records):
         "linux_foundation": 54,
         "github_skills": 2,
         "oracle": 15,
+    }
+
+
+# ---- Run 5: 新規24カタログ (staging 第2波) の統合 ----
+
+RUN5_CATALOGS = (
+    "alibaba", "anthropic", "cisco", "confluent", "databricks", "datadog",
+    "elastic", "fortinet", "freecodecamp", "huggingface", "ibm", "kaggle",
+    "langchain", "mongodb", "neo4j", "nextjs", "nvidia", "portswigger",
+    "redhat", "redis", "salesforce", "sap", "servicenow", "snowflake",
+)
+
+
+def test_run5_catalogs_all_direct_links(vendor_only_records):
+    """Run 5 の24カタログも全件 kind=direct (実在確認済み URL)。"""
+    for r in vendor_only_records:
+        if r["source_catalog"] in RUN5_CATALOGS:
+            assert r["link"]["kind"] == "direct", r["id"]
+            assert r["link"]["url"].startswith("http"), r["id"]
+            assert r["link"]["source"] == r["source_catalog"]
+
+
+def test_run5_id_prefix_and_uniqueness(vendor_only_records):
+    """ID はカタログ接頭辞つきで、全体で一意。"""
+    for r in vendor_only_records:
+        if r["source_catalog"] in RUN5_CATALOGS:
+            assert r["id"].startswith(r["source_catalog"] + ":"), r["id"]
+    ids = [r["id"] for r in vendor_only_records]
+    assert len(ids) == len(set(ids))
+
+
+def test_run5_common_fields_respect_raw(vendor_only_records):
+    """title/priority/summary_ja/services/cloud が staging の値を尊重する。"""
+    for r in vendor_only_records:
+        if r["source_catalog"] not in RUN5_CATALOGS:
+            continue
+        raw = r["raw"]
+        assert r["title"] == raw["title"]
+        assert r["priority"] == (raw.get("priority_for_user") or None)
+        assert r["summary_ja"] == (raw.get("summary_ja") or None)
+        assert r["services"] == raw.get("services") or []
+        assert r["cloud"] == "その他"
+
+
+def test_run5_duration_conversion(vendor_only_records):
+    """Run 5 の新しい表記の代表変換。"""
+    by_cat = {}
+    for r in vendor_only_records:
+        by_cat.setdefault(r["source_catalog"], []).append(r)
+
+    def durations(cat):
+        return {
+            (r["raw"].get("duration_text") or ""): r["duration_min"]
+            for r in by_cat[cat]
+        }
+
+    assert durations("cisco")["14 hours"] == 840
+    assert durations("cisco")["55m"] == 55
+    assert durations("neo4j")["1h"] == 60
+    assert durations("anthropic")["45m"] == 45
+    assert durations("confluent")["2-3 hours"] == 180  # レンジは上限
+    assert durations("huggingface")[
+        "approximately 6-8 hours of work per week (per chapter)"
+    ] == 480
+    assert durations("redhat")["3 hrs and 40 mins"] == 220
+    assert durations("salesforce")["~7 hrs 20 mins"] == 440
+    assert durations("freecodecamp")[
+        "Around 1,800 hours in total (estimated)"
+    ] == 108000
+    assert durations("snowflake")[
+        "Most learners take between 8 and 12 hours to complete this course."
+    ] == 720
+    assert durations("datadog")["1.5 hours to complete"] == 90
+    assert durations("mongodb")["7.75 Hours"] == 465
+
+
+def test_run5_billing(vendor_only_records):
+    """billing: 原則 Free。anthropic のみ料金表示自体が無く unknown。"""
+    for r in vendor_only_records:
+        if r["source_catalog"] == "anthropic":
+            assert r["access"] == "unknown", r["id"]
+        elif r["source_catalog"] in RUN5_CATALOGS:
+            assert r["access"] == "Free", r["id"]
+
+
+def test_run5_duration_coverage(vendor_only_records):
+    """Run 5 カタログで変換不能 (非空だが分に直せない) が 0 件であること。
+    空欄はカタログ別件数を固定する。"""
+    unconvertible = {}
+    empty = {}
+    for r in vendor_only_records:
+        cat = r["source_catalog"]
+        if cat not in RUN5_CATALOGS:
+            continue
+        text = (r["raw"].get("duration_text") or "").strip()
+        if not text:
+            empty[cat] = empty.get(cat, 0) + 1
+        elif r["duration_min"] is None:
+            unconvertible.setdefault(cat, []).append(text)
+    assert unconvertible == {}
+    assert empty == {
+        "alibaba": 13,
+        "confluent": 22,
+        "datadog": 16,
+        "elastic": 7,
+        "fortinet": 10,
+        "freecodecamp": 5,
+        "huggingface": 4,
+        "ibm": 4,
+        "kaggle": 2,
+        "langchain": 7,
+        "neo4j": 3,
+        "nextjs": 29,
+        "portswigger": 31,
+        "redhat": 7,
+        "redis": 4,
+        "salesforce": 5,
+        "sap": 17,
+        "servicenow": 18,
+        "snowflake": 5,
     }

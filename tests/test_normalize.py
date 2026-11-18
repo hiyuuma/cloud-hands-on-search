@@ -71,3 +71,26 @@ def test_duration_run4_notations():
     assert parse_duration_minutes("90–120 minutes") == 120
     # 日単位は変換できないので None
     assert parse_duration_minutes("1 day of Instructor-led class time") is None
+
+
+def test_duration_run5_notations():
+    """Run 5 staging の表記 (指示書の代表例 + 実データの表記)。"""
+    assert parse_duration_minutes("14 hours") == 840
+    assert parse_duration_minutes("18 hours") == 1080
+    assert parse_duration_minutes("55m") == 55
+    assert parse_duration_minutes("1h") == 60
+    assert parse_duration_minutes("3 hrs and 40 mins") == 220
+    assert parse_duration_minutes("~7 hrs 20 mins") == 440
+    assert parse_duration_minutes("1.5 hours") == 90
+    assert parse_duration_minutes("7.75 Hours") == 465
+    # 推奨ペース・概算表記: 範囲は上限、修飾語は無視して数値を取る
+    assert parse_duration_minutes("2-3 hours") == 180
+    assert parse_duration_minutes(
+        "approximately 6-8 hours of work per week (per chapter)"
+    ) == 480
+    assert parse_duration_minutes("Around 300 hours (estimated)") == 18000
+    # 桁区切りカンマ
+    assert parse_duration_minutes("Around 1,800 hours in total (estimated)") == 108000
+    assert parse_duration_minutes(
+        "Most learners take between 8 and 12 hours to complete this course."
+    ) == 720

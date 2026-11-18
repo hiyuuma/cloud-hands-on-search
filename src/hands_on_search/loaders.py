@@ -235,6 +235,25 @@ def normalize_oracle(item):
     return _normalize_staged(item, "oracle", rid, "Free")
 
 
+# Run 5 追加分 (24カタログ)。staging 形式は Run 4 と同じで、全レコードに
+# 実在確認済みの直接 URL がある。billing は収集段階で無料確認済みのものだけを
+# 収録しているため原則 Free。anthropic のみサイトに料金表示自体が無く
+# 「無料」と断定できないため unknown (不明・要確認) とする。
+_STAGED_ACCESS_BY_CATALOG = {"anthropic": "unknown"}
+
+
+def normalize_staged(item, catalog):
+    """Run 5 の staging 形式カタログ共通のエントリポイント。"""
+    rid = catalog + ":" + _slug(item.get("title", ""))
+    access = _STAGED_ACCESS_BY_CATALOG.get(catalog, "Free")
+    return _normalize_staged(item, catalog, rid, access)
+
+
+def load_staged(path, catalog):
+    items = json.loads(Path(path).read_text(encoding="utf-8"))
+    return [normalize_staged(it, catalog) for it in items]
+
+
 def normalize_plan(item):
     pid = item.get("id") or _slug(item.get("title", ""))
     rec = _base("plan:" + str(pid), "plan", item.get("title", ""), item)

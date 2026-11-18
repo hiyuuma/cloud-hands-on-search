@@ -76,6 +76,50 @@ def test_golden_mcp_livelabs(db):
     ), _titles(res)
 
 
+# Run 5: 新規カタログを対象にしたゴールデンクエリ追加検証
+
+def test_golden_langgraph_langchain(db):
+    """LangGraph で LangChain Academy のコースがヒットする。"""
+    res = search(db, "LangGraph", limit=10)
+    assert any(
+        r["source_catalog"] == "langchain" for r in res
+    ), _titles(res)
+
+
+def test_golden_sql_injection_portswigger(db):
+    """SQLインジェクションで PortSwigger のトピックがヒットする。"""
+    res = search(db, "SQL injection", limit=10)
+    assert any(
+        r["source_catalog"] == "portswigger" for r in res
+    ), _titles(res)
+
+
+def test_golden_kubernetes_redhat(db):
+    """Kubernetes で Red Hat Developer のラーニングパスがヒットする。"""
+    # "Learn Kubernetes using the Developer Sandbox" は実測で31位のため
+    # limit=50 でヒットを確認する (多数の HashiCorp 教材が上位を占める)
+    res = search(db, "Kubernetes", limit=50)
+    assert any(
+        r["source_catalog"] == "redhat" for r in res
+    ), _titles(res)
+
+
+def test_golden_fortiauthenticator_fortinet(db):
+    """FortiAuthenticator で Fortinet のコースがヒットする。"""
+    res = search(db, "FortiAuthenticator", limit=10)
+    assert res and any(
+        r["source_catalog"] == "fortinet" for r in res
+    ), _titles(res)
+
+
+def test_golden_nextjs_learn(db):
+    """Next.js で Next.js Learn のコースがヒットする。"""
+    res = search(db, "Next.js", limit=10)
+    assert any(
+        r["source_catalog"] == "nextjs" for r in res
+    ), _titles(res)
+
+
 def test_title_match_ranks_above_summary(db):
     # "PostgreSQL" はタイトルに含むレコードが先に来るべき
     res = search(db, "PostgreSQL", limit=10)

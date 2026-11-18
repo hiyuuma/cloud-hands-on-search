@@ -21,6 +21,7 @@ from .loaders import (
     load_linux_foundation,
     load_oracle,
     load_plan,
+    load_staged,
 )
 from .related import build_related
 
@@ -36,6 +37,41 @@ DEFAULT_PATHS = {
     "oracle": REPO_ROOT / "data/vendor/oracle_oci.json",
     "plan": REPO_ROOT / "data/local/plan.json",
 }
+
+# Run 5 追加分 (staging 形式24カタログ): source_catalog キー -> ファイル名
+RUN5_CATALOG_FILES = {
+    "alibaba": "alibaba_academy.json",
+    "anthropic": "anthropic_academy.json",
+    "cisco": "cisco_u.json",
+    "confluent": "confluent.json",
+    "databricks": "databricks_academy.json",
+    "datadog": "datadog.json",
+    "elastic": "elastic.json",
+    "fortinet": "fortinet.json",
+    "freecodecamp": "freecodecamp.json",
+    "huggingface": "huggingface_learn.json",
+    "ibm": "ibm_skillsbuild.json",
+    "kaggle": "kaggle_learn.json",
+    "langchain": "langchain_academy.json",
+    "mongodb": "mongodb_university.json",
+    "neo4j": "neo4j_graphacademy.json",
+    "nextjs": "nextjs_learn.json",
+    "nvidia": "nvidia_dli.json",
+    "portswigger": "portswigger.json",
+    "redhat": "redhat_developer.json",
+    "redis": "redis_university.json",
+    "salesforce": "salesforce_trailhead.json",
+    "sap": "sap_learning.json",
+    "servicenow": "servicenow.json",
+    "snowflake": "snowflake.json",
+}
+
+DEFAULT_PATHS.update(
+    {
+        catalog: REPO_ROOT / "data/vendor" / filename
+        for catalog, filename in RUN5_CATALOG_FILES.items()
+    }
+)
 
 BUILD_DIR = REPO_ROOT / "build"
 
@@ -54,6 +90,8 @@ def load_all(paths=None):
     records += load_linux_foundation(paths["linux_foundation"])
     records += load_github_skills(paths["github_skills"])
     records += load_oracle(paths["oracle"])
+    for catalog in RUN5_CATALOG_FILES:
+        records += load_staged(paths[catalog], catalog)
     plan_path = Path(paths["plan"]) if paths.get("plan") else None
     if plan_path and plan_path.exists():
         records += load_plan(plan_path)

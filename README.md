@@ -1,7 +1,8 @@
 # cloud-hands-on-search
 
 3クラウド (AWS / Azure / Google) + HashiCorp / Linux Foundation / GitHub Skills /
-Oracle (OCI) の学習カタログを統合し、日本語で検索・推薦でき、
+Oracle (OCI) + 各社公式ラーニングカタログ (計31ソース) を統合し、
+日本語で検索・推薦でき、
 見つけたらその場で始められる URL 導線が必ず付く検索エンジン。
 
 開発中です。計画と進捗は docs/PLAN.md と docs/LEDGER.md を参照してください。
@@ -9,7 +10,7 @@ Oracle (OCI) の学習カタログを統合し、日本語で検索・推薦で�
 ## データについて
 
 - data/vendor/ の各社カタログは、公式カタログの公開情報をもとに作成した
-  メタデータです (計 1,582 件):
+  メタデータです (計 2,073 件):
 
   | カタログ | ファイル | 件数 |
   |---|---|---|
@@ -20,6 +21,30 @@ Oracle (OCI) の学習カタログを統合し、日本語で検索・推薦で�
   | Linux Foundation トレーニング | linux_foundation.json | 59 |
   | GitHub Skills | github_skills.json | 42 |
   | Oracle MyLearn / LiveLabs (OCI) | oracle_oci.json | 89 |
+  | Alibaba Cloud Academy | alibaba_academy.json | 13 |
+  | Anthropic Academy | anthropic_academy.json | 29 |
+  | Cisco U. | cisco_u.json | 23 |
+  | Confluent Developer | confluent.json | 27 |
+  | Databricks Academy | databricks_academy.json | 51 |
+  | Datadog Learning Center | datadog.json | 25 |
+  | Elastic Training | elastic.json | 7 |
+  | Fortinet Training Institute | fortinet.json | 13 |
+  | freeCodeCamp | freecodecamp.json | 12 |
+  | Hugging Face Learn | huggingface_learn.json | 12 |
+  | IBM SkillsBuild | ibm_skillsbuild.json | 4 |
+  | Kaggle Learn | kaggle_learn.json | 17 |
+  | LangChain Academy | langchain_academy.json | 18 |
+  | MongoDB University | mongodb_university.json | 21 |
+  | Neo4j GraphAcademy | neo4j_graphacademy.json | 60 |
+  | Next.js Learn | nextjs_learn.json | 31 |
+  | NVIDIA Deep Learning Institute | nvidia_dli.json | 11 |
+  | PortSwigger Web Security Academy | portswigger.json | 31 |
+  | Red Hat Developer | redhat_developer.json | 12 |
+  | Redis University | redis_university.json | 4 |
+  | Salesforce Trailhead | salesforce_trailhead.json | 22 |
+  | SAP Learning | sap_learning.json | 17 |
+  | ServiceNow | servicenow.json | 20 |
+  | Snowflake | snowflake.json | 11 |
 
 - 個人の学習計画はこのリポジトリに含みません。手元の計画ファイルは
   data/local/plan.json に置くとローカルオーバーレイとして取り込まれます

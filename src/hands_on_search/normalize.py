@@ -30,6 +30,8 @@ def parse_duration_minutes(value):
     if not s:
         return None
     s = _DUR_WORD_NUM.sub("1 ", s)
+    # "1,800 hours" のような桁区切りカンマを除去して数値として読む
+    s = re.sub(r"(?<=\d),(?=\d{3}\b)", "", s)
     # 純粋な数値 (Azure duration_in_minutes 等) はそのまま分とみなす
     if re.fullmatch(r"\d+(?:\.\d+)?", s):
         return int(float(s))
