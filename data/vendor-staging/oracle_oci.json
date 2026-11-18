@@ -1,1 +1,1298 @@
-[{"description":"Understand the core concepts and architecture of OCI; manage identity and access; deploy and manage OCI services like compute and storage; implement security measures and manage costs. Prepares for the Oracle Cloud Infrastructure Foundations Associate certification (1Z0-1085-26).","domain":"その他","duration_text":"","level":"Foundations","priority_for_user":"高","services":["OCI IAM","Virtual Cloud Network","Compute","Object Storage","Block Storage","Load Balancer","Cloud Guard","Vault"],"summary_ja":"OCIの全体像・IAM・ネットワーク・コンピュート・ストレージを学ぶ入門パス（OCI基盤の起点）","title":"Become an OCI Foundations Associate","type":"learning-path","url":"https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2026/163541"},{"description":"Design secure, scalable, and resilient cloud solutions on OCI. Covers cloud architecture design, networking, Identity and Access Management, compute and storage, high availability, disaster recovery, and OCI best practices. Prepares for the OCI Architect Associate certification (1Z0-1072-26); course and certification are free.","domain":"その他","duration_text":"","level":"Associate","priority_for_user":"高","services":["OCI IAM","Virtual Cloud Network","Compute","Block Storage","Object Storage","File Storage"],"summary_ja":"IAM・VCN・コンピュート・ストレージでOCIアーキテクチャ設計を学ぶ中核パス（無料）","title":"Become an OCI Architect Associate","type":"learning-path","url":"https://mylearn.oracle.com/ou/learning-path/become-an-oci-architect-associate-2026/162234"},{"description":"Designed for AI and ML engineers, cloud developers, and data scientists. Covers core AI agent concepts, designing AI agents using LangChain and the OpenAI Agent Stack, Model Context Protocol concepts, building agents using the OCI Enterprise AI Platform, and applying Oracle AI Database capabilities for agentic AI. Includes the free certification exam.","domain":"AI","duration_text":"6h 51m","level":"Foundations","priority_for_user":"高","services":["OCI Enterprise AI Platform","OCI Generative AI","Oracle AI Database","LangChain","Model Context Protocol"],"summary_ja":"LangChain・MCP・OCI Enterprise AIでAIエージェント構築の基礎を学ぶパス（通年テーマ直結）","title":"Become an Oracle Agentic AI Foundations Associate","type":"learning-path","url":"https://mylearn.oracle.com/ou/learning-path/become-an-oracle-agentic-ai-foundations-associate-2026/163239"},{"description":"Introduces the core concepts of AI, machine learning, deep learning, and Generative AI as implemented in Oracle Cloud, including large language models, OCI AI Services, OCI AI Infrastructure, and responsible AI. Six modules; no coding or AI background required. Prepares for the OCI AI Foundations Associate certification (1Z0-1122-26).","domain":"AI","duration_text":"8h 23m","level":"Foundations","priority_for_user":"中","services":["OCI AI Services","OCI AI Infrastructure","OCI Generative AI"],"summary_ja":"AI/ML・生成AI・LLMとOCI AIサービスの基礎を学ぶ入門パス","title":"Become an OCI AI Foundations Associate","type":"learning-path","url":"https://mylearn.oracle.com/ou/learning-path/become-an-oci-ai-foundations-associate-oci-exam-subscription/131280"},{"description":"Foundational knowledge of Oracle AI Database 26ai and Oracle Autonomous AI Database 26ai: converged database concepts, JSON, graph, AI Vector Search, vector embeddings, Select AI, Database Actions, Data Studio, Oracle Machine Learning, Oracle APEX, and Private Agent Factory. Prepares for the Oracle AI Database Foundations Associate certification (1Z0-1195-26).","domain":"データベース","duration_text":"","level":"Foundations","priority_for_user":"中","services":["Autonomous AI Database","AI Vector Search","Select AI","Oracle APEX","Oracle Machine Learning"],"summary_ja":"Autonomous AI Databaseとベクトル検索など、AI時代のOracle DB基礎を学ぶパス","title":"Become an Oracle AI Database Foundations Associate","type":"learning-path","url":"https://mylearn.oracle.com/ou/learning-path/become-an-oracle-ai-database-foundations-associate-2026/162213"},{"description":"Dive extensively into OKE (Oracle Container Engine for Kubernetes). Create, manage and optimize OKE clusters. Earn a badge.","domain":"コンテナ","duration_text":"","level":"Specialist","priority_for_user":"高","services":["Oracle Container Engine for Kubernetes (OKE)","OCI Container Registry"],"summary_ja":"OKEクラスタの作成・管理・最適化を深掘りするKubernetes専門パス（11月テーマ直結）","title":"Become an OCI Kubernetes Engine Specialist","type":"learning-path","url":"https://mylearn.oracle.com/ou/learning-path/become-an-oci-kubernetes-engine-specialist/134984"},{"description":"Designing and implementing multicloud solutions leveraging OCI services, for cloud architects interested in designing and building multicloud solutions utilizing Oracle services.","domain":"その他","duration_text":"","level":"","priority_for_user":"中","services":["OCI Networking","OCI IAM","Oracle Database@Azure","Oracle Database@AWS","Oracle Database@Google Cloud"],"summary_ja":"OCIを軸にマルチクラウド構成を設計・実装するアーキテクト向けパス","title":"Become an OCI Multicloud Architect","type":"learning-path","url":"https://mylearn.oracle.com/ou/learning-path/become-an-oci-multicloud-architect/120606"},{"description":"Learning path for Azure architects: map Azure concepts to OCI equivalents and design patterns, to build OCI architecture skills on top of existing Azure experience.","domain":"その他","duration_text":"","level":"","priority_for_user":"中","services":["Oracle Cloud Infrastructure"],"summary_ja":"Azure経験者向けにAzure概念をOCIへ読み替えるクロススキル用パス","title":"OCI for Azure Architects 2025","type":"learning-path","url":"https://mylearn.oracle.com/ou/learning-path/oci-for-azure-architects-2025/145439"},{"description":"Learning path for AWS architects: map AWS concepts to OCI equivalents and design patterns, to build OCI architecture skills on top of existing AWS experience.","domain":"その他","duration_text":"","level":"","priority_for_user":"中","services":["Oracle Cloud Infrastructure"],"summary_ja":"AWS経験者向けにAWS概念をOCIへ読み替えるクロススキル用パス","title":"OCI for AWS Architects 2025","type":"learning-path","url":"https://mylearn.oracle.com/ou/learning-path/oci-for-aws-architects-2025/145594"},{"description":"Learning path for Google Cloud architects: map Google Cloud concepts to OCI equivalents and design patterns, to build OCI architecture skills on top of existing GCP experience.","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Oracle Cloud Infrastructure"],"summary_ja":"GCP経験者向けにGCP概念をOCIへ読み替えるクロススキル用パス","title":"OCI for GCP Architects 2025","type":"learning-path","url":"https://mylearn.oracle.com/ou/learning-path/oci-for-gcp-architects-2025/145940"},{"description":"Understand migration fundamentals, scenarios, and workflow. Use OCVS (Oracle Cloud VMware Solution) for migrating VMs to OCI. Learn about the different Database Migration Services. Covers real-world cloud migration scenarios from on-premises, AWS, and containerized environments into OCI.","domain":"その他","duration_text":"","level":"Professional","priority_for_user":"中","services":["Oracle Cloud VMware Solution (OCVS)","Oracle Cloud Migrations","OCI Database Migration Service"],"summary_ja":"オンプレ・AWS・VMwareからOCIへの移行設計と移行ツールを学ぶパス","title":"Become an OCI Migration Architect Professional (2025)","type":"learning-path","url":"https://learn.oracle.com/ols/learning-path/become-an-oci-migration-architect-professional-2025/118071/148010"},{"description":"Build capability for day-to-day operations in OCI: resource lifecycle, automation and Infrastructure as Code, cost management, IAM governance, observability and monitoring, and troubleshooting. Prepares for the OCI Cloud Ops Professional certification (hands-on performance-based exam).","domain":"その他","duration_text":"","level":"Professional","priority_for_user":"中","services":["OCI Resource Manager","OCI Monitoring","OCI IAM","Terraform"],"summary_ja":"IaC・コスト管理・IAMガバナンス・監視などOCIの日々の運用を学ぶパス","title":"Become an OCI Cloud Operations Professional (2025)","type":"learning-path","url":"https://learn.oracle.com/ols/learning-path/become-an-oci-cloud-operations-professional-2025/118071/148174"},{"description":"Master DevOps principles for efficient software delivery on OCI: build containerized microservices and deploy them using managed Kubernetes (OKE), set up CI/CD pipelines with OCI DevOps projects, code repositories and artifact registries, provision infrastructure using code, and implement DevSecOps best practices. The course includes 17 self-paced lab exercises.","domain":"コンテナ","duration_text":"","level":"Professional","priority_for_user":"高","services":["OCI DevOps","Oracle Container Engine for Kubernetes (OKE)","OCI Container Registry","Container Instances","OCI Resource Manager"],"summary_ja":"OCI DevOpsのCI/CD・OKE・IaC・DevSecOpsを17のラボで学ぶ実践コース（11月テーマ）","title":"Oracle Cloud Infrastructure DevOps Professional","type":"course","url":"https://learn.oracle.com/ols/course/oracle-cloud-infrastructure-devops-professional/118071/147569"},{"description":"An accessible introduction to cloud concepts for non-technical business users, focusing on practical applications and the business value of the cloud through concise modules. Listed on Oracle MyLearn as a free learning path.","domain":"その他","duration_text":"1h 22m","level":"","priority_for_user":"低","services":["Oracle Cloud Infrastructure"],"summary_ja":"非技術者向けにクラウドの概念とビジネス価値を短時間で学ぶ入門コース","title":"Cloud Business Jumpstart: Training and Assessment","type":"course","url":"https://learn.oracle.com/ols/course/cloud-business-jumpstart/118071/152957"},{"description":"Foundational knowledge in networking, security, and key IT concepts for technical users, delivered through engaging video modules. Listed on Oracle MyLearn as a free learning path.","domain":"その他","duration_text":"3h 26m","level":"","priority_for_user":"中","services":["Oracle Cloud Infrastructure","OCI Networking","OCI Security"],"summary_ja":"ネットワーク・セキュリティなど技術基礎を動画で学ぶ入門コース","title":"Cloud Tech Jumpstart: Training and Assessment","type":"course","url":"https://learn.oracle.com/ols/course/cloud-tech-jumpstart/118071/152992"}]
+[
+ {
+  "description": "Understand the core concepts and architecture of OCI; manage identity and access; deploy and manage OCI services like compute and storage; implement security measures and manage costs. Prepares for the Oracle Cloud Infrastructure Foundations Associate certification (1Z0-1085-26).",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "Foundations",
+  "priority_for_user": "高",
+  "services": [
+   "OCI IAM",
+   "Virtual Cloud Network",
+   "Compute",
+   "Object Storage",
+   "Block Storage",
+   "Load Balancer",
+   "Cloud Guard",
+   "Vault"
+  ],
+  "summary_ja": "OCIの全体像・IAM・ネットワーク・コンピュート・ストレージを学ぶ入門パス（OCI基盤の起点）",
+  "title": "Become an OCI Foundations Associate",
+  "type": "learning-path",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2026/163541"
+ },
+ {
+  "description": "Design secure, scalable, and resilient cloud solutions on OCI. Covers cloud architecture design, networking, Identity and Access Management, compute and storage, high availability, disaster recovery, and OCI best practices. Prepares for the OCI Architect Associate certification (1Z0-1072-26); course and certification are free.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "Associate",
+  "priority_for_user": "高",
+  "services": [
+   "OCI IAM",
+   "Virtual Cloud Network",
+   "Compute",
+   "Block Storage",
+   "Object Storage",
+   "File Storage"
+  ],
+  "summary_ja": "IAM・VCN・コンピュート・ストレージでOCIアーキテクチャ設計を学ぶ中核パス（無料）",
+  "title": "Become an OCI Architect Associate",
+  "type": "learning-path",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-architect-associate-2026/162234"
+ },
+ {
+  "description": "Designed for AI and ML engineers, cloud developers, and data scientists. Covers core AI agent concepts, designing AI agents using LangChain and the OpenAI Agent Stack, Model Context Protocol concepts, building agents using the OCI Enterprise AI Platform, and applying Oracle AI Database capabilities for agentic AI. Includes the free certification exam.",
+  "domain": "AI",
+  "duration_text": "6h 51m",
+  "level": "Foundations",
+  "priority_for_user": "高",
+  "services": [
+   "OCI Enterprise AI Platform",
+   "OCI Generative AI",
+   "Oracle AI Database",
+   "LangChain",
+   "Model Context Protocol"
+  ],
+  "summary_ja": "LangChain・MCP・OCI Enterprise AIでAIエージェント構築の基礎を学ぶパス（通年テーマ直結）",
+  "title": "Become an Oracle Agentic AI Foundations Associate",
+  "type": "learning-path",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-agentic-ai-foundations-associate-2026/163239"
+ },
+ {
+  "description": "Introduces the core concepts of AI, machine learning, deep learning, and Generative AI as implemented in Oracle Cloud, including large language models, OCI AI Services, OCI AI Infrastructure, and responsible AI. Six modules; no coding or AI background required. Prepares for the OCI AI Foundations Associate certification (1Z0-1122-26).",
+  "domain": "AI",
+  "duration_text": "8h 23m",
+  "level": "Foundations",
+  "priority_for_user": "中",
+  "services": [
+   "OCI AI Services",
+   "OCI AI Infrastructure",
+   "OCI Generative AI"
+  ],
+  "summary_ja": "AI/ML・生成AI・LLMとOCI AIサービスの基礎を学ぶ入門パス",
+  "title": "Become an OCI AI Foundations Associate",
+  "type": "learning-path",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-ai-foundations-associate-oci-exam-subscription/131280"
+ },
+ {
+  "description": "Foundational knowledge of Oracle AI Database 26ai and Oracle Autonomous AI Database 26ai: converged database concepts, JSON, graph, AI Vector Search, vector embeddings, Select AI, Database Actions, Data Studio, Oracle Machine Learning, Oracle APEX, and Private Agent Factory. Prepares for the Oracle AI Database Foundations Associate certification (1Z0-1195-26).",
+  "domain": "データベース",
+  "duration_text": "",
+  "level": "Foundations",
+  "priority_for_user": "中",
+  "services": [
+   "Autonomous AI Database",
+   "AI Vector Search",
+   "Select AI",
+   "Oracle APEX",
+   "Oracle Machine Learning"
+  ],
+  "summary_ja": "Autonomous AI Databaseとベクトル検索など、AI時代のOracle DB基礎を学ぶパス",
+  "title": "Become an Oracle AI Database Foundations Associate",
+  "type": "learning-path",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-ai-database-foundations-associate-2026/162213"
+ },
+ {
+  "description": "Dive extensively into OKE (Oracle Container Engine for Kubernetes). Create, manage and optimize OKE clusters. Earn a badge.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Specialist",
+  "priority_for_user": "高",
+  "services": [
+   "Oracle Container Engine for Kubernetes (OKE)",
+   "OCI Container Registry"
+  ],
+  "summary_ja": "OKEクラスタの作成・管理・最適化を深掘りするKubernetes専門パス（11月テーマ直結）",
+  "title": "Become an OCI Kubernetes Engine Specialist",
+  "type": "learning-path",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-kubernetes-engine-specialist/134984"
+ },
+ {
+  "description": "Designing and implementing multicloud solutions leveraging OCI services, for cloud architects interested in designing and building multicloud solutions utilizing Oracle services.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "OCI Networking",
+   "OCI IAM",
+   "Oracle Database@Azure",
+   "Oracle Database@AWS",
+   "Oracle Database@Google Cloud"
+  ],
+  "summary_ja": "OCIを軸にマルチクラウド構成を設計・実装するアーキテクト向けパス",
+  "title": "Become an OCI Multicloud Architect",
+  "type": "learning-path",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-multicloud-architect/120606"
+ },
+ {
+  "description": "Learning path for Azure architects: map Azure concepts to OCI equivalents and design patterns, to build OCI architecture skills on top of existing Azure experience.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Oracle Cloud Infrastructure"
+  ],
+  "summary_ja": "Azure経験者向けにAzure概念をOCIへ読み替えるクロススキル用パス",
+  "title": "OCI for Azure Architects 2025",
+  "type": "learning-path",
+  "url": "https://mylearn.oracle.com/ou/learning-path/oci-for-azure-architects-2025/145439"
+ },
+ {
+  "description": "Learning path for AWS architects: map AWS concepts to OCI equivalents and design patterns, to build OCI architecture skills on top of existing AWS experience.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Oracle Cloud Infrastructure"
+  ],
+  "summary_ja": "AWS経験者向けにAWS概念をOCIへ読み替えるクロススキル用パス",
+  "title": "OCI for AWS Architects 2025",
+  "type": "learning-path",
+  "url": "https://mylearn.oracle.com/ou/learning-path/oci-for-aws-architects-2025/145594"
+ },
+ {
+  "description": "Learning path for Google Cloud architects: map Google Cloud concepts to OCI equivalents and design patterns, to build OCI architecture skills on top of existing GCP experience.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Oracle Cloud Infrastructure"
+  ],
+  "summary_ja": "GCP経験者向けにGCP概念をOCIへ読み替えるクロススキル用パス",
+  "title": "OCI for GCP Architects 2025",
+  "type": "learning-path",
+  "url": "https://mylearn.oracle.com/ou/learning-path/oci-for-gcp-architects-2025/145940"
+ },
+ {
+  "description": "Understand migration fundamentals, scenarios, and workflow. Use OCVS (Oracle Cloud VMware Solution) for migrating VMs to OCI. Learn about the different Database Migration Services. Covers real-world cloud migration scenarios from on-premises, AWS, and containerized environments into OCI.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "Professional",
+  "priority_for_user": "中",
+  "services": [
+   "Oracle Cloud VMware Solution (OCVS)",
+   "Oracle Cloud Migrations",
+   "OCI Database Migration Service"
+  ],
+  "summary_ja": "オンプレ・AWS・VMwareからOCIへの移行設計と移行ツールを学ぶパス",
+  "title": "Become an OCI Migration Architect Professional (2025)",
+  "type": "learning-path",
+  "url": "https://learn.oracle.com/ols/learning-path/become-an-oci-migration-architect-professional-2025/118071/148010"
+ },
+ {
+  "description": "Build capability for day-to-day operations in OCI: resource lifecycle, automation and Infrastructure as Code, cost management, IAM governance, observability and monitoring, and troubleshooting. Prepares for the OCI Cloud Ops Professional certification (hands-on performance-based exam).",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "Professional",
+  "priority_for_user": "中",
+  "services": [
+   "OCI Resource Manager",
+   "OCI Monitoring",
+   "OCI IAM",
+   "Terraform"
+  ],
+  "summary_ja": "IaC・コスト管理・IAMガバナンス・監視などOCIの日々の運用を学ぶパス",
+  "title": "Become an OCI Cloud Operations Professional (2025)",
+  "type": "learning-path",
+  "url": "https://learn.oracle.com/ols/learning-path/become-an-oci-cloud-operations-professional-2025/118071/148174"
+ },
+ {
+  "description": "Master DevOps principles for efficient software delivery on OCI: build containerized microservices and deploy them using managed Kubernetes (OKE), set up CI/CD pipelines with OCI DevOps projects, code repositories and artifact registries, provision infrastructure using code, and implement DevSecOps best practices. The course includes 17 self-paced lab exercises.",
+  "domain": "コンテナ",
+  "duration_text": "",
+  "level": "Professional",
+  "priority_for_user": "高",
+  "services": [
+   "OCI DevOps",
+   "Oracle Container Engine for Kubernetes (OKE)",
+   "OCI Container Registry",
+   "Container Instances",
+   "OCI Resource Manager"
+  ],
+  "summary_ja": "OCI DevOpsのCI/CD・OKE・IaC・DevSecOpsを17のラボで学ぶ実践コース（11月テーマ）",
+  "title": "Oracle Cloud Infrastructure DevOps Professional",
+  "type": "course",
+  "url": "https://learn.oracle.com/ols/course/oracle-cloud-infrastructure-devops-professional/118071/147569"
+ },
+ {
+  "description": "An accessible introduction to cloud concepts for non-technical business users, focusing on practical applications and the business value of the cloud through concise modules. Listed on Oracle MyLearn as a free learning path.",
+  "domain": "その他",
+  "duration_text": "1h 22m",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Oracle Cloud Infrastructure"
+  ],
+  "summary_ja": "非技術者向けにクラウドの概念とビジネス価値を短時間で学ぶ入門コース",
+  "title": "Cloud Business Jumpstart: Training and Assessment",
+  "type": "course",
+  "url": "https://learn.oracle.com/ols/course/cloud-business-jumpstart/118071/152957"
+ },
+ {
+  "description": "Foundational knowledge in networking, security, and key IT concepts for technical users, delivered through engaging video modules. Listed on Oracle MyLearn as a free learning path.",
+  "domain": "その他",
+  "duration_text": "3h 26m",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Oracle Cloud Infrastructure",
+   "OCI Networking",
+   "OCI Security"
+  ],
+  "summary_ja": "ネットワーク・セキュリティなど技術基礎を動画で学ぶ入門コース",
+  "title": "Cloud Tech Jumpstart: Training and Assessment",
+  "type": "course",
+  "url": "https://learn.oracle.com/ols/course/cloud-tech-jumpstart/118071/152992"
+ },
+ {
+  "title": "Become An OCI Architect Professional",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-architect-professional/163270",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "26h 30m",
+  "description": "OCI 2026 Architect Professional 認定 (1Z0-997-26) 対応の現行学習パス。",
+  "domain": "その他",
+  "services": [
+   "OCI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "OCI最上位アーキテクト認定の学習パス"
+ },
+ {
+  "title": "Japanese: Become an Oracle Cloud Infrastructure Security Professional (2026)",
+  "url": "https://mylearn.oracle.com/ou/learning-path/japanese-become-an-oracle-cloud-infrastructure-security-professional-2026-/165109",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "24h 51m",
+  "description": "OCI Security Professional 認定 (1Z0-1104-26) 対応の日本語版学習パス。",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "OCI IAM",
+   "OCI Security"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "OCIセキュリティ認定の日本語版学習パス"
+ },
+ {
+  "title": "Become An Oracle Cloud Infrastructure Networking Professional",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-cloud-infrastructure-networking-professional/163340",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "19h 40m",
+  "description": "OCI Networking Professional 認定 (1Z0-1124-26) 対応の現行学習パス。",
+  "domain": "ネットワーク",
+  "services": [
+   "VCN",
+   "OCI Networking"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "OCIネットワーク認定の学習パス"
+ },
+ {
+  "title": "Become an OCI Developer Professional",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-developer-professional/162926",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "19h 29m",
+  "description": "OCI Developer Professional 認定 (1Z0-1084-26) 対応の現行学習パス。",
+  "domain": "その他",
+  "services": [
+   "OCI Developer"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "OCI開発者認定の学習パス"
+ },
+ {
+  "title": "Become an OCI Data Science Professional",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-data-science-professional/162289",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "17h 22m",
+  "description": "OCI Data Science Professional 認定 (1Z0-1110-26) 対応の現行学習パス。",
+  "domain": "AI",
+  "services": [
+   "OCI Data Science"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "OCIデータサイエンス認定の学習パス"
+ },
+ {
+  "title": "Become An Oracle Cloud Infrastructure Observability Professional",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-cloud-infrastructure-observability-professional/162237",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "9h 54m",
+  "description": "OCI Observability Professional 認定 (1Z0-1111-26) 対応の現行学習パス。",
+  "domain": "その他",
+  "services": [
+   "OCI Observability"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "OCI可観測性認定の学習パス"
+ },
+ {
+  "title": "Become an OCI Enterprise AI Professional",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-enterprise-ai-professional/163234",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "9h 17m",
+  "description": "OCI Enterprise AI Professional 認定 (1Z0-1158-26) 対応の現行学習パス。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "エンタープライズAI認定の学習パス"
+ },
+ {
+  "title": "Become an Oracle Autonomous AI Database Professional",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-autonomous-ai-database-professional/163045",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "11h 28m",
+  "description": "Oracle Autonomous AI Database Professional 認定 (1Z0-931-26) 対応の現行学習パス (旧 Autonomous Database Professional から改称)。",
+  "domain": "データベース",
+  "services": [
+   "Autonomous Database"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "自律型データベース認定の学習パス"
+ },
+ {
+  "title": "Oracle APEX: Foundations",
+  "url": "https://mylearn.oracle.com/ou/learning-path/oracle-apex-foundations/163918",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "3h 43m",
+  "description": "Oracle APEX Foundations バッジ対応の学習パス。",
+  "domain": "その他",
+  "services": [
+   "Oracle APEX"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "APEX基礎の学習パス"
+ },
+ {
+  "title": "Become An Oracle APEX Developer Professional",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-apex-developer-professional/146080",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "22h 12m",
+  "description": "Oracle APEX Developer Professional 認定 (1Z0-771) 対応の学習パス。",
+  "domain": "その他",
+  "services": [
+   "Oracle APEX"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "APEX開発者認定の学習パス"
+ },
+ {
+  "title": "Become An Application Integration Professional",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-application-integration-professional/163138",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "24h 33m",
+  "description": "Application Integration Professional 認定 (1Z0-1042-26) 対応の現行学習パス。",
+  "domain": "その他",
+  "services": [
+   "Oracle Integration"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "アプリケーション統合認定の学習パス"
+ },
+ {
+  "title": "Discover and Train in CyberSecurity",
+  "url": "https://mylearn.oracle.com/ou/learning-path/discover-and-train-in-cybersecurity/100307",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "2h 30m",
+  "description": "Get Started With CyberSecurity And Oracle Cloud を扱う学習パス。",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "OCI Security"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "サイバーセキュリティ入門の学習パス"
+ },
+ {
+  "title": "Become an Oracle AI Database@Azure Architect Professional",
+  "url": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-ai-databaseazure-architect-professional/163147",
+  "type": "learning-path",
+  "level": "",
+  "duration_text": "13h 49m",
+  "description": "Oracle AI Database@Azure Architect Professional 認定 (1Z0-1147) 対応の現行学習パス (旧 Database@Azure Specialist から改称)。",
+  "domain": "データベース",
+  "services": [
+   "Oracle Database@Azure"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Database@Azure アーキテクト認定の学習パス"
+ },
+ {
+  "title": "Load and Analyze Your Data with Oracle Autonomous AI Database",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=582",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Load and Analyze Your Data with Oracle Autonomous AI Database"
+ },
+ {
+  "title": "Load and update Moviestream data in Oracle ADW using Data Studio",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=901",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "データベース",
+  "services": [
+   "Oracle Database"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Load and update Moviestream data in Oracle ADW using Data Studio"
+ },
+ {
+  "title": "Get Started with Oracle Cloud Infrastructure Core Services",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=648",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "コンピュート",
+  "services": [
+   "OCI Core Services"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Get Started with Oracle Cloud Infrastructure Core Services"
+ },
+ {
+  "title": "AI Services: Introduction to OCI Vision",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=931",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: AI Services: Introduction to OCI Vision"
+ },
+ {
+  "title": "Manage and Monitor Autonomous AI Database",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=553",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Manage and Monitor Autonomous AI Database"
+ },
+ {
+  "title": "Converting your Spreadsheet into a Cloud App using Oracle APEX",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=631",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "45 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "その他",
+  "services": [
+   "Oracle APEX"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "LiveLabs ハンズオン: Converting your Spreadsheet into a Cloud App using Oracle APEX"
+ },
+ {
+  "title": "Build a Starter Online Shopping App using Oracle APEX!",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=848",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "その他",
+  "services": [
+   "Oracle APEX"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "LiveLabs ハンズオン: Build a Starter Online Shopping App using Oracle APEX!"
+ },
+ {
+  "title": "Launch Your First MySQL HeatWave Database System",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=722",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "データベース",
+  "services": [
+   "Oracle Database"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Launch Your First MySQL HeatWave Database System"
+ },
+ {
+  "title": "Migrate WebLogic to WebLogic on OKE",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=721",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "コンテナ",
+  "services": [
+   "OKE",
+   "Container Instances"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Migrate WebLogic to WebLogic on OKE"
+ },
+ {
+  "title": "Migrate WebLogic Server to OCI with Oracle Database",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=683",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "データベース",
+  "services": [
+   "Oracle Database"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Migrate WebLogic Server to OCI with Oracle Database"
+ },
+ {
+  "title": "Migrate SOA Applications to OCI",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=697",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "データベース",
+  "services": [
+   "Oracle Database"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Migrate SOA Applications to OCI"
+ },
+ {
+  "title": "Using an HPC Terraform Stack on OCI",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4413",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "その他",
+  "services": [
+   "Terraform",
+   "OCI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Using an HPC Terraform Stack on OCI"
+ },
+ {
+  "title": "One-Click Deploy Stable Diffusion",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4129",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: One-Click Deploy Stable Diffusion"
+ },
+ {
+  "title": "Put AI Agents to Work with MCP and OCI Container Instances.",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4516",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI",
+   "AI Agent"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Put AI Agents to Work with MCP and OCI Container Instances."
+ },
+ {
+  "title": "Connect Oracle Agent Factory to Oracle APEX",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4397",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "4 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI",
+   "AI Agent"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Connect Oracle Agent Factory to Oracle APEX"
+ },
+ {
+  "title": "Enhance your Oracle APEX App with Document-Aware Generative AI Agents",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4190",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI",
+   "AI Agent"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Enhance your Oracle APEX App with Document-Aware Generative AI Agents"
+ },
+ {
+  "title": "Build a Movie Recommendation App with Machine Learning in MySQL HeatWave",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3859",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "3 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Build a Movie Recommendation App with Machine Learning in MySQL HeatWave"
+ },
+ {
+  "title": "The Private Agent Factory: Turn Data into Action",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4336",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "4 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI",
+   "AI Agent"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: The Private Agent Factory: Turn Data into Action"
+ },
+ {
+  "title": "Designing and Deploying Agentic Workflows with Distributed Transactions",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4243",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI",
+   "AI Agent"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Designing and Deploying Agentic Workflows with Distributed Transactions"
+ },
+ {
+  "title": "Build a Data Lake with Autonomous AI Lakehouse",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3689",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Build a Data Lake with Autonomous AI Lakehouse"
+ },
+ {
+  "title": "Set up live data sharing between Oracle AI Databases using Cloud Links and PL/SQL APIs",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3881",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Set up live data sharing between Oracle AI Databases using Cloud Links and PL/SQL APIs"
+ },
+ {
+  "title": "Implement Data Sharing with Oracle Autonomous AI Database Data Studio",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3771",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Implement Data Sharing with Oracle Autonomous AI Database Data Studio"
+ },
+ {
+  "title": "Access the Data Lake using Autonomous Database and Data Catalog",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=877",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "3 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "データベース",
+  "services": [
+   "Oracle Database"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Access the Data Lake using Autonomous Database and Data Catalog"
+ },
+ {
+  "title": "League of Legends Machine Learning with OCI - Data Extraction",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3398",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: League of Legends Machine Learning with OCI - Data Extraction"
+ },
+ {
+  "title": "Try Machine Learning and Predict Optimal Pit Strategy with Oracle Red Bull Racing",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3403",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Try Machine Learning and Predict Optimal Pit Strategy with Oracle Red Bull Racing"
+ },
+ {
+  "title": "Deploy ATOM (AI Powered) Chatbot",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3924",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Deploy ATOM (AI Powered) Chatbot"
+ },
+ {
+  "title": "Search Documents stored in Object Storage using Opensearch, Generative AI, Semantic Search, RAG",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3762",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Search Documents stored in Object Storage using Opensearch, Generative AI, Semantic Search, RAG"
+ },
+ {
+  "title": "Build an e-commerce application with HeatWave GenAI",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4171",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Build an e-commerce application with HeatWave GenAI"
+ },
+ {
+  "title": "Getting Started with HeatWave GenAI",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4048",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Getting Started with HeatWave GenAI"
+ },
+ {
+  "title": "Oracle Autonomous AI Database 15 Minute Quick Start",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=928",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "15 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Oracle Autonomous AI Database 15 Minute Quick Start"
+ },
+ {
+  "title": "Load the Autonomous Database with Data Studio",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3590",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "データベース",
+  "services": [
+   "Oracle Database"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Load the Autonomous Database with Data Studio"
+ },
+ {
+  "title": "Build an Innovative Q&A Interface Powered by Generative AI with Oracle APEX",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3947",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "その他",
+  "services": [
+   "Oracle APEX"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "LiveLabs ハンズオン: Build an Innovative Q&A Interface Powered by Generative AI with Oracle APEX"
+ },
+ {
+  "title": "Building Intelligent APEX Apps with OCI Gen AI and Your Oracle Data",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4255",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "その他",
+  "services": [
+   "Oracle APEX"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "LiveLabs ハンズオン: Building Intelligent APEX Apps with OCI Gen AI and Your Oracle Data"
+ },
+ {
+  "title": "Build an Agentic Operations Wingmate with OCI Resource Analytics, Oracle APEX, and OCI Generative AI",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4448",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI",
+   "AI Agent"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Build an Agentic Operations Wingmate with OCI Resource Analytics, Oracle APEX, and OCI Generative AI"
+ },
+ {
+  "title": "Analyze Document Store with RAG on Oracle APEX",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4187",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "その他",
+  "services": [
+   "Oracle APEX"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "LiveLabs ハンズオン: Analyze Document Store with RAG on Oracle APEX"
+ },
+ {
+  "title": "Deploy APEX Apps In The Time It Takes To Make Your Morning Coffee",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3793",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "その他",
+  "services": [
+   "Oracle APEX"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "LiveLabs ハンズオン: Deploy APEX Apps In The Time It Takes To Make Your Morning Coffee"
+ },
+ {
+  "title": "Simplify Security for Microservices on Converged Oracle Database",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3338",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "OCI Security"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Simplify Security for Microservices on Converged Oracle Database"
+ },
+ {
+  "title": "Cloud-native analytics using Open-source tools with MySQL HeatWave",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3234",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours, 15 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "データベース",
+  "services": [
+   "Oracle Database"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Cloud-native analytics using Open-source tools with MySQL HeatWave"
+ },
+ {
+  "title": "DB Security - Oracle Audit Vault and Database Firewall (AVDF)",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=711",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 9 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "OCI Security"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: DB Security - Oracle Audit Vault and Database Firewall (AVDF)"
+ },
+ {
+  "title": "DB Security - Oracle Database Security Central",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4410",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "OCI Security"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: DB Security - Oracle Database Security Central"
+ },
+ {
+  "title": "DB Security - Oracle SQL Firewall",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3875",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "OCI Security"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: DB Security - Oracle SQL Firewall"
+ },
+ {
+  "title": "Make Search Trusted, Faster, and Deterministic on your Application with Trusted Answer Search",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4388",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "25 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "その他",
+  "services": [
+   "OCI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Make Search Trusted, Faster, and Deterministic on your Application with Trusted Answer Search"
+ },
+ {
+  "title": "Get started with Oracle Machine Learning Fundamentals on Oracle Autonomous AI Database",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=922",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Get started with Oracle Machine Learning Fundamentals on Oracle Autonomous AI Database"
+ },
+ {
+  "title": "Get Started with Oracle Data Science Agent",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4468",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI",
+   "AI Agent"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Get Started with Oracle Data Science Agent"
+ },
+ {
+  "title": "Get started with AI Agents using Select AI on Autonomous AI Database",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4229",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "3 hours, 55 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI",
+   "AI Agent"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Get started with AI Agents using Select AI on Autonomous AI Database"
+ },
+ {
+  "title": "Build a Movies Watchlist Application using Oracle APEX",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=942",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "その他",
+  "services": [
+   "Oracle APEX"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "LiveLabs ハンズオン: Build a Movies Watchlist Application using Oracle APEX"
+ },
+ {
+  "title": "Deploy ODA Multi-API Orchestration Chatbot powered by GenAI Tools and ADB Select AI",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4137",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "5 hours, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Deploy ODA Multi-API Orchestration Chatbot powered by GenAI Tools and ADB Select AI"
+ },
+ {
+  "title": "Innovate with Autonomous AI Database's built-in Select AI, Graph, ML and Spatial analytics",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=889",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Innovate with Autonomous AI Database's built-in Select AI, Graph, ML and Spatial analytics"
+ },
+ {
+  "title": "Introduction to Oracle Machine Learning for Python on Autonomous AI Database",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=786",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Introduction to Oracle Machine Learning for Python on Autonomous AI Database"
+ },
+ {
+  "title": "Learn Analytics and Machine Learning with SailGP",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=868",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Learn Analytics and Machine Learning with SailGP"
+ },
+ {
+  "title": "Premier League and Oracle: Expected Goals",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3296",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Premier League and Oracle: Expected Goals"
+ },
+ {
+  "title": "Oracle AI Database 26ai New Features",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3950",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "5 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Oracle AI Database 26ai New Features"
+ },
+ {
+  "title": "New features in Oracle AI Database 26ai - The essentials",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4213",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: New features in Oracle AI Database 26ai - The essentials"
+ },
+ {
+  "title": "Get Started with Oracle Data Safe Fundamentals",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=598",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "OCI Security"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Get Started with Oracle Data Safe Fundamentals"
+ },
+ {
+  "title": "Centralize user management for Oracle Autonomous Database with OCI Identity and Access Management (IAM)",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3565",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "セキュリティ・IAM",
+  "services": [
+   "OCI Security"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LiveLabs ハンズオン: Centralize user management for Oracle Autonomous Database with OCI Identity and Access Management (IAM)"
+ },
+ {
+  "title": "Hitchhiker's Guide for Upgrading to Oracle AI Database 26ai",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3943",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Hitchhiker's Guide for Upgrading to Oracle AI Database 26ai"
+ },
+ {
+  "title": "Build a Social Media App Using Oracle APEX!",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3620",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "その他",
+  "services": [
+   "Oracle APEX"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "LiveLabs ハンズオン: Build a Social Media App Using Oracle APEX!"
+ },
+ {
+  "title": "Replicate data using Oracle Cloud Infrastructure GoldenGate",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=797",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "2 hours",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "データベース",
+  "services": [
+   "Oracle Database"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Replicate data using Oracle Cloud Infrastructure GoldenGate"
+ },
+ {
+  "title": "The Beginner's Guide to Building Custom Language AI Models",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=887",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: The Beginner's Guide to Building Custom Language AI Models"
+ },
+ {
+  "title": "Introduction to OCI Speech",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=3135",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Introduction to OCI Speech"
+ },
+ {
+  "title": "Oracle AI Vector Search - Basics",
+  "url": "https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=1070",
+  "type": "workshop",
+  "level": "",
+  "duration_text": "1 hour, 30 minutes",
+  "description": "Oracle LiveLabs ハンズオン・ワークショップ (ブラウザで詳細ページを開いて実在確認済み)。",
+  "domain": "AI",
+  "services": [
+   "OCI AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LiveLabs ハンズオン: Oracle AI Vector Search - Basics"
+ }
+]

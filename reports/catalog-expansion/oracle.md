@@ -39,3 +39,12 @@
 2. URL の取得: MyLearn 公式ページの検索インデックス掲載、Oracle 公式ブログ内のリンク、Oracle の公式学習 URL (learn.oracle.com/ols/…) のリンクを辿り、表示された URL をそのまま転記 (組み立て・推測なし)
 3. 実在確認: 取得した URL を実際に開き、ページが応答すること、およびタイトルが公式表記と対応することを確認。応答が確認できなかったもの (アーカイブ済みの疑いがあるものを含む) は収録から除外し、上記「未収録」に理由つきで記録した
 4. 所要時間・レベルは公式ページに原文がある場合のみ転記し、無い場合は空欄にした
+
+## 追補 (2026-11-18、ブラウザ追加収集 — ユーザー承認済み)
+
+実ブラウザで MyLearn / LiveLabs を辿る追加収集を実施し、oracle_oci.json は 15件 → **89件** になった。
+
+- MyLearn: 未収録22件中 **13件** の現行パスURLを特定し、詳細ページを開いてタイトル一致と所要時間を確認 (Architect Professional 26h30m、Networking 19h40m 等)。Security Professional は日本語2026年版のみ確認。9件は複数検索でも同名パスが現れず NOT FOUND のまま (検索2ページ目以降に存在する可能性は残る)。Autonomous Database Professional と Database@Azure Specialist は現行版で改称されていた。
+- LiveLabs: OCI 関連 **61件** のワークショップを詳細ページで確認 (MCP と OCI Container Instances のエージェント系、OCI Core Services 入門、IAM 統合などを含む)。カタログ全体927件・OCI絞り込み201件中の61件で、上限120件には未達。
+- LiveLabs の URL は開いた際の URL からセッション固有パラメータ (session=...) を除去し、安定IDである wid の形 (view-workshop?wid=<id>) で記録した。除去は同一ページへの導線のままである。
+- 分類 (domain / services / priority_for_user / summary_ja) は司令塔 (Muse) が付与した。
