@@ -1,1 +1,323 @@
-[{"description":"This course will provide you with an introduction to artificial intelligence and vector search. Then, you'll learn how to generate embeddings for your data, store your embeddings in MongoDB Atlas, and index and search your embeddings to perform a semantic search.","domain":"AI","duration_text":"6 Hours","level":"","priority_for_user":"中","services":["MongoDB","MongoDB Atlas","Atlas Vector Search"],"summary_ja":"Atlas Vector Searchで埋め込み生成からセマンティック検索、RAGアプリ構築までを学ぶパス","title":"MongoDB Vector Search","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-vector-search"},{"description":"Completing this learning badge will give you the skills to build your own GenAI application with MongoDB. We'll focus on Retrieval Augmented Generation, also known as RAG, as our GenAI app use case.","domain":"AI","duration_text":"7.5 Hours","level":"","priority_for_user":"中","services":["MongoDB","MongoDB Atlas","Atlas Vector Search"],"summary_ja":"MongoDBとAtlas Vector SearchでRAGチャットボットを構築するGenAIアプリ開発バッジパス","title":"Building GenAI Apps Learning Badge Path","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/building-genai-apps-learning-badge-path"},{"description":"By going through this learning path, you'll take your GenAI app from creation to full deployment, optimizing it along the way.","domain":"AI","duration_text":"2 Hours","level":"","priority_for_user":"中","services":["MongoDB","MongoDB Atlas"],"summary_ja":"GenAIアプリのチャンキング・評価・本番デプロイと最適化を学ぶバッジパス","title":"Deploying and Evaluating GenAI Apps Learning Badge Path","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/deploying-and-evaluating-genai-apps-learning-badge-path"},{"description":"This learning path guides you through the foundations of MongoDB Atlas, the multi-cloud developer data platform. You'll learn how to quickly get up and running with a free MongoDB Atlas Cluster. We'll go over the basics on how to create, secure, monitor and administer your new cluster using the UI and the CLI.","domain":"データベース","duration_text":"13 Hours","level":"","priority_for_user":"中","services":["MongoDB","MongoDB Atlas"],"summary_ja":"Atlasクラスタの作成・セキュリティ・監視・運用を学ぶ管理者認定対応パス","title":"MongoDB Atlas Administrator Path","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-atlas-admin-certification-learning-path"},{"description":"This course guides you through the foundational steps of creating an effective data model in MongoDB. In this course, you'll use an example application to identify database entities and workloads. Next, you'll map the relationships between entities and learn how to model these relationships in MongoDB, with a particular focus on learning when to embed or reference relationships.","domain":"データベース","duration_text":"8 Hours","level":"","priority_for_user":"中","services":["MongoDB"],"summary_ja":"埋め込み/参照の判断やスキーマ設計パターンを学ぶデータモデリング認定対応パス","title":"MongoDB Data Modeling Path","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-data-modeling-certification-learning-path"},{"description":"Learn how to achieve a seamless full-text search experience with Atlas Search, powered by Apache Lucene","domain":"データベース","duration_text":"7.75 Hours","level":"","priority_for_user":"中","services":["MongoDB","MongoDB Atlas","Atlas Search"],"summary_ja":"Atlas Searchで全文検索インデックス・高度なクエリ・オートコンプリートを実装するパス","title":"MongoDB Search","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-search"},{"description":"This course guides you through the foundational knowledge and skills needed to use MongoDB Atlas, the multi-cloud developer data platform. You'll learn about MongoDB's document model and the basics of connecting to and indexing with MongoDB. Additionally, this course covers key topics involved in administering and monitoring MongoDB deployments on Atlas, using both the Atlas UI and CLI.","domain":"データベース","duration_text":"12.5 Hours","level":"","priority_for_user":"中","services":["MongoDB","MongoDB Atlas"],"summary_ja":"ドキュメントモデルからAtlasの管理・監視までMongoDB基礎を一通り学ぶ入門パス","title":"Atlas Essentials","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/atlas-essentials"},{"description":"This course guides you through the foundational knowledge and skills needed to use MongoDB as a SQL Professional. You'll learn about MongoDB's document model and the basics of data modeling, indexes and aggregation with MongoDB. Additionally, this course covers key features that help you, as a SQL professional, use MongoDB.","domain":"データベース","duration_text":"8 Hours","level":"","priority_for_user":"中","services":["MongoDB"],"summary_ja":"SQL経験者向けにドキュメントモデル・インデックス・集計を対比しながら学ぶパス","title":"MongoDB for SQL Professionals","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-for-sql-professionals"},{"description":"This course guides you through everything you need to get started with MongoDB in your PHP applications. In this course, you'll get an overview of the official MongoDB PHP driver, learn how to connect your application, perform basic CRUD operations, troubleshoot, and then build aggregations.","domain":"データベース","duration_text":"4 Hours","level":"","priority_for_user":"中","services":["MongoDB","PHP"],"summary_ja":"PHPドライバでの接続・CRUD・集計パイプラインを学ぶ短編パス","title":"Using MongoDB with PHP","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/using-mongodb-with-php"},{"description":"This course guides you through everything you need to utilize MongoDB as your backing database for Python applications. This includes an overview of pymongo, the official driver for the Python programming language, how to connect, basic CRUD operations, troubleshooting, and building aggregations.","domain":"データベース","duration_text":"3 Hours","level":"","priority_for_user":"中","services":["MongoDB","Python","PyMongo"],"summary_ja":"PyMongoでの接続・CRUD・集計を学ぶPython開発者向け短編パス","title":"Using MongoDB with Python","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/using-mongodb-with-python"},{"description":"This course guides you through everything you need to get started with MongoDB in your Java applications. In this course, you'll get an overview of the official MongoDB Java driver and learn how to install it by using Maven. You'll learn how to connect your application, perform basic CRUD operations, troubleshoot, and then build aggregations.","domain":"データベース","duration_text":"3 Hours","level":"","priority_for_user":"中","services":["MongoDB","Java"],"summary_ja":"Javaドライバでの接続・CRUD・集計を学ぶJava開発者向け短編パス","title":"Using MongoDB with Java","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/using-mongodb-with-java"},{"description":"This course guides you through everything you need to get started with MongoDB in your C# applications. In this course, you'll get an overview of the official MongoDB C# driver and learn how to install it by using NuGet. You'll learn how to connect your application, perform basic CRUD operations, troubleshoot, and then build aggregations.","domain":"データベース","duration_text":"3 Hours","level":"","priority_for_user":"中","services":["MongoDB","C#"],"summary_ja":"C#ドライバでの接続・CRUD・集計を学ぶ.NET開発者向け短編パス","title":"Using MongoDB with C#","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/using-mongodb-with-csharp"},{"description":"This course guides you through everything you need to get started with MongoDB in your NodeJS applications. In this course, you'll get an overview of the official MongoDB NodeJS/Javascript driver and learn how to install it by using npm. You'll learn how to connect your application, perform basic CRUD operations, troubleshoot, and then build aggregations.","domain":"データベース","duration_text":"3 Hours","level":"","priority_for_user":"中","services":["MongoDB","Node.js"],"summary_ja":"Node.jsドライバでの接続・CRUD・集計を学ぶ短編パス","title":"Using MongoDB with Node.js","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/using-mongodb-with-nodejs"},{"description":"This learning path contains a series of courses to teach you MongoDB skills. In this path, you'll learn the basics of building modern applications with Node.JS, using MongoDB as your database.","domain":"データベース","duration_text":"20 Hours","level":"","priority_for_user":"中","services":["MongoDB","Node.js","MongoDB Atlas"],"summary_ja":"Node.jsでモダンなアプリを構築するAssociate Developer認定対応の総合パス","title":"MongoDB Node.js Developer Path","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-nodejs-developer-path"},{"description":"This learning path contains a series of courses to teach you MongoDB skills. In this path, you'll learn the basics of building modern applications with Python, using MongoDB as your database.","domain":"データベース","duration_text":"20 Hours","level":"","priority_for_user":"中","services":["MongoDB","Python","MongoDB Atlas"],"summary_ja":"Pythonでモダンなアプリを構築するAssociate Developer認定対応の総合パス","title":"MongoDB Python Developer Path","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-python-developer-path"},{"description":"This learning path contains a series of courses to teach you MongoDB skills. In this path, you'll learn the basics of building modern applications with C#, using MongoDB as your database.","domain":"データベース","duration_text":"20 Hours","level":"","priority_for_user":"中","services":["MongoDB","C#","MongoDB Atlas"],"summary_ja":"C#でモダンなアプリを構築するAssociate Developer認定対応の総合パス","title":"MongoDB C# Developer Path","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/using-mongodb-with-c-sharp"},{"description":"This learning path contains a series of courses to teach you MongoDB skills. In this path, you'll learn the basics of building modern applications with Java, using MongoDB as your database.","domain":"データベース","duration_text":"20 Hours","level":"","priority_for_user":"中","services":["MongoDB","Java","MongoDB Atlas"],"summary_ja":"Javaでモダンなアプリを構築するAssociate Developer認定対応の総合パス","title":"MongoDB Java Developer Path","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-java-developer-path"},{"description":"MongoDB's document model simplifies the creation of a GenAI application, by storing your vectors alongside your data, you can add semantic search to your application using the same syntax you're already familiar with. Here, you'll start by learning to perform a semantic search with Atlas Vector Search.","domain":"AI","duration_text":"2 Hours","level":"","priority_for_user":"中","services":["MongoDB","MongoDB Atlas","Atlas Vector Search"],"summary_ja":"ベクトル検索・RAG・AIエージェントの3スキルでGenAI開発を学ぶ短編パス","title":"MongoDB GenAI Developer","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-genai-developer"},{"description":"This learning path contains a series of units to teach you MongoDB skills. In this path, you'll learn the basics of building modern applications with PHP, using MongoDB as your database.","domain":"データベース","duration_text":"20 Hours","level":"","priority_for_user":"中","services":["MongoDB","PHP","MongoDB Atlas"],"summary_ja":"PHPでモダンなアプリを構築するAssociate Developer認定対応の総合パス","title":"MongoDB PHP Developer Path","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-php-developer-path"},{"description":"This learning path contains a series of units to help you, as a Database Administrator, learn MongoDB knowledge and skills. In this path, you'll learn MongoDB basics as well as how to administer and maintain a MongoDB database.","domain":"データベース","duration_text":"13 Hours","level":"","priority_for_user":"中","services":["MongoDB"],"summary_ja":"セルフマネージドMongoDBの運用・保守を学ぶDBA認定対応パス","title":"MongoDB Database Admin Path (Self-Managed)","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-dba-certification-learning-path"},{"description":"In our data-driven world, effective data modeling is crucial, and mastering this for MongoDB will enhance your ability to create efficient, scalable, and future-proof applications.","domain":"データベース","duration_text":"4.25 Hours","level":"","priority_for_user":"中","services":["MongoDB"],"summary_ja":"スキーマ設計パターンと最適化の4スキルバッジでデータモデリングを学ぶパス","title":"MongoDB Data Modeling Skills for Developers","type":"learning-path","url":"https://learn.mongodb.com/learning-paths/mongodb-data-modeling-skills-for-developers"}]
+[
+ {
+  "description": "This course will provide you with an introduction to artificial intelligence and vector search. Then, you'll learn how to generate embeddings for your data, store your embeddings in MongoDB Atlas, and index and search your embeddings to perform a semantic search.",
+  "domain": "AI",
+  "duration_text": "6 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "MongoDB Atlas",
+   "Atlas Vector Search"
+  ],
+  "summary_ja": "AI とベクトル検索の入門から始まり、データの埋め込み生成・Atlas への保存・インデックス作成・セマンティック検索までを学ぶパス (約6時間)。MongoDB Atlas Vector Search で RAG アプリ構築の基礎を押さえられる。",
+  "title": "MongoDB Vector Search",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-vector-search"
+ },
+ {
+  "description": "Completing this learning badge will give you the skills to build your own GenAI application with MongoDB. We'll focus on Retrieval Augmented Generation, also known as RAG, as our GenAI app use case.",
+  "domain": "AI",
+  "duration_text": "7.5 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "MongoDB Atlas",
+   "Atlas Vector Search"
+  ],
+  "summary_ja": "MongoDB で独自の GenAI アプリケーションを構築するスキルを養うラーニングバッジパス (約7.5時間)。ユースケースとして RAG (検索拡張生成) に焦点を当て、Atlas Vector Search を活用したチャットボット構築を学ぶ。",
+  "title": "Building GenAI Apps Learning Badge Path",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/building-genai-apps-learning-badge-path"
+ },
+ {
+  "description": "By going through this learning path, you'll take your GenAI app from creation to full deployment, optimizing it along the way.",
+  "domain": "AI",
+  "duration_text": "2 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "MongoDB Atlas"
+  ],
+  "summary_ja": "作成した GenAI アプリを本番デプロイまで導くバッジパス (約2時間)。チャンキング・評価・最適化を経て、アプリを実運用レベルまで磨き上げる流れを学ぶ。",
+  "title": "Deploying and Evaluating GenAI Apps Learning Badge Path",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/deploying-and-evaluating-genai-apps-learning-badge-path"
+ },
+ {
+  "description": "This learning path guides you through the foundations of MongoDB Atlas, the multi-cloud developer data platform. You'll learn how to quickly get up and running with a free MongoDB Atlas Cluster. We'll go over the basics on how to create, secure, monitor and administer your new cluster using the UI and the CLI.",
+  "domain": "データベース",
+  "duration_text": "13 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "MongoDB Atlas"
+  ],
+  "summary_ja": "MongoDB Atlas 管理者向けの基礎パス (約13時間)。無料 Atlas クラスタの起動から、UI と CLI を使った作成・セキュリティ・監視・管理まで、管理者認定に対応する内容を網羅。",
+  "title": "MongoDB Atlas Administrator Path",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-atlas-admin-certification-learning-path"
+ },
+ {
+  "description": "This course guides you through the foundational steps of creating an effective data model in MongoDB. In this course, you'll use an example application to identify database entities and workloads. Next, you'll map the relationships between entities and learn how to model these relationships in MongoDB, with a particular focus on learning when to embed or reference relationships.",
+  "domain": "データベース",
+  "duration_text": "8 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB"
+  ],
+  "summary_ja": "MongoDB で効果的なデータモデルを作る基礎パス (約8時間)。例題アプリでエンティティとワークロードを特定し、関係のマッピングと「埋め込みか参照か」の判断を学ぶデータモデリング認定対応パス。",
+  "title": "MongoDB Data Modeling Path",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-data-modeling-certification-learning-path"
+ },
+ {
+  "description": "Learn how to achieve a seamless full-text search experience with Atlas Search, powered by Apache Lucene",
+  "domain": "データベース",
+  "duration_text": "7.75 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "MongoDB Atlas",
+   "Atlas Search"
+  ],
+  "summary_ja": "Apache Lucene ベースの Atlas Search でシームレスな全文検索を実現するパス (約7.75時間)。検索インデックス・高度なクエリ・オートコンプリートの実装までを扱う。",
+  "title": "MongoDB Search",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-search"
+ },
+ {
+  "description": "This course guides you through the foundational knowledge and skills needed to use MongoDB Atlas, the multi-cloud developer data platform. You'll learn about MongoDB's document model and the basics of connecting to and indexing with MongoDB. Additionally, this course covers key topics involved in administering and monitoring MongoDB deployments on Atlas, using both the Atlas UI and CLI.",
+  "domain": "データベース",
+  "duration_text": "12.5 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "MongoDB Atlas"
+  ],
+  "summary_ja": "MongoDB Atlas の基礎知識とスキルを一通り学ぶ入門パス (約12.5時間)。ドキュメントモデル、接続とインデックスの基本に加え、Atlas UI と CLI でのデプロイ管理・監視までカバー。",
+  "title": "Atlas Essentials",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/atlas-essentials"
+ },
+ {
+  "description": "This course guides you through the foundational knowledge and skills needed to use MongoDB as a SQL Professional. You'll learn about MongoDB's document model and the basics of data modeling, indexes and aggregation with MongoDB. Additionally, this course covers key features that help you, as a SQL professional, use MongoDB.",
+  "domain": "データベース",
+  "duration_text": "8 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB"
+  ],
+  "summary_ja": "SQL プロフェッショナルが MongoDB を使いこなすための基礎パス (約8時間)。ドキュメントモデル・データモデリング・インデックス・集計を、リレーショナルの知識と対比しながら学ぶ。",
+  "title": "MongoDB for SQL Professionals",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-for-sql-professionals"
+ },
+ {
+  "description": "This course guides you through everything you need to get started with MongoDB in your PHP applications. In this course, you'll get an overview of the official MongoDB PHP driver, learn how to connect your application, perform basic CRUD operations, troubleshoot, and then build aggregations.",
+  "domain": "データベース",
+  "duration_text": "4 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "PHP"
+  ],
+  "summary_ja": "PHP アプリケーションで MongoDB を使い始めるための短編パス (約4時間)。公式 PHP ドライバの概要、接続、基本 CRUD、トラブルシュート、集計構築までを扱う。",
+  "title": "Using MongoDB with PHP",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-php"
+ },
+ {
+  "description": "This course guides you through everything you need to utilize MongoDB as your backing database for Python applications. This includes an overview of pymongo, the official driver for the Python programming language, how to connect, basic CRUD operations, troubleshooting, and building aggregations.",
+  "domain": "データベース",
+  "duration_text": "3 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "Python",
+   "PyMongo"
+  ],
+  "summary_ja": "Python アプリケーションで MongoDB をバックエンド DB にする短編パス (約3時間)。公式ドライバ pymongo の概要、接続、基本 CRUD、トラブルシュート、集計構築を学ぶ。",
+  "title": "Using MongoDB with Python",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-python"
+ },
+ {
+  "description": "This course guides you through everything you need to get started with MongoDB in your Java applications. In this course, you'll get an overview of the official MongoDB Java driver and learn how to install it by using Maven. You'll learn how to connect your application, perform basic CRUD operations, troubleshoot, and then build aggregations.",
+  "domain": "データベース",
+  "duration_text": "3 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "Java"
+  ],
+  "summary_ja": "Java アプリケーションで MongoDB を使い始めるための短編パス (約3時間)。公式 Java ドライバと Maven での導入、接続、基本 CRUD、トラブルシュート、集計構築を扱う。",
+  "title": "Using MongoDB with Java",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-java"
+ },
+ {
+  "description": "This course guides you through everything you need to get started with MongoDB in your C# applications. In this course, you'll get an overview of the official MongoDB C# driver and learn how to install it by using NuGet. You'll learn how to connect your application, perform basic CRUD operations, troubleshoot, and then build aggregations.",
+  "domain": "データベース",
+  "duration_text": "3 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "C#"
+  ],
+  "summary_ja": "C# アプリケーションで MongoDB を使い始めるための短編パス (約3時間)。公式 C# ドライバと NuGet での導入、接続、基本 CRUD、トラブルシュート、集計構築を扱う。",
+  "title": "Using MongoDB with C#",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-csharp"
+ },
+ {
+  "description": "This course guides you through everything you need to get started with MongoDB in your NodeJS applications. In this course, you'll get an overview of the official MongoDB NodeJS/Javascript driver and learn how to install it by using npm. You'll learn how to connect your application, perform basic CRUD operations, troubleshoot, and then build aggregations.",
+  "domain": "データベース",
+  "duration_text": "3 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "Node.js"
+  ],
+  "summary_ja": "Node.js アプリケーションで MongoDB を使い始めるための短編パス (約3時間)。公式 Node.js/JavaScript ドライバと npm での導入、接続、基本 CRUD、トラブルシュート、集計構築を扱う。",
+  "title": "Using MongoDB with Node.js",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-nodejs"
+ },
+ {
+  "description": "This learning path contains a series of courses to teach you MongoDB skills. In this path, you'll learn the basics of building modern applications with Node.JS, using MongoDB as your database.",
+  "domain": "データベース",
+  "duration_text": "20 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "Node.js",
+   "MongoDB Atlas"
+  ],
+  "summary_ja": "Node.js と MongoDB でモダンなアプリケーションを構築する基礎を学ぶ総合パス (約20時間)。複数コースで構成され、Associate Developer 認定に対応する内容。",
+  "title": "MongoDB Node.js Developer Path",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-nodejs-developer-path"
+ },
+ {
+  "description": "This learning path contains a series of courses to teach you MongoDB skills. In this path, you'll learn the basics of building modern applications with Python, using MongoDB as your database.",
+  "domain": "データベース",
+  "duration_text": "20 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "Python",
+   "MongoDB Atlas"
+  ],
+  "summary_ja": "Python と MongoDB でモダンなアプリケーションを構築する基礎を学ぶ総合パス (約20時間)。複数コースで構成され、Associate Developer 認定に対応する内容。",
+  "title": "MongoDB Python Developer Path",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-python-developer-path"
+ },
+ {
+  "description": "This learning path contains a series of courses to teach you MongoDB skills. In this path, you'll learn the basics of building modern applications with C#, using MongoDB as your database.",
+  "domain": "データベース",
+  "duration_text": "20 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "C#",
+   "MongoDB Atlas"
+  ],
+  "summary_ja": "C# と MongoDB でモダンなアプリケーションを構築する基礎を学ぶ総合パス (約20時間)。複数コースで構成され、Associate Developer 認定に対応する内容。",
+  "title": "MongoDB C# Developer Path",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-c-sharp"
+ },
+ {
+  "description": "This learning path contains a series of courses to teach you MongoDB skills. In this path, you'll learn the basics of building modern applications with Java, using MongoDB as your database.",
+  "domain": "データベース",
+  "duration_text": "20 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "Java",
+   "MongoDB Atlas"
+  ],
+  "summary_ja": "Java と MongoDB でモダンなアプリケーションを構築する基礎を学ぶ総合パス (約20時間)。複数コースで構成され、Associate Developer 認定に対応する内容。",
+  "title": "MongoDB Java Developer Path",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-java-developer-path"
+ },
+ {
+  "description": "MongoDB's document model simplifies the creation of a GenAI application, by storing your vectors alongside your data, you can add semantic search to your application using the same syntax you're already familiar with. Here, you'll start by learning to perform a semantic search with Atlas Vector Search.",
+  "domain": "AI",
+  "duration_text": "2 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "MongoDB Atlas",
+   "Atlas Vector Search"
+  ],
+  "summary_ja": "MongoDB のドキュメントモデルを活かした GenAI 開発を学ぶ短編パス (約2時間)。ベクトルとデータを同じ場所に格納し、慣れた構文でセマンティック検索を実装。ベクトル検索・RAG・AI エージェントの3スキルを扱う。",
+  "title": "MongoDB GenAI Developer",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-genai-developer"
+ },
+ {
+  "description": "This learning path contains a series of units to teach you MongoDB skills. In this path, you'll learn the basics of building modern applications with PHP, using MongoDB as your database.",
+  "domain": "データベース",
+  "duration_text": "20 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB",
+   "PHP",
+   "MongoDB Atlas"
+  ],
+  "summary_ja": "PHP と MongoDB でモダンなアプリケーションを構築する基礎を学ぶ総合パス (約20時間)。複数ユニットで構成され、Associate Developer 認定に対応する内容。",
+  "title": "MongoDB PHP Developer Path",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-php-developer-path"
+ },
+ {
+  "description": "This learning path contains a series of units to help you, as a Database Administrator, learn MongoDB knowledge and skills. In this path, you'll learn MongoDB basics as well as how to administer and maintain a MongoDB database.",
+  "domain": "データベース",
+  "duration_text": "13 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB"
+  ],
+  "summary_ja": "セルフマネージド環境の MongoDB データベース管理者向けパス (約13時間)。MongoDB の基礎に加え、DB の運用・保守に必要な知識とスキルを学ぶ DBA 認定対応パス。",
+  "title": "MongoDB Database Admin Path (Self-Managed)",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-dba-certification-learning-path"
+ },
+ {
+  "description": "In our data-driven world, effective data modeling is crucial, and mastering this for MongoDB will enhance your ability to create efficient, scalable, and future-proof applications.",
+  "domain": "データベース",
+  "duration_text": "4.25 Hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "MongoDB"
+  ],
+  "summary_ja": "MongoDB のデータモデリングを4つのスキルバッジで学ぶパス (約4.25時間)。スキーマ設計パターンと最適化を通じて、効率的でスケーラブルな将来性のあるアプリを作る設計力を養う。",
+  "title": "MongoDB Data Modeling Skills for Developers",
+  "type": "learning-path",
+  "url": "https://learn.mongodb.com/learning-paths/mongodb-data-modeling-skills-for-developers"
+ }
+]

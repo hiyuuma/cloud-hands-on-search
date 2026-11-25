@@ -1,7 +1,7 @@
 # cloud-hands-on-search
 
 3クラウド (AWS / Azure / Google) + HashiCorp / Linux Foundation / GitHub Skills /
-Oracle (OCI) + 各社公式ラーニングカタログ (計31ソース) を統合し、
+Oracle (OCI) + 各社公式ラーニングカタログ (計38ソース) を統合し、
 日本語で検索・推薦でき、
 見つけたらその場で始められる URL 導線が必ず付く検索エンジン。
 
@@ -10,7 +10,7 @@ Oracle (OCI) + 各社公式ラーニングカタログ (計31ソース) を統�
 ## データについて
 
 - data/vendor/ の各社カタログは、公式カタログの公開情報をもとに作成した
-  メタデータです (計 2,073 件):
+  メタデータです (計 2,243 件):
 
   | カタログ | ファイル | 件数 |
   |---|---|---|
@@ -30,9 +30,9 @@ Oracle (OCI) + 各社公式ラーニングカタログ (計31ソース) を統�
   | Elastic Training | elastic.json | 7 |
   | Fortinet Training Institute | fortinet.json | 13 |
   | freeCodeCamp | freecodecamp.json | 12 |
-  | Hugging Face Learn | huggingface_learn.json | 12 |
+  | Hugging Face Learn | huggingface_learn.json | 13 |
   | IBM SkillsBuild | ibm_skillsbuild.json | 4 |
-  | Kaggle Learn | kaggle_learn.json | 17 |
+  | Kaggle Learn | kaggle_learn.json | 18 |
   | LangChain Academy | langchain_academy.json | 18 |
   | MongoDB University | mongodb_university.json | 21 |
   | Neo4j GraphAcademy | neo4j_graphacademy.json | 60 |
@@ -45,6 +45,13 @@ Oracle (OCI) + 各社公式ラーニングカタログ (計31ソース) を統�
   | SAP Learning | sap_learning.json | 17 |
   | ServiceNow | servicenow.json | 20 |
   | Snowflake | snowflake.json | 11 |
+  | Cloudflare Developers (Agents/MCP) | cloudflare_agents.json | 11 |
+  | Cohere LLM University | cohere_llmu.json | 10 |
+  | DeepLearning.AI | deeplearning_ai.json | 45 |
+  | Microsoft 公式カリキュラム (GitHub) | microsoft_curricula.json | 52 |
+  | OpenAI Academy | openai_academy.json | 14 |
+  | Palantir Learn | palantir_learn.json | 26 |
+  | Vercel Academy | vercel_academy.json | 10 |
 
 - 個人の学習計画はこのリポジトリに含みません。手元の計画ファイルは
   data/local/plan.json に置くとローカルオーバーレイとして取り込まれます
@@ -61,7 +68,7 @@ Oracle (OCI) + 各社公式ラーニングカタログ (計31ソース) を統�
 locale=ja、oracle.com の japanese- スラグ) のみ "ja" と判定し、それ以外は
 "en" です。プラットフォームに日本語版が別途存在しても、収録リンクが
 英語ページなら "en" になります (リンク先の言語が定義であり、日本語版の
-有無とは別です)。現状の内訳は ja 660件 / en 1,413件です。
+有無とは別です)。現状の内訳は ja 660件 / en 1,583件です。
 
 ## 使い方 (CLI)
 

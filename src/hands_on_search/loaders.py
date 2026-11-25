@@ -254,7 +254,15 @@ def normalize_oracle(item):
 # 実在確認済みの直接 URL がある。billing は収集段階で無料確認済みのものだけを
 # 収録しているため原則 Free。anthropic のみサイトに料金表示自体が無く
 # 「無料」と断定できないため unknown (不明・要確認) とする。
-_STAGED_ACCESS_BY_CATALOG = {"anthropic": "unknown"}
+# Run 8: palantir は要アカウント登録で料金表示無し、deeplearning_ai は
+# 無料と断定できない (有料 Pro 併存)、vercel はアカデミーに料金表示無し、
+# のため unknown とする。
+_STAGED_ACCESS_BY_CATALOG = {
+    "anthropic": "unknown",
+    "deeplearning_ai": "unknown",
+    "palantir": "unknown",
+    "vercel": "unknown",
+}
 
 
 def normalize_staged(item, catalog):

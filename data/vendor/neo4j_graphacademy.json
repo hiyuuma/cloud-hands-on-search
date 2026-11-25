@@ -1,32 +1,894 @@
-[{"description":"Running Neo4j in Docker is a hands-on lab that takes you from a single Neo4j container to a fault-tolerant cluster in around 55 minutes.","domain":"データベース","duration_text":"55 min","level":"","priority_for_user":"中","services":["Neo4j","Docker"],"summary_ja":"Dockerで単一コンテナから5ノードクラスタ構築・障害対応までを行う運用ラボ","title":"Running Neo4j in Docker","type":"course","url":"https://graphacademy.neo4j.com/courses/administration-docker-cluster"},{"description":"Every system that connects to your database, from a reporting dashboard to an AI agent, should be able to read and change only what it uses. In this lab you will apply that principle to a movie recommendation graph running in Docker.","domain":"データベース","duration_text":"","level":"","priority_for_user":"中","services":["Neo4j"],"summary_ja":"最小権限のロール設計とDENYによるプロパティ秘匿を学ぶセキュリティラボ","title":"Role-Based Access Control in Neo4j","type":"course","url":"https://graphacademy.neo4j.com/courses/administration-role-based-access"},{"description":"Centrality algorithms identify the important nodes in a graph. In this lab you will work in Aura Graph Analytics on a realistic citation network of academic papers.","domain":"データベース","duration_text":"","level":"","priority_for_user":"中","services":["Neo4j","Aura Graph Analytics"],"summary_ja":"引用ネットワークを題材に中心性アルゴリズム（次数・PageRank等）を学ぶラボ","title":"Understand centrality algorithms","type":"course","url":"https://graphacademy.neo4j.com/courses/aga-centrality"},{"description":"Get started with Aura Graph Analytics: run graph algorithms serverlessly on your existing data platforms.","domain":"データベース","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j","Aura Graph Analytics"],"summary_ja":"Aura Graph Analyticsでサーバーレスにグラフアルゴリズムを実行する基礎","title":"Aura Graph Analytics fundamentals","type":"course","url":"https://graphacademy.neo4j.com/courses/aga-fundamentals"},{"description":"Learn how to interact with Neo4j from Java using Spring Data Neo4j.","domain":"データベース","duration_text":"4h","level":"","priority_for_user":"中","services":["Neo4j","Spring Data","Java"],"summary_ja":"Spring Data Neo4jでNeo4jアプリを構築する開発コース","title":"Building Neo4j Applications with Spring Data","type":"course","url":"https://graphacademy.neo4j.com/courses/app-spring-data"},{"description":"Learn how to interact with Neo4j from TypeScript using the Neo4j JavaScript Driver.","domain":"データベース","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j","TypeScript"],"summary_ja":"TypeScript/JavaScriptドライバでNeo4jアプリを構築する開発コース","title":"Building Neo4j Applications with TypeScript","type":"course","url":"https://graphacademy.neo4j.com/courses/app-typescript"},{"description":"Learn how to run Neo4j Aura in production.","domain":"データベース","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j","Neo4j Aura"],"summary_ja":"Neo4j Auraを本番運用するための管理コース","title":"Aura In Production","type":"course","url":"https://graphacademy.neo4j.com/courses/aura-administration"},{"description":"Learn how to build and deploy AI agents with Neo4j Aura.","domain":"AI","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j","Neo4j Aura"],"summary_ja":"Neo4j Aura上でAIエージェントを構築・デプロイするコース","title":"Building Agents in Neo4j Aura","type":"course","url":"https://graphacademy.neo4j.com/courses/aura-agents"},{"description":"Learn to automate with the Aura CLI","domain":"データベース","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j","Neo4j Aura"],"summary_ja":"Aura CLIによるインスタンス管理の自動化を学ぶ入門コース","title":"Getting Started with the Aura CLI","type":"course","url":"https://graphacademy.neo4j.com/courses/aura-cli"},{"description":"Learn how to build interactive dashboards on Neo4j Aura.","domain":"データベース","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j","Neo4j Aura"],"summary_ja":"Neo4j Auraでインタラクティブなダッシュボードを構築するコース","title":"Building Dashboards with Neo4j Aura","type":"course","url":"https://graphacademy.neo4j.com/courses/aura-dashboards"},{"description":"In this course, you will explore Neo4j Document Intelligence to upload PDFs, extract structured entities and relationships, and create a knowledge graph ready for AI applications.","domain":"AI","duration_text":"45 min","level":"Beginner","priority_for_user":"中","services":["Neo4j","Neo4j Aura"],"summary_ja":"PDFからエンティティと関係を抽出してナレッジグラフ化する入門コース","title":"Getting Started with Neo4j Document Intelligence","type":"course","url":"https://graphacademy.neo4j.com/courses/aura-document-intelligence"},{"description":"Learn how to use Neo4j Aura, the fully-managed cloud graph database service.","domain":"データベース","duration_text":"1h","level":"Beginner","priority_for_user":"中","services":["Neo4j","Neo4j Aura"],"summary_ja":"フルマネージドのクラウドグラフDB、Neo4j Auraの基礎入門","title":"AuraDB Fundamentals","type":"course","url":"https://graphacademy.neo4j.com/courses/aura-fundamentals"},{"description":"In this course, you will use Neo4j Aura and low-code tools to build a product recommendation dashboard without writing backend code.","domain":"データベース","duration_text":"1h 30m","level":"Beginner","priority_for_user":"中","services":["Neo4j","Neo4j Aura"],"summary_ja":"Auraとローコードツールで商品レコメンドダッシュボードを作る入門プロジェクト","title":"Build a Product Recommendation Dashboard on Aura","type":"course","url":"https://graphacademy.neo4j.com/courses/aura-no-code-project"},{"description":"Learn how to explore and visualize graphs with Neo4j Bloom.","domain":"データベース","duration_text":"2h","level":"Beginner","priority_for_user":"中","services":["Neo4j","Neo4j Bloom"],"summary_ja":"Neo4j Bloomでグラフを探索・可視化する入門コース","title":"Graph Visualizations with Neo4j Bloom","type":"course","url":"https://graphacademy.neo4j.com/courses/bloom-fundamentals"},{"description":"Learn Cypher aggregation functions.","domain":"データベース","duration_text":"1h","level":"Beginner","priority_for_user":"中","services":["Neo4j","Cypher"],"summary_ja":"Cypherの集計関数を学ぶ入門コース","title":"Cypher Aggregations","type":"course","url":"https://graphacademy.neo4j.com/courses/cypher-aggregation"},{"description":"Learn how to work with temporal data types (dates, times, durations) in Cypher.","domain":"データベース","duration_text":"35 min","level":"","priority_for_user":"中","services":["Neo4j","Cypher"],"summary_ja":"Cypherで日付・時刻・期間などの時間型データを扱うコース","title":"Working with Dates and Durations","type":"course","url":"https://graphacademy.neo4j.com/courses/cypher-dates-durations"},{"description":"Learn to query data in Neo4j using Full-Text indexes","domain":"データベース","duration_text":"40 min","level":"","priority_for_user":"中","services":["Neo4j","Cypher"],"summary_ja":"フルテキストインデックスを使ったNeo4jの検索クエリを学ぶコース","title":"Full-Text Search in Neo4j","type":"course","url":"https://graphacademy.neo4j.com/courses/cypher-fulltext-search"},{"description":"Learn Neo4j's Cypher query language in this hands-on tutorial: read and write graph data, match nodes and relationships, and build queries in under an hour.","domain":"データベース","duration_text":"1h","level":"Beginner","priority_for_user":"中","services":["Neo4j","Cypher"],"summary_ja":"Cypherクエリ言語の読み書きとパターンマッチを学ぶ基礎入門","title":"Cypher Fundamentals","type":"course","url":"https://graphacademy.neo4j.com/courses/cypher-fundamentals"},{"description":"Learn to enforce a schema in Neo4j using Graph Types.","domain":"データベース","duration_text":"40 min","level":"","priority_for_user":"中","services":["Neo4j","Cypher"],"summary_ja":"Graph TypesでNeo4jにスキーマ制約を適用する方法を学ぶコース","title":"Graph Type Schema Enforcement","type":"course","url":"https://graphacademy.neo4j.com/courses/cypher-graph-types"},{"description":"Learn about constraints and indexes in Cypher.","domain":"データベース","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j","Cypher"],"summary_ja":"Cypherの制約とインデックスを学ぶコース","title":"Cypher Indexes and Constraints","type":"course","url":"https://graphacademy.neo4j.com/courses/cypher-indexes-constraints"},{"description":"Learn more advanced features of Cypher.","domain":"データベース","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j","Cypher"],"summary_ja":"Cypherの高度な機能を学ぶ中級クエリコース","title":"Intermediate Cypher Queries","type":"course","url":"https://graphacademy.neo4j.com/courses/cypher-intermediate-queries"},{"description":"Learn how to interact with Neo4j from .NET using the Neo4j .NET Driver.","domain":"データベース","duration_text":"1h 30m","level":"","priority_for_user":"中","services":["Neo4j",".NET"],"summary_ja":".NETドライバでNeo4jを操作する開発コース","title":"Using Neo4j with .NET","type":"course","url":"https://graphacademy.neo4j.com/courses/drivers-dotnet"},{"description":"Learn how to interact with Neo4j from Go using the Neo4j Go Driver.","domain":"データベース","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j","Go"],"summary_ja":"GoドライバでNeo4jを操作する開発コース","title":"Using Neo4j with Go","type":"course","url":"https://graphacademy.neo4j.com/courses/drivers-go"},{"description":"Learn how to interact with Neo4j from Java using the Neo4j Java Driver.","domain":"データベース","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j","Java"],"summary_ja":"JavaドライバでNeo4jを操作する開発コース","title":"Using Neo4j with Java","type":"course","url":"https://graphacademy.neo4j.com/courses/drivers-java"},{"description":"Learn how to interact with Neo4j from Python using the Neo4j Python Driver.","domain":"データベース","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j","Python"],"summary_ja":"PythonドライバでNeo4jを操作する開発コース","title":"Using Neo4j with Python","type":"course","url":"https://graphacademy.neo4j.com/courses/drivers-python"},{"description":"Get started with Graph Data Science: set up a GDS project, run your first algorithms, and interpret the results.","domain":"データベース","duration_text":"3h","level":"","priority_for_user":"中","services":["Neo4j","Graph Data Science"],"summary_ja":"GDSプロジェクトのセットアップからアルゴリズム実行・結果解釈までの基礎","title":"Get started with Graph Data Science","type":"course","url":"https://graphacademy.neo4j.com/courses/gds-fundamentals"},{"description":"In this course, you will learn how to find shortest paths in Neo4j using the Graph Data Science (GDS) library.","domain":"データベース","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j","Graph Data Science"],"summary_ja":"GDSライブラリで最短経路探索を行うコース","title":"Path Finding with GDS","type":"course","url":"https://graphacademy.neo4j.com/courses/gds-shortest-paths"},{"description":"Learn to build agent memory with Neo4j: entities, episodes, and temporal context for agents that remember.","domain":"AI","duration_text":"2h 30m","level":"","priority_for_user":"中","services":["Neo4j"],"summary_ja":"エンティティ・エピソード・時間的文脈でエージェントメモリを構築するコース","title":"Context Graphs: Agent Memory with Neo4j","type":"course","url":"https://graphacademy.neo4j.com/courses/genai-context-graphs"},{"description":"Learn the basics of Neo4j and GenAI.","domain":"AI","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j"],"summary_ja":"Neo4jと生成AIの基礎を学ぶコース","title":"Neo4j & GenerativeAI Fundamentals","type":"course","url":"https://graphacademy.neo4j.com/courses/genai-fundamentals"},{"description":"Learn how to build GraphRAG applications in Python using Neo4j's GraphRAG package.","domain":"AI","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j","Python","GraphRAG"],"summary_ja":"Neo4j GraphRAGパッケージでPythonのGraphRAGアプリを構築するコース","title":"Constructing Knowledge Graphs with Neo4j GraphRAG for Python","type":"course","url":"https://graphacademy.neo4j.com/courses/genai-graphrag-python"},
-{"description":"Learn how to integrate Neo4j with LangChain.","domain":"AI","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j","LangChain"],"summary_ja":"LangChainとNeo4jの統合方法を学ぶコース","title":"Using Neo4j with LangChain","type":"course","url":"https://graphacademy.neo4j.com/courses/genai-integration-langchain"},
-{"description":"Learn to build custom MCP tools backed by Neo4j using Python and the FastMCP framework.","domain":"AI","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j","MCP","Python","FastMCP"],"summary_ja":"PythonとFastMCPでNeo4j連携のカスタムMCPサーバーを構築するコース","title":"Build an MCP Server in Python with FastMCP","type":"course","url":"https://graphacademy.neo4j.com/courses/genai-mcp-build-custom-tools-python"},
-{"description":"Learn to build custom GraphRAG MCP tools with TypeScript and Neo4j.","domain":"AI","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j","MCP","TypeScript","GraphRAG"],"summary_ja":"TypeScriptでGraphRAG用MCPツールを構築するコース","title":"Building GraphRAG TypeScript MCP tools","type":"course","url":"https://graphacademy.neo4j.com/courses/genai-mcp-build-custom-tools-typescript"},
-{"description":"Learn how to use Neo4j's official MCP server tools (Cypher, APOC, GDS, Data Modeling, Aura management) with an MCP-compatible client.","domain":"AI","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j","MCP"],"summary_ja":"Neo4j公式MCPサーバーの各ツールをMCPクライアントから使うコース","title":"Developing with the Neo4j MCP Server","type":"course","url":"https://graphacademy.neo4j.com/courses/genai-mcp-neo4j-tools"},
-{"description":"Build GraphQL APIs backed by Neo4j using the Neo4j GraphQL Library.","domain":"データベース","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j","GraphQL"],"summary_ja":"Neo4j GraphQLライブラリでGraphQL APIを構築するコース","title":"Introduction to Neo4j & GraphQL","type":"course","url":"https://graphacademy.neo4j.com/courses/graphql-basics"},
-{"description":"Learn how to import data into Neo4j using Cypher and the neo4j-admin CLI tools.","domain":"データベース","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j","Cypher"],"summary_ja":"Cypherとneo4j-admin CLIでデータをインポートするコース","title":"Importing CSV data into Neo4j","type":"course","url":"https://graphacademy.neo4j.com/courses/importing-cypher"},
-{"description":"Load data into Neo4j from CSV, JSON, and relational sources, choosing the right tool for each job and validating what landed.","domain":"データベース","duration_text":"2h","level":"Beginner","priority_for_user":"中","services":["Neo4j"],"summary_ja":"CSV/JSON/リレーショナルソースからのデータ投入と検証の基礎","title":"Importing Data Fundamentals","type":"course","url":"https://graphacademy.neo4j.com/courses/importing-fundamentals"},
-{"description":"Learn how to import data with Cypher's LOAD CSV clause.","domain":"データベース","duration_text":"40 min","level":"Beginner","priority_for_user":"中","services":["Neo4j","Cypher"],"summary_ja":"CypherのLOAD CSV句でデータをインポートする入門コース","title":"LOAD CSV Data Import","type":"course","url":"https://graphacademy.neo4j.com/courses/importing-load-csv"},
-{"description":"Learn how to construct knowledge graphs using LLMs.","domain":"AI","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j","LLM"],"summary_ja":"LLMを使ってナレッジグラフを構築する方法を学ぶコース","title":"Building Knowledge graphs with LLMs","type":"course","url":"https://graphacademy.neo4j.com/courses/llm-knowledge-graph-construction"},
-{"description":"Learn how to use Neo4j's vector indexes and ingest unstructured data.","domain":"AI","duration_text":"1h","level":"","priority_for_user":"中","services":["Neo4j"],"summary_ja":"Neo4jのベクトルインデックスと非構造化データ取り込みの入門","title":"Introduction to Vector Indexes and Unstructured Data","type":"course","url":"https://graphacademy.neo4j.com/courses/llm-vectors-unstructured"},
-{"description":"Translate real-world domains into effective property graph models — entities, relationships, and labels — and validate your model against use-case queries.","domain":"データベース","duration_text":"2h","level":"Beginner","priority_for_user":"中","services":["Neo4j"],"summary_ja":"現実のドメインをプロパティグラフモデルに落とし込む設計基礎","title":"Graph Data Modeling Fundamentals","type":"course","url":"https://graphacademy.neo4j.com/courses/modeling-fundamentals"},
-{"description":"Learn the basics of Neo4j and the property graph model.","domain":"データベース","duration_text":"1h","level":"Beginner","priority_for_user":"中","services":["Neo4j"],"summary_ja":"Neo4jとプロパティグラフモデルの基礎を学ぶ最入門コース","title":"Neo4j Fundamentals","type":"course","url":"https://graphacademy.neo4j.com/courses/neo4j-fundamentals"},
-{"description":"Aprenda os conceitos básicos do Neo4j e dos bancos de dados de grafos neste workshop prático.","domain":"データベース","duration_text":"2h","level":"","priority_for_user":"低","services":["Neo4j"],"summary_ja":"ポルトガル語版：グラフデータベース入門ワークショップ","title":"Workshop de Introdução a Bancos de Dados de Grafos","type":"workshop","url":"https://graphacademy.neo4j.com/courses/pt-br-workshop-fundamentals"},
-{"description":"Aprenda a usar o Neo4j Graph Data Science neste workshop prático.","domain":"データベース","duration_text":"4h","level":"","priority_for_user":"低","services":["Neo4j","Graph Data Science"],"summary_ja":"ポルトガル語版：Graph Data Science実践ワークショップ","title":"Graph Data Science na Prática","type":"workshop","url":"https://graphacademy.neo4j.com/courses/pt-br-workshop-gds"},
-{"description":"","domain":"AI","duration_text":"","level":"","priority_for_user":"低","services":["Neo4j"],"summary_ja":"ポルトガル語版：Neo4jと生成AIのワークショップ","title":"Workshop de Neo4j e IA Generativa","type":"workshop","url":"https://graphacademy.neo4j.com/courses/pt-br-workshop-genai"},
-{"description":"Aprenda modelagem de dados e importação no Neo4j neste workshop prático.","domain":"データベース","duration_text":"2h","level":"","priority_for_user":"低","services":["Neo4j"],"summary_ja":"ポルトガル語版：データモデリングとインポートのワークショップ","title":"Workshop de Modelagem e Importação de Dados no Neo4j","type":"workshop","url":"https://graphacademy.neo4j.com/courses/pt-br-workshop-modeling"},
-{"description":"Aprenda gerenciamento, otimização e refatoração do Neo4j neste workshop prático.","domain":"データベース","duration_text":"4h","level":"","priority_for_user":"低","services":["Neo4j"],"summary_ja":"ポルトガル語版：Neo4jの管理・最適化・リファクタリングのワークショップ","title":"Workshop de Gerenciamento, Otimização e Refatoração do Neo4j","type":"workshop","url":"https://graphacademy.neo4j.com/courses/pt-br-workshop-optimization"},
-{"description":"Get started building apps backed by embedded Neo4j using Relate.","domain":"データベース","duration_text":"40 min","level":"","priority_for_user":"低","services":["Neo4j","Relate"],"summary_ja":"組み込みNeo4jフレームワークRelateの入門コース","title":"Get Started with Relate","type":"course","url":"https://graphacademy.neo4j.com/courses/relate-get-started"},
-{"description":"Get started building apps backed by embedded Neo4j using Relate in Python.","domain":"データベース","duration_text":"50 min","level":"","priority_for_user":"低","services":["Neo4j","Relate","Python"],"summary_ja":"Python版Relateで組み込みNeo4jアプリを作る入門コース","title":"Get Started with Relate in Python","type":"course","url":"https://graphacademy.neo4j.com/courses/relate-get-started-python"},
-{"description":"In this course, you will query Databricks data in place through a Neo4j virtual graph.","domain":"データベース","duration_text":"35 min","level":"Beginner","priority_for_user":"中","services":["Neo4j","Databricks"],"summary_ja":"仮想グラフ経由でDatabricksデータをその場でクエリする入門コース","title":"Neo4j Virtual Graph with Databricks","type":"course","url":"https://graphacademy.neo4j.com/courses/virtual-graph-databricks"},
-{"description":"In this course, you will query Snowflake data in place through a Neo4j virtual graph.","domain":"データベース","duration_text":"35 min","level":"Beginner","priority_for_user":"中","services":["Neo4j","Snowflake"],"summary_ja":"仮想グラフ経由でSnowflakeデータをその場でクエリする入門コース","title":"Neo4j Virtual Graph with Snowflake","type":"course","url":"https://graphacademy.neo4j.com/courses/virtual-graph-snowflake"},
-{"description":"Learn how to administer Neo4j in this hands-on workshop.","domain":"データベース","duration_text":"4h","level":"","priority_for_user":"中","services":["Neo4j"],"summary_ja":"Neo4jの管理を学ぶハンズオンワークショップ","title":"Neo4j Administration Workshop","type":"workshop","url":"https://graphacademy.neo4j.com/courses/workshop-administration"},
-{"description":"Learn how to build agent memory with Neo4j in this hands-on workshop.","domain":"AI","duration_text":"3h 20m","level":"","priority_for_user":"中","services":["Neo4j"],"summary_ja":"Neo4jでエージェントメモリを構築するハンズオンワークショップ","title":"Neo4j Agent Memory Workshop","type":"workshop","url":"https://graphacademy.neo4j.com/courses/workshop-agent-memory"},
-{"description":"Learn how to build agent memory with Neo4j in 90 minutes.","domain":"AI","duration_text":"1h 30m","level":"","priority_for_user":"中","services":["Neo4j"],"summary_ja":"90分でエージェントメモリ構築を体験するワークショップ","title":"Agent Memory in 90 Minutes","type":"workshop","url":"https://graphacademy.neo4j.com/courses/workshop-agent-memory-90"},
-{"description":"Learn how to build agent memory with Neo4j and TypeScript in this hands-on workshop.","domain":"AI","duration_text":"2h 45m","level":"","priority_for_user":"中","services":["Neo4j","TypeScript"],"summary_ja":"TypeScriptでエージェントメモリを構築するワークショップ","title":"Agent Memory Workshop with TypeScript","type":"workshop","url":"https://graphacademy.neo4j.com/courses/workshop-agent-memory-ts"},
-{"description":"Learn the basics of Neo4j and graph databases in this hands-on workshop.","domain":"データベース","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j"],"summary_ja":"Neo4jとグラフデータベースの基礎を学ぶハンズオンワークショップ","title":"Introduction to Graph Databases Workshop","type":"workshop","url":"https://graphacademy.neo4j.com/courses/workshop-fundamentals"},
-{"description":"Learn how to use Neo4j Graph Data Science in this hands-on workshop.","domain":"データベース","duration_text":"4h","level":"","priority_for_user":"中","services":["Neo4j","Graph Data Science"],"summary_ja":"Graph Data Scienceの実践ハンズオンワークショップ","title":"Graph Data Science in Practice","type":"workshop","url":"https://graphacademy.neo4j.com/courses/workshop-gds"},
-{"description":"Learn how to analyze graph data with Python and Aura Graph Analytics.","domain":"データベース","duration_text":"4h","level":"","priority_for_user":"中","services":["Neo4j","Python","Aura Graph Analytics"],"summary_ja":"PythonとAura Graph Analyticsでグラフデータを分析するワークショップ","title":"Analyze Graph Data with Python","type":"workshop","url":"https://graphacademy.neo4j.com/courses/workshop-gds-python-aga"},
-{"description":"Learn how to use Neo4j and Generative AI in this hands-on workshop.","domain":"AI","duration_text":"2h","level":"","priority_for_user":"中","services":["Neo4j"],"summary_ja":"Neo4jと生成AIの活用を学ぶハンズオンワークショップ","title":"Neo4j and Generative AI Workshop","type":"workshop","url":"https://graphacademy.neo4j.com/courses/workshop-genai"},
-{"description":"Build a GraphRAG application in this hackathon-style workshop.","domain":"AI","duration_text":"43 min","level":"","priority_for_user":"中","services":["Neo4j","GraphRAG"],"summary_ja":"ハッカソン形式でGraphRAGアプリを構築する短編ワークショップ","title":"GraphRAG Hackathon","type":"workshop","url":"https://graphacademy.neo4j.com/courses/workshop-hackathon"}
+[
+ {
+  "description": "Running Neo4j in Docker is a hands-on lab that takes you from a single Neo4j container to a fault-tolerant cluster in around 55 minutes.",
+  "domain": "データベース",
+  "duration_text": "55 min",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Docker"
+  ],
+  "summary_ja": "単一の Neo4j コンテナから始めて耐障害性のあるクラスタまで構築するハンズオンラボ (約55分)。Docker 上で5ノードクラスタの構築と障害時の挙動を体験する、運用寄りの実習コンテンツ。",
+  "title": "Running Neo4j in Docker",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/administration-docker-cluster"
+ },
+ {
+  "description": "Every system that connects to your database, from a reporting dashboard to an AI agent, should be able to read and change only what it uses. In this lab you will apply that principle to a movie recommendation graph running in Docker.",
+  "domain": "データベース",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "Neo4j におけるロールベースアクセス制御 (RBAC) を学ぶセキュリティラボ。Docker 上の映画レコメンドグラフを題材に、最小権限のロール設計や DENY によるプロパティ秘匿を実践する。",
+  "title": "Role-Based Access Control in Neo4j",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/administration-role-based-access"
+ },
+ {
+  "description": "Centrality algorithms identify the important nodes in a graph. In this lab you will work in Aura Graph Analytics on a realistic citation network of academic papers.",
+  "domain": "データベース",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Aura Graph Analytics"
+  ],
+  "summary_ja": "学術論文の引用ネットワークを題材に中心性アルゴリズムを学ぶラボ。Aura Graph Analytics 上で次数中心性や PageRank などを実行し、グラフ内の重要ノードを特定する考え方を身につける。",
+  "title": "Understand centrality algorithms",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/aga-centrality"
+ },
+ {
+  "description": "Get started with Aura Graph Analytics: run graph algorithms serverlessly on your existing data platforms.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Aura Graph Analytics"
+  ],
+  "summary_ja": "Aura Graph Analytics の基礎コース (約1時間)。既存のデータプラットフォーム上でサーバーレスにグラフアルゴリズムを実行する方法を学び、分析基盤としての使い方を掴む。",
+  "title": "Aura Graph Analytics fundamentals",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/aga-fundamentals"
+ },
+ {
+  "description": "Learn how to interact with Neo4j from Java using Spring Data Neo4j.",
+  "domain": "データベース",
+  "duration_text": "4h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Spring Data",
+   "Java"
+  ],
+  "summary_ja": "Spring Data Neo4j を使い Java から Neo4j を操作するアプリケーション開発コース (約4時間)。Spring 開発者がグラフ DB を既存のスタックに組み込むための実践的内容。",
+  "title": "Building Neo4j Applications with Spring Data",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/app-spring-data"
+ },
+ {
+  "description": "Learn how to interact with Neo4j from TypeScript using the Neo4j JavaScript Driver.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "TypeScript"
+  ],
+  "summary_ja": "Neo4j JavaScript Driver を使い TypeScript から Neo4j を操作する開発コース (約2時間)。Node.js 系の開発者がグラフ DB 連携アプリを構築するための基礎を学ぶ。",
+  "title": "Building Neo4j Applications with TypeScript",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/app-typescript"
+ },
+ {
+  "description": "Learn how to run Neo4j Aura in production.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Neo4j Aura"
+  ],
+  "summary_ja": "Neo4j Aura を本番環境で運用するための管理コース (約2時間)。マネージドサービスとしての運用ノウハウを学び、実運用を見据えた管理者・担当者向けの内容。",
+  "title": "Aura In Production",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/aura-administration"
+ },
+ {
+  "description": "Learn how to build and deploy AI agents with Neo4j Aura.",
+  "domain": "AI",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Neo4j Aura"
+  ],
+  "summary_ja": "Neo4j Aura 上で AI エージェントを構築・デプロイするコース (約2時間)。グラフ DB をバックエンドに据えたエージェント開発の進め方を学びたい開発者向け。",
+  "title": "Building Agents in Neo4j Aura",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/aura-agents"
+ },
+ {
+  "description": "Learn to automate with the Aura CLI",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Neo4j Aura"
+  ],
+  "summary_ja": "Aura CLI によるインスタンス管理の自動化を学ぶ入門コース (約1時間)。コンソール操作に頼らず CLI で Aura を操作したい管理者・開発者向けの短時間コンテンツ。",
+  "title": "Getting Started with the Aura CLI",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/aura-cli"
+ },
+ {
+  "description": "Learn how to build interactive dashboards on Neo4j Aura.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Neo4j Aura"
+  ],
+  "summary_ja": "Neo4j Aura 上でインタラクティブなダッシュボードを構築するコース (約2時間)。グラフデータを可視化して共有したい実務者向けの、手を動かして成果物を作る内容。",
+  "title": "Building Dashboards with Neo4j Aura",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/aura-dashboards"
+ },
+ {
+  "description": "In this course, you will explore Neo4j Document Intelligence to upload PDFs, extract structured entities and relationships, and create a knowledge graph ready for AI applications.",
+  "domain": "AI",
+  "duration_text": "45 min",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Neo4j Aura"
+  ],
+  "summary_ja": "Neo4j Document Intelligence の入門コース (Beginner、約45分)。PDF をアップロードして構造化されたエンティティと関係を抽出し、AI アプリで使えるナレッジグラフを作成する流れを体験する。",
+  "title": "Getting Started with Neo4j Document Intelligence",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/aura-document-intelligence"
+ },
+ {
+  "description": "Learn how to use Neo4j Aura, the fully-managed cloud graph database service.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Neo4j Aura"
+  ],
+  "summary_ja": "フルマネージドのクラウドグラフ DB サービス Neo4j Aura の基礎を学ぶ入門コース (Beginner、約1時間)。Aura の使い方を最初に押さえたい人向けのスタート地点。",
+  "title": "AuraDB Fundamentals",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/aura-fundamentals"
+ },
+ {
+  "description": "In this course, you will use Neo4j Aura and low-code tools to build a product recommendation dashboard without writing backend code.",
+  "domain": "データベース",
+  "duration_text": "1h 30m",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Neo4j Aura"
+  ],
+  "summary_ja": "Neo4j Aura とローコードツールで商品レコメンドダッシュボードを構築する入門プロジェクト (約1時間半)。バックエンドコードを書かずに成果物を作れる、実践的な初級コース。",
+  "title": "Build a Product Recommendation Dashboard on Aura",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/aura-no-code-project"
+ },
+ {
+  "description": "Learn how to explore and visualize graphs with Neo4j Bloom.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Neo4j Bloom"
+  ],
+  "summary_ja": "Neo4j Bloom でグラフを探索・可視化する入門コース (Beginner、約2時間)。コード不要のビジュアルツールでノードと関係を直感的に辿る方法を学ぶ。",
+  "title": "Graph Visualizations with Neo4j Bloom",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/bloom-fundamentals"
+ },
+ {
+  "description": "Learn Cypher aggregation functions.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Cypher"
+  ],
+  "summary_ja": "Cypher の集計関数を学ぶ入門コース (Beginner、約1時間)。件数・合計・平均など集計処理の書き方を、短時間で要点だけ押さえたいクエリ利用者向け。",
+  "title": "Cypher Aggregations",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/cypher-aggregation"
+ },
+ {
+  "description": "Learn how to work with temporal data types (dates, times, durations) in Cypher.",
+  "domain": "データベース",
+  "duration_text": "35 min",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Cypher"
+  ],
+  "summary_ja": "Cypher で日付・時刻・期間などの時間系データ型を扱うコース (約35分)。時系列を含むデータのクエリや計算を正確に書きたい利用者向けの短時間レッスン。",
+  "title": "Working with Dates and Durations",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/cypher-dates-durations"
+ },
+ {
+  "description": "Learn to query data in Neo4j using Full-Text indexes",
+  "domain": "データベース",
+  "duration_text": "40 min",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Cypher"
+  ],
+  "summary_ja": "Neo4j のフルテキストインデックスを使った検索クエリを学ぶコース (約40分)。テキスト検索をグラフ DB に組み込みたい開発者向けのコンパクトな実習。",
+  "title": "Full-Text Search in Neo4j",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/cypher-fulltext-search"
+ },
+ {
+  "description": "Learn Neo4j's Cypher query language in this hands-on tutorial: read and write graph data, match nodes and relationships, and build queries in under an hour.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Cypher"
+  ],
+  "summary_ja": "Neo4j のクエリ言語 Cypher の基礎を学ぶハンズオン入門コース (Beginner、約1時間)。ノードとリレーションシップの読み書き、パターンマッチを実際にクエリを書きながら習得する。",
+  "title": "Cypher Fundamentals",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/cypher-fundamentals"
+ },
+ {
+  "description": "Learn to enforce a schema in Neo4j using Graph Types.",
+  "domain": "データベース",
+  "duration_text": "40 min",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Cypher"
+  ],
+  "summary_ja": "Graph Types を使って Neo4j にスキーマ制約を適用する方法を学ぶコース (約40分)。柔軟なグラフ DB に構造上のルールを持たせたい開発者・設計者向け。",
+  "title": "Graph Type Schema Enforcement",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/cypher-graph-types"
+ },
+ {
+  "description": "Learn about constraints and indexes in Cypher.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Cypher"
+  ],
+  "summary_ja": "Cypher の制約とインデックスを学ぶコース (約2時間)。データ整合性の確保とクエリ性能の改善という、実運用で重要になる2つの仕組みを体系的に扱う。",
+  "title": "Cypher Indexes and Constraints",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/cypher-indexes-constraints"
+ },
+ {
+  "description": "Learn more advanced features of Cypher.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Cypher"
+  ],
+  "summary_ja": "Cypher のより高度な機能を学ぶ中級クエリコース (約1時間)。基礎を押さえた後に、複雑なデータ取得や表現力の高いクエリへ進みたい利用者向け。",
+  "title": "Intermediate Cypher Queries",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/cypher-intermediate-queries"
+ },
+ {
+  "description": "Learn how to interact with Neo4j from .NET using the Neo4j .NET Driver.",
+  "domain": "データベース",
+  "duration_text": "1h 30m",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   ".NET"
+  ],
+  "summary_ja": "Neo4j .NET Driver を使い .NET から Neo4j を操作する開発コース (約1時間半)。C# 系の開発者がグラフ DB 連携を実装するための実践的な入門。",
+  "title": "Using Neo4j with .NET",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/drivers-dotnet"
+ },
+ {
+  "description": "Learn how to interact with Neo4j from Go using the Neo4j Go Driver.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Go"
+  ],
+  "summary_ja": "Neo4j Go Driver を使い Go から Neo4j を操作する開発コース (約1時間)。接続からクエリ実行まで、Go アプリにグラフ DB を組み込む基本を短時間で学ぶ。",
+  "title": "Using Neo4j with Go",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/drivers-go"
+ },
+ {
+  "description": "Learn how to interact with Neo4j from Java using the Neo4j Java Driver.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Java"
+  ],
+  "summary_ja": "Neo4j Java Driver を使い Java から Neo4j を操作する開発コース (約1時間)。ドライバの基本的な使い方を押さえ、Java アプリからグラフ DB を扱えるようにする。",
+  "title": "Using Neo4j with Java",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/drivers-java"
+ },
+ {
+  "description": "Learn how to interact with Neo4j from Python using the Neo4j Python Driver.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Python"
+  ],
+  "summary_ja": "Neo4j Python Driver を使い Python から Neo4j を操作する開発コース (約1時間)。接続・クエリ・結果処理の基本を短時間で学ぶ、Python 開発者向けの入門。",
+  "title": "Using Neo4j with Python",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/drivers-python"
+ },
+ {
+  "description": "Get started with Graph Data Science: set up a GDS project, run your first algorithms, and interpret the results.",
+  "domain": "データベース",
+  "duration_text": "3h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Graph Data Science"
+  ],
+  "summary_ja": "Graph Data Science (GDS) の基礎を学ぶコース (約3時間)。GDS プロジェクトのセットアップから、最初のアルゴリズム実行、結果の解釈までを一通り体験する。",
+  "title": "Get started with Graph Data Science",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/gds-fundamentals"
+ },
+ {
+  "description": "In this course, you will learn how to find shortest paths in Neo4j using the Graph Data Science (GDS) library.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Graph Data Science"
+  ],
+  "summary_ja": "GDS ライブラリで最短経路探索を行うコース (約1時間)。Neo4j 上で経路探索アルゴリズムを実行する手順を学ぶ、経路分析の入り口に適した内容。",
+  "title": "Path Finding with GDS",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/gds-shortest-paths"
+ },
+ {
+  "description": "Learn to build agent memory with Neo4j: entities, episodes, and temporal context for agents that remember.",
+  "domain": "AI",
+  "duration_text": "2h 30m",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "Neo4j でエージェントメモリを構築するコース (約2時間半)。エンティティ・エピソード・時間的文脈を使い、記憶を持つ AI エージェントのためのコンテキストグラフを設計する。",
+  "title": "Context Graphs: Agent Memory with Neo4j",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/genai-context-graphs"
+ },
+ {
+  "description": "Learn the basics of Neo4j and GenAI.",
+  "domain": "AI",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "Neo4j と生成 AI の基礎を学ぶコース (約2時間)。グラフ DB と GenAI を組み合わせる考え方を押さえ、RAG 系アプリ等への応用を見据えた入門的内容。",
+  "title": "Neo4j & GenerativeAI Fundamentals",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/genai-fundamentals"
+ },
+ {
+  "description": "Learn how to build GraphRAG applications in Python using Neo4j's GraphRAG package.",
+  "domain": "AI",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Python",
+   "GraphRAG"
+  ],
+  "summary_ja": "Neo4j の GraphRAG パッケージを使い Python で GraphRAG アプリを構築するコース (約2時間)。ナレッジグラフと検索拡張生成を組み合わせた実装を学ぶ。",
+  "title": "Constructing Knowledge Graphs with Neo4j GraphRAG for Python",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/genai-graphrag-python"
+ },
+ {
+  "description": "Learn how to integrate Neo4j with LangChain.",
+  "domain": "AI",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "LangChain"
+  ],
+  "summary_ja": "LangChain と Neo4j を統合する方法を学ぶコース (約1時間)。LLM アプリのフレームワークとグラフ DB を接続し、データ活用の幅を広げたい開発者向け。",
+  "title": "Using Neo4j with LangChain",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/genai-integration-langchain"
+ },
+ {
+  "description": "Learn to build custom MCP tools backed by Neo4j using Python and the FastMCP framework.",
+  "domain": "AI",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "MCP",
+   "Python",
+   "FastMCP"
+  ],
+  "summary_ja": "Python と FastMCP フレームワークで Neo4j をバックエンドにしたカスタム MCP サーバーを構築するコース (約2時間)。MCP ツール開発を通じてエージェント連携を学ぶ。",
+  "title": "Build an MCP Server in Python with FastMCP",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/genai-mcp-build-custom-tools-python"
+ },
+ {
+  "description": "Learn to build custom GraphRAG MCP tools with TypeScript and Neo4j.",
+  "domain": "AI",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "MCP",
+   "TypeScript",
+   "GraphRAG"
+  ],
+  "summary_ja": "TypeScript と Neo4j で GraphRAG 用のカスタム MCP ツールを構築するコース (約2時間)。GraphRAG の仕組みを MCP 経由でエージェントに提供する実装を学ぶ。",
+  "title": "Building GraphRAG TypeScript MCP tools",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/genai-mcp-build-custom-tools-typescript"
+ },
+ {
+  "description": "Learn how to use Neo4j's official MCP server tools (Cypher, APOC, GDS, Data Modeling, Aura management) with an MCP-compatible client.",
+  "domain": "AI",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "MCP"
+  ],
+  "summary_ja": "Neo4j 公式 MCP サーバーの各種ツールを MCP 互換クライアントから使うコース (約2時間)。Cypher、APOC、GDS、データモデリング、Aura 管理といったツール群の活用法を網羅。",
+  "title": "Developing with the Neo4j MCP Server",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/genai-mcp-neo4j-tools"
+ },
+ {
+  "description": "Build GraphQL APIs backed by Neo4j using the Neo4j GraphQL Library.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "GraphQL"
+  ],
+  "summary_ja": "Neo4j GraphQL ライブラリで Neo4j をバックエンドにした GraphQL API を構築するコース (約2時間)。スキーマ駆動で API を立ち上げたい開発者向けの入門。",
+  "title": "Introduction to Neo4j & GraphQL",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/graphql-basics"
+ },
+ {
+  "description": "Learn how to import data into Neo4j using Cypher and the neo4j-admin CLI tools.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Cypher"
+  ],
+  "summary_ja": "Cypher と neo4j-admin CLI ツールで Neo4j にデータをインポートするコース (約1時間)。CSV 取り込みの基本からツールの使い分けまで、データ投入の実務を学ぶ。",
+  "title": "Importing CSV data into Neo4j",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/importing-cypher"
+ },
+ {
+  "description": "Load data into Neo4j from CSV, JSON, and relational sources, choosing the right tool for each job and validating what landed.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "CSV・JSON・リレーショナルソースから Neo4j へデータを投入する基礎コース (Beginner、約2時間)。用途に応じたツール選択と、取り込んだデータの検証までを扱う。",
+  "title": "Importing Data Fundamentals",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/importing-fundamentals"
+ },
+ {
+  "description": "Learn how to import data with Cypher's LOAD CSV clause.",
+  "domain": "データベース",
+  "duration_text": "40 min",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Cypher"
+  ],
+  "summary_ja": "Cypher の LOAD CSV 句でデータをインポートする入門コース (Beginner、約40分)。外部 CSV をクエリだけで取り込む最も手軽な方法を短時間で習得できる。",
+  "title": "LOAD CSV Data Import",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/importing-load-csv"
+ },
+ {
+  "description": "Learn how to construct knowledge graphs using LLMs.",
+  "domain": "AI",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "LLM"
+  ],
+  "summary_ja": "LLM を使ってナレッジグラフを構築する方法を学ぶコース (約1時間)。非構造化テキストからグラフ構造を作る考え方を、生成 AI 活用の観点で学ぶ。",
+  "title": "Building Knowledge graphs with LLMs",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/llm-knowledge-graph-construction"
+ },
+ {
+  "description": "Learn how to use Neo4j's vector indexes and ingest unstructured data.",
+  "domain": "AI",
+  "duration_text": "1h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "Neo4j のベクトルインデックスと非構造化データの取り込みを学ぶ入門コース (約1時間)。ベクトル検索をグラフ DB に組み込む基礎を押さえたい開発者向け。",
+  "title": "Introduction to Vector Indexes and Unstructured Data",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/llm-vectors-unstructured"
+ },
+ {
+  "description": "Translate real-world domains into effective property graph models — entities, relationships, and labels — and validate your model against use-case queries.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "現実のドメインをプロパティグラフモデルに落とし込む設計の基礎コース (Beginner、約2時間)。エンティティ・リレーションシップ・ラベルの設計と、ユースケースクエリによるモデル検証を学ぶ。",
+  "title": "Graph Data Modeling Fundamentals",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/modeling-fundamentals"
+ },
+ {
+  "description": "Learn the basics of Neo4j and the property graph model.",
+  "domain": "データベース",
+  "duration_text": "1h",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "Neo4j とプロパティグラフモデルの基礎を学ぶ最入門コース (Beginner、約1時間)。グラフ DB の概念から始める、Neo4j 学習の最初の一歩に適した内容。",
+  "title": "Neo4j Fundamentals",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/neo4j-fundamentals"
+ },
+ {
+  "description": "Aprenda os conceitos básicos do Neo4j e dos bancos de dados de grafos neste workshop prático.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "ポルトガル語版の入門ワークショップ (約2時間)。Neo4j とグラフデータベースの基本概念をハンズオンで学ぶ、ブラジル・ポルトガル語話者向けの実践セッション。",
+  "title": "Workshop de Introdução a Bancos de Dados de Grafos",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/pt-br-workshop-fundamentals"
+ },
+ {
+  "description": "Aprenda a usar o Neo4j Graph Data Science neste workshop prático.",
+  "domain": "データベース",
+  "duration_text": "4h",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Neo4j",
+   "Graph Data Science"
+  ],
+  "summary_ja": "ポルトガル語版の実践ワークショップ (約4時間)。Neo4j Graph Data Science の使い方をハンズオンで学び、グラフアルゴリズムによる分析を体験する。",
+  "title": "Graph Data Science na Prática",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/pt-br-workshop-gds"
+ },
+ {
+  "description": "",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "ポルトガル語版ワークショップ。Neo4j と生成 AI の組み合わせ活用をテーマにした実践セッション。グラフ DB × GenAI の基礎をハンズオンで学ぶ構成。",
+  "title": "Workshop de Neo4j e IA Generativa",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/pt-br-workshop-genai"
+ },
+ {
+  "description": "Aprenda modelagem de dados e importação no Neo4j neste workshop prático.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "ポルトガル語版ワークショップ (約2時間)。Neo4j におけるデータモデリングとデータインポートの実践方法をハンズオンで学ぶ。",
+  "title": "Workshop de Modelagem e Importação de Dados no Neo4j",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/pt-br-workshop-modeling"
+ },
+ {
+  "description": "Aprenda gerenciamento, otimização e refatoração do Neo4j neste workshop prático.",
+  "domain": "データベース",
+  "duration_text": "4h",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "ポルトガル語版ワークショップ (約4時間)。Neo4j の管理・最適化・リファクタリングをテーマに、運用面のスキルをハンズオンで磨く内容。",
+  "title": "Workshop de Gerenciamento, Otimização e Refatoração do Neo4j",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/pt-br-workshop-optimization"
+ },
+ {
+  "description": "Get started building apps backed by embedded Neo4j using Relate.",
+  "domain": "データベース",
+  "duration_text": "40 min",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Neo4j",
+   "Relate"
+  ],
+  "summary_ja": "組み込み型 Neo4j フレームワーク Relate の入門コース (約40分)。Relate をバックエンドにしたアプリ構築の始め方を短時間で押さえる。",
+  "title": "Get Started with Relate",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/relate-get-started"
+ },
+ {
+  "description": "Get started building apps backed by embedded Neo4j using Relate in Python.",
+  "domain": "データベース",
+  "duration_text": "50 min",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Neo4j",
+   "Relate",
+   "Python"
+  ],
+  "summary_ja": "Python 版 Relate で組み込み Neo4j アプリを作る入門コース (約50分)。Python 開発者が Relate を使ってグラフ DB 連携アプリを構築する最初のステップ。",
+  "title": "Get Started with Relate in Python",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/relate-get-started-python"
+ },
+ {
+  "description": "In this course, you will query Databricks data in place through a Neo4j virtual graph.",
+  "domain": "データベース",
+  "duration_text": "35 min",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Databricks"
+  ],
+  "summary_ja": "Neo4j の仮想グラフ経由で Databricks 上のデータをその場でクエリする入門コース (Beginner、約35分)。データを移さずにグラフクエリで扱う連携パターンを学ぶ。",
+  "title": "Neo4j Virtual Graph with Databricks",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/virtual-graph-databricks"
+ },
+ {
+  "description": "In this course, you will query Snowflake data in place through a Neo4j virtual graph.",
+  "domain": "データベース",
+  "duration_text": "35 min",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Snowflake"
+  ],
+  "summary_ja": "Neo4j の仮想グラフ経由で Snowflake 上のデータをその場でクエリする入門コース (Beginner、約35分)。データを移さずにグラフクエリで扱う連携パターンを学ぶ。",
+  "title": "Neo4j Virtual Graph with Snowflake",
+  "type": "course",
+  "url": "https://graphacademy.neo4j.com/courses/virtual-graph-snowflake"
+ },
+ {
+  "description": "Learn how to administer Neo4j in this hands-on workshop.",
+  "domain": "データベース",
+  "duration_text": "4h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "Neo4j の管理運用を学ぶハンズオンワークショップ (約4時間)。管理者が実務で必要となる運用スキルを、手を動かす形式で体系的に身につける。",
+  "title": "Neo4j Administration Workshop",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/workshop-administration"
+ },
+ {
+  "description": "Learn how to build agent memory with Neo4j in this hands-on workshop.",
+  "domain": "AI",
+  "duration_text": "3h 20m",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "Neo4j でエージェントメモリを構築するハンズオンワークショップ (約3時間20分)。記憶を持つ AI エージェントのためのグラフ設計を実習形式で学ぶ。",
+  "title": "Neo4j Agent Memory Workshop",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/workshop-agent-memory"
+ },
+ {
+  "description": "Learn how to build agent memory with Neo4j in 90 minutes.",
+  "domain": "AI",
+  "duration_text": "1h 30m",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "90分で Neo4j のエージェントメモリ構築を体験するワークショップ (約1時間半)。エージェントメモリの考え方と実装の入口を短時間で掴みたい人向け。",
+  "title": "Agent Memory in 90 Minutes",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/workshop-agent-memory-90"
+ },
+ {
+  "description": "Learn how to build agent memory with Neo4j and TypeScript in this hands-on workshop.",
+  "domain": "AI",
+  "duration_text": "2h 45m",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "TypeScript"
+  ],
+  "summary_ja": "Neo4j と TypeScript でエージェントメモリを構築するハンズオンワークショップ (約2時間45分)。TypeScript 開発者がエージェントの記憶層を実装する実習。",
+  "title": "Agent Memory Workshop with TypeScript",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/workshop-agent-memory-ts"
+ },
+ {
+  "description": "Learn the basics of Neo4j and graph databases in this hands-on workshop.",
+  "domain": "データベース",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "Neo4j とグラフデータベースの基礎を学ぶハンズオンワークショップ (約2時間)。概念説明と実習を組み合わせた、グラフ DB 入門としての定番セッション。",
+  "title": "Introduction to Graph Databases Workshop",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/workshop-fundamentals"
+ },
+ {
+  "description": "Learn how to use Neo4j Graph Data Science in this hands-on workshop.",
+  "domain": "データベース",
+  "duration_text": "4h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Graph Data Science"
+  ],
+  "summary_ja": "Neo4j Graph Data Science を実践的に使うハンズオンワークショップ (約4時間)。グラフアルゴリズムによるデータ分析を、実際に手を動かしながら学ぶ。",
+  "title": "Graph Data Science in Practice",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/workshop-gds"
+ },
+ {
+  "description": "Learn how to analyze graph data with Python and Aura Graph Analytics.",
+  "domain": "データベース",
+  "duration_text": "4h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "Python",
+   "Aura Graph Analytics"
+  ],
+  "summary_ja": "Python と Aura Graph Analytics でグラフデータを分析するワークショップ (約4時間)。Python からグラフ分析機能を呼び出す実践的なワークフローを学ぶ。",
+  "title": "Analyze Graph Data with Python",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/workshop-gds-python-aga"
+ },
+ {
+  "description": "Learn how to use Neo4j and Generative AI in this hands-on workshop.",
+  "domain": "AI",
+  "duration_text": "2h",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j"
+  ],
+  "summary_ja": "Neo4j と生成 AI の活用を学ぶハンズオンワークショップ (約2時間)。グラフ DB と GenAI を組み合わせたアプリ開発の考え方を実習形式で体験する。",
+  "title": "Neo4j and Generative AI Workshop",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/workshop-genai"
+ },
+ {
+  "description": "Build a GraphRAG application in this hackathon-style workshop.",
+  "domain": "AI",
+  "duration_text": "43 min",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Neo4j",
+   "GraphRAG"
+  ],
+  "summary_ja": "ハッカソン形式で GraphRAG アプリケーションを構築する短編ワークショップ (約43分)。短時間でプロトタイプを作り切る実践重視の構成。",
+  "title": "GraphRAG Hackathon",
+  "type": "workshop",
+  "url": "https://graphacademy.neo4j.com/courses/workshop-hackathon"
+ }
 ]

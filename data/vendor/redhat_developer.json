@@ -9,7 +9,7 @@
    "OpenShift",
    "Kubernetes"
   ],
-  "summary_ja": "Developer Sandboxの無償クラスタでOpenShiftの基礎とアプリのデプロイを体験する学習パス",
+  "summary_ja": "Developer Sandbox の無償 OpenShift クラスタを使い、アプリケーションのデプロイと操作をハンズオンで体験しながら OpenShift の基礎を学ぶ学習パス (約3時間40分)。環境準備不要で始められる入口コンテンツ。",
   "title": "Foundations of OpenShift",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/openshift/foundations-openshift"
@@ -24,7 +24,7 @@
    "Kubernetes",
    "OpenShift"
   ],
-  "summary_ja": "Developer Sandboxを素のKubernetesとして使い、DBアプリの構築を通じて学ぶ実践パス",
+  "summary_ja": "Developer Sandbox を素の Kubernetes 環境として使い、データベース連携アプリの構築を通じて K8s を学ぶ実践パス。OpenShift 上での学習がそのまま Kubernetes の理解につながる構成。",
   "title": "Learn Kubernetes using the Developer Sandbox",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/openshift/learn-kubernetes-using-developer-sandbox-red-hat-openshift"
@@ -39,7 +39,7 @@
    "OpenShift",
    "Kubernetes"
   ],
-  "summary_ja": "PVCを作成してPodから永続データにアクセスする方法を学ぶ学習パス",
+  "summary_ja": "Persistent Volume Claim (PVC) を作成して Pod から永続データにアクセスする方法を学ぶ短い学習パス (約30分)。OpenShift/Kubernetes のストレージ基礎をピンポイントで押さえる。",
   "title": "Store persistent data in Red Hat OpenShift using PVCs",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/openshift/store-persistent-data-red-hat-openshift-using-pvcs"
@@ -53,7 +53,7 @@
   "services": [
    "Ansible"
   ],
-  "summary_ja": "Ansibleの基本概念・用語・開発ツールを学ぶ入門学習パス",
+  "summary_ja": "Ansible で自動化を始めるために必要な基本概念・用語・開発ツールを学ぶ入門学習パス。Ansible コンテンツを自信を持って正確に作るための土台となる知識を扱う。",
   "title": "Foundations of Ansible",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/ansible/foundations-ansible"
@@ -67,7 +67,7 @@
   "services": [
    "Ansible"
   ],
-  "summary_ja": "Playbookの構成要素を実例で学び、変数・条件分岐・ループまで進む学習パス",
+  "summary_ja": "実例を通じて Ansible Playbook の作成基礎を学ぶ学習パス。play・task・module などの構成要素から変数・条件分岐・ループまで、段階的に自動化の書き方を習得する。",
   "title": "Get started with Ansible Playbooks",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/ansible/get-started-ansible-playbooks"
@@ -81,7 +81,7 @@
   "services": [
    "Ansible"
   ],
-  "summary_ja": "コンテンツコレクションの利点と作成・利用方法を実例で学ぶ学習パス",
+  "summary_ja": "Ansible Content Collections の利点と作成・利用方法を実例で学ぶ学習パス。コレクションを自身の自動化に取り入れるための実践的内容。",
   "title": "Getting started with Ansible Content Collections",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/ansible/getting-started-ansible-content-collections"
@@ -96,7 +96,7 @@
    "Ansible",
    "VS Code"
   ],
-  "summary_ja": "VS CodeのAnsible拡張機能の使い方とLightspeed連携を学ぶ学習パス",
+  "summary_ja": "VS Code の Ansible 拡張機能の使い方を学ぶ学習パス。自動化コードを書く効率・精度・習熟度を高める機能を、初心者の基礎作りから経験者のワークフロー強化まで案内する。",
   "title": "Get started with the Ansible Visual Studio Code extension",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/ansible/get-started-ansible-visual-studio-code-extension"
@@ -111,7 +111,7 @@
    "Ansible",
    "Red Hat Developer Hub"
   ],
-  "summary_ja": "Developer HubとAnsibleをKeycloakでSSO連携させる構成を学ぶ学習パス",
+  "summary_ja": "Red Hat build of Keycloak によるシングルサインオンで Developer Hub と Ansible Automation Platform を連携する構成を学ぶパス (約2時間28分)。コンポーネントのデプロイから SSO 設定までを扱う。",
   "title": "Integrate Red Hat Developer Hub with Red Hat Ansible Automation Platform",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/ansible/integrate-red-hat-developer-hub-red-hat-ansible-automation-platform"
@@ -126,7 +126,7 @@
    "RHEL",
    "Podman"
   ],
-  "summary_ja": "RHEL 10の堅牢化イメージとbootcでLAMPスタックをブータブルVM化する学習パス",
+  "summary_ja": "RHEL 10 上で堅牢化イメージと bootc を使い、LAMP スタックアプリをブータブルで検証済みの VM イメージにする学習パス (約1時間20分)。コンテナを OS として起動する image mode の実践。",
   "title": "Build a hardened LAMP stack and deploy it in image mode for Red Hat Enterprise Linux",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/rhel/build-hardened-lamp-stack-and-deploy-it-image-mode-red-hat-enterprise-linux"
@@ -141,7 +141,7 @@
    "RHEL",
    "Podman Desktop"
   ],
-  "summary_ja": "Podman DesktopでRHELイメージモードのブータブルコンテナイメージを構築する学習パス",
+  "summary_ja": "コンテナネイティブな手法で OS をブータブルコンテナとして構築・デプロイ・管理する RHEL image mode の学習パス。Podman Desktop でアプリケーションをビルドする流れを学ぶ。",
   "title": "Build and run a bootable container image with image mode for RHEL and Podman Desktop",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/rhel/build-and-run-bootable-container-image-image-mode-rhel-and-podman-desktop"
@@ -157,7 +157,7 @@
    "Podman Desktop",
    "Quarkus"
   ],
-  "summary_ja": "QuarkusアプリをRHELイメージモードのブータブルイメージにする学習パス",
+  "summary_ja": "Red Hat build of Podman Desktop と Quarkus で、RHEL image mode 用の最小限のブータブル Java アプリイメージを作る学習パス (約40分)。アプリをブータブルコンテナに統合する手順を扱う。",
   "title": "Build and deploy a Java application using Quarkus with image mode for RHEL and the Red Hat build of Podman Desktop",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/rhel/build-and-deploy-java-application-using-quarkus-image-mode-rhel-and-red-hat-build-podman"
@@ -172,7 +172,7 @@
    "RHEL",
    "Red Hat Lightspeed"
   ],
-  "summary_ja": "Lightspeedのイメージビルダーとコンプライアンスで堅牢化したRHELビルドを作る学習パス",
+  "summary_ja": "Red Hat Lightspeed のイメージビルダーとコンプライアンスサービスで堅牢化した RHEL ビルドを作る学習パス。カスタムセキュリティポリシー適用と、新インフラ不要のコンプライアンス報告・修復を学ぶ。",
   "title": "Harden new builds with Red Hat Lightspeed image builder and compliance",
   "type": "learning-path",
   "url": "https://developers.redhat.com/learn/rhel/harden-new-builds-lightspeed-image-builder-and-compliance"

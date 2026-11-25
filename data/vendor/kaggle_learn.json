@@ -1,1 +1,269 @@
-[{"description":"Get started with Python, if you have no coding experience.","domain":"開発・Git","duration_text":"5 hours (estimated)","level":"","priority_for_user":"中","services":["Python"],"summary_ja":"プログラミング未経験者向けのPython入門マイクロコース。","title":"Intro to Programming","type":"course","url":"https://www.kaggle.com/learn/intro-to-programming"},{"description":"Learn the most important language for data science.","domain":"開発・Git","duration_text":"5 hours (estimated)","level":"","priority_for_user":"中","services":["Python"],"summary_ja":"データサイエンスに必須のPython文法と基礎を学ぶコース。","title":"Python","type":"course","url":"https://www.kaggle.com/learn/python"},{"description":"Learn the core ideas in machine learning, and build your first models.","domain":"AI","duration_text":"3 hours (estimated)","level":"","priority_for_user":"中","services":["scikit-learn","Python"],"summary_ja":"決定木やランダムフォレストで最初のMLモデルを作る入門コース。","title":"Intro to Machine Learning","type":"course","url":"https://www.kaggle.com/learn/intro-to-machine-learning"},{"description":"Solve short hands-on challenges to perfect your data manipulation skills.","domain":"データ基盤","duration_text":"4 hours (estimated)","level":"","priority_for_user":"中","services":["Pandas","Python"],"summary_ja":"Pandasのデータ操作を短いハンズオン課題で習得するコース。","title":"Pandas","type":"course","url":"https://www.kaggle.com/learn/pandas"},{"description":"Handle missing values, non-numeric values, data leakage, and more.","domain":"AI","duration_text":"","level":"","priority_for_user":"中","services":["scikit-learn","XGBoost","Python"],"summary_ja":"欠損値処理・カテゴリ変数・データリーク対策などML中級コース。","title":"Intermediate Machine Learning","type":"course","url":"https://www.kaggle.com/learn/intermediate-machine-learning"},{"description":"Make great data visualizations. A great way to see the power of coding!","domain":"データ基盤","duration_text":"4 hours (estimated)","level":"","priority_for_user":"中","services":["Seaborn","Matplotlib","Python"],"summary_ja":"Seaborn等で折れ線・散布図・ヒートマップを作る可視化コース。","title":"Data Visualization","type":"course","url":"https://www.kaggle.com/learn/data-visualization"},{"description":"Better features make better models. Discover how to get the most out of your data.","domain":"AI","duration_text":"5 hours (estimated)","level":"","priority_for_user":"中","services":["scikit-learn","Pandas","Python"],"summary_ja":"相互情報量・クラスタリング・PCA・ターゲットエンコーディング等の特徴量設計コース。","title":"Feature Engineering","type":"course","url":"https://www.kaggle.com/learn/feature-engineering"},{"description":"Learn SQL for working with databases, using Google BigQuery.","domain":"データ基盤","duration_text":"3 hours (estimated)","level":"","priority_for_user":"中","services":["SQL","BigQuery"],"summary_ja":"BigQueryを使ってSQLの基本クエリを学ぶ入門コース。","title":"Intro to SQL","type":"course","url":"https://www.kaggle.com/learn/intro-to-sql"},{"description":"Take your SQL skills to the next level.","domain":"データ基盤","duration_text":"4 hours (estimated)","level":"","priority_for_user":"中","services":["SQL","BigQuery"],"summary_ja":"JOIN・分析関数・ネストデータなどBigQueryの応用SQLコース。","title":"Advanced SQL","type":"course","url":"https://www.kaggle.com/learn/advanced-sql"},{"description":"Use TensorFlow and Keras to build and train neural networks for structured data.","domain":"AI","duration_text":"4 hours (estimated)","level":"","priority_for_user":"中","services":["TensorFlow","Keras"],"summary_ja":"TensorFlow/Kerasでニューラルネットを構築・訓練する深層学習入門。","title":"Intro to Deep Learning","type":"course","url":"https://www.kaggle.com/learn/intro-to-deep-learning"},{"description":"Build convolutional neural networks with TensorFlow and Keras.","domain":"AI","duration_text":"4 hours (estimated)","level":"","priority_for_user":"中","services":["TensorFlow","Keras"],"summary_ja":"TensorFlow/KerasでCNN画像分類モデルを作るコンピュータビジョン入門。","title":"Computer Vision","type":"course","url":"https://www.kaggle.com/learn/computer-vision"},{"description":"Apply machine learning to real-world forecasting tasks.","domain":"AI","duration_text":"5 hours (estimated)","level":"","priority_for_user":"中","services":["scikit-learn","Python"],"summary_ja":"トレンド・季節性・ラグ特徴量による時系列予測のMLコース。","title":"Time Series","type":"course","url":"https://www.kaggle.com/learn/time-series"},{"description":"Master efficient workflows for cleaning real-world, messy data.","domain":"データ基盤","duration_text":"4 hours (estimated)","level":"","priority_for_user":"中","services":["Pandas","Python"],"summary_ja":"欠損値・スケーリング・日付解析・文字コードなど実データ整形の実務コース。","title":"Data Cleaning","type":"course","url":"https://www.kaggle.com/learn/data-cleaning"},{"description":"Explore practical tools to guide the moral design of AI systems.","domain":"AI","duration_text":"4 hours (estimated)","level":"","priority_for_user":"低","services":[],"summary_ja":"バイアス・公平性・モデルカードなどAI倫理の実践ツールを学ぶコース。","title":"Intro to AI Ethics","type":"course","url":"https://www.kaggle.com/learn/intro-to-ai-ethics"},{"description":"Create interactive maps, and discover patterns in geospatial data.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"低","services":["GeoPandas","Python"],"summary_ja":"インタラクティブ地図の作成と地理空間データ分析のコース。","title":"Geospatial Analysis","type":"course","url":"https://www.kaggle.com/learn/geospatial-analysis"},{"description":"Extract human-understandable insights from any model.","domain":"AI","duration_text":"4 hours (estimated)","level":"","priority_for_user":"中","services":["SHAP","scikit-learn"],"summary_ja":"順列重要度・部分依存プロット・SHAP値によるモデル解釈のコース。","title":"Machine Learning Explainability","type":"course","url":"https://www.kaggle.com/learn/machine-learning-explainability"},{"description":"Build your own video game bots, using classic and cutting-edge algorithms.","domain":"AI","duration_text":"4 hours (estimated)","level":"","priority_for_user":"低","services":["Reinforcement Learning","Python"],"summary_ja":"ミニマックス探索と深層強化学習でゲームAIボットを作るコース。","title":"Intro to Game AI and Reinforcement Learning","type":"course","url":"https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning"}]
+[
+ {
+  "description": "Get started with Python, if you have no coding experience.",
+  "domain": "開発・Git",
+  "duration_text": "5 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Python"
+  ],
+  "summary_ja": "コーディング経験ゼロから Python を始める入門マイクロコース (推定5時間)。Kaggle Learn 特有の短いレッスンとブラウザ上の演習で、プログラミングの最初の一歩を踏み出す。",
+  "title": "Intro to Programming",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/intro-to-programming"
+ },
+ {
+  "description": "Learn the most important language for data science.",
+  "domain": "開発・Git",
+  "duration_text": "5 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Python"
+  ],
+  "summary_ja": "データサイエンスに必須の Python の文法と基礎を学ぶコース (推定5時間)。ハンズオン演習付きで、これからデータ分析・ML 系コースへ進むための土台となる内容。",
+  "title": "Python",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/python"
+ },
+ {
+  "description": "Learn the core ideas in machine learning, and build your first models.",
+  "domain": "AI",
+  "duration_text": "3 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "scikit-learn",
+   "Python"
+  ],
+  "summary_ja": "機械学習の中核的な考え方を学び、決定木やランダムフォレストで最初のモデルを構築する入門コース (推定3時間)。scikit-learn と Python を使う、ML 学習の登竜門。",
+  "title": "Intro to Machine Learning",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/intro-to-machine-learning"
+ },
+ {
+  "description": "Solve short hands-on challenges to perfect your data manipulation skills.",
+  "domain": "データ基盤",
+  "duration_text": "4 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Pandas",
+   "Python"
+  ],
+  "summary_ja": "Pandas のデータ操作スキルを短いハンズオン課題で磨くコース (推定4時間)。データフレームの読み込み・加工・集計など、実務で頻出の操作を演習中心で習得する。",
+  "title": "Pandas",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/pandas"
+ },
+ {
+  "description": "Handle missing values, non-numeric values, data leakage, and more.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "scikit-learn",
+   "XGBoost",
+   "Python"
+  ],
+  "summary_ja": "欠損値処理・非数値データ・データリーク対策など、実践で必須のトピックを扱う中級 ML コース。scikit-learn と XGBoost を使い、入門の次の段階としてモデル精度を高める手法を学ぶ。",
+  "title": "Intermediate Machine Learning",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/intermediate-machine-learning"
+ },
+ {
+  "description": "Make great data visualizations. A great way to see the power of coding!",
+  "domain": "データ基盤",
+  "duration_text": "4 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Seaborn",
+   "Matplotlib",
+   "Python"
+  ],
+  "summary_ja": "Seaborn・Matplotlib で折れ線・散布図・ヒートマップなどを作成するデータ可視化コース (推定4時間)。コードでグラフを描く楽しさと実用性を、演習を通じて体験できる。",
+  "title": "Data Visualization",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/data-visualization"
+ },
+ {
+  "description": "Better features make better models. Discover how to get the most out of your data.",
+  "domain": "AI",
+  "duration_text": "5 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "scikit-learn",
+   "Pandas",
+   "Python"
+  ],
+  "summary_ja": "特徴量エンジニアリングの手法を学ぶコース (推定5時間)。相互情報量・クラスタリング・PCA・ターゲットエンコーディングなど、データからモデルの性能を引き出す特徴量設計を扱う。",
+  "title": "Feature Engineering",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/feature-engineering"
+ },
+ {
+  "description": "Learn SQL for working with databases, using Google BigQuery.",
+  "domain": "データ基盤",
+  "duration_text": "3 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "SQL",
+   "BigQuery"
+  ],
+  "summary_ja": "Google BigQuery を使いながら SQL の基本クエリを学ぶ入門コース (推定3時間)。データベース操作の基礎を、実際の大規模データを触りながら習得できる。",
+  "title": "Intro to SQL",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/intro-to-sql"
+ },
+ {
+  "description": "Take your SQL skills to the next level.",
+  "domain": "データ基盤",
+  "duration_text": "4 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "SQL",
+   "BigQuery"
+  ],
+  "summary_ja": "SQL スキルを一段上げる応用コース (推定4時間)。JOIN・分析関数・ネストされたデータの扱いなど、BigQuery での実践的なクエリ技法を学ぶ。",
+  "title": "Advanced SQL",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/advanced-sql"
+ },
+ {
+  "description": "Use TensorFlow and Keras to build and train neural networks for structured data.",
+  "domain": "AI",
+  "duration_text": "4 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "TensorFlow",
+   "Keras"
+  ],
+  "summary_ja": "TensorFlow と Keras でニューラルネットワークを構築・訓練する深層学習入門コース (推定4時間)。構造化データを対象に、DL の基本的な流れをハンズオンで学ぶ。",
+  "title": "Intro to Deep Learning",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/intro-to-deep-learning"
+ },
+ {
+  "description": "Build convolutional neural networks with TensorFlow and Keras.",
+  "domain": "AI",
+  "duration_text": "4 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "TensorFlow",
+   "Keras"
+  ],
+  "summary_ja": "TensorFlow と Keras で畳み込みニューラルネットワーク (CNN) を構築するコンピュータビジョン入門コース (推定4時間)。画像分類モデルの作成を通じて CV の基礎を掴む。",
+  "title": "Computer Vision",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/computer-vision"
+ },
+ {
+  "description": "Apply machine learning to real-world forecasting tasks.",
+  "domain": "AI",
+  "duration_text": "5 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "scikit-learn",
+   "Python"
+  ],
+  "summary_ja": "機械学習を実世界の予測タスクに適用する時系列コース (推定5時間)。トレンド・季節性・ラグ特徴量を使った予測手法を、scikit-learn と Python で学ぶ。",
+  "title": "Time Series",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/time-series"
+ },
+ {
+  "description": "Master efficient workflows for cleaning real-world, messy data.",
+  "domain": "データ基盤",
+  "duration_text": "4 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Pandas",
+   "Python"
+  ],
+  "summary_ja": "実世界の汚れたデータを整形する効率的なワークフローを学ぶデータクリーニングコース (推定4時間)。欠損値・スケーリング・日付解析・文字コードなど、実務で頻出の処理を扱う。",
+  "title": "Data Cleaning",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/data-cleaning"
+ },
+ {
+  "description": "Explore practical tools to guide the moral design of AI systems.",
+  "domain": "AI",
+  "duration_text": "4 hours (estimated)",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [],
+  "summary_ja": "AI システムの倫理的な設計を導く実践的なツールを学ぶコース (推定4時間)。バイアス・公平性・モデルカードなど、AI 開発者が考慮すべき論点を概観する。",
+  "title": "Intro to AI Ethics",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/intro-to-ai-ethics"
+ },
+ {
+  "description": "Create interactive maps, and discover patterns in geospatial data.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "GeoPandas",
+   "Python"
+  ],
+  "summary_ja": "GeoPandas でインタラクティブな地図を作り地理空間データのパターンを探るコース。位置情報を扱う分析プロジェクトの入口に適した内容。",
+  "title": "Geospatial Analysis",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/geospatial-analysis"
+ },
+ {
+  "description": "Extract human-understandable insights from any model.",
+  "domain": "AI",
+  "duration_text": "4 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "SHAP",
+   "scikit-learn"
+  ],
+  "summary_ja": "モデルの予測を人間が理解できる形で説明する機械学習説明可能性 (ML explainability) のコース (推定4時間)。順列重要度・部分依存プロット・SHAP 値によるモデル解釈を学ぶ。",
+  "title": "Machine Learning Explainability",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/machine-learning-explainability"
+ },
+ {
+  "description": "Build your own video game bots, using classic and cutting-edge algorithms.",
+  "domain": "AI",
+  "duration_text": "4 hours (estimated)",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Reinforcement Learning",
+   "Python"
+  ],
+  "summary_ja": "ミニマックス探索から最新の深層強化学習までで、ゲームプレイ用のボットを作るコース (推定4時間)。強化学習の考え方をゲーム AI を題材に楽しく学べる構成。",
+  "title": "Intro to Game AI and Reinforcement Learning",
+  "type": "course",
+  "url": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning"
+ },
+ {
+  "title": "5-Day AI Agents Intensive Course with Google",
+  "url": "https://www.kaggle.com/learn-guide/5-day-agents",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "5 days",
+  "description": "",
+  "domain": "AIエージェント",
+  "services": [
+   "Google"
+  ],
+  "priority_for_user": "high",
+  "summary_ja": "Google と Kaggle の 5 日間 AI エージェント集中講座。エージェントの基礎からツール・メモリ・評価・本番運用まで、日ごとの教材とハンズオンで学ぶ。"
+ }
+]

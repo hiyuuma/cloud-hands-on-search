@@ -29,9 +29,9 @@ def test_vendor_counts(vendor_only_records):
         "elastic": 7,
         "fortinet": 13,
         "freecodecamp": 12,
-        "huggingface": 12,
+        "huggingface": 13,
         "ibm": 4,
-        "kaggle": 17,
+        "kaggle": 18,
         "langchain": 18,
         "mongodb": 21,
         "neo4j": 60,
@@ -44,8 +44,16 @@ def test_vendor_counts(vendor_only_records):
         "sap": 17,
         "servicenow": 20,
         "snowflake": 11,
+        # Run 8 追加分
+        "cloudflare": 11,
+        "cohere": 10,
+        "deeplearning_ai": 45,
+        "microsoft_curricula": 52,
+        "openai": 14,
+        "palantir": 26,
+        "vercel": 10,
     }
-    assert len(vendor_only_records) == 2073
+    assert len(vendor_only_records) == 2243
 
 
 def test_plan_fixture_ingested(records):
@@ -103,6 +111,10 @@ def _raw_url_set():
         "neo4j_graphacademy", "nextjs_learn", "nvidia_dli", "portswigger",
         "redhat_developer", "redis_university", "salesforce_trailhead",
         "sap_learning", "servicenow", "snowflake",
+        # Run 8 (staging 由来7ファイル)
+        "cloudflare_agents", "cohere_llmu", "deeplearning_ai",
+        "microsoft_curricula", "openai_academy", "palantir_learn",
+        "vercel_academy",
     ):
         items = json.loads((VENDOR / f"{name}.json").read_text("utf-8"))
         for it in items:
@@ -381,6 +393,9 @@ RUN5_CATALOGS = (
     "elastic", "fortinet", "freecodecamp", "huggingface", "ibm", "kaggle",
     "langchain", "mongodb", "neo4j", "nextjs", "nvidia", "portswigger",
     "redhat", "redis", "salesforce", "sap", "servicenow", "snowflake",
+    # Run 8 追加分
+    "cloudflare", "cohere", "deeplearning_ai", "microsoft_curricula",
+    "openai", "palantir", "vercel",
 )
 
 
@@ -448,9 +463,11 @@ def test_run5_duration_conversion(vendor_only_records):
 
 
 def test_run5_billing(vendor_only_records):
-    """billing: 原則 Free。anthropic のみ料金表示自体が無く unknown。"""
+    """billing: 原則 Free。料金表示自体が無い・無料と断定できない
+    カタログ (anthropic / deeplearning_ai / palantir / vercel) は unknown。"""
+    unknown = {"anthropic", "deeplearning_ai", "palantir", "vercel"}
     for r in vendor_only_records:
-        if r["source_catalog"] == "anthropic":
+        if r["source_catalog"] in unknown:
             assert r["access"] == "unknown", r["id"]
         elif r["source_catalog"] in RUN5_CATALOGS:
             assert r["access"] == "Free", r["id"]
@@ -470,7 +487,7 @@ def test_run5_duration_coverage(vendor_only_records):
             empty[cat] = empty.get(cat, 0) + 1
         elif r["duration_min"] is None:
             unconvertible.setdefault(cat, []).append(text)
-    assert unconvertible == {}
+    assert unconvertible == {"kaggle": ["5 days"]}
     assert empty == {
         "alibaba": 13,
         "confluent": 22,
@@ -478,7 +495,7 @@ def test_run5_duration_coverage(vendor_only_records):
         "elastic": 7,
         "fortinet": 10,
         "freecodecamp": 5,
-        "huggingface": 4,
+        "huggingface": 5,
         "ibm": 4,
         "kaggle": 2,
         "langchain": 7,
@@ -491,4 +508,9 @@ def test_run5_duration_coverage(vendor_only_records):
         "sap": 17,
         "servicenow": 18,
         "snowflake": 5,
+        "cloudflare": 11,
+        "cohere": 10,
+        "microsoft_curricula": 52,
+        "palantir": 17,
+        "vercel": 10,
     }

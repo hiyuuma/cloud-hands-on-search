@@ -1,1 +1,196 @@
-[{"description":"","domain":"コンピュート","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud"],"summary_ja":"Alibaba Cloudのコンピューティング基礎を学ぶ無料の入門コース","title":"Alibaba Cloud Computing Fundamentals","type":"course","url":"https://edu.alibabacloud.com/course/353"},{"description":"","domain":"AI","duration_text":"","level":"","priority_for_user":"中","services":["Alibaba Cloud","Generative AI"],"summary_ja":"Alibaba Cloudの生成AIサービスを初めて俯瞰する無料コース","title":"First Look at Alibaba Cloud Generative AI","type":"course","url":"https://edu.alibabacloud.com/course/577"},{"description":"step by step operations demonstration on how to use snapshot to do ECS data disk backup and recovery","domain":"コンピュート","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud","ECS"],"summary_ja":"ECSのスナップショットによるディスクバックアップと復旧を実演する無料ラボ","title":"Lab Demo for Disk Backup and Recovery","type":"course","url":"https://edu.alibabacloud.com/course/52"},{"description":"","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud","ACK","Terraform"],"summary_ja":"TerraformでマルチゾーンのACK Kubernetesクラスタを構築する無料コース","title":"Provisioning a Multi-zone ACK Kubernetes Cluster Using Terraform","type":"course","url":"https://edu.alibabacloud.com/course/284"},{"description":"","domain":"コンピュート","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud","ECS"],"summary_ja":"ECSへのWebサービスデプロイ手順を実演する無料ラボ","title":"Lab Demo for Deploying Web Service on ECS","type":"course","url":"https://edu.alibabacloud.com/course/50"},{"description":"","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud","SLB"],"summary_ja":"SLB（ロードバランサー）の設定手順を実演する無料ラボ","title":"Lab Demo for SLB Configuration","type":"course","url":"https://edu.alibabacloud.com/course/48"},{"description":"","domain":"コンピュート","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud","ECS"],"summary_ja":"ECSで動的Webサイトを構築する無料コース（広東語）","title":"Using ECS to Construct a Dynamic Website (Cantonese)","type":"course","url":"https://edu.alibabacloud.com/course/76"},{"description":"","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud","Apache Spark"],"summary_ja":"クラウド上でSparkを使うシリーズのセットアップ編（無料）","title":"How to Use Spark on Cloud Series - Setup","type":"course","url":"https://edu.alibabacloud.com/course/87"},{"description":"","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud","OSS"],"summary_ja":"クラウド上のオブジェクトストレージの運用・管理を学ぶ無料コース（広東語）","title":"Operate and Manage Object Storage on the Cloud (Cantonese)","type":"course","url":"https://edu.alibabacloud.com/course/113"},{"description":"","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud","OSS"],"summary_ja":"OSSで静的Webサイトを公開する手順を学ぶ無料コース","title":"Using OSS to Publish a Static Website","type":"course","url":"https://edu.alibabacloud.com/course/9"},{"description":"","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud"],"summary_ja":"Alibaba Cloudでデータを保護する方法を学ぶ無料コース（フランス語版）","title":"Secure Your Data in Alibaba Cloud (French version)","type":"course","url":"https://edu.alibabacloud.com/course/64"},{"description":"Introduces the permissions and security architecture of MaxCompute","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud","MaxCompute"],"summary_ja":"MaxComputeの権限管理とセキュリティアーキテクチャを学ぶ無料コース","title":"Alibaba Cloud MaxCompute - Authority and Security","type":"course","url":"https://edu.alibabacloud.com/course/147"},{"description":"","domain":"コンピュート","duration_text":"","level":"","priority_for_user":"低","services":["Alibaba Cloud","ECS"],"summary_ja":"LinuxサーバーをAlibaba Cloudへ簡単に移行する方法を実演する無料コース","title":"A Quick Demo of How to Easily Migrate Your Linux Server to Alibaba Cloud","type":"course","url":"https://edu.alibabacloud.com/course/132"}]
+[
+ {
+  "description": "",
+  "domain": "コンピュート",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud"
+  ],
+  "summary_ja": "Alibaba Cloud のコンピューティング基礎を学ぶ無料の入門コース。クラウドコンピューティングの考え方と Alibaba Cloud の基本的なサービスを最初に押さえたい初学者向け。",
+  "title": "Alibaba Cloud Computing Fundamentals",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/353"
+ },
+ {
+  "description": "",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Alibaba Cloud",
+   "Generative AI"
+  ],
+  "summary_ja": "Alibaba Cloud の生成 AI サービスを初めて俯瞰する無料コース。生成 AI 関連の提供内容を短時間で把握したい検討者・初学者向けのファーストルック的内容。",
+  "title": "First Look at Alibaba Cloud Generative AI",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/577"
+ },
+ {
+  "description": "step by step operations demonstration on how to use snapshot to do ECS data disk backup and recovery",
+  "domain": "コンピュート",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud",
+   "ECS"
+  ],
+  "summary_ja": "ECS のスナップショットでデータディスクをバックアップ・復旧する手順を実演する無料ラボデモ。ステップバイステップの操作手順を追いながら、ECS のデータ保護の基本を学べる。",
+  "title": "Lab Demo for Disk Backup and Recovery",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/52"
+ },
+ {
+  "description": "",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud",
+   "ACK",
+   "Terraform"
+  ],
+  "summary_ja": "Terraform でマルチゾーン構成の ACK (Alibaba Container Service for Kubernetes) クラスタをプロビジョニングする無料コース。IaC で Kubernetes 基盤を構築する実践的内容。",
+  "title": "Provisioning a Multi-zone ACK Kubernetes Cluster Using Terraform",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/284"
+ },
+ {
+  "description": "",
+  "domain": "コンピュート",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud",
+   "ECS"
+  ],
+  "summary_ja": "ECS 上に Web サービスをデプロイする手順を実演する無料ラボデモ。インスタンス上でのサービス公開までの操作を追う形式で、ECS 運用の入口に適する。",
+  "title": "Lab Demo for Deploying Web Service on ECS",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/50"
+ },
+ {
+  "description": "",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud",
+   "SLB"
+  ],
+  "summary_ja": "SLB (Server Load Balancer) の設定手順を実演する無料ラボデモ。ロードバランサーの作成と基本設定を画面操作で確認できる、Alibaba Cloud ネットワーク機能の入門。",
+  "title": "Lab Demo for SLB Configuration",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/48"
+ },
+ {
+  "description": "",
+  "domain": "コンピュート",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud",
+   "ECS"
+  ],
+  "summary_ja": "ECS を使って動的な Web サイトを構築する無料コース (広東語版)。Web サーバー構築から動的サイトの公開までを ECS 上で行う手順を学ぶ。",
+  "title": "Using ECS to Construct a Dynamic Website (Cantonese)",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/76"
+ },
+ {
+  "description": "",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud",
+   "Apache Spark"
+  ],
+  "summary_ja": "クラウド上で Apache Spark を使うシリーズのセットアップ編 (無料)。Spark 実行環境の準備手順を扱い、シリーズ後続の学習に進むための土台となる内容。",
+  "title": "How to Use Spark on Cloud Series - Setup",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/87"
+ },
+ {
+  "description": "",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud",
+   "OSS"
+  ],
+  "summary_ja": "クラウド上のオブジェクトストレージ (OSS) の運用と管理を学ぶ無料コース (広東語版)。OSS の日常的な管理操作を実務視点で押さえる内容。",
+  "title": "Operate and Manage Object Storage on the Cloud (Cantonese)",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/113"
+ },
+ {
+  "description": "",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud",
+   "OSS"
+  ],
+  "summary_ja": "OSS (Object Storage Service) で静的 Web サイトを公開する手順を学ぶ無料コース。ストレージだけで完結するサイト公開の手順を、Alibaba Cloud の実操作で学べる。",
+  "title": "Using OSS to Publish a Static Website",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/9"
+ },
+ {
+  "description": "",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud"
+  ],
+  "summary_ja": "Alibaba Cloud でデータを保護する方法を学ぶ無料コース (フランス語版)。クラウド上のデータセキュリティの基本的な考え方と対策を扱う。",
+  "title": "Secure Your Data in Alibaba Cloud (French version)",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/64"
+ },
+ {
+  "description": "Introduces the permissions and security architecture of MaxCompute",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud",
+   "MaxCompute"
+  ],
+  "summary_ja": "Alibaba Cloud MaxCompute の権限管理とセキュリティアーキテクチャを学ぶ無料コース。ビッグデータ基盤におけるアクセス制御の仕組みを理解したい管理者向け。",
+  "title": "Alibaba Cloud MaxCompute - Authority and Security",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/147"
+ },
+ {
+  "description": "",
+  "domain": "コンピュート",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Alibaba Cloud",
+   "ECS"
+  ],
+  "summary_ja": "Linux サーバーを Alibaba Cloud へ簡単に移行する方法を実演する無料のクイックデモ。既存サーバーの移行手順を短時間で概観したい検討者向け。",
+  "title": "A Quick Demo of How to Easily Migrate Your Linux Server to Alibaba Cloud",
+  "type": "course",
+  "url": "https://edu.alibabacloud.com/course/132"
+ }
+]

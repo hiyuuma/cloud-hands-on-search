@@ -1,0 +1,199 @@
+[
+ {
+  "title": "AI Foundations",
+  "url": "https://academy.openai.com/public/courses/ai-foundations-juzjs",
+  "type": "course",
+  "level": "",
+  "duration_text": "60-75 min",
+  "description": "Learn AI basics, write clearer prompts, add useful context, review outputs, and use AI responsibly. Free course on OpenAI Academy; sign in with a ChatGPT account to enroll and save progress.",
+  "domain": "AI",
+  "services": [
+   "ChatGPT"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "AI の基礎、プロンプトの書き方、コンテキストの与え方、出力の確認、責任ある使い方を学ぶ入門コース (60〜75分)。ChatGPT アカウントで受講できる無料の OpenAI Academy 講座。これから AI を仕事に使い始める人向け。"
+ },
+ {
+  "title": "Applied AI Foundations",
+  "url": "https://academy.openai.com/public/courses/applied-ai-foundations-hgk7r",
+  "type": "course",
+  "level": "",
+  "duration_text": "75-90 min",
+  "description": "Break work into steps, choose capabilities, define inputs and outputs, and build repeatable workflows with review points. Free course on OpenAI Academy; sign in with a ChatGPT account.",
+  "domain": "AI",
+  "services": [
+   "ChatGPT"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "仕事をステップに分解し、入出力と見直しポイントを定義して再現性のあるワークフローを組む実践コース (75〜90分)。AI Foundations の次に位置づけられる Foundations パスウェイの一部。定型業務を ChatGPT に落とし込みたい人向け。"
+ },
+ {
+  "title": "Agents and Workflows",
+  "url": "https://academy.openai.com/public/courses/agents-and-workflows-bieml",
+  "type": "course",
+  "level": "",
+  "duration_text": "75-90 min",
+  "description": "Delegate structured tasks to agents, define context, boundaries, and checkpoints, and review and improve results with human oversight. Free course on OpenAI Academy; sign in with a ChatGPT account.",
+  "domain": "AIエージェント",
+  "services": [
+   "ChatGPT",
+   "ChatGPT Work"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "構造化したタスクをエージェントに委任し、コンテキスト・境界・チェックポイントを定義して人の監督下で結果を改善するコース (75〜90分)。エージェントとの協働を業務に取り入れたいナレッジワーカー向け。"
+ },
+ {
+  "title": "Scope AI Solutions",
+  "url": "https://academy.openai.com/public/courses/scope-ai-solutions-c46cz",
+  "type": "course",
+  "level": "",
+  "duration_text": "30 min",
+  "description": "Identify valuable AI opportunities and turn a selected use case into a solution plan. Free course on OpenAI Academy; sign in with a ChatGPT account. OpenAI API focused.",
+  "domain": "AIエージェント・FDE",
+  "services": [
+   "OpenAI API"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "価値のある AI 活用機会を特定し、選んだユースケースをソリューション計画に落とし込む30分コース。ユースケースのスコーピングと導入設計に直結する内容で、顧客導入 (FDE 的) な仕事の入り口としても使える。"
+ },
+ {
+  "title": "Evaluate AI Applications",
+  "url": "https://academy.openai.com/public/courses/evaluate-ai-applications-j8hr8",
+  "type": "course",
+  "level": "",
+  "duration_text": "70 min",
+  "description": "Build representative evaluations, diagnose failures, and prevent quality regressions. Free course on OpenAI Academy; sign in with a ChatGPT account. OpenAI API focused.",
+  "domain": "AIエージェント",
+  "services": [
+   "OpenAI API"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "代表的な評価セットを作り、失敗を診断し、品質の退行を防ぐための評価基盤を学ぶコース (70分)。OpenAI API で作るアプリの eval 設計に取り組む開発者向け。"
+ },
+ {
+  "title": "Design and Build Agentic Systems",
+  "url": "https://academy.openai.com/public/courses/design-and-build-agentic-systems-qo88d",
+  "type": "course",
+  "level": "",
+  "duration_text": "110 min",
+  "description": "Design reliable agents with clear roles, controlled tools, and safe handoffs. Free course on OpenAI Academy; sign in with a ChatGPT account. OpenAI API focused.",
+  "domain": "AIエージェント",
+  "services": [
+   "OpenAI API"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "役割の明確なエージェント、制御されたツール、安全なハンドオフを備えたエージェントシステムを設計するコース (110分)。OpenAI API でエージェントを実装する開発者向けの中核教材。"
+ },
+ {
+  "title": "Build with Retrieval-Augmented Generation",
+  "url": "https://academy.openai.com/public/courses/build-with-retrieval-augmented-generation-5h16v",
+  "type": "course",
+  "level": "",
+  "duration_text": "100 min",
+  "description": "Build retrieval pipelines and evaluate the quality of generated answers. Free course on OpenAI Academy; sign in with a ChatGPT account. OpenAI API focused.",
+  "domain": "AIエージェント",
+  "services": [
+   "OpenAI API"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "検索パイプラインを構築し、生成された回答の品質を評価する RAG 実装コース (100分)。自社データに根ざした回答を返すアプリを OpenAI API で作る開発者向け。"
+ },
+ {
+  "title": "Optimize AI Application Performance",
+  "url": "https://academy.openai.com/public/courses/optimize-ai-application-performance-l2vqu",
+  "type": "course",
+  "level": "",
+  "duration_text": "30 min",
+  "description": "Use production evidence to balance quality, latency, throughput, reliability, and cost. Free course on OpenAI Academy; sign in with a ChatGPT account. OpenAI API focused.",
+  "domain": "AIエージェント",
+  "services": [
+   "OpenAI API"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "本番のエビデンスを使い、品質・レイテンシ・スループット・信頼性・コストのバランスを取る最適化コース (30分)。OpenAI API アプリを本番運用する開発者向け。"
+ },
+ {
+  "title": "Get Started with Codex",
+  "url": "https://academy.openai.com/public/courses/get-started-with-codex-zy8qn",
+  "type": "course",
+  "level": "",
+  "duration_text": "80 min",
+  "description": "Scope coding tasks in a repository, verify code changes, and provide clear evidence for review. Free course on OpenAI Academy; sign in with a ChatGPT account. Codex focused.",
+  "domain": "AIエージェント",
+  "services": [
+   "Codex"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "リポジトリ内のコーディングタスクを切り分け、コード変更を検証し、レビュー用の根拠を示す Codex 入門コース (80分)。エージェント型コーディングを始める開発者向け。Codex パスウェイの初級編。"
+ },
+ {
+  "title": "Extend Codex Workflows",
+  "url": "https://academy.openai.com/public/courses/extend-codex-workflows-oaaad",
+  "type": "course",
+  "level": "",
+  "duration_text": "90 min",
+  "description": "Turn effective Codex practices into repeatable team workflows with clear oversight. Free course on OpenAI Academy; sign in with a ChatGPT account. Codex focused.",
+  "domain": "AIエージェント",
+  "services": [
+   "Codex"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "効果的な Codex の使い方を、監督ポイントのある再現可能なチームワークフローに展開するコース (90分)。個人利用からチーム導入へ進む開発者・リーダー向け。"
+ },
+ {
+  "title": "Scale Codex Across Teams and Systems",
+  "url": "https://academy.openai.com/public/courses/scale-codex-across-teams-and-systems-s7ruw",
+  "type": "course",
+  "level": "",
+  "duration_text": "100 min",
+  "description": "Coordinate parallel Codex workstreams, manage governance, and integrate outputs safely. Free course on OpenAI Academy; sign in with a ChatGPT account. Codex focused.",
+  "domain": "AIエージェント",
+  "services": [
+   "Codex"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "並行する Codex ワークストリームを調整し、ガバナンスを整え、成果物を安全に統合するコース (100分)。組織規模で Codex を展開するチーム・管理者向けの Codex パスウェイ上級編。"
+ },
+ {
+  "title": "AI Leadership",
+  "url": "https://academy.openai.com/public/courses/ai-leadership-fcwe8",
+  "type": "course",
+  "level": "",
+  "duration_text": "180 min",
+  "description": "Set business priorities, align stakeholders, and draft an AI strategy covering governance, roadmaps, and adoption. Free course on OpenAI Academy; sign in with a ChatGPT account.",
+  "domain": "AI",
+  "services": [
+   "ChatGPT"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "事業優先順位の設定、ステークホルダー調整、ガバナンス・ロードマップ・導入を含む AI 戦略草案づくりを進めるコース (180分)。AI 導入を主導するリーダー向け。"
+ },
+ {
+  "title": "AI for Educators",
+  "url": "https://academy.openai.com/public/courses/ai-for-educators-63qvo",
+  "type": "course",
+  "level": "",
+  "duration_text": "45 min",
+  "description": "Create lesson plans, activities, assessments, and communications aligned to learning goals and requirements. Course content available in English and Portuguese. Free course on OpenAI Academy; sign in with a ChatGPT account.",
+  "domain": "AI",
+  "services": [
+   "ChatGPT"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "学習目標に沿った教案・アクティビティ・評価・連絡文書を ChatGPT で作る教育者向けコース (45分)。コンテンツは英語とポルトガル語で提供される。"
+ },
+ {
+  "title": "AI for College Students",
+  "url": "https://academy.openai.com/public/courses/ai-for-college-students-fv95a",
+  "type": "course",
+  "level": "",
+  "duration_text": "45 min",
+  "description": "Use AI for study planning, group work, writing, applications, and interviews; review responses critically and follow institutional rules. Free course on OpenAI Academy; sign in with a ChatGPT account.",
+  "domain": "AI",
+  "services": [
+   "ChatGPT"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "学習計画・グループワーク・ライティング・応募書類・面接準備に AI を使い、回答を批判的に確認しながら所属機関のルールに従う大学生向けコース (45分)。"
+ }
+]

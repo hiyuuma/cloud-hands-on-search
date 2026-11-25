@@ -1,7 +1,7 @@
 [
  {
   "title": "LLM Course",
-  "url": "https://huggingface.co/learn/nlp-course",
+  "url": "https://huggingface.co/learn/llm-course",
   "type": "course",
   "level": null,
   "duration_text": "approximately 6-8 hours of work per week (per chapter)",
@@ -14,7 +14,7 @@
    "Accelerate"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Transformers・Datasets・Tokenizers で LLM/NLP を体系的に学ぶ HF の旗艦コース"
+  "summary_ja": "Hugging Face の旗艦コース。Transformers・Datasets・Tokenizers・Accelerate と Hugging Face Hub を使い、LLM と NLP を体系的に学ぶ (各章あたり週6〜8時間目安)。完全無料・広告なし。"
  },
  {
   "title": "AI Agents Course",
@@ -30,7 +30,7 @@
    "LlamaIndex"
   ],
   "priority_for_user": "高",
-  "summary_ja": "smolagents・LangGraph・LlamaIndex で AI エージェントを構築する本命コース (無料認定あり)"
+  "summary_ja": "AI エージェントの理解・利用・構築を初級から上級まで学ぶ無料コース (章あたり週3〜4時間目安)。理論・設計・実践を扱い、smolagents・LlamaIndex・LangGraph など確立されたライブラリを使用。課題修了で無料の修了証を取得できる。"
  },
  {
   "title": "Model Context Protocol (MCP) Course",
@@ -45,7 +45,7 @@
    "Model Context Protocol"
   ],
   "priority_for_user": "高",
-  "summary_ja": "Anthropic 協力の MCP 公式コース。外部ツール連携アプリ構築と無料認定に対応"
+  "summary_ja": "Anthropic 協力のもと作られた MCP 公式コース (章あたり週3〜4時間目安、無料)。MCP の仕組みの理解から、最新 MCP 標準で外部データ・ツールを活用する AI アプリの構築までを学び、修了証も取得できる。"
  },
  {
   "title": "Context Course",
@@ -62,7 +62,7 @@
    "OpenCode"
   ],
   "priority_for_user": "高",
-  "summary_ja": "コードエージェント向けコンテキストエンジニアリング。Skills・MCP・サブエージェントを体系化"
+  "summary_ja": "AI コードエージェント向けのコンテキストエンジニアリングを学ぶコース (各ユニット週2〜3時間目安)。エージェントが必要な知識を効率よく見つけられる構造化を、Skills 構築・MCP 連携・プラグイン化・サブエージェント協調・最小エージェントループの6ユニットで学ぶ。Claude Code・Codex 等が対象環境。"
  },
  {
   "title": "a smol course",
@@ -78,7 +78,7 @@
    "PEFT"
   ],
   "priority_for_user": "中",
-  "summary_ja": "LLM ファインチューニング特化の短編コース。SFT・DPO・評価を TRL で実践"
+  "summary_ja": "言語モデルのファインチューニングに特化した包括コース (初級〜上級、章あたり週3〜4時間目安)。instruction tuning・SFT・選好アライメント・評価・VLM を扱い、TRL や Transformers など確立されたフレームワークで実践する。"
  },
  {
   "title": "Deep Reinforcement Learning Course",
@@ -94,7 +94,7 @@
    "Sample Factory"
   ],
   "priority_for_user": "低",
-  "summary_ja": "深層強化学習を基礎から学ぶ無料コース。Stable Baselines3 等でエージェントを訓練"
+  "summary_ja": "深層強化学習を初級から上級まで学ぶ完全無料・オープンソースのコース (章あたり週3〜4時間目安)。理論と実践を扱い、Stable Baselines3・RL Baselines3 Zoo・Sample Factory・CleanRL で実際にエージェントを訓練する。"
  },
  {
   "title": "Community Computer Vision Course",
@@ -109,7 +109,7 @@
    "Vision Transformers"
   ],
   "priority_for_user": "低",
-  "summary_ja": "コミュニティ主導のコンピュータビジョン入門〜先端までを扱うコース"
+  "summary_ja": "コミュニティ主導のコンピュータビジョンコース。CNN・Vision Transformers・マルチモーダル・生成モデル・基本 CV タスクまで、基礎から最新動向までを理論・実践チュートリアル・チャレンジで構成して学ぶ。"
  },
  {
   "title": "Audio Course",
@@ -123,7 +123,7 @@
    "Transformers"
   ],
   "priority_for_user": "低",
-  "summary_ja": "音声認識・音声分類・音声合成など音声向け Transformers のコース"
+  "summary_ja": "音声向け Transformers の使い方を学ぶコース。音声認識・音声分類・テキストからの音声生成など幅広いタスクを扱い、強力な事前学習モデルを活用して独自の音声 Transformer を訓練する。教材は全て無料・公開・オープンソース。"
  },
  {
   "title": "Diffusion Models Course",
@@ -137,7 +137,7 @@
    "Diffusers"
   ],
   "priority_for_user": "低",
-  "summary_ja": "拡散モデルの理論と Diffusers による画像・音声生成、ファインチューニングを学ぶ"
+  "summary_ja": "拡散モデル (diffusion models) の理論と実践を学ぶ無料コース (章あたり週6〜8時間目安)。Diffusers ライブラリで画像・音声を生成し、スクラッチ訓練・ファインチューニング・条件付き生成とガイダンスまで網羅。"
  },
  {
   "title": "Robotics Course",
@@ -152,7 +152,7 @@
    "PyTorch"
   ],
   "priority_for_user": "低",
-  "summary_ja": "古典ロボティクスから学習ベース手法までを LeRobot で実践する無料コース"
+  "summary_ja": "古典的ロボティクスから学習ベースの最新手法まで、実ロボットへの機械学習適用を学ぶ無料コース (ユニットあたり30〜45分)。LeRobot を使い、実ロボティクスデータセットと最先端アルゴリズムを実装する。"
  },
  {
   "title": "Machine Learning for Games Course",
@@ -166,7 +166,7 @@
    "Unity"
   ],
   "priority_for_user": "低",
-  "summary_ja": "Unity ゲーム開発に AI モデルや生成ツールを組み込むためのコース"
+  "summary_ja": "Unity ゲームエンジンへの AI 統合を学ぶコース。知的な NPC など革新的ゲームプレイのための AI モデル組み込みに加え、テクスチャ生成・AI ボイスアクターなど開発パイプラインを助ける AI ツールも扱い、独自のゲームデモを作る。"
  },
  {
   "title": "Machine Learning for 3D Course",
@@ -180,6 +180,20 @@
    "Diffusers"
   ],
   "priority_for_user": "低",
-  "summary_ja": "3D 生成 (メッシュ・Gaussian Splatting・NeRF) と機械学習の交差点を学ぶ"
+  "summary_ja": "3D と機械学習の交差点を学ぶコース。3D 向け ML の現状と意義を概観し、メッシュ・Gaussian Splatting・NeRF を扱う独自の生成 3D デモを構築する実践的内容。"
+ },
+ {
+  "title": "Hugging Face Cookbook",
+  "url": "https://huggingface.co/learn/cookbook",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Hugging Face"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "RAG・エージェント・微調整など実践的なレシピを Notebook 形式で集めたオープンソースの料理本。"
  }
 ]

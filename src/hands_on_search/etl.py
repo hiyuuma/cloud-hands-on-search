@@ -64,6 +64,14 @@ RUN5_CATALOG_FILES = {
     "sap": "sap_learning.json",
     "servicenow": "servicenow.json",
     "snowflake": "snowflake.json",
+    # Run 8 追加分 (AIプロバイダ / エージェント / FDE 系カタログ)
+    "cloudflare": "cloudflare_agents.json",
+    "cohere": "cohere_llmu.json",
+    "deeplearning_ai": "deeplearning_ai.json",
+    "microsoft_curricula": "microsoft_curricula.json",
+    "openai": "openai_academy.json",
+    "palantir": "palantir_learn.json",
+    "vercel": "vercel_academy.json",
 }
 
 DEFAULT_PATHS.update(

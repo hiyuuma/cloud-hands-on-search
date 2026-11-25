@@ -11,7 +11,7 @@
    "SAP"
   ],
   "priority_for_user": "中",
-  "summary_ja": "SAP BTP上でABAPプログラミング基礎を学ぶコース"
+  "summary_ja": "SAP BTP 上での ABAP プログラミング基礎を学ぶ開発者向けコース。ADT での ABAP Cloud プロジェクト作成、条件分岐、データ型と変数、実行時エラー分析、DB からのデータ取得、デバッグまでを扱う。"
  },
  {
   "title": "Getting Started with SAP Forms Service by Adobe",
@@ -25,7 +25,7 @@
    "SAP"
   ],
   "priority_for_user": "低",
-  "summary_ja": "SAP Forms Service by Adobeの入門コース"
+  "summary_ja": "SAP Forms service by Adobe の入門コース。アーキテクチャとデータフロー、Fiori アプリ「Maintain Forms」の利用、Adobe LiveCycle Designer、フォームの構造化まで、帳票作成の全体像を学べる。"
  },
  {
   "title": "Getting Started with Creating an SAP Fiori Elements App Based on an OData v4 RAP Service",
@@ -39,7 +39,7 @@
    "SAP"
   ],
   "priority_for_user": "低",
-  "summary_ja": "RAPサービスからFiori Elementsアプリを作るコース"
+  "summary_ja": "OData v4 の RAP サービスを基盤に SAP Fiori elements アプリを作成する方法を学ぶ開発者向けコース。Fiori elements の利点、ABAP CDS アノテーションによる UI 設定、SAP Fiori tools の利用を扱う。"
  },
  {
   "title": "Setting Up Joule Across your Organizational System Landscapes",
@@ -53,7 +53,7 @@
    "SAP"
   ],
   "priority_for_user": "中",
-  "summary_ja": "組織全体へのJoule導入・設定を学ぶコース"
+  "summary_ja": "SAP の AI アシスタント Joule を組織のシステムランドスケープ全体に導入・設定するコース。Joule の基本機能に加え、SuccessFactors や S/4HANA Cloud Private Edition とのセットアップを扱う。"
  },
  {
   "title": "Boosting AI-driven Business Transformation with Joule Agents",
@@ -67,7 +67,7 @@
    "SAP"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Jouleエージェントによる業務変革を学ぶコース"
+  "summary_ja": "Joule エージェントによる AI 主導の業務変革を学ぶコース。AI エージェントが業務プロセスに与える影響、Joule エージェントの機能、SAP アプリケーション連携、AI Agent Hub を解説。"
  },
  {
   "title": "Introducing Joule",
@@ -81,7 +81,7 @@
    "SAP"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Jouleのエコシステムを概観する入門コース"
+  "summary_ja": "SAP の Joule エコシステムを概観する入門コース。ロール別 Joule Assistant、Joule Agent、スキルの構成と、SAP/非 SAP システムをまたぐインテリジェントなワークフローの実現方法を学ぶ。"
  },
  {
   "title": "Introducing SAP Business AI for SAP Customer Experience",
@@ -95,7 +95,7 @@
    "SAP"
   ],
   "priority_for_user": "低",
-  "summary_ja": "SAP CX向けBusiness AIの紹介コース"
+  "summary_ja": "SAP Customer Experience 向け Business AI の紹介コース。SAP CX と Joule が支える、マーケティング・販売・サービスをまたぐ知的なカスタマージャーニーの仕組みを概観する。"
  },
  {
   "title": "Create Applications and Extensions using SAP Build Code",
@@ -109,7 +109,7 @@
    "SAP"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Joule搭載のSAP Build Codeでアプリと拡張を作るコース"
+  "summary_ja": "Joule をはじめとする AI 強化ツールを備えた SAP Build Code でアプリと拡張を開発するコース (BTP100)。開発・技術・アプリケーションコンサルタント向けに、Build Code の理解を深める内容。"
  },
  {
   "title": "Implementing SAP S/4HANA Cloud Public Edition",
@@ -123,7 +123,7 @@
    "SAP"
   ],
   "priority_for_user": "低",
-  "summary_ja": "S/4HANA Cloud Public Editionの導入タスクを学ぶコース"
+  "summary_ja": "SAP S/4HANA Cloud Public Edition の導入を学ぶコース。デプロイ・導入・拡張に関わる中核的な実装プロジェクトタスクを説明・実行できるようになることを目指す、導入担当者向けの内容。"
  },
  {
   "title": "Implementing SAP S/4HANA Cloud Private Edition",
@@ -137,7 +137,7 @@
    "SAP"
   ],
   "priority_for_user": "低",
-  "summary_ja": "S/4HANA Cloud Private Editionの導入を学ぶコース"
+  "summary_ja": "SAP S/4HANA Cloud Private Edition の導入を学ぶコース。実装チームの編成、システムランドスケープの定義、システムのセットアップを含む、デプロイ・導入・拡張の中核タスクを扱う。"
  },
  {
   "title": "Implementing SAP S/4HANA Cloud, public edition - Service Management",
@@ -151,7 +151,7 @@
    "SAP"
   ],
   "priority_for_user": "低",
-  "summary_ja": "S/4HANA Cloudのサービス管理実装コース"
+  "summary_ja": "SAP S/4HANA Cloud Public Edition のサービス管理領域を実装するコース。オンサイトサービスプロセスの主要機能を理解し説明・実装できることを目標とする、サービス業務の導入担当者向け。"
  },
  {
   "title": "Executing Basic ERP Processes with SAP S/4HANA",
@@ -165,7 +165,7 @@
    "SAP"
   ],
   "priority_for_user": "低",
-  "summary_ja": "S/4HANAで基本ERPプロセスを実行するコース"
+  "summary_ja": "SAP S/4HANA で基本的な ERP 業務プロセスを実行するコース。調達 (procure-to-pay)、生産 (plan-to-produce)、受注販売 (order-to-cash) の一連の流れを実務操作として学ぶ。"
  },
  {
   "title": "Exploring SAP Cloud ERP",
@@ -179,7 +179,7 @@
    "SAP"
   ],
   "priority_for_user": "中",
-  "summary_ja": "SAP Cloud ERPの全体像を学ぶ入門コース"
+  "summary_ja": "SAP Cloud ERP の全体像を掴む入門コース (レベル: Beginner)。SAP Autonomous Enterprise の紹介、Cloud ERP ソリューションの理解、デプロイ選択肢の区別、Cloud Mindset での導入準備を扱う。"
  },
  {
   "title": "Discovering the Basics of SAP S/4HANA Manufacturing",
@@ -193,7 +193,7 @@
    "SAP"
   ],
   "priority_for_user": "低",
-  "summary_ja": "S/4HANA製造の基礎を学ぶコース"
+  "summary_ja": "SAP S/4HANA の製造領域の基礎を学ぶコース。サプライチェーン計画の基本ステップ、需要管理、資材所要量計画 (MRP) の概念、対応する生産タイプを、コンサルタント・業務ユーザー向けに解説。"
  },
  {
   "title": "Discovering SAP S/4HANA Service",
@@ -207,7 +207,7 @@
    "SAP"
   ],
   "priority_for_user": "低",
-  "summary_ja": "S/4HANAサービスの概要を学ぶコース"
+  "summary_ja": "SAP S/4HANA のサービス領域の概要を学ぶコース。サービス処理向け SAP ソリューションと、Cloud Public / Private Edition におけるサービスの主要機能領域を業務ユーザー向けに紹介。"
  },
  {
   "title": "Develop extensions with SAP Cloud Application Programming Model",
@@ -221,7 +221,7 @@
    "SAP"
   ],
   "priority_for_user": "中",
-  "summary_ja": "CAPでNode.js拡張アプリを開発するコース"
+  "summary_ja": "SAP Cloud Application Programming Model (CAP) で拡張アプリを開発するコース。Node.js ベースの拡張を一から作り、Fiori elements UI・カスタムコード・外部サービス・セキュリティを加えてデプロイまで行う。"
  },
  {
   "title": "Discovering Fundamental Cloud Concepts",
@@ -235,6 +235,6 @@
    "SAP"
   ],
   "priority_for_user": "中",
-  "summary_ja": "クラウドの基礎概念を学ぶ汎用入門コース"
+  "summary_ja": "クラウドの基礎概念を学ぶ汎用入門コース。クラウドとオンプレミスの違い、各種クラウドサービスモデルの区別、データセンターの役割を解説。SAP 前提知識なしにクラウドの基礎を押さえられる。"
  }
 ]

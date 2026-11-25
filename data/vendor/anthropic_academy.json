@@ -11,7 +11,7 @@
    "Claude"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Claudeの能力と限界を理解する入門コース"
+  "summary_ja": "Claude の能力と限界を正しく理解する入門コース (全13レッスン・約3時間半)。クイズ1回と修了バッジ付きで、前提知識は不要。AI に何ができて何ができないかを掴みたい全利用者向け。"
  },
  {
   "title": "ビルダーのためのAI活用力",
@@ -25,7 +25,7 @@
    "Claude"
   ],
   "priority_for_user": "中",
-  "summary_ja": "開発者向けにAI活用の型を学ぶコース"
+  "summary_ja": "開発者・ビルダーが AI を仕事に組み込むための活用パターンを学ぶコース (全9レッスン・約3時間)。クイズと修了バッジ付き。Claude を使ったものづくりの勘所を押さえたい技術者向け。"
  },
  {
   "title": "クリエイティブワークのためのAI活用力",
@@ -39,7 +39,7 @@
    "Claude"
   ],
   "priority_for_user": "低",
-  "summary_ja": "クリエイティブ業務でのAI活用コース"
+  "summary_ja": "クリエイティブ業務で AI を活用する方法を学ぶコース (全8レッスン・約5時間)。クイズと修了バッジ付き。ライティングや企画など創造的工作に Claude を取り入れたい実務者向け。"
  },
  {
   "title": "教育者のためのAI活用力",
@@ -53,7 +53,7 @@
    "Claude"
   ],
   "priority_for_user": "低",
-  "summary_ja": "教育者向けAI活用の入門コース"
+  "summary_ja": "教育者が AI を指導・業務に活用するための入門コース (全4レッスン・約1時間半)。クイズと修了バッジ付きの短時間構成で、まず概要を掴みたい教員・教育関係者向け。"
  },
  {
   "title": "非営利団体向けAI活用力",
@@ -67,7 +67,7 @@
    "Claude"
   ],
   "priority_for_user": "低",
-  "summary_ja": "非営利団体向けAI活用コース"
+  "summary_ja": "非営利団体の業務で AI を活用する視点と進め方を学ぶコース (全9レッスン・約4時間)。クイズと修了バッジ付き。限られたリソースで AI を導入したい NPO スタッフ向け。"
  },
  {
   "title": "pK-12向けAI活用力トレーナー養成",
@@ -81,7 +81,7 @@
    "Claude"
   ],
   "priority_for_user": "低",
-  "summary_ja": "初等教育向けAI活用の指導者養成コース"
+  "summary_ja": "pK-12 (就学前〜高校) 現場で AI 活用を指導するトレーナーを養成する短めのコース (全4レッスン・約45分)。教育現場への展開役を担う指導者・コーディネーター向け。"
  },
  {
   "title": "pK–12教育者のためのAI活用力",
@@ -95,7 +95,7 @@
    "Claude"
   ],
   "priority_for_user": "低",
-  "summary_ja": "初等・中等教育者向けAI活用コース"
+  "summary_ja": "pK-12 (就学前〜高校) の教育者が AI を理解し授業・校務に活かすためのコース (全10レッスン・約3時間)。クイズと修了バッジ付き。初等・中等教育の教員向け。"
  },
  {
   "title": "中小企業のためのAI活用力",
@@ -109,7 +109,7 @@
    "Claude"
   ],
   "priority_for_user": "低",
-  "summary_ja": "中小企業向けAI活用コース"
+  "summary_ja": "中小企業が AI を業務に取り入れるための実践的なコース (全8レッスン・約3時間半)。クイズと修了バッジ付き。経営者から現場担当者まで、規模の小さい組織での導入を想定した内容。"
  },
  {
   "title": "学生向けAI活用力",
@@ -123,7 +123,7 @@
    "Claude"
   ],
   "priority_for_user": "低",
-  "summary_ja": "学生向けAI活用の入門コース"
+  "summary_ja": "学生が学びと課外活動に AI を活用するための入門コース (全5レッスン・約3時間)。クイズと修了バッジ付き。Claude を使った学習の進め方を基礎から押さえられる。"
  },
  {
   "title": "AI活用力：フレームワーク&基礎",
@@ -137,7 +137,7 @@
    "Claude"
   ],
   "priority_for_user": "中",
-  "summary_ja": "AI活用力フレームワークの基礎コース"
+  "summary_ja": "AI 活用力 (AI fluency) のフレームワークと基礎概念を体系的に学ぶコース (全14レッスン・約4時間)。クイズと修了バッジ付き。AI 活用シリーズの土台となる位置づけ。"
  },
  {
   "title": "効果的な人間とエージェントのチームを構築する（ベータ）",
@@ -152,7 +152,7 @@
    "AI Agent"
   ],
   "priority_for_user": "高",
-  "summary_ja": "人間とAIエージェントの協働チーム設計を学ぶコース"
+  "summary_ja": "人間と AI エージェントが効果的に協働するチームの設計を学ぶ短めのコース (全5レッスン・約45分、ベータ版)。クイズと修了バッジ付き。エージェント導入を考える実務者向け。"
  },
  {
   "title": "Claude APIを使った構築",
@@ -166,7 +166,7 @@
    "Claude API"
   ],
   "priority_for_user": "高",
-  "summary_ja": "Claude APIでのアプリ構築を体系的に学ぶ本格コース"
+  "summary_ja": "Claude API でアプリケーションを構築する方法を体系的に学ぶ本格コース (全67レッスン・約9時間)。クイズ8回と修了バッジ付き。API 利用の基礎から実装まで網羅する開発者向け中核教材。"
  },
  {
   "title": "Claude 101",
@@ -180,7 +180,7 @@
    "Claude"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Claudeの基本操作と活用を学ぶ入門コース"
+  "summary_ja": "Claude の基本操作と日常的な使い方を学ぶ入門コース (全13レッスン・約2時間半)。クイズと修了バッジ付き。一部の演習機能には有料プランが必要との記載あり。初めて Claude に触れる人向け。"
  },
  {
   "title": "Claude Code 101",
@@ -194,7 +194,7 @@
    "Claude Code"
   ],
   "priority_for_user": "高",
-  "summary_ja": "Claude Codeの基礎を学ぶ入門コース"
+  "summary_ja": "Claude Code の基礎を学ぶ入門コース (全12レッスン・約1時間半)。クイズと修了バッジ付き。前提として Claude アカウント (有料プラン) または API キーが必要。ターミナルでの AI 開発を始める人向け。"
  },
  {
   "title": "実践Claude Code",
@@ -208,7 +208,7 @@
    "Claude Code"
   ],
   "priority_for_user": "高",
-  "summary_ja": "Claude Codeの実践的な使い方を学ぶコース"
+  "summary_ja": "Claude Code の実践的な使い方を短時間で学ぶコース (全9レッスン・約1時間)。クイズと修了バッジ付き。基本を押さえた後に、日々の開発へ活かす操作の勘所を確認したい人向け。"
  },
  {
   "title": "Google Cloud上のClaude",
@@ -223,7 +223,7 @@
    "Vertex AI"
   ],
   "priority_for_user": "高",
-  "summary_ja": "Vertex AI経由でClaudeを使う構築コース"
+  "summary_ja": "Google Cloud の Vertex AI 経由で Claude を使った構築を学ぶ大規模コース (全66レッスン・約8時間半)。前提: Python・JSON・Google Cloud アカウント・Claude API キー。クイズ9回と修了バッジ付き。"
  },
  {
   "title": "Claude Platform 101",
@@ -237,7 +237,7 @@
    "Claude Platform"
   ],
   "priority_for_user": "高",
-  "summary_ja": "Claude Platformの基礎を学ぶ入門コース"
+  "summary_ja": "Claude Platform の基礎を学ぶ入門コース (全13レッスン・約1時間半)。前提: コードが読めること、Claude Console アカウントとクレジット。クイズと修了バッジ付き。API 開発の入口に位置づけ。"
  },
  {
   "title": "Amazon BedrockでのClaude",
@@ -252,7 +252,7 @@
    "Amazon Bedrock"
   ],
   "priority_for_user": "高",
-  "summary_ja": "Amazon Bedrock経由でClaudeを使う構築コース"
+  "summary_ja": "Amazon Bedrock 経由で Claude を使った構築を学ぶ大規模コース (全65レッスン・約8時間)。前提: Python・JSON・Bedrock アクセス権のある AWS アカウント。クイズ8回と修了バッジ付き。AWS 環境の開発者向け。"
  },
  {
   "title": "Claude Enterpriseを自信を持って導入する：ロールアウトを形作る5つの決定",
@@ -266,7 +266,7 @@
    "Claude Enterprise"
   ],
   "priority_for_user": "低",
-  "summary_ja": "Claude Enterprise導入の意思決定を学ぶコース"
+  "summary_ja": "Claude Enterprise のロールアウトを形作る5つの意思決定を学ぶ導入者向けコース (全14レッスン・約2時間半)。知識の前提はなく Enterprise Owner アクセスが推奨。クイズと修了バッジ付き。"
  },
  {
   "title": "Agent Skills入門",
@@ -281,7 +281,7 @@
    "Claude"
   ],
   "priority_for_user": "高",
-  "summary_ja": "Agent Skillsの仕組みと作り方の入門コース"
+  "summary_ja": "Agent Skills の仕組みと作り方を学ぶ入門コース (全6レッスン・約1時間)。Claude に固有のスキルを定義して機能を拡張する考え方を押さえたい開発者・実務者向け。"
  },
  {
   "title": "Claude Cowork入門",
@@ -295,7 +295,7 @@
    "Claude Cowork"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Claude Coworkの入門コース"
+  "summary_ja": "Claude Cowork の入門コース (全14レッスン・約2時間半)。クイズと修了バッジ付き。前提として有料 Claude プランと Claude デスクトップアプリが必要。Cowork の使い方を基礎から学べる。"
  },
  {
   "title": "Claude Tag入門",
@@ -309,7 +309,7 @@
    "Claude Tag"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Claude Tagの入門コース (Academy限定)"
+  "summary_ja": "Claude Tag の入門コース (全11レッスン・約2時間半、Academy 限定)。クイズと修了バッジ付き。前提として Claude Tag がワークスペースにインストール済みであること。"
  },
  {
   "title": "Evals入門",
@@ -324,7 +324,7 @@
    "Evals"
   ],
   "priority_for_user": "中",
-  "summary_ja": "LLMアプリの評価 (Evals) 入門コース"
+  "summary_ja": "LLM アプリケーションの評価 (Evals) の考え方と進め方を学ぶ入門コース (全4レッスン・約1時間)。前提: Messages API と Python。クイズと修了バッジ付き。品質評価を始めたい開発者向け。"
  },
  {
   "title": "Model Context Protocol入門",
@@ -339,7 +339,7 @@
    "Claude API"
   ],
   "priority_for_user": "高",
-  "summary_ja": "MCPの基礎を学ぶ入門コース"
+  "summary_ja": "Model Context Protocol (MCP) の基礎を学ぶ入門コース (全10レッスン・約1時間)。前提: Python・async/await・API・Anthropic API キー。クイズと修了バッジ付き。MCP 開発の最初の一歩。"
  },
  {
   "title": "サブエージェント入門",
@@ -354,7 +354,7 @@
    "Subagents"
   ],
   "priority_for_user": "高",
-  "summary_ja": "サブエージェントの概念と使い方の入門コース"
+  "summary_ja": "Claude Code のサブエージェントの概念と使い方を学ぶ短めの入門コース (全4レッスン・約45分)。タスクを専門エージェントに委譲する考え方を押さえたい Claude Code 利用者向け。"
  },
  {
   "title": "Model Context Protocol: 高度なトピック",
@@ -368,7 +368,7 @@
    "MCP"
   ],
   "priority_for_user": "高",
-  "summary_ja": "MCPの高度なトピックを学ぶコース"
+  "summary_ja": "Model Context Protocol の高度なトピックを扱うコース (全11レッスン・約1時間半)。クイズと修了バッジ付き。MCP 入門で基礎を押さえた後、より深い実装知識を求める開発者向け。"
  },
  {
   "title": "AI活用力を教える",
@@ -382,7 +382,7 @@
    "Claude"
   ],
   "priority_for_user": "低",
-  "summary_ja": "AI活用力を他者に教えるためのコース"
+  "summary_ja": "AI 活用力を他者に教えるためのコース (全7レッスン・約4時間半)。クイズと修了バッジ付き。社内研修やワークショップで AI リテラシーを伝える役割の人向けの指導法教材。"
  },
  {
   "title": "AIネイティブSDLCプレイブック",
@@ -397,7 +397,7 @@
    "SDLC"
   ],
   "priority_for_user": "中",
-  "summary_ja": "AIネイティブな開発ライフサイクルの実践コース (Academy限定)"
+  "summary_ja": "AI を前提としたソフトウェア開発ライフサイクル (SDLC) を実践するプレイブック形式のコース (全14レッスン・約1時間、Academy 限定)。開発プロセスへ AI を組み込みたい技術組織向け。"
  },
  {
   "title": "Messages API を使ったツール使用",
@@ -412,6 +412,6 @@
    "Tool Use"
   ],
   "priority_for_user": "高",
-  "summary_ja": "Messages APIのツール使用を学ぶコース"
+  "summary_ja": "Messages API でツール使用 (tool use) を実装する方法を学ぶコース (全9レッスン・約1時間半)。前提として Claude Platform 101 の受講を推奨。クイズと修了バッジ付き。API 開発者向け。"
  }
 ]

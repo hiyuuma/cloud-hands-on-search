@@ -1,1 +1,61 @@
-[{"description":"This credential earner demonstrates a foundational understanding of cybersecurity concepts, objectives, and practices. This includes cyber threat groups, types of attacks, social engineering, case studies, overall security strategies, cryptography, and common approaches that organizations take to prevent, detect, and respond to cyber attacks.","domain":"セキュリティ・IAM","duration_text":"","level":"Intermediate","priority_for_user":"中","services":["Cybersecurity"],"summary_ja":"脅威・攻撃手法・暗号・リスク管理などサイバーセキュリティ基礎のIBM認定パス。","title":"Cybersecurity Fundamentals","type":"learning-path","url":"https://www.credly.com/org/ibm-skillsbuild/badge/cybersecurity-fundamentals"},{"description":"This credential earner demonstrates knowledge of data analytics concepts, methodologies and applications of data science, and the tools and programming languages used in the data ecosystem. The individual has a conceptual understanding of how to clean, refine, and visualize data using IBM Watson Studio.","domain":"データ基盤","duration_text":"","level":"Intermediate","priority_for_user":"中","services":["Data Analytics","IBM Watson Studio"],"summary_ja":"データ分析の概念・手法とWatson Studioでの整形・可視化を学ぶIBM認定パス。","title":"Data Fundamentals","type":"learning-path","url":"https://www.credly.com/org/ibm-skillsbuild/badge/data-fundamentals"},{"description":"This credential earner demonstrates foundational knowledge of artificial intelligence and its core technologies. The individual can explain AI concepts and capabilities, differentiate human learning from machine learning, describe types of machine learning, and explain how neural networks and deep learning function. The earner can identify forms of AI, consider AI ethics implications, and use AI tools responsibly.","domain":"AI","duration_text":"","level":"Intermediate","priority_for_user":"中","services":["Machine Learning","Generative AI"],"summary_ja":"機械学習・深層学習・AI倫理などAI基礎概念を学ぶIBM認定パス。","title":"AI Fundamentals: Foundations for Understanding AI","type":"learning-path","url":"https://www.credly.com/org/ibm-skillsbuild/badge/ai-fundamentals-foundations-for-understanding-ai"},{"description":"This credential earner has an understanding of core concepts such as AI agents, retrieval-augmented generation (RAG), and multiagent systems, with a focus on their application to real-world contexts. The earner will work with simulation-based use cases, including enhancing HR virtual assistants with RAG and automating procurement processes.","domain":"AI","duration_text":"","level":"Foundational","priority_for_user":"中","services":["AI Agents","RAG"],"summary_ja":"AIエージェント・RAG・マルチエージェントの実務応用を学ぶIBM認定パス。","title":"Make Agentic AI Work for You","type":"learning-path","url":"https://www.credly.com/org/ibm-skillsbuild/badge/make-agentic-ai-work-for-you"}]
+[
+ {
+  "description": "This credential earner demonstrates a foundational understanding of cybersecurity concepts, objectives, and practices. This includes cyber threat groups, types of attacks, social engineering, case studies, overall security strategies, cryptography, and common approaches that organizations take to prevent, detect, and respond to cyber attacks.",
+  "domain": "セキュリティ・IAM",
+  "duration_text": "",
+  "level": "Intermediate",
+  "priority_for_user": "中",
+  "services": [
+   "Cybersecurity"
+  ],
+  "summary_ja": "サイバーセキュリティの基礎を学ぶ IBM 認定ラーニングパス (Intermediate)。脅威グループ、攻撃の種類、ソーシャルエンジニアリング、ケーススタディ、セキュリティ戦略、暗号、組織の予防・検知・対応の考え方をカバーし、修了でデジタルクレデンシャルが得られる。",
+  "title": "Cybersecurity Fundamentals",
+  "type": "learning-path",
+  "url": "https://www.credly.com/org/ibm-skillsbuild/badge/cybersecurity-fundamentals"
+ },
+ {
+  "description": "This credential earner demonstrates knowledge of data analytics concepts, methodologies and applications of data science, and the tools and programming languages used in the data ecosystem. The individual has a conceptual understanding of how to clean, refine, and visualize data using IBM Watson Studio.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "Intermediate",
+  "priority_for_user": "中",
+  "services": [
+   "Data Analytics",
+   "IBM Watson Studio"
+  ],
+  "summary_ja": "データ分析の基礎を学ぶ IBM 認定ラーニングパス (Intermediate)。データサイエンスの概念・手法・ツール・言語に加え、IBM Watson Studio を使ったデータのクリーニング・整形・可視化の概念的な理解を養う。",
+  "title": "Data Fundamentals",
+  "type": "learning-path",
+  "url": "https://www.credly.com/org/ibm-skillsbuild/badge/data-fundamentals"
+ },
+ {
+  "description": "This credential earner demonstrates foundational knowledge of artificial intelligence and its core technologies. The individual can explain AI concepts and capabilities, differentiate human learning from machine learning, describe types of machine learning, and explain how neural networks and deep learning function. The earner can identify forms of AI, consider AI ethics implications, and use AI tools responsibly.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "Intermediate",
+  "priority_for_user": "中",
+  "services": [
+   "Machine Learning",
+   "Generative AI"
+  ],
+  "summary_ja": "AI の基礎概念を学ぶ IBM 認定ラーニングパス (Intermediate)。人間の学習と機械学習の違い、機械学習の種類、ニューラルネットワークと深層学習、AI の形態と倫理まで、AI 全体像を体系的に押さえる。",
+  "title": "AI Fundamentals: Foundations for Understanding AI",
+  "type": "learning-path",
+  "url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-fundamentals-foundations-for-understanding-ai"
+ },
+ {
+  "description": "This credential earner has an understanding of core concepts such as AI agents, retrieval-augmented generation (RAG), and multiagent systems, with a focus on their application to real-world contexts. The earner will work with simulation-based use cases, including enhancing HR virtual assistants with RAG and automating procurement processes.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "Foundational",
+  "priority_for_user": "中",
+  "services": [
+   "AI Agents",
+   "RAG"
+  ],
+  "summary_ja": "AI エージェント・RAG・マルチエージェントシステムの中核概念と実務応用を学ぶ IBM 認定パス (Foundational)。RAG で HR バーチャルアシスタントを強化する、調達プロセスを自動化するといったシミュレーション型のユースケースを扱う。",
+  "title": "Make Agentic AI Work for You",
+  "type": "learning-path",
+  "url": "https://www.credly.com/org/ibm-skillsbuild/badge/make-agentic-ai-work-for-you"
+ }
+]

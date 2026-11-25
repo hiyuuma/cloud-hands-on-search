@@ -8,7 +8,7 @@
   "services": [
    "Cisco"
   ],
-  "summary_ja": "ネットワークの概念・用語・アーキテクチャの基礎を固める無料ラーニングパス",
+  "summary_ja": "コンピュータネットワーキングの概念・用語・アーキテクチャの基礎を固めるラーニングパス (Beginner、約14時間、無料)。ネットワーク隣接領域のエンジニアがキャリアを広げるための入門コンテンツ。",
   "title": "Network Fundamentals for Network Adjacent Engineers",
   "type": "learning-path",
   "url": "https://u.cisco.com/paths/network-fundamentals-network-adjacent-engineers-173"
@@ -23,7 +23,7 @@
    "Cisco",
    "Cisco Modeling Labs"
   ],
-  "summary_ja": "ネットワークシミュレータCisco Modeling Labsの入門パス（ラボ中心・CE 6単位）",
+  "summary_ja": "Cisco のネットワークシミュレーションツール Cisco Modeling Labs の入門パス (Beginner、約8時間半)。ラボ中心の構成で CML の基本的な使い方を体験でき、CE 6単位の対象。",
   "title": "Introduction to Network Simulations with Cisco Modeling Labs",
   "type": "learning-path",
   "url": "https://u.cisco.com/paths/243"
@@ -37,7 +37,7 @@
   "services": [
    "Cisco"
   ],
-  "summary_ja": "ネットワーク自動化・プログラマビリティの基礎を学ぶ中級パス（CE 16単位）",
+  "summary_ja": "ネットワーク自動化とプログラマビリティの知識を身につける中級パス (Intermediate、約28時間40分)。初級ネットワーク自動化エンジニアを目指す人向けで、CE 16単位の対象。",
   "title": "Understanding Cisco Network Automation Essentials",
   "type": "learning-path",
   "url": "https://u.cisco.com/paths/3"
@@ -52,7 +52,7 @@
    "Cisco",
    "Cisco Modeling Labs"
   ],
-  "summary_ja": "CMLサーバーの導入・運用・保守を学ぶ管理者向けパス（CE 5単位）",
+  "summary_ja": "Cisco Modeling Labs (CML) サーバーのインストール・運用・管理・トラブルシュート・保守を学ぶ管理者向けパス (Intermediate、約4時間半)。CE 5単位の対象。",
   "title": "Administering Cisco Modeling Labs",
   "type": "learning-path",
   "url": "https://u.cisco.com/paths/administering-cisco-modeling-labs-240"
@@ -70,7 +70,7 @@
    "自動化"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Cisco Modeling Labsでのネットワーク自動化を進めるラーニングパス (CMLAPI)"
+  "summary_ja": "Cisco Modeling Labs 上でネットワーク自動化をさらに進めるラーニングパス (Intermediate、約7時間55分、無料)。CML を使った自動化の応用を学ぶ中級者向け (コースコード CMLAPI)。"
  },
  {
   "title": "AI Agent Fundamentals",
@@ -85,7 +85,7 @@
    "Cisco"
   ],
   "priority_for_user": "高",
-  "summary_ja": "AIエージェントの基礎を学ぶ入門ラーニングパス (AGTFNDU)"
+  "summary_ja": "AI エージェントの基礎を学ぶ入門ラーニングパス (Beginner、約2時間34分、無料)。短時間でエージェントの概念と動向を掴みたい人向け (コースコード AGTFNDU)。"
  },
  {
   "title": "AI Foundations for Legal Professionals",
@@ -99,7 +99,7 @@
    "Cisco"
   ],
   "priority_for_user": "低",
-  "summary_ja": "法務職向けのAI基礎ラーニングパス (AILAW)"
+  "summary_ja": "法務職向けに AI の基礎を解説するラーニングパス (Beginner、約8時間半、無料)。技術職でない実務家が AI を業務理解に活かすための内容 (コースコード AILAW)。"
  },
  {
   "title": "Application Performance Monitoring Essentials for Cisco AppDynamics",
@@ -113,7 +113,7 @@
    "AppDynamics"
   ],
   "priority_for_user": "中",
-  "summary_ja": "AppDynamicsによるアプリ性能監視の基礎パス"
+  "summary_ja": "Cisco AppDynamics によるアプリケーションパフォーマンス監視 (APM) の基礎を学ぶパス (Beginner、約2時間半、無料)。APM の考え方と AppDynamics の概要を押さえる入門。"
  },
  {
   "title": "CCNA Learning Preview",
@@ -128,7 +128,7 @@
    "Cisco"
   ],
   "priority_for_user": "高",
-  "summary_ja": "CCNA学習のプレビュー版ラーニングパス"
+  "summary_ja": "CCNA 学習内容をプレビュー形式で体験できるラーニングパス (Beginner、約3時間半、無料)。CCNA 受験・学習を検討する人が内容の雰囲気を掴むのに適する。"
  },
  {
   "title": "CCSI Fundamentals",
@@ -142,7 +142,7 @@
    "Cisco"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Cisco認定インストラクター (CCSI) の基礎パス (CFND)"
+  "summary_ja": "Cisco 認定インストラクター (CCSI) の基礎を学ぶパス (Advanced、約12時間半、無料)。インストラクターとしての役割と要件を理解するための上級者向け内容 (コースコード CFND)。"
  },
  {
   "title": "Cisco AI Business Practitioner",
@@ -156,7 +156,7 @@
    "Cisco"
   ],
   "priority_for_user": "低",
-  "summary_ja": "ビジネス視点でAI活用を学ぶ実践者向けパス (AIBIZ)"
+  "summary_ja": "ビジネス視点で AI 活用を学ぶ実践者向けラーニングパス (Beginner、約16時間19分、無料)。技術詳細より業務適用を重視した構成 (コースコード AIBIZ)。"
  },
  {
   "title": "Cisco Energy Networking Systems and Panduit Fault Managed Power",
@@ -170,7 +170,7 @@
    "Cisco"
   ],
   "priority_for_user": "低",
-  "summary_ja": "エネルギーネットワーキングと障害管理電源の入門パス (CPFMP)"
+  "summary_ja": "Cisco Energy Networking Systems と Panduit の障害管理電源 (Fault Managed Power) を学ぶ入門パス (Beginner、約1時間、無料)。短時間で概要を掴める (コースコード CPFMP)。"
  },
  {
   "title": "Cisco Provider Connectivity Assurance - Analytics",
@@ -184,7 +184,7 @@
    "Cisco"
   ],
   "priority_for_user": "中",
-  "summary_ja": "通信事業者向け接続保証の分析パス"
+  "summary_ja": "Cisco Provider Connectivity Assurance の分析機能を学ぶ上級パス (Advanced、約7時間42分、無料)。通信事業者向け接続保証ソリューションのアナリティクスを扱う。"
  },
  {
   "title": "Cisco Provider Connectivity Assurance - Introduction",
@@ -198,7 +198,7 @@
    "Cisco"
   ],
   "priority_for_user": "中",
-  "summary_ja": "通信事業者向け接続保証の入門パス"
+  "summary_ja": "Cisco Provider Connectivity Assurance の入門パス (Beginner、約11時間35分、無料)。通信事業者向け接続保証ソリューションの全体像を最初に学ぶ位置づけ。"
  },
  {
   "title": "Cisco Provider Connectivity Assurance - Orchestrator",
@@ -212,7 +212,7 @@
    "Cisco"
   ],
   "priority_for_user": "中",
-  "summary_ja": "接続保証オーケストレーターのラーニングパス"
+  "summary_ja": "Cisco Provider Connectivity Assurance のオーケストレーターを学ぶ中級パス (Intermediate、約9時間5分、無料)。接続保証の自動化・統制面を扱う。"
  },
  {
   "title": "Cisco Provider Connectivity Assurance - Performance Elements",
@@ -226,7 +226,7 @@
    "Cisco"
   ],
   "priority_for_user": "中",
-  "summary_ja": "接続保証のパフォーマンス要素を学ぶパス"
+  "summary_ja": "Cisco Provider Connectivity Assurance のパフォーマンス要素を学ぶ中級パス (Intermediate、約9時間20分、無料)。性能指標の収集・評価に関わる内容。"
  },
  {
   "title": "Cisco Provider Connectivity Assurance - Sensor Control",
@@ -240,7 +240,7 @@
    "Cisco"
   ],
   "priority_for_user": "中",
-  "summary_ja": "接続保証センサー制御のラーニングパス"
+  "summary_ja": "Cisco Provider Connectivity Assurance のセンサー制御を学ぶ中級パス (Intermediate、約6時間22分、無料)。センサー展開・管理の側面を扱う。"
  },
  {
   "title": "Cisco ThousandEyes Essentials",
@@ -254,7 +254,7 @@
    "ThousandEyes"
   ],
   "priority_for_user": "低",
-  "summary_ja": "ThousandEyesの基礎パス (詳細ページに Retired July 28, 2026 と表示、ページ自体は閲覧可)"
+  "summary_ja": "Cisco ThousandEyes の基礎を学ぶラーニングパス (Beginner、約5時間半、無料)。詳細ページに「Retired July 28, 2026」の表示があり、提供終了予定だがページ自体は閲覧可能。"
  },
  {
   "title": "Designing and Implementing Cisco Service Provider Cloud Network Infrastructure",
@@ -268,7 +268,7 @@
    "Cisco"
   ],
   "priority_for_user": "中",
-  "summary_ja": "サービスプロバイダ向けクラウドネットワーク基盤の設計・実装パス (SPCNI、2026-12-10まで無料表示)"
+  "summary_ja": "サービスプロバイダ向けクラウドネットワーク基盤の設計と実装を学ぶ大規模パス (Intermediate、約35時間20分)。コースコード SPCNI。詳細ページに「Free until Dec 10, 2026」の期間限定無料表示あり。"
  },
  {
   "title": "Evolution of Cisco Network Operating Systems",
@@ -282,7 +282,7 @@
    "Cisco IOS"
   ],
   "priority_for_user": "中",
-  "summary_ja": "CiscoネットワークOSの進化を学ぶパス (IOSFREE)"
+  "summary_ja": "Cisco ネットワーク OS (IOS 系) の進化を学ぶ入門パス (Beginner、約3時間40分、無料)。OS の系譜と変遷を短時間で概観する (コースコード IOSFREE)。"
  },
  {
   "title": "Securing Industrial IoT Networks with Cisco Technologies",
@@ -297,7 +297,7 @@
    "IoT"
   ],
   "priority_for_user": "中",
-  "summary_ja": "産業用IoTネットワークのセキュリティを学ぶ大規模パス (SIINCT)"
+  "summary_ja": "Cisco 技術で産業用 IoT ネットワークを保護する方法を学ぶ大規模パス (Intermediate、約56時間11分、無料)。IIoT セキュリティを体系的に学ぶ内容 (コースコード SIINCT)。"
  },
  {
   "title": "Understanding AI and LLMs as a Network Engineer",
@@ -311,7 +311,7 @@
    "Cisco"
   ],
   "priority_for_user": "高",
-  "summary_ja": "ネットワークエンジニア向けにAIとLLMを解説する短時間パス (AI4NE)"
+  "summary_ja": "ネットワークエンジニア向けに AI と LLM を解説する短時間パス (Beginner、約55分、無料)。ネットワーク技術者が AI の基礎概念を手早く掴むための内容 (コースコード AI4NE)。"
  },
  {
   "title": "Understanding Cisco Ultra-Reliable Wireless Backhaul Foundation",
@@ -325,6 +325,6 @@
    "Cisco"
   ],
   "priority_for_user": "低",
-  "summary_ja": "高信頼ワイヤレスバックホールの基礎パス (FMFNDU)"
+  "summary_ja": "Cisco Ultra-Reliable Wireless Backhaul の基礎を学ぶパス (Beginner、約7時間49分、無料)。高信頼ワイヤレスバックホール技術の入門的内容 (コースコード FMFNDU)。"
  }
 ]

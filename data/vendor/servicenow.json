@@ -11,7 +11,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "エンタープライズアーキテクチャ基盤の概要コース"
+  "summary_ja": "ServiceNow の Enterprise Architecture ソリューションの機能と特徴を概観するオンデマンドコース。動画デモ、理解度チェック、ハンズオンラボを組み合わせた構成で、EA 機能の全体像を掴みたい導入担当者・管理者向け。"
  },
  {
   "title": "GRC: Business Continuity Management (BCM) Implementation (Xanadu)",
@@ -25,7 +25,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "事業継続管理(BCM)の実装コース"
+  "summary_ja": "ServiceNow の Business Continuity Management (BCM) アプリケーションを効果的に実装するスキルを学ぶオンデマンドコース。Xanadu リリース対応。事業継続管理の導入を担当する実装者・コンサルタント向け。"
  },
  {
   "title": "ServiceNow Platform Implementation (Yokohama)",
@@ -39,7 +39,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "プラットフォーム実装の進め方を学ぶ基幹コース"
+  "summary_ja": "Now Create メソドロジーに沿って ServiceNow AI Platform の中核機能を導入する進め方を学ぶ基幹コース (Yokohama 対応)。プラットフォーム導入プロジェクトに携わる実装者・管理者向けの実践的内容。"
  },
  {
   "title": "IT Service Management (ITSM) Implementation On Demand (Zurich)",
@@ -53,7 +53,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "ITSM実装の実践スキルを学ぶコース"
+  "summary_ja": "ITSM 導入を加速する実践スキルを学ぶオンデマンドコース (Zurich 対応)。インシデント・問題・変更・リリース管理に加え、サービスカタログ/リクエスト管理、サービスポートフォリオ管理まで幅広く扱う。"
  },
  {
   "title": "Collaborative Work Management (CWM) Essentials",
@@ -67,7 +67,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "共同作業管理(CWM)の基礎コース"
+  "summary_ja": "Collaborative Work Management (CWM) ワークスペースを使いこなす基礎コース。エキスパートによる動画、インタラクティブな演習、ハンズオンラボで、アジャイルまたはアドホックなチーム管理を実践的に体験できる。"
  },
  {
   "title": "ITSM Fundamentals LabX",
@@ -81,7 +81,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "シミュレーションでITSMを体験するLabXコース"
+  "summary_ja": "Sim Studio 上のシミュレーションで ServiceNow ITSM アプリケーションを体験する LabX 形式のコース。実環境を触らずに操作感を掴みたい初心者〜導入検討者向けのハンズオン型コンテンツ。"
  },
  {
   "title": "Operational Technology (OT) Essentials (Vancouver)",
@@ -95,7 +95,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "運用技術(OT)管理の基礎コース"
+  "summary_ja": "ServiceNow Operational Technology Manager と Industrial Process Manager のセットアップ・設定・利用を学ぶオンデマンドコース (Vancouver 対応)。OT 領域の管理導入を担う担当者向け。"
  },
  {
   "title": "TSOM Visibility and Event Management Implementation Bootcamp OnDemand- Yokohama",
@@ -109,7 +109,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "通信向け可視化とイベント管理のブートキャンプ"
+  "summary_ja": "通信業界向けの可視化・イベント管理を学ぶ2日間のブートキャンプ (約7時間、オンデマンド版)。ディスカバリ、差異監査、イベント管理といったテレコム向け中核機能を扱う。2027年1月に提供終了予定。"
  },
  {
   "title": "Discovery Basics for Software Asset Management (SAM)",
@@ -123,7 +123,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "DiscoveryとSAM連携の基礎コース"
+  "summary_ja": "ServiceNow Discovery と Software Asset Management (SAM) Professional の連携を学ぶ約3時間のコース。データセンター内のソフトウェア導入情報を自動検出・登録する仕組みを扱う。SAM 導入・運用担当者向け。"
  },
  {
   "title": "Finance Case Management Implementation Bootcamp",
@@ -137,7 +137,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "財務ケース管理の実装ブートキャンプ"
+  "summary_ja": "ServiceNow Finance Case Management (FCM) アプリケーションの実装を学ぶブートキャンプ。ユースケース、利点、基礎データに加え、エンドツーエンドのデモを通じて財務ケース管理の全体像を把握できる。"
  },
  {
   "title": "Introduction to Strategic Planning Workspace",
@@ -151,7 +151,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "戦略計画ワークスペースの入門コース"
+  "summary_ja": "Strategic Portfolio Management (SPM) 内の Strategic Planning Workspace を概観する入門オンデマンドコース。動画・インタラクティブな演習・理解度チェックで構成され、SPM 利用者の最初の一歩に向く。"
  },
  {
   "title": "Learning JavaScript on the Now Platform",
@@ -165,7 +165,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "Now Platform上でJavaScriptを学ぶコース"
+  "summary_ja": "Now Platform 上で JavaScript を学ぶコース。個人開発者インスタンスの取得から JavaScript の文法入門までを、ServiceNow の Chuck Tomasi が解説。プラットフォーム上でスクリプトを書き始めたい人向け。"
  },
  {
   "title": "Introduction to Scripting in ServiceNow",
@@ -179,7 +179,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "ServiceNowスクリプティング入門コース"
+  "summary_ja": "Now Platform のスクリプティング基礎を網羅する入門コース。ServiceNow API、クライアント側・サーバー側スクリプト、REST の基本を扱い、カスタマイズや連携開発を始めたい管理者・開発者向け。"
  },
  {
   "title": "Welcome to ServiceNow",
@@ -193,7 +193,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "中",
-  "summary_ja": "ServiceNow全体像をつかむ定番の入門コース"
+  "summary_ja": "ServiceNow の定番入門コース。プラットフォームの7つの中核領域と基本的なナビゲーションを短時間で概観できる。無料・オンデマンド形式で自分のペースで進められる、最初の一歩に適した内容。"
  },
  {
   "title": "ServiceNow Administration Fundamentals On Demand",
@@ -207,7 +207,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "中",
-  "summary_ja": "システム管理の基礎から中級までを学ぶCSA前提コース"
+  "summary_ja": "ServiceNow システム管理を担当する人向けの入門〜中級オンデマンドコース。Certified System Administrator (CSA) 試験の前提トレーニングに位置づけられ、管理業務の基盤知識を体系的に学べる。"
  },
  {
   "title": "Certified System Administrator (CSA) Learning Path",
@@ -221,7 +221,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "中",
-  "summary_ja": "CSA認定に向けた学習パス"
+  "summary_ja": "Certified System Administrator (CSA) 資格の取得を目指す学習パス。ServiceNow Fundamentals / Administration Fundamentals のオンデマンド講座を軸に構成され、試験準備の道筋を示す。"
  },
  {
   "title": "Introduction to Generative AI",
@@ -235,7 +235,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Now AssistなどServiceNow生成AIの入門コース"
+  "summary_ja": "ServiceNow の生成 AI 機能群 Now Assist を紹介する入門コース。全ワークフローに統合された生成 AI 機能の概要を学び、Now Assist が何をできるのかを掴みたい利用者・検討者向け。"
  },
  {
   "title": "Mobile Introduction",
@@ -249,7 +249,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "ServiceNowモバイル入門コース"
+  "summary_ja": "ServiceNow のモバイル機能を紹介する入門コース。Now Learning のモバイル学習シリーズに位置づけられ、モバイルアプリの概要と基本的な使い方を短時間で把握できる。"
  },
  {
   "title": "Mobile Development Essentials",
@@ -263,7 +263,7 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "モバイル開発の基礎学習パス"
+  "summary_ja": "Now Platform 上のモバイル開発の基礎を学ぶ学習パス。モバイルアプリ開発に必要な要素を順に学ぶ構成で、ServiceNow のモバイル対応を自社で実装したい開発者・管理者向け。"
  },
  {
   "title": "Mobile Create and Use Functions",
@@ -277,6 +277,6 @@
    "ServiceNow"
   ],
   "priority_for_user": "低",
-  "summary_ja": "モバイルアプリの関数作成・利用コース"
+  "summary_ja": "ServiceNow モバイルアプリで関数を作成・利用する方法を学ぶコース。モバイル向け機能実装の具体的な手順を扱い、モバイル開発の基礎を押さえた後の実践ステップに適する。"
  }
 ]

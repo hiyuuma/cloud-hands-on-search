@@ -1,1 +1,475 @@
-[{"description":"Learn how to build a full-stack web application with the free, Next.js Foundations course.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"中","services":["Next.js"],"summary_ja":"ダッシュボードアプリを作りながらApp Routerとフルスタック開発を学ぶ公式コース（全16章）","title":"App Router","type":"course","url":"https://nextjs.org/learn/dashboard-app"},{"description":"Learn the fundamental JavaScript and React concepts that'll help you get started with Next.js.","domain":"開発・Git","duration_text":"","level":"Beginner","priority_for_user":"中","services":["React","Next.js"],"summary_ja":"Next.jsを始める前に必要なJavaScriptとReactの基礎概念を学ぶ初心者向けコース","title":"React Foundations","type":"course","url":"https://nextjs.org/learn/react-foundations"},{"description":"This free interactive course will guide you through how to get started with Next.js.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"中","services":["Next.js"],"summary_ja":"ブログアプリ構築を通じてPages Routerの使い方を学ぶ無料対話コース","title":"Pages Router","type":"course","url":"https://nextjs.org/learn/pages-router"},{"description":"","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"中","services":["Next.js"],"summary_ja":"検索システムの仕組みとNext.jsでのSEO・Core Web Vitals最適化を学ぶコース","title":"SEO","type":"course","url":"https://nextjs.org/learn/seo"},{"description":"Build and launch a website for Small Hours Studio with AI. Start in v0, add workshop pages and an email inquiry form, and learn to publish your own updates with fx, GitHub, and Vercel. No coding experience required.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","v0","GitHub"],"summary_ja":"v0とAIでWebサイトを作りGitHub・Vercelで公開・運用する初心者向けコース","title":"Build and Launch with AI","type":"course","url":"https://vercel.com/academy/build-and-launch-with-ai"},{"description":"Learn Next.js by building real apps. Work through routing, data fetching, caching, forms, and error handling, then deploy everything to Vercel.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"中","services":["Next.js","Vercel"],"summary_ja":"実アプリ構築を通じてNext.jsのルーティングやキャッシュ等を学びVercelへデプロイするコース","title":"Build with Next.js","type":"course","url":"https://vercel.com/academy/nextjs-foundations"},{"description":"Build an AI coding agent harness from scratch using AI SDK, Vercel Sandbox, and just-bash. Covers the tool loop, tool design, system prompts, sandbox abstraction, context pruning, subagent delegation, lifecycle management, and extensibility.","domain":"AI","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","AI SDK","Vercel Sandbox"],"summary_ja":"AI SDKとVercel SandboxでAIコーディングエージェントのハーネスを自作するコース","title":"Build Your Own AI Coding Agent Harness","type":"course","url":"https://vercel.com/academy/build-ai-agent-harness"},{"description":"Build production-ready AI features with the AI SDK & Next.js. Learn LLMs, prompting, extraction, streaming, & more.","domain":"AI","duration_text":"","level":"","priority_for_user":"中","services":["Vercel","AI SDK","Next.js"],"summary_ja":"AI SDKとNext.jsで本番品質のAI機能（抽出・ストリーミング等）を構築するコース","title":"Builders Guide to the AI SDK","type":"course","url":"https://vercel.com/academy/ai-sdk"},{"description":"Build a production bike shop dispatcher agent with eve, from its first typed tool to a deployed app behind Slack, a web dashboard, real auth, and human approval.","domain":"AI","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","eve"],"summary_ja":"エージェントフレームワークeveで実運用エージェントを構築・デプロイするコース","title":"Building Agents with eve","type":"course","url":"https://vercel.com/academy/building-agents-with-eve"},{"description":"Build an AI-powered summary application using Next.js App Router and the Vercel AI SDK. You'll implement text summarization, structured output, caching, and production-ready patterns.","domain":"AI","duration_text":"","level":"","priority_for_user":"中","services":["Next.js","Vercel","AI SDK"],"summary_ja":"Next.js App RouterとAI SDKでAI要約アプリを構築するコース","title":"Creating an AI Summary App with Next.js","type":"course","url":"https://vercel.com/academy/ai-summary-app-with-nextjs"},{"description":"Take an internal AI prototype from demo to rollout: assign owners, restrict access, test model behavior, and add human approval.","domain":"AI","duration_text":"","level":"","priority_for_user":"低","services":["Vercel"],"summary_ja":"社内AIプロトタイプをアクセス制御や承認フロー付きで本番展開するコース","title":"Enterprise Apps and Agents","type":"course","url":"https://vercel.com/academy/enterprise-apps-agents"},{"description":"Build a production-ready subscription storefront with Next.js 16, React 19, Supabase Auth, and Stripe. Learn authentication, payments, and access control.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["Next.js","Vercel","Stripe","Supabase"],"summary_ja":"Next.js・Supabase Auth・Stripeでサブスクリプションストアを構築するコース","title":"Launch a Subscription Store with Vercel and Stripe","type":"course","url":"https://vercel.com/academy/subscription-store"},{"description":"Deploy a lobster roll truck's website, attack it with a bundled scalper script, and protect it with Vercel Firewall.","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","Vercel Firewall"],"summary_ja":"攻撃スクリプトで自サイトを攻めVercel Firewallで防御する実践セキュリティコース","title":"Protect Your App on Vercel","type":"course","url":"https://vercel.com/academy/vercel-firewall"},{"description":"Learn the fundamentals of modern UI development with shadcn/ui. Master component libraries, Radix primitives, and build production-ready interfaces.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["shadcn/ui","Radix","Tailwind CSS"],"summary_ja":"shadcn/uiとRadix、TailwindでモダンなUI開発の基礎を学ぶコース","title":"React UI with shadcn/ui + Radix + Tailwind","type":"course","url":"https://vercel.com/academy/shadcn-ui"},{"description":"Step-by-step course to build, deploy, and run a real Slack bot on Vercel using the AI SDK, with logging, safeguards, and an ops runbook for your team's workspace.","domain":"AI","duration_text":"~6–8 hours for the core path","level":"","priority_for_user":"低","services":["Vercel","AI SDK","Slack"],"summary_ja":"AI SDKでSlackエージェントを構築・運用（ログ・SLO・ランブック）するコース","title":"Slack Agents on Vercel with the AI SDK","type":"course","url":"https://vercel.com/academy/slack-agents"},{"description":"Learn how AI Gateway handles model access, routing, spend, privacy, developer tools, and production authentication.","domain":"AI","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","AI Gateway"],"summary_ja":"AI Gatewayのモデルルーティング・コスト管理・プライバシーを本番運用観点で学ぶコース","title":"Using AI Gateway in Production","type":"course","url":"https://vercel.com/academy/ai-gateway"},{"description":"Learn how to safely execute untrusted code using Vercel Sandbox. Build a CLI code review agent that clones repositories, runs tests, and uses AI to analyze code for security and quality issues, all in an isolated environment.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","Vercel Sandbox"],"summary_ja":"Vercel Sandboxで信頼できないコードを安全に実行するCLIレビューエージェントを作るコース","title":"Vercel Sandbox","type":"course","url":"https://vercel.com/academy/vercel-sandbox"},{"description":"Build a feedback API, then build a Claude Code skill that generates the documentation agents need to use it.","domain":"AI","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","Claude Code"],"summary_ja":"フィードバックAPIとエージェント向けドキュメント生成スキルを構築するコース","title":"Agent-Friendly APIs","type":"course","url":"https://vercel.com/academy/agent-friendly-apis"},{"description":"Build a filesystem agent that uses bash tools and Vercel Sandbox to explore call transcripts and answer questions.","domain":"AI","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","Vercel Sandbox","AI SDK"],"summary_ja":"bashツールとVercel Sandboxでファイルを探索するエージェントを構築するコース","title":"Building Filesystem Agents","type":"course","url":"https://vercel.com/academy/filesystem-agents"},{"description":"Build a risk-routed software factory that requires evidence before code changes and preserves human control over consequential decisions.","domain":"AI","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","eve","AI SDK"],"summary_ja":"証跡と人間の承認を組み込んだ自律ソフトウェア開発パイプラインを構築するコース","title":"Creating a Software Factory","type":"course","url":"https://vercel.com/academy/creating-a-software-factory"},{"description":"A 1-hour video series covering the most important Vercel concepts. Nine short sessions to get you productive on the platform.","domain":"その他","duration_text":"1 hour","level":"","priority_for_user":"低","services":["Vercel"],"summary_ja":"Vercelの重要概念を9つの短いセッションで学ぶ1時間の動画シリーズ","title":"Deploy on Vercel","type":"course","url":"https://vercel.com/academy/vercel-foundations"},{"description":"Learn the foundations of the Workflow SDK by building a pizza order tracker. Durable, resumable code with two directives and no state machines.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","Workflow SDK"],"summary_ja":"Workflow SDKで耐久性のある再開可能なワークフローを構築するコース","title":"Build Durable Workflows","type":"course","url":"https://vercel.com/academy/workflow-foundations"},{"description":"Deploy a visual workflow builder on Vercel and extend it with plugins for the APIs you actually use. Learn Vercel Workflow fundamentals along the way.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","Workflow SDK"],"summary_ja":"ビジュアルワークフロービルダーをデプロイしプラグインで拡張するコース","title":"Build Visual Workflow Plugins on Vercel","type":"course","url":"https://vercel.com/academy/visual-workflow-builder-on-vercel"},{"description":"Use Jev to route customer messages to the right team. Start with a working contact form, teach it who handles cancellations, and test your rules with different requests.","domain":"AI","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","Jev"],"summary_ja":"Jevで顧客メッセージを担当チームへ振り分けるルールを構築・テストするコース","title":"Make Decisions with Jev","type":"course","url":"https://vercel.com/academy/make-decisions-with-jev"},{"description":"Build scalable, independent frontend applications with Vercel's microfrontends platform.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","Next.js"],"summary_ja":"Vercelのマイクロフロントエンド基盤で独立したフロントエンド群を構築するコース","title":"Microfrontends on Vercel","type":"course","url":"https://vercel.com/academy/microfrontends-on-vercel"},{"description":"Translate your React and Next.js skills to Nuxt. Build a hot springs finder app using idiomatic Nuxt patterns, from reactivity to auth to deployment.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["Nuxt","Vercel"],"summary_ja":"React/Next.jsの知識を活かしてNuxtアプリを構築・デプロイするコース","title":"Nuxt on Vercel","type":"course","url":"https://vercel.com/academy/nuxt-on-vercel"},{"description":"Audit and tune your Vercel account for security, cost, and operations.","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Vercel"],"summary_ja":"Vercelアカウントのセキュリティ・コスト・運用を監査し最適化するコース","title":"Optimize Your Vercel Account","type":"course","url":"https://vercel.com/academy/optimize-your-vercel-account"},{"description":"Build a production monorepo from idea to enterprise scale with Turborepo and Next.js.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["Turborepo","Next.js","Vercel"],"summary_ja":"TurborepoとNext.jsで本番モノレポを構築・運用するコース","title":"Production Monorepos with Turborepo","type":"course","url":"https://vercel.com/academy/production-monorepos"},{"description":"Keep your Python stack and ship it with your frontend. Build a FastAPI + Next.js furniture app deployed as one Vercel project.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["Vercel","FastAPI","Next.js","Python"],"summary_ja":"FastAPIとNext.jsを1つのVercelプロジェクトとしてデプロイするコース","title":"Python on Vercel","type":"course","url":"https://vercel.com/academy/python-on-vercel"},{"description":"Build production-ready SvelteKit applications on Vercel. Learn deployment, AI integration, workflows, and performance optimization.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["Svelte","SvelteKit","Vercel"],"summary_ja":"SvelteKitアプリのデプロイ・AI連携・性能最適化を学ぶコース","title":"Svelte on Vercel","type":"course","url":"https://vercel.com/academy/svelte-on-vercel"},{"description":"Build, customize, and ship a real website with v0. No code required.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"低","services":["v0","Vercel"],"summary_ja":"コード不要でv0を使って実サイトを構築・カスタマイズ・公開するコース","title":"Build with v0","type":"course","url":"https://vercel.com/academy/v0-foundations"}]
+[
+ {
+  "description": "Learn how to build a full-stack web application with the free, Next.js Foundations course.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Next.js"
+  ],
+  "summary_ja": "ダッシュボードアプリを作りながら App Router とフルスタック開発を学ぶ無料の公式コース (Next.js Foundations、全16章)。ルーティングからデータ取得まで、Next.js の中核を実践で身につける定番教材。",
+  "title": "App Router",
+  "type": "course",
+  "url": "https://nextjs.org/learn/dashboard-app"
+ },
+ {
+  "description": "Learn the fundamental JavaScript and React concepts that'll help you get started with Next.js.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "Beginner",
+  "priority_for_user": "中",
+  "services": [
+   "React",
+   "Next.js"
+  ],
+  "summary_ja": "Next.js を始める前に必要な JavaScript と React の基礎概念を学ぶ初心者向けコース。React Foundations と題し、フレームワーク学習の土台となる知識を埋める位置づけ。",
+  "title": "React Foundations",
+  "type": "course",
+  "url": "https://nextjs.org/learn/react-foundations"
+ },
+ {
+  "description": "This free interactive course will guide you through how to get started with Next.js.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Next.js"
+  ],
+  "summary_ja": "ブログアプリの構築を通じて Pages Router の使い方を学ぶ無料の対話型コース。App Router 以前の定番ルーター構成を、実際に手を動かして習得できる。",
+  "title": "Pages Router",
+  "type": "course",
+  "url": "https://nextjs.org/learn/pages-router"
+ },
+ {
+  "description": "",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Next.js"
+  ],
+  "summary_ja": "検索システムの仕組みを理解し、Next.js での SEO と Core Web Vitals の最適化を学ぶコース。検索順位とパフォーマンスの両面からサイト品質を高める実践的内容。",
+  "title": "SEO",
+  "type": "course",
+  "url": "https://nextjs.org/learn/seo"
+ },
+ {
+  "description": "Build and launch a website for Small Hours Studio with AI. Start in v0, add workshop pages and an email inquiry form, and learn to publish your own updates with fx, GitHub, and Vercel. No coding experience required.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "v0",
+   "GitHub"
+  ],
+  "summary_ja": "v0 と AI で Small Hours Studio の Web サイトを作り、ワークショップページと問い合わせフォームを追加して fx・GitHub・Vercel で公開・運用する初心者向けコース。コーディング経験不要。",
+  "title": "Build and Launch with AI",
+  "type": "course",
+  "url": "https://vercel.com/academy/build-and-launch-with-ai"
+ },
+ {
+  "description": "Learn Next.js by building real apps. Work through routing, data fetching, caching, forms, and error handling, then deploy everything to Vercel.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Next.js",
+   "Vercel"
+  ],
+  "summary_ja": "実際のアプリ構築を通じて Next.js を学ぶコース。ルーティング・データ取得・キャッシュ・フォーム・エラーハンドリングを順に扱い、最後に Vercel へデプロイするところまでカバー。",
+  "title": "Build with Next.js",
+  "type": "course",
+  "url": "https://vercel.com/academy/nextjs-foundations"
+ },
+ {
+  "description": "Build an AI coding agent harness from scratch using AI SDK, Vercel Sandbox, and just-bash. Covers the tool loop, tool design, system prompts, sandbox abstraction, context pruning, subagent delegation, lifecycle management, and extensibility.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "AI SDK",
+   "Vercel Sandbox"
+  ],
+  "summary_ja": "AI SDK・Vercel Sandbox・just-bash で AI コーディングエージェントのハーネスを一から自作するコース。ツールループ・ツール設計・システムプロンプト・サンドボックス抽象化・コンテキスト剪定・サブエージェント委譲・ライフサイクル管理・拡張性を網羅。",
+  "title": "Build Your Own AI Coding Agent Harness",
+  "type": "course",
+  "url": "https://vercel.com/academy/build-ai-agent-harness"
+ },
+ {
+  "description": "Build production-ready AI features with the AI SDK & Next.js. Learn LLMs, prompting, extraction, streaming, & more.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Vercel",
+   "AI SDK",
+   "Next.js"
+  ],
+  "summary_ja": "AI SDK と Next.js で本番品質の AI 機能を構築するコース。LLM の基礎・プロンプティング・情報抽出・ストリーミングなどを、実装しながら学ぶ実践的内容。",
+  "title": "Builders Guide to the AI SDK",
+  "type": "course",
+  "url": "https://vercel.com/academy/ai-sdk"
+ },
+ {
+  "description": "Build a production bike shop dispatcher agent with eve, from its first typed tool to a deployed app behind Slack, a web dashboard, real auth, and human approval.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "eve"
+  ],
+  "summary_ja": "エージェントフレームワーク eve で自転車ショップの配車エージェントを構築するコース。型付きツールから、Slack・Web ダッシュボード・本物の認証・人間承認を備えたデプロイ済みアプリまで完成させる。",
+  "title": "Building Agents with eve",
+  "type": "course",
+  "url": "https://vercel.com/academy/building-agents-with-eve"
+ },
+ {
+  "description": "Build an AI-powered summary application using Next.js App Router and the Vercel AI SDK. You'll implement text summarization, structured output, caching, and production-ready patterns.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Next.js",
+   "Vercel",
+   "AI SDK"
+  ],
+  "summary_ja": "Next.js App Router と Vercel AI SDK で AI 要約アプリを構築するコース。テキスト要約・構造化出力・キャッシュ・本番対応パターンの実装を学ぶ。",
+  "title": "Creating an AI Summary App with Next.js",
+  "type": "course",
+  "url": "https://vercel.com/academy/ai-summary-app-with-nextjs"
+ },
+ {
+  "description": "Take an internal AI prototype from demo to rollout: assign owners, restrict access, test model behavior, and add human approval.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel"
+  ],
+  "summary_ja": "社内の AI プロトタイプをデモから正式展開へ進めるコース。オーナー割り当て・アクセス制限・モデル挙動テスト・人間承認の追加など、エンタープライズ展開に必要な工程を学ぶ。",
+  "title": "Enterprise Apps and Agents",
+  "type": "course",
+  "url": "https://vercel.com/academy/enterprise-apps-agents"
+ },
+ {
+  "description": "Build a production-ready subscription storefront with Next.js 16, React 19, Supabase Auth, and Stripe. Learn authentication, payments, and access control.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Next.js",
+   "Vercel",
+   "Stripe",
+   "Supabase"
+  ],
+  "summary_ja": "Next.js 16・React 19・Supabase Auth・Stripe で本番対応のサブスクリプションストアを構築するコース。認証・決済・アクセス制御を実装しながら学ぶ。",
+  "title": "Launch a Subscription Store with Vercel and Stripe",
+  "type": "course",
+  "url": "https://vercel.com/academy/subscription-store"
+ },
+ {
+  "description": "Deploy a lobster roll truck's website, attack it with a bundled scalper script, and protect it with Vercel Firewall.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "Vercel Firewall"
+  ],
+  "summary_ja": "ロブスターロール店のサイトをデプロイし、付属のスカルパースクリプトで自ら攻撃して Vercel Firewall で防御する実践セキュリティコース。攻撃と防御の両面を体験できる構成。",
+  "title": "Protect Your App on Vercel",
+  "type": "course",
+  "url": "https://vercel.com/academy/vercel-firewall"
+ },
+ {
+  "description": "Learn the fundamentals of modern UI development with shadcn/ui. Master component libraries, Radix primitives, and build production-ready interfaces.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "shadcn/ui",
+   "Radix",
+   "Tailwind CSS"
+  ],
+  "summary_ja": "shadcn/ui・Radix・Tailwind CSS によるモダン UI 開発の基礎を学ぶコース。コンポーネントライブラリと Radix プリミティブを使いこなし、本番品質のインターフェースを構築する。",
+  "title": "React UI with shadcn/ui + Radix + Tailwind",
+  "type": "course",
+  "url": "https://vercel.com/academy/shadcn-ui"
+ },
+ {
+  "description": "Step-by-step course to build, deploy, and run a real Slack bot on Vercel using the AI SDK, with logging, safeguards, and an ops runbook for your team's workspace.",
+  "domain": "AI",
+  "duration_text": "~6–8 hours for the core path",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "AI SDK",
+   "Slack"
+  ],
+  "summary_ja": "AI SDK で実際に動く Slack ボットを Vercel 上に構築・デプロイ・運用するステップバイステップコース (コアパス約6〜8時間)。ロギング・安全装置・チーム向け運用ランブックまで含む。",
+  "title": "Slack Agents on Vercel with the AI SDK",
+  "type": "course",
+  "url": "https://vercel.com/academy/slack-agents"
+ },
+ {
+  "description": "Learn how AI Gateway handles model access, routing, spend, privacy, developer tools, and production authentication.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "AI Gateway"
+  ],
+  "summary_ja": "AI Gateway のモデルアクセス・ルーティング・支出管理・プライバシー・開発者ツール・本番認証の扱いを学ぶコース。AI 機能の本番運用を見据えたゲートウェイ活用を扱う。",
+  "title": "Using AI Gateway in Production",
+  "type": "course",
+  "url": "https://vercel.com/academy/ai-gateway"
+ },
+ {
+  "description": "Learn how to safely execute untrusted code using Vercel Sandbox. Build a CLI code review agent that clones repositories, runs tests, and uses AI to analyze code for security and quality issues, all in an isolated environment.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "Vercel Sandbox"
+  ],
+  "summary_ja": "Vercel Sandbox で信頼できないコードを安全に実行する方法を学ぶコース。リポジトリをクローンしテストを実行して AI でコードのセキュリティ・品質を分析する CLI レビューエージェントを隔離環境で構築する。",
+  "title": "Vercel Sandbox",
+  "type": "course",
+  "url": "https://vercel.com/academy/vercel-sandbox"
+ },
+ {
+  "description": "Build a feedback API, then build a Claude Code skill that generates the documentation agents need to use it.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "Claude Code"
+  ],
+  "summary_ja": "フィードバック API を構築し、続けてエージェントがその API を使うために必要なドキュメントを生成する Claude Code スキルを作るコース。エージェントフレンドリーな API 設計を学ぶ。",
+  "title": "Agent-Friendly APIs",
+  "type": "course",
+  "url": "https://vercel.com/academy/agent-friendly-apis"
+ },
+ {
+  "description": "Build a filesystem agent that uses bash tools and Vercel Sandbox to explore call transcripts and answer questions.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "Vercel Sandbox",
+   "AI SDK"
+  ],
+  "summary_ja": "bash ツールと Vercel Sandbox を使い、通話記録を探索して質問に答えるファイルシステムエージェントを構築するコース。ファイル操作系エージェントの実装を学ぶ。",
+  "title": "Building Filesystem Agents",
+  "type": "course",
+  "url": "https://vercel.com/academy/filesystem-agents"
+ },
+ {
+  "description": "Build a risk-routed software factory that requires evidence before code changes and preserves human control over consequential decisions.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "eve",
+   "AI SDK"
+  ],
+  "summary_ja": "コード変更に証跡 (evidence) を要求し、重要な決定に人間の制御を残すリスクルーティング型のソフトウェアファクトリーを構築するコース。eve・AI SDK を題材に自律開発パイプラインを設計する。",
+  "title": "Creating a Software Factory",
+  "type": "course",
+  "url": "https://vercel.com/academy/creating-a-software-factory"
+ },
+ {
+  "description": "A 1-hour video series covering the most important Vercel concepts. Nine short sessions to get you productive on the platform.",
+  "domain": "その他",
+  "duration_text": "1 hour",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel"
+  ],
+  "summary_ja": "Vercel の重要概念を9つの短いセッションで学ぶ1時間の動画シリーズ。プラットフォーム上で生産的に作業するための要点を短時間で押さえられる。",
+  "title": "Deploy on Vercel",
+  "type": "course",
+  "url": "https://vercel.com/academy/vercel-foundations"
+ },
+ {
+  "description": "Learn the foundations of the Workflow SDK by building a pizza order tracker. Durable, resumable code with two directives and no state machines.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "Workflow SDK"
+  ],
+  "summary_ja": "ピザ注文トラッカーを作りながら Workflow SDK の基礎を学ぶコース。ステートマシンなし・2つのディレクティブだけで、耐久性があり再開可能なコードを書く方法を扱う。",
+  "title": "Build Durable Workflows",
+  "type": "course",
+  "url": "https://vercel.com/academy/workflow-foundations"
+ },
+ {
+  "description": "Deploy a visual workflow builder on Vercel and extend it with plugins for the APIs you actually use. Learn Vercel Workflow fundamentals along the way.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "Workflow SDK"
+  ],
+  "summary_ja": "ビジュアルワークフロービルダーを Vercel にデプロイし、実際に使う API 向けのプラグインで拡張するコース。Vercel Workflow の基礎も並行して学べる構成。",
+  "title": "Build Visual Workflow Plugins on Vercel",
+  "type": "course",
+  "url": "https://vercel.com/academy/visual-workflow-builder-on-vercel"
+ },
+ {
+  "description": "Use Jev to route customer messages to the right team. Start with a working contact form, teach it who handles cancellations, and test your rules with different requests.",
+  "domain": "AI",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "Jev"
+  ],
+  "summary_ja": "Jev で顧客メッセージを適切な担当チームへ振り分けるルールを構築・テストするコース。動作するコンタクトフォームから始め、キャンセル担当のルールを教え、様々なリクエストで検証する。",
+  "title": "Make Decisions with Jev",
+  "type": "course",
+  "url": "https://vercel.com/academy/make-decisions-with-jev"
+ },
+ {
+  "description": "Build scalable, independent frontend applications with Vercel's microfrontends platform.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "Next.js"
+  ],
+  "summary_ja": "Vercel のマイクロフロントエンド基盤で、スケーラブルで独立したフロントエンドアプリケーション群を構築するコース。大規模フロントエンド分割の実践を学ぶ。",
+  "title": "Microfrontends on Vercel",
+  "type": "course",
+  "url": "https://vercel.com/academy/microfrontends-on-vercel"
+ },
+ {
+  "description": "Translate your React and Next.js skills to Nuxt. Build a hot springs finder app using idiomatic Nuxt patterns, from reactivity to auth to deployment.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Nuxt",
+   "Vercel"
+  ],
+  "summary_ja": "React と Next.js のスキルを Nuxt へ翻訳するコース。温泉検索アプリを、リアクティビティから認証・デプロイまでイディオマティックな Nuxt パターンで構築する。",
+  "title": "Nuxt on Vercel",
+  "type": "course",
+  "url": "https://vercel.com/academy/nuxt-on-vercel"
+ },
+ {
+  "description": "Audit and tune your Vercel account for security, cost, and operations.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel"
+  ],
+  "summary_ja": "Vercel アカウントをセキュリティ・コスト・運用の観点で監査し最適化するコース。既存アカウントの健全性を点検し、設定を見直す実務的内容。",
+  "title": "Optimize Your Vercel Account",
+  "type": "course",
+  "url": "https://vercel.com/academy/optimize-your-vercel-account"
+ },
+ {
+  "description": "Build a production monorepo from idea to enterprise scale with Turborepo and Next.js.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Turborepo",
+   "Next.js",
+   "Vercel"
+  ],
+  "summary_ja": "Turborepo と Next.js で、アイデアからエンタープライズ規模までの本番モノレポを構築・運用するコース。複数プロジェクトの統合管理を実践的に学ぶ。",
+  "title": "Production Monorepos with Turborepo",
+  "type": "course",
+  "url": "https://vercel.com/academy/production-monorepos"
+ },
+ {
+  "description": "Keep your Python stack and ship it with your frontend. Build a FastAPI + Next.js furniture app deployed as one Vercel project.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Vercel",
+   "FastAPI",
+   "Next.js",
+   "Python"
+  ],
+  "summary_ja": "Python スタックを保ったままフロントエンドと一緒に出荷するコース。FastAPI + Next.js の家具アプリを1つの Vercel プロジェクトとしてデプロイする構成を学ぶ。",
+  "title": "Python on Vercel",
+  "type": "course",
+  "url": "https://vercel.com/academy/python-on-vercel"
+ },
+ {
+  "description": "Build production-ready SvelteKit applications on Vercel. Learn deployment, AI integration, workflows, and performance optimization.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Svelte",
+   "SvelteKit",
+   "Vercel"
+  ],
+  "summary_ja": "Vercel 上で本番対応の SvelteKit アプリケーションを構築するコース。デプロイ・AI 統合・ワークフロー・パフォーマンス最適化を扱う。",
+  "title": "Svelte on Vercel",
+  "type": "course",
+  "url": "https://vercel.com/academy/svelte-on-vercel"
+ },
+ {
+  "description": "Build, customize, and ship a real website with v0. No code required.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "v0",
+   "Vercel"
+  ],
+  "summary_ja": "コード不要で v0 を使って実際の Web サイトを構築・カスタマイズ・公開するコース。ノーコードでサイトを出したい人向けの入口コンテンツ。",
+  "title": "Build with v0",
+  "type": "course",
+  "url": "https://vercel.com/academy/v0-foundations"
+ }
+]

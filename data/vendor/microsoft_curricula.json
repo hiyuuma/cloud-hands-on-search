@@ -1,0 +1,803 @@
+[
+ {
+  "title": "Intro to AI Agents and Agent Use Cases",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/01-intro-to-ai-agents",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Foundational knowledge and real working code to start building AI agents, with typical agent use cases.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "AI エージェントの基礎知識と実際に動くコードでエージェント構築を始める第1レッスン。代表的なユースケースを概観し、以降のレッスンの土台を作る。Microsoft 公式 GitHub カリキュラム。"
+ },
+ {
+  "title": "Exploring AI Agentic Frameworks",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/02-explore-agentic-frameworks",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Survey of software platforms that simplify creation, deployment, and management of AI agents.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "エージェントの作成・デプロイ・管理を簡素化するエージェントフレームワークを比較検討するレッスン。コード例つきで、用途に合う基盤の選び方を学ぶ。"
+ },
+ {
+  "title": "Understanding AI Agentic Design Patterns",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/03-agentic-design-patterns",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Ways to think about building agentic systems given the ambiguity inherent in generative AI design.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "生成 AI 設計の曖昧さを前提に、エージェントシステムを構造化して考えるデザインパターンのレッスン。後続の Tool Use / Planning / Multi-Agent 各パターンの地図になる。"
+ },
+ {
+  "title": "Tool Use Design Pattern",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/04-tool-use",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Design pattern that lets AI agents call tools to expand their range of capabilities beyond a fixed set of actions.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "ツール呼び出しでエージェントの行動範囲を広げる Tool Use デザインパターンのレッスン。コード例つき。エージェントに外部機能を持たせる基本形を学ぶ。"
+ },
+ {
+  "title": "Agentic RAG",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/05-agentic-rag",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Overview of Agentic Retrieval-Augmented Generation, where LLMs retrieve and reason over external knowledge inside agent workflows.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "検索・推論をエージェントのワークフローに組み込む Agentic RAG を概観するレッスン。通常の RAG とエージェント型の違いと実装の勘所を学ぶ。"
+ },
+ {
+  "title": "Building Trustworthy AI Agents",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/06-building-trustworthy-agents",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Principles and practices for building AI agents that can be trusted in real use.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "信頼できる AI エージェントを作るための原則と実践を扱うレッスン。安全性・品質・運用上の信頼性を設計に織り込む視点を得られる。"
+ },
+ {
+  "title": "Planning Design Pattern",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/07-planning-design",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Planning design pattern for AI agents that decompose goals into executable steps.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "目標を実行可能なステップに分解する Planning デザインパターンのレッスン。複雑なタスクをエージェントに進めさせるための基本パターン。"
+ },
+ {
+  "title": "Multi-Agent Design Pattern",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/08-multi-agent",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Design pattern for systems where multiple agents collaborate on a project.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "複数エージェントが協調して動くマルチエージェントのデザインパターンを学ぶレッスン。役割分担と連携の設計をコード例とともに扱う。"
+ },
+ {
+  "title": "Metacognition Design Pattern",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/09-metacognition",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Metacognition in AI agents: how agents can reflect on and think about their own reasoning.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "エージェントが自分の推論を振り返り・考えるメタ認知のデザインパターンを初心者向けに解説するレッスン。自己評価するエージェントの設計に触れられる。"
+ },
+ {
+  "title": "AI Agents in Production",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/10-ai-agents-production",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Understanding agent behavior, monitoring performance, and systematically operating agents as they move to real-world applications.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "実験プロトタイプから本番運用へ移す際の、挙動の理解・性能監視・体系的な運用を学ぶレッスン。オブザーバビリティ視点を含む。"
+ },
+ {
+  "title": "Using Agentic Protocols (MCP, A2A and NLWeb)",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/11-agentic-protocols",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Protocols that ensure standardization, security, and open innovation for AI agents: MCP, A2A, and NLWeb.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "エージェント間・ツール連携を標準化するプロトコル MCP・A2A・NLWeb を学ぶレッスン。エージェントエコシステムの相互運用性を押さえられる。"
+ },
+ {
+  "title": "Context Engineering for AI Agents",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/12-context-engineering",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Context engineering for AI agents: building agents that handle the complexity of the target application reliably.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "信頼できるエージェントに必要なコンテキストエンジニアリングを学ぶレッスン。アプリの複雑さに応じてエージェントへ渡す情報を設計する実践。"
+ },
+ {
+  "title": "Managing Agentic Memory",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/13-agent-memory",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Agentic memory: managing memory alongside tool use as one of the key benefits of AI agents.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "ツール呼び出しと並ぶエージェントの利点であるメモリ管理を扱うレッスン。会話・タスクをまたいだ記憶の設計を学ぶ。"
+ },
+ {
+  "title": "Exploring Microsoft Agent Framework",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/14-microsoft-agent-framework",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Hands-on exploration of the Microsoft Agent Framework for building agents.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Microsoft Agent Framework を使ったエージェント構築を実践するレッスン。Microsoft 公式フレームワークの構成と使い方をコードで確かめられる。"
+ },
+ {
+  "title": "Building Computer Use Agents (CUA)",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/15-browser-use",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Computer use agents that interact with websites like a person: opening a browser, inspecting the page, and deciding the next action.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "ブラウザを開きページを読み取り次の行動を決める Computer Use Agent (CUA) を作るレッスン。ブラウザ操作系エージェントの実装入門。"
+ },
+ {
+  "title": "Deploying Scalable Agents",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/16-deploying-scalable-agents",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Moving agents from a local notebook to scalable deployment in the cloud.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "ノートブック上のエージェントをクラウドへスケーラブルにデプロイするレッスン。本番への運び方と Azure 側の受け皿を学ぶ。"
+ },
+ {
+  "title": "Creating Local AI Agents",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/17-creating-local-ai-agents",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Bringing agents down onto a single machine: working local AI agents by the end of the lesson.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "前レッスンのクラウド展開とは逆に、エージェントを単一マシン上で動かすローカル実行を学ぶレッスン。ローカル推論の構成を組み上げる。"
+ },
+ {
+  "title": "Securing AI Agents",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners/tree/main/18-securing-ai-agents",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Security practices for AI agents: threats, mitigations, and secure design.",
+  "domain": "AIエージェント",
+  "services": [
+   "AI Agents",
+   "Microsoft Agent Framework"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "AI エージェントのセキュリティを扱う締めのレッスン。脅威・緩和策・安全な設計を学び、コース全体の実装知識を安全側に補強する。"
+ },
+ {
+  "title": "Introduction to Generative AI and LLMs",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/01-introduction-to-genai",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: Understanding what Generative AI is and how Large Language Models (LLMs) work.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "生成 AI と大規模言語モデル (LLM) の仕組みを理解する導入レッスン。概念中心の Learn 形式で、コース全体の入口。Microsoft 公式 GitHub カリキュラム。"
+ },
+ {
+  "title": "Exploring and Comparing Different LLMs",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/02-exploring-and-comparing-different-llms",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: How to select the right model for your use case.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "用途に合う LLM の選び方を学ぶレッスン。モデルの特性と比較軸を押さえ、アプリ要件に応じた選択ができるようになる。"
+ },
+ {
+  "title": "Using Generative AI Responsibly",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/03-using-generative-ai-responsibly",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: How to build Generative AI applications responsibly.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "生成 AI アプリを責任を持って構築するための原則を学ぶレッスン。リスクと配慮点を開発初期から組み込む視点を得られる。"
+ },
+ {
+  "title": "Understanding Prompt Engineering Fundamentals",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/04-prompt-engineering-fundamentals",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: Hands-on prompt engineering best practices.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "プロンプトエンジニアリングの基礎とベストプラクティスをハンズオンで学ぶレッスン。出力を制御する基本技法を押さえる。"
+ },
+ {
+  "title": "Creating Advanced Prompts",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/05-advanced-prompts",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: How to apply prompt engineering techniques that improve the outcome of your prompts.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "プロンプトの成果を高める応用テクニックを学ぶレッスン。基礎編の続きで、より精度の高い指示設計を扱う。"
+ },
+ {
+  "title": "Building Text Generation Applications",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/06-text-generation-apps",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Build: A text generation app using Azure OpenAI / OpenAI API.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Azure OpenAI / OpenAI API でテキスト生成アプリを作る Build レッスン。Python/TypeScript のコード例つき。"
+ },
+ {
+  "title": "Building Chat Applications",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/07-building-chat-applications",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Build: Techniques for efficiently building and integrating chat applications.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "チャットアプリケーションを効率的に構築・統合する技法の Build レッスン。会話型 UI を実装する実践編。"
+ },
+ {
+  "title": "Building Search Apps Vector Databases",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/08-building-search-applications",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Build: A search application that uses embeddings to search for data.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "埋め込み (Embeddings) を使いデータを検索するアプリを作る Build レッスン。ベクトル検索・ベクトルデータベースの実装を体験する。"
+ },
+ {
+  "title": "Building Image Generation Applications",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/09-building-image-applications",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Build: An image generation application.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "画像生成アプリケーションを作る Build レッスン。生成 AI の画像系 API をアプリに組み込む手順を学ぶ。"
+ },
+ {
+  "title": "Building Low Code AI Applications",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/10-building-low-code-ai-applications",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Build: A Generative AI application using low-code tools.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "ローコードツールで生成 AI アプリを作る Build レッスン。コード量を抑えて AI 機能を実装する選択肢を学ぶ。"
+ },
+ {
+  "title": "Integrating External Applications with Function Calling",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/11-integrating-with-function-calling",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Build: What function calling is and its use cases for applications.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Function Calling の仕組みとユースケースを学び、外部アプリ連携を実装する Build レッスン。ツール呼び出しの基礎になる内容。"
+ },
+ {
+  "title": "Designing UX for AI Applications",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/12-designing-ux-for-ai-applications",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: How to apply UX design principles when developing Generative AI applications.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "生成 AI アプリ開発に UX デザイン原則を適用する Learn レッスン。使いやすい AI 体験の設計を扱う。"
+ },
+ {
+  "title": "Securing Your Generative AI Applications",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/13-securing-ai-applications",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: The threats and risks to AI systems and methods to secure these systems.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "AI システムへの脅威とリスク、およびシステムを守る方法を学ぶレッスン。生成 AI 固有のセキュリティ対策を押さえる。"
+ },
+ {
+  "title": "The Generative AI Application Lifecycle",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/14-the-generative-ai-application-lifecycle",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: The tools and metrics to manage the LLM lifecycle and LLMOps.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LLM ライフサイクルと LLMOps を管理するツールと指標を学ぶレッスン。開発から運用までの工程管理を扱う。"
+ },
+ {
+  "title": "Retrieval Augmented Generation (RAG) and Vector Databases",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/15-rag-and-vector-databases",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Build: An application using a RAG framework to retrieve embeddings from a vector database.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "RAG フレームワークでベクトルデータベースから埋め込みを取得するアプリを作る Build レッスン。RAG 実装の中核を体験できる。"
+ },
+ {
+  "title": "Open Source Models and Hugging Face",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/16-open-source-models",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Build: An application using open source models available on Hugging Face.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Hugging Face 上のオープンソースモデルを使うアプリを作る Build レッスン。OSS モデルの選択と利用を学ぶ。"
+ },
+ {
+  "title": "AI Agents",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/17-ai-agents",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Build: An application using an AI agent framework.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "AI エージェントフレームワークを使うアプリを作る Build レッスン。エージェント開発の入口として ai-agents-for-beginners へ繋がる内容。"
+ },
+ {
+  "title": "Fine-Tuning LLMs",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/18-fine-tuning",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: The what, why and how of fine-tuning LLMs.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LLM のファインチューニングとは何か・なぜ・どう行うかを学ぶ Learn レッスン。適用判断の基礎を得られる。"
+ },
+ {
+  "title": "Building with SLMs",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/19-slm",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: The benefits of building with Small Language Models.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Small Language Models (SLM) で構築する利点を学ぶレッスン。軽量モデルを使う場面の勘所を押さえる。"
+ },
+ {
+  "title": "Building with Mistral Models",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/20-mistral",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: The features and differences of the Mistral family models.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Mistral ファミリーモデルの特徴と違いを学ぶレッスン。モデルファミリー別の特性理解を深める。"
+ },
+ {
+  "title": "Building with Meta Models",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners/tree/main/21-meta",
+  "type": "lesson",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn: The features and differences of the Meta family models.",
+  "domain": "生成AI",
+  "services": [
+   "Generative AI",
+   "OpenAI API",
+   "Azure OpenAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Meta ファミリーモデルの特徴と違いを学ぶレッスン。モデル選択の引き出しを増やす締めのレッスン。"
+ },
+ {
+  "title": "MCP for Beginners 00: Introduction to MCP",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/00-Introduction",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Overview of the Model Context Protocol and its significance in AI pipelines.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Model Context Protocol (MCP) の概要と、AI パイプラインにおける意義を学ぶ最初のモジュール。MCP が何を解決するかを掴む入口。Microsoft 公式 GitHub カリキュラム。"
+ },
+ {
+  "title": "MCP for Beginners 01: Core Concepts Explained",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/01-CoreConcepts",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "In-depth exploration of core MCP concepts.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "MCP のコアコンセプトを掘り下げるモジュール。プロトコルの構成要素を丁寧に理解し、実装に進む土台を作る。"
+ },
+ {
+  "title": "MCP for Beginners 02: Security in MCP",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/02-Security",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Security threats and best practices in MCP.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "MCP におけるセキュリティ上の脅威とベストプラクティスを学ぶモジュール。認証まわりのサンプルも含む。"
+ },
+ {
+  "title": "MCP for Beginners 03: Getting Started with MCP",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/03-GettingStarted",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Environment setup, basic servers/clients, and integration.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "環境構築から最初のサーバー・クライアント作成、各種ツール連携までをカバーする実践モジュール。言語別サブガイド (first-server / client / stdio / HTTP streaming 等) を含む。"
+ },
+ {
+  "title": "MCP for Beginners 04: Practical Implementation",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/04-PracticalImplementation",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "SDKs, debugging, testing, reusable prompt templates.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "SDK 利用・デバッグ・テスト・再利用可能なプロンプトテンプレートなど実装実務を扱うモジュール。ページネーションのガイドも含む。"
+ },
+ {
+  "title": "MCP for Beginners 05: Advanced Topics in MCP",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/05-AdvancedTopics",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Multi-modal AI, scaling, and enterprise use of MCP.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "マルチモーダル・スケーリング・エンタープライズ利用など発展テーマのモジュール。OAuth2、Entra ID、Microsoft Foundry 連携、コンテキストエンジニアリング等のサブガイドを含む。"
+ },
+ {
+  "title": "MCP for Beginners 06: Community Contributions",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/06-CommunityContributions",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "How to contribute to the MCP ecosystem.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "MCP エコシステムへの貢献方法を学ぶモジュール。コミュニティ参加の導線として位置づく。"
+ },
+ {
+  "title": "MCP for Beginners 07: Insights from Early Adoption",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/07-LessonsfromEarlyAdoption",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Real-world implementation stories from early MCP adoption.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "MCP 早期導入の実装事例から得た知見をまとめたモジュール。実践者の経験談ベースの学びを得られる。"
+ },
+ {
+  "title": "MCP for Beginners 08: Best Practices for MCP",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/08-BestPractices",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Performance, fault-tolerance, and resilience best practices for MCP.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "性能・耐障害性・レジリエンスの観点で MCP のベストプラクティスを学ぶモジュール。本番運用の指針になる。"
+ },
+ {
+  "title": "MCP for Beginners 09: MCP Case Studies",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/09-CaseStudy",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Practical implementation examples of MCP.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "MCP の実装ケーススタディ集。具体例を通して設計の判断材料を増やせるモジュール。"
+ },
+ {
+  "title": "MCP for Beginners 10: Hands-on Workshop",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/10-StreamliningAIWorkflowsBuildingAnMCPServerWithAIToolkit",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Hands-on workshop building an MCP server with the Microsoft Foundry Toolkit (AI Toolkit).",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Microsoft Foundry Toolkit (AI Toolkit) で MCP サーバーを作るハンズオンワークショップ。ツール群を使った構築手順を体験するラボ形式モジュール。"
+ },
+ {
+  "title": "MCP for Beginners 11: MCP Server Hands-on Labs (PostgreSQL)",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/11-MCPServerHandsOnLabs",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "Comprehensive 13-lab hands-on learning path for building an MCP server with PostgreSQL integration.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "PostgreSQL 連携つき MCP サーバーを作る13ラボ構成の総合ハンズオン。環境構築・DB設計・FastMCP 実装・セマンティック検索・デプロイ・監視まで網羅するキャップストーン。"
+ },
+ {
+  "title": "MCP for Beginners 12: MCP Tooling",
+  "url": "https://github.com/microsoft/mcp-for-beginners/tree/main/12-tooling",
+  "type": "module",
+  "level": "",
+  "duration_text": "",
+  "description": "MCP usage in the Copilot app and related tooling.",
+  "domain": "AIエージェント",
+  "services": [
+   "MCP",
+   "Model Context Protocol"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Copilot アプリでの MCP 利用など、MCP ツーリングを扱うモジュール。日常ツール側からの MCP 活用を学ぶ締めの単元。"
+ }
+]

@@ -1,1 +1,104 @@
-[{"description":"Learn foundational concepts for working with semantic data in Kibana to find content based on contextual meaning rather than on keyword matches. This module also discusses hybrid search methods that merge and rank results using different retrieval methods for improved relevance.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Elasticsearch","Kibana"],"summary_ja":"キーワード一致ではなく文脈で探すセマンティック検索とハイブリッド検索の基礎モジュール","title":"Semantic search foundation","type":"course","url":"https://www.elastic.co/training/semantic-search-foundation"},{"description":"Learn the essential principles behind generating semantic data. You'll set up an inference endpoint to produce vector embeddings from text fields defined as semantic_text. The endpoint will enable you to generate both sparse and dense vectors, demonstrating how straightforward the creation process can be.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Elasticsearch"],"summary_ja":"semantic_text フィールドと推論エンドポイントでベクトル埋め込みを生成する実践モジュール","title":"Semantic search text embedding","type":"course","url":"https://www.elastic.co/training/semantic-search-text-embedding"},{"description":"GenAI Associate Accreditation Exam Assessment for validating knowledge and skills in Generative AI implementations using Elastic Search solutions.","domain":"データ基盤","duration_text":"","level":"Associate","priority_for_user":"中","services":["Elasticsearch"],"summary_ja":"Elastic の生成AI実装スキルを測る無料の Associate アクレディテーション試験","title":"GenAI Associate Accreditation Exam","type":"exam","url":"https://www.elastic.co/training/genai-associate-accreditation-exam"},{"description":"Explore the basics of Elasticsearch Query Language (ES|QL) before adding in advanced ES|QL commands and practices. Bring ES|QL into the Security App and enjoy several real-world, practical threat hunting exercises.","domain":"その他","duration_text":"","level":"","priority_for_user":"中","services":["Elasticsearch","Elastic Security","ES|QL"],"summary_ja":"ES|QL の基礎から応用までを Security アプリの脅威ハンティング演習で学ぶモジュール","title":"ES QL for security analysts","type":"course","url":"https://www.elastic.co/training/es-ql-for-security-analysts"},{"description":"Learn the core skills needed to choose appropriate field types, understand mapping behavior, and apply both dynamic and explicit mapping strategies. Use these skills to optimize search performance and storage efficiency across all your Elasticsearch products.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Elasticsearch"],"summary_ja":"フィールド型とマッピング戦略で検索性能とストレージ効率を最適化する基礎モジュール","title":"Data types and mappings","type":"course","url":"https://www.elastic.co/training/data-types-and-mappings"},{"description":"In this Quick Start guide, you'll learn how to configure your endpoints with Elastic Security so you can stream, detect, and visualize threats in real time on Elastic Cloud.","domain":"その他","duration_text":"","level":"","priority_for_user":"中","services":["Elastic Security","Elastic Cloud"],"summary_ja":"Elastic Security でエンドポイントの脅威を検知・可視化するクイックスタート","title":"Security Quick Start","type":"course","url":"https://www.elastic.co/training/security-quick-start"},{"description":"Follow the investigation of a suspicious spearphishing email flagged by Elastic Security using threat intelligence. Take action on the alerts and learn how to manage and escalate cases inside the Elastic Security app.","domain":"その他","duration_text":"","level":"","priority_for_user":"低","services":["Elastic Security"],"summary_ja":"Elastic Security のアラート対応とケースのエスカレーション手順を学ぶ入門モジュール","title":"Getting started: Actions and escalate","type":"course","url":"https://www.elastic.co/training/getting-started-actions-escalate"}]
+[
+ {
+  "description": "Learn foundational concepts for working with semantic data in Kibana to find content based on contextual meaning rather than on keyword matches. This module also discusses hybrid search methods that merge and rank results using different retrieval methods for improved relevance.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Elasticsearch",
+   "Kibana"
+  ],
+  "summary_ja": "Kibana でセマンティックデータを扱い、キーワード一致ではなく文脈の意味でコンテンツを見つけるセマンティック検索の基礎を学ぶモジュール。異なる検索手法をマージして関連性を高めるハイブリッド検索も解説。",
+  "title": "Semantic search foundation",
+  "type": "course",
+  "url": "https://www.elastic.co/training/semantic-search-foundation"
+ },
+ {
+  "description": "Learn the essential principles behind generating semantic data. You'll set up an inference endpoint to produce vector embeddings from text fields defined as semantic_text. The endpoint will enable you to generate both sparse and dense vectors, demonstrating how straightforward the creation process can be.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Elasticsearch"
+  ],
+  "summary_ja": "semantic_text 型フィールドと推論エンドポイントでベクトル埋め込みを生成する実践モジュール。疎 (sparse)・密 (dense) 両方のベクトル生成を通じて、セマンティック検索の土台となるデータ生成の簡単さを体験する。",
+  "title": "Semantic search text embedding",
+  "type": "course",
+  "url": "https://www.elastic.co/training/semantic-search-text-embedding"
+ },
+ {
+  "description": "GenAI Associate Accreditation Exam Assessment for validating knowledge and skills in Generative AI implementations using Elastic Search solutions.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "Associate",
+  "priority_for_user": "中",
+  "services": [
+   "Elasticsearch"
+  ],
+  "summary_ja": "Elastic の検索ソリューションを使った生成 AI 実装の知識・スキルを測る無料のアクレディテーション試験 (Associate レベル)。GenAI 実装の理解度を対外的に証明したい人向けの評価試験。",
+  "title": "GenAI Associate Accreditation Exam",
+  "type": "exam",
+  "url": "https://www.elastic.co/training/genai-associate-accreditation-exam"
+ },
+ {
+  "description": "Explore the basics of Elasticsearch Query Language (ES|QL) before adding in advanced ES|QL commands and practices. Bring ES|QL into the Security App and enjoy several real-world, practical threat hunting exercises.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Elasticsearch",
+   "Elastic Security",
+   "ES|QL"
+  ],
+  "summary_ja": "Elasticsearch Query Language (ES|QL) の基礎から応用コマンド・実践までを学ぶモジュール。Security アプリに持ち込み、実際の脅威ハンティング演習で ES|QL を使いこなすセキュリティアナリスト向け。",
+  "title": "ES QL for security analysts",
+  "type": "course",
+  "url": "https://www.elastic.co/training/es-ql-for-security-analysts"
+ },
+ {
+  "description": "Learn the core skills needed to choose appropriate field types, understand mapping behavior, and apply both dynamic and explicit mapping strategies. Use these skills to optimize search performance and storage efficiency across all your Elasticsearch products.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Elasticsearch"
+  ],
+  "summary_ja": "適切なフィールド型の選択、マッピングの挙動、動的・明示的マッピング戦略の使い分けを学ぶ基礎モジュール。Elasticsearch 全製品で検索性能とストレージ効率を最適化する土台となるスキル。",
+  "title": "Data types and mappings",
+  "type": "course",
+  "url": "https://www.elastic.co/training/data-types-and-mappings"
+ },
+ {
+  "description": "In this Quick Start guide, you'll learn how to configure your endpoints with Elastic Security so you can stream, detect, and visualize threats in real time on Elastic Cloud.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Elastic Security",
+   "Elastic Cloud"
+  ],
+  "summary_ja": "Elastic Security でエンドポイントを設定し、Elastic Cloud 上で脅威をリアルタイムにストリーム・検知・可視化するクイックスタートガイド。まず動かして概要を掴みたい導入検討者向け。",
+  "title": "Security Quick Start",
+  "type": "course",
+  "url": "https://www.elastic.co/training/security-quick-start"
+ },
+ {
+  "description": "Follow the investigation of a suspicious spearphishing email flagged by Elastic Security using threat intelligence. Take action on the alerts and learn how to manage and escalate cases inside the Elastic Security app.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Elastic Security"
+  ],
+  "summary_ja": "Elastic Security が脅威インテリジェンスで検出した不審なスピアフィッシングメールの調査を追い、アラートへの対応とケースの管理・エスカレーションの手順を学ぶ入門モジュール。",
+  "title": "Getting started: Actions and escalate",
+  "type": "course",
+  "url": "https://www.elastic.co/training/getting-started-actions-escalate"
+ }
+]

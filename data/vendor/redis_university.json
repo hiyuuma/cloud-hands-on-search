@@ -1,1 +1,61 @@
-[{"description":"Learn Redis data structures, commands, and core concepts. This is the entry learning path of the relaunched Redis University (successor to the former RU101 course).","domain":"データベース","duration_text":"","level":"","priority_for_user":"中","services":["Redis"],"summary_ja":"Redisのデータ構造・コマンド・コア概念を学ぶ入門ラーニングパス","title":"Get Started with Redis","type":"learning-path","url":"https://university.redis.io/learningpath/14q8m6gilfwltm"},{"description":"Set up and configure a Redis Cloud database.","domain":"データベース","duration_text":"","level":"","priority_for_user":"中","services":["Redis","Redis Cloud"],"summary_ja":"Redis Cloudデータベースのセットアップと設定を学ぶ入門パス","title":"Get Started with Redis Cloud","type":"learning-path","url":"https://university.redis.io/learningpath/lwkfbjbbqetoqc"},{"description":"Deploy and manage self-hosted Redis Software.","domain":"データベース","duration_text":"","level":"","priority_for_user":"中","services":["Redis","Redis Software"],"summary_ja":"セルフホスト版Redis Softwareのデプロイと管理を学ぶ入門パス","title":"Get Started with Redis Software","type":"learning-path","url":"https://university.redis.io/learningpath/an0mgw5bjpjfbe"},{"description":"Advanced operational topics for running Redis Cloud.","domain":"データベース","duration_text":"","level":"","priority_for_user":"中","services":["Redis","Redis Cloud"],"summary_ja":"Redis Cloudの運用高度トピックを扱う実践パス","title":"Operate Redis Cloud","type":"learning-path","url":"https://university.redis.io/learningpath/c3ot5o0wronhgz"}]
+[
+ {
+  "description": "Learn Redis data structures, commands, and core concepts. This is the entry learning path of the relaunched Redis University (successor to the former RU101 course).",
+  "domain": "データベース",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Redis"
+  ],
+  "summary_ja": "Redis のデータ構造・コマンド・中核概念を学ぶ入門ラーニングパス。リニューアルした Redis University の入口に位置づけられ、旧 RU101 コースの後継にあたる内容。",
+  "title": "Get Started with Redis",
+  "type": "learning-path",
+  "url": "https://university.redis.io/learningpath/14q8m6gilfwltm"
+ },
+ {
+  "description": "Set up and configure a Redis Cloud database.",
+  "domain": "データベース",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Redis",
+   "Redis Cloud"
+  ],
+  "summary_ja": "Redis Cloud データベースのセットアップと設定を学ぶ入門ラーニングパス。マネージド版 Redis を使い始めるための手順を最初に押さえる構成。",
+  "title": "Get Started with Redis Cloud",
+  "type": "learning-path",
+  "url": "https://university.redis.io/learningpath/lwkfbjbbqetoqc"
+ },
+ {
+  "description": "Deploy and manage self-hosted Redis Software.",
+  "domain": "データベース",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Redis",
+   "Redis Software"
+  ],
+  "summary_ja": "セルフホスト版 Redis Software のデプロイと管理を学ぶ入門ラーニングパス。自前環境で Redis を運用したい管理者向けの基礎。",
+  "title": "Get Started with Redis Software",
+  "type": "learning-path",
+  "url": "https://university.redis.io/learningpath/an0mgw5bjpjfbe"
+ },
+ {
+  "description": "Advanced operational topics for running Redis Cloud.",
+  "domain": "データベース",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Redis",
+   "Redis Cloud"
+  ],
+  "summary_ja": "Redis Cloud の運用に関する高度なトピックを扱う実践ラーニングパス。導入後の運用フェーズを深めたい Redis Cloud の管理者・運用者向け。",
+  "title": "Operate Redis Cloud",
+  "type": "learning-path",
+  "url": "https://university.redis.io/learningpath/c3ot5o0wronhgz"
+ }
+]

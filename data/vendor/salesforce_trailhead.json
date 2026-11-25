@@ -11,7 +11,7 @@
    "Salesforce"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Salesforce管理者の基礎を学ぶ入門トレイル"
+  "summary_ja": "Salesforce 管理者としての最初の一歩を踏み出す入門トレイル (Foundational、約7時間20分)。Salesforce のカスタマイズの基本を Trailhead のハンズオン形式で学び、AwesomeAdmin の道を切り開く。"
  },
  {
   "title": "Developer Beginner",
@@ -25,7 +25,7 @@
    "Salesforce"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Apex/LWCなどSalesforce開発の基礎トレイル"
+  "summary_ja": "Salesforce Platform 上でアプリを開発する基礎を学ぶ開発者向けトレイル (約14時間10分)。プラットフォーム開発の考え方をハンズオンで体得し、これから Salesforce 開発を始める人の土台となる内容。"
  },
  {
   "title": "Admin Intermediate",
@@ -39,7 +39,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "管理者向け中級のポイント&クリック活用トレイル"
+  "summary_ja": "管理者向け中級トレイル (約11時間45分)。コードを書かずポイント&クリックのツールで一般的な業務ニーズを解決し、自身のスキルとアプリを強化する方法を学ぶ。"
  },
  {
   "title": "Developer Intermediate",
@@ -53,7 +53,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "連携とモバイルを扱う開発者向け中級トレイル"
+  "summary_ja": "開発者向け中級トレイル (約14時間35分)。強力な連携機能とモバイルツールでアプリを一段階上のレベルへ引き上げる方法を、Trailhead の実習を通じて学ぶ。"
  },
  {
   "title": "Build Agentforce Solutions with Low-Code Tools",
@@ -67,7 +67,7 @@
    "Salesforce"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Flow等のローコードでAgentforceエージェントを構築するトレイル"
+  "summary_ja": "Flow、Agent Studio、DevOps Center などの宣言的ツールで Agentforce エージェントを構成・拡張・デプロイするトレイル (Intermediate、約5時間50分)。ローコード主体で進めたい開発者・管理者向け。"
  },
  {
   "title": "Design and Implement AI Agents with Agentforce",
@@ -81,7 +81,7 @@
    "Salesforce"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Agentforceエージェントの設計から監視までを学ぶトレイル"
+  "summary_ja": "Agentforce で AI エージェントを計画・構築・テスト・デプロイ・監視する全工程を学ぶトレイル (Intermediate、約9時間13分)。エージェント開発の全体像を体系的に押さえたい人向け。"
  },
  {
   "title": "Get Ready for Agentforce",
@@ -95,7 +95,7 @@
    "Salesforce"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Agentforceの概要と最初のエージェント起動を学ぶ短時間トレイル"
+  "summary_ja": "Agentforce が自社のビジネス目標にどう適合するかを学び、最初のエージェントを起動して AI 成功への計画を立てる短時間トレイル (約1時間45分)。導入検討段階の最初の一歩に。"
  },
  {
   "title": "Automate Workflows and Ground AI with Trusted Data for the Agentic Era",
@@ -109,7 +109,7 @@
    "Salesforce"
   ],
   "priority_for_user": "中",
-  "summary_ja": "信頼データとFlowで生成AIをグラウンディングする総合トレイル"
+  "summary_ja": "エージェント時代の自動化と信頼データを総合的に学ぶ大規模トレイル (約29時間39分)。信頼できるデータの準備、Flow による自動化、CRM データへの生成 AI のグラウンディング、自律 Agentforce エージェントの設計、外部システム連携、本番規模での運用までを扱う。"
  },
  {
   "title": "AI Trust, Security, and Governance for the Agentic Era",
@@ -123,7 +123,7 @@
    "Salesforce"
   ],
   "priority_for_user": "中",
-  "summary_ja": "AIエージェントの信頼性・セキュリティ・ガバナンスを学ぶトレイル"
+  "summary_ja": "AI と自律エージェントを安全に導入するための知識を築くトレイル。データセキュリティ、Agentforce Trust Layer、ガードレール、AI ガバナンスフレームワーク、エンタープライズ規模でのエージェント統制に関する Salesforce の考え方を網羅。"
  },
  {
   "title": "Drive Productivity with Salesforce AI",
@@ -137,7 +137,7 @@
    "Salesforce"
   ],
   "priority_for_user": "中",
-  "summary_ja": "Salesforce AI製品の活用とAI Specialist認定準備のトレイル"
+  "summary_ja": "Salesforce の標準 AI 製品を使いこなし、AI Specialist 認定の準備をするトレイル。すぐ使える AI 機能をハンズオンで体験しながら、認定試験に向けた学習を進められる構成。"
  },
  {
   "title": "Build with Agentforce Service",
@@ -151,7 +151,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "サービス業務向けAgentforce活用トレイル"
+  "summary_ja": "Agentforce Service でビジネス全体にエージェント型のサービス成果を届ける方法を学ぶトレイル (Intermediate)。サービス業務への AI エージェント適用を考える担当者・実装者向け。"
  },
  {
   "title": "Make Agentforce Service Smarter",
@@ -165,7 +165,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "Einstein Bots等でカスタマーサービスを高度化するトレイル"
+  "summary_ja": "Einstein Bots をはじめとする AI 機能でカスタマーサービスを強化するトレイル (約1時間55分)。サービス部門の自動化・高度化を短時間で学びたい管理者・担当者向け。"
  },
  {
   "title": "Secure Your App",
@@ -179,7 +179,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "ユーザー/データセキュリティでアプリを守るトレイル"
+  "summary_ja": "Salesforce インスタンスを保護し信頼を高めるためのアプリセキュリティトレイル (Intermediate、約19時間15分)。ユーザー・データ保護の考え方と設定方法を体系的に学ぶ。"
  },
  {
   "title": "Secure Your Environment",
@@ -193,7 +193,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "認証・アクセス管理を含む環境セキュリティのトレイル"
+  "summary_ja": "認証・アクセス管理を含む環境レベルのセキュリティを学ぶトレイル (Intermediate、約19時間15分)。Salesforce インスタンス全体を保護するための設定と考え方を網羅する。"
  },
  {
   "title": "Automate Business Processes as an Admin",
@@ -207,7 +207,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "管理者向け業務プロセス自動化トレイル"
+  "summary_ja": "管理者として業務プロセスを自動化する方法を学ぶトレイル (Intermediate、約18時間50分)。自動化で業務を高速化する手法を Trailhead の実習を通じて習得する。"
  },
  {
   "title": "Implement Low-Code Automation",
@@ -221,7 +221,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "ローコード自動化の実装トレイル"
+  "summary_ja": "Salesforce 上でローコード自動化を実装するトレイル (Intermediate、約25時間25分)。プロセス自動化を宣言的ツール中心で進める方法を、ボリュームのある実習で体得する。"
  },
  {
   "title": "Explore the Software Development Lifecycle for Salesforce Admins",
@@ -235,7 +235,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "管理者向けにSDLCの原則を学ぶトレイル"
+  "summary_ja": "ソフトウェア開発ライフサイクル (SDLC) の原則を Salesforce 管理に適用する方法を学ぶ短時間トレイル (Intermediate、約1時間30分)。変更管理やリリースの考え方を管理者向けに解説。"
  },
  {
   "title": "Learn Essential Software Development Skills for Admins",
@@ -249,7 +249,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "ApexやSOQLなど管理者向け開発基礎トレイル"
+  "summary_ja": "管理者のツールキットにソフトウェア開発スキルを加えるトレイル (Intermediate、約4時間40分)。コードを書かない立場の管理者が開発者と連携するために必要な基礎知識を学ぶ。"
  },
  {
   "title": "Slack: Connect Data, Apps, and AI",
@@ -263,7 +263,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "SlackとSalesforceデータ・AIを連携するトレイル"
+  "summary_ja": "Slack と Salesforce のデータ・アプリ・AI を一か所に連携させ、シームレスなコラボレーションを実現する方法を学ぶトレイル (Intermediate、約6時間9分)。"
  },
  {
   "title": "Data Quality",
@@ -277,7 +277,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "Salesforceのデータ品質を評価・改善するモジュール"
+  "summary_ja": "Salesforce 内のデータ品質を評価し改善する戦略を学ぶモジュール。重複や不整合を減らし、レポートや AI の信頼性を高めるための考え方をコンパクトにまとめた単元。"
  },
  {
   "title": "Formulas and Validations",
@@ -291,7 +291,7 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "数式と入力規則でノーコードにアプリを調整するモジュール"
+  "summary_ja": "数式と入力規則 (validation) を使い、コードを書かずにアプリの振る舞いを調整するモジュール。ポイント&クリックのロジックで業務要件を実装する管理者向けの基礎単元。"
  },
  {
   "title": "Lightning Experience Customization",
@@ -305,6 +305,6 @@
    "Salesforce"
   ],
   "priority_for_user": "低",
-  "summary_ja": "Lightning ExperienceのUIカスタマイズ基礎モジュール"
+  "summary_ja": "Lightning Experience のユーザーインターフェースをノーコードでカスタマイズする基礎モジュール (Foundational、約3時間)。ページや表示の調整方法をハンズオンで学ぶ。"
  }
 ]

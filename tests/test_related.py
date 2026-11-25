@@ -24,7 +24,7 @@ def test_related_is_bidirectional_id_list(records):
 
 
 def test_no_merge_and_raw_preserved(records):
-    # 削除・マージしない: vendor 2073 + plan 3 が全件残る
-    assert len(records) == 2076
+    # 削除・マージしない: vendor 2243 + plan 3 が全件残る
+    assert len(records) == 2246
     for r in records:
         assert isinstance(r["raw"], dict)

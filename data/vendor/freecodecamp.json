@@ -1,1 +1,180 @@
-[{"description":"This course teaches the fundamentals of HTML and CSS, including modern layout, design, accessibility, and responsive web development. You'll build practical projects and gain the skills to create professional, user-friendly webpages.","domain":"開発・Git","duration_text":"Around 300 hours (estimated)","level":"","priority_for_user":"中","services":["HTML","CSS"],"summary_ja":"HTML/CSSの基礎とレスポンシブWeb制作を学ぶ認定カリキュラム。","title":"Responsive Web Design Certification","type":"certification","url":"https://www.freecodecamp.org/learn/responsive-web-design-v9/"},{"description":"This course teaches you core JavaScript programming concepts such as working with variables, functions, objects, arrays, and control flow. You'll also learn how to manipulate the DOM, handle events, and apply techniques like asynchronous programming, functional programming, and accessibility best practices.","domain":"開発・Git","duration_text":"Around 300 hours (estimated)","level":"","priority_for_user":"中","services":["JavaScript"],"summary_ja":"JavaScriptのコア概念・DOM操作・非同期処理を学ぶ認定カリキュラム。","title":"JavaScript Certification","type":"certification","url":"https://www.freecodecamp.org/learn/javascript-v9/"},{"description":"This course teaches you the libraries that developers use to build webpages: React, TypeScript, and more.","domain":"開発・Git","duration_text":"Around 300 hours (estimated)","level":"","priority_for_user":"中","services":["React","TypeScript"],"summary_ja":"ReactやTypeScriptなどフロントエンドライブラリを学ぶ認定カリキュラム。","title":"Front-End Development Libraries Certification","type":"certification","url":"https://www.freecodecamp.org/learn/front-end-development-libraries-v9/"},{"description":"This course teaches you the fundamentals of Python programming.","domain":"開発・Git","duration_text":"Around 300 hours (estimated)","level":"","priority_for_user":"中","services":["Python"],"summary_ja":"Pythonプログラミングの基礎を学ぶ認定カリキュラム。","title":"Python Certification","type":"certification","url":"https://www.freecodecamp.org/learn/python-v9/"},{"description":"This course teaches you the fundamentals of relational databases.","domain":"データ基盤","duration_text":"Around 300 hours (estimated)","level":"","priority_for_user":"中","services":["SQL","PostgreSQL"],"summary_ja":"リレーショナルデータベースとSQLの基礎を学ぶ認定カリキュラム。","title":"Relational Databases Certification","type":"certification","url":"https://www.freecodecamp.org/learn/relational-databases-v9/"},{"description":"This course teaches you the fundamentals of back-end development and APIs.","domain":"開発・Git","duration_text":"Around 300 hours (estimated)","level":"","priority_for_user":"中","services":["Node.js","Express.js"],"summary_ja":"Node.jsによるバックエンド開発とAPI構築の基礎を学ぶ認定カリキュラム。","title":"Back-End Development and APIs Certification","type":"certification","url":"https://www.freecodecamp.org/learn/back-end-development-and-apis-v9/"},{"description":"This certification represents the culmination of your full-stack developer journey. It demonstrates your ability to build complete, modern web applications from start to finish. To qualify for the exam, you must earn the six prerequisite certifications.","domain":"開発・Git","duration_text":"Around 1,800 hours in total (estimated)","level":"","priority_for_user":"中","services":["HTML","CSS","JavaScript","Python","SQL","Node.js"],"summary_ja":"前提6認定の修了と最終試験で得るフルスタック開発者の総合認定。","title":"Certified Full-Stack Developer Curriculum","type":"certification","url":"https://www.freecodecamp.org/learn/full-stack-developer-v9/"},{"description":"This course offers a comprehensive introduction to C# programming, covering its core concepts, syntax, and practical application in software development.","domain":"開発・Git","duration_text":"","level":"","priority_for_user":"中","services":["C#","Microsoft Learn"],"summary_ja":"Microsoftと共同開発したC#入門の無料プロフェッショナル認定。","title":"Free Foundational C# with Microsoft Certification","type":"certification","url":"https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"},{"description":"In this English for Developers Curriculum, you'll learn the essentials of English communication. This will follow the A2 level of the Common European Framework of Reference (CEFR). And we've focused on vocabulary that is particularly useful for developers.","domain":"その他","duration_text":"","level":"A2 (CEFR)","priority_for_user":"低","services":["English"],"summary_ja":"開発者向け英語コミュニケーション（CEFR A2）のベータ認定。","title":"A2 English for Developers Certification (Beta)","type":"certification","url":"https://www.freecodecamp.org/learn/a2-english-for-developers/"},{"description":"In this English for Developers Curriculum, you'll learn the essentials of English communication. This will follow the B1 level of the Common European Framework of Reference (CEFR). And we've focused on vocabulary that is particularly useful for developers.","domain":"その他","duration_text":"","level":"B1 (CEFR)","priority_for_user":"低","services":["English"],"summary_ja":"開発者向け英語コミュニケーション（CEFR B1）のベータ認定。","title":"B1 English for Developers Certification (Beta)","type":"certification","url":"https://www.freecodecamp.org/learn/b1-english-for-developers/"},{"description":"This course teaches you the fundamentals of Spanish at the A1 level of the Common European Framework of Reference (CEFR), with lessons focused on professional settings.","domain":"その他","duration_text":"","level":"A1 (CEFR)","priority_for_user":"低","services":["Spanish"],"summary_ja":"ビジネス場面を想定したスペイン語基礎（CEFR A1）のベータ認定。","title":"A1 Professional Spanish Certification (Beta)","type":"certification","url":"https://www.freecodecamp.org/learn/a1-professional-spanish/"},{"description":"In this A1 Professional Chinese Curriculum, you'll learn the building blocks of the Chinese language. This will follow the A1 level of the Common European Framework of Reference (CEFR). And we've focused on vocabulary that is particularly useful for professional settings.","domain":"その他","duration_text":"","level":"A1 (CEFR)","priority_for_user":"低","services":["Chinese"],"summary_ja":"ビジネス場面を想定した中国語基礎（CEFR A1）のベータ認定。","title":"A1 Professional Chinese Certification (Beta)","type":"certification","url":"https://www.freecodecamp.org/learn/a1-professional-chinese/"}]
+[
+ {
+  "description": "This course teaches the fundamentals of HTML and CSS, including modern layout, design, accessibility, and responsive web development. You'll build practical projects and gain the skills to create professional, user-friendly webpages.",
+  "domain": "開発・Git",
+  "duration_text": "Around 300 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "HTML",
+   "CSS"
+  ],
+  "summary_ja": "HTML と CSS の基礎からレスポンシブな Web 制作までを学ぶ認定カリキュラム (推定約300時間)。モダンなレイアウト・デザイン・アクセシビリティを扱い、実践プロジェクトを通じてプロ並みの使いやすい Web ページ作成スキルを養う。",
+  "title": "Responsive Web Design Certification",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/responsive-web-design-v9/"
+ },
+ {
+  "description": "This course teaches you core JavaScript programming concepts such as working with variables, functions, objects, arrays, and control flow. You'll also learn how to manipulate the DOM, handle events, and apply techniques like asynchronous programming, functional programming, and accessibility best practices.",
+  "domain": "開発・Git",
+  "duration_text": "Around 300 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "JavaScript"
+  ],
+  "summary_ja": "JavaScript のコア概念を学ぶ認定カリキュラム (推定約300時間)。変数・関数・オブジェクト・配列・制御構文に加え、DOM 操作、イベント処理、非同期・関数型プログラミング、アクセシビリティの実践までカバー。",
+  "title": "JavaScript Certification",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/javascript-v9/"
+ },
+ {
+  "description": "This course teaches you the libraries that developers use to build webpages: React, TypeScript, and more.",
+  "domain": "開発・Git",
+  "duration_text": "Around 300 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "React",
+   "TypeScript"
+  ],
+  "summary_ja": "React・TypeScript をはじめとするフロントエンドライブラリを学ぶ認定カリキュラム (推定約300時間)。開発者が Web ページ構築に使う主要ライブラリの使い方を、プロジェクト制作を通じて身につける。",
+  "title": "Front-End Development Libraries Certification",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/front-end-development-libraries-v9/"
+ },
+ {
+  "description": "This course teaches you the fundamentals of Python programming.",
+  "domain": "開発・Git",
+  "duration_text": "Around 300 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Python"
+  ],
+  "summary_ja": "Python プログラミングの基礎を学ぶ認定カリキュラム (推定約300時間)。言語の基本から演習・プロジェクトを通じて着実にスキルを積み上げる、freeCodeCamp の主要認定のひとつ。",
+  "title": "Python Certification",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/python-v9/"
+ },
+ {
+  "description": "This course teaches you the fundamentals of relational databases.",
+  "domain": "データ基盤",
+  "duration_text": "Around 300 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "SQL",
+   "PostgreSQL"
+  ],
+  "summary_ja": "リレーショナルデータベースと SQL の基礎を学ぶ認定カリキュラム (推定約300時間)。PostgreSQL を題材にデータベースの考え方と操作を習得する内容。",
+  "title": "Relational Databases Certification",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/relational-databases-v9/"
+ },
+ {
+  "description": "This course teaches you the fundamentals of back-end development and APIs.",
+  "domain": "開発・Git",
+  "duration_text": "Around 300 hours (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Node.js",
+   "Express.js"
+  ],
+  "summary_ja": "Node.js と Express.js によるバックエンド開発と API 構築の基礎を学ぶ認定カリキュラム (推定約300時間)。サーバーサイドの考え方と API 設計を実践的に学ぶ。",
+  "title": "Back-End Development and APIs Certification",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis-v9/"
+ },
+ {
+  "description": "This certification represents the culmination of your full-stack developer journey. It demonstrates your ability to build complete, modern web applications from start to finish. To qualify for the exam, you must earn the six prerequisite certifications.",
+  "domain": "開発・Git",
+  "duration_text": "Around 1,800 hours in total (estimated)",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "HTML",
+   "CSS",
+   "JavaScript",
+   "Python",
+   "SQL",
+   "Node.js"
+  ],
+  "summary_ja": "フルスタック開発者としての到達点となる総合認定 (全推定約1,800時間)。モダンな Web アプリを最初から最後まで構築できることを示すもので、受験には前提となる6つの認定の取得が必要。",
+  "title": "Certified Full-Stack Developer Curriculum",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/full-stack-developer-v9/"
+ },
+ {
+  "description": "This course offers a comprehensive introduction to C# programming, covering its core concepts, syntax, and practical application in software development.",
+  "domain": "開発・Git",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "C#",
+   "Microsoft Learn"
+  ],
+  "summary_ja": "Microsoft と共同開発した無料の C# 入門プロフェッショナル認定。C# のコア概念・構文・ソフトウェア開発での実践的な適用を包括的にカバーするカリキュラム。",
+  "title": "Free Foundational C# with Microsoft Certification",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
+ },
+ {
+  "description": "In this English for Developers Curriculum, you'll learn the essentials of English communication. This will follow the A2 level of the Common European Framework of Reference (CEFR). And we've focused on vocabulary that is particularly useful for developers.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "A2 (CEFR)",
+  "priority_for_user": "低",
+  "services": [
+   "English"
+  ],
+  "summary_ja": "開発者向け英語コミュニケーションのベータ認定 (CEFR A2 レベル)。エンジニアに特に有用な語彙を中心に、英語での基本的なやり取りの基礎を学ぶカリキュラム。",
+  "title": "A2 English for Developers Certification (Beta)",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/a2-english-for-developers/"
+ },
+ {
+  "description": "In this English for Developers Curriculum, you'll learn the essentials of English communication. This will follow the B1 level of the Common European Framework of Reference (CEFR). And we've focused on vocabulary that is particularly useful for developers.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "B1 (CEFR)",
+  "priority_for_user": "低",
+  "services": [
+   "English"
+  ],
+  "summary_ja": "開発者向け英語コミュニケーションのベータ認定 (CEFR B1 レベル)。A2 の上位として、開発現場で役立つ語彙を軸に中級の英語コミュニケーション力を養うカリキュラム。",
+  "title": "B1 English for Developers Certification (Beta)",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/b1-english-for-developers/"
+ },
+ {
+  "description": "This course teaches you the fundamentals of Spanish at the A1 level of the Common European Framework of Reference (CEFR), with lessons focused on professional settings.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "A1 (CEFR)",
+  "priority_for_user": "低",
+  "services": [
+   "Spanish"
+  ],
+  "summary_ja": "プロフェッショナルな場面を想定したスペイン語基礎のベータ認定 (CEFR A1 レベル)。仕事の文脈に沿ったレッスンで、スペイン語の最初の土台を築くカリキュラム。",
+  "title": "A1 Professional Spanish Certification (Beta)",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/a1-professional-spanish/"
+ },
+ {
+  "description": "In this A1 Professional Chinese Curriculum, you'll learn the building blocks of the Chinese language. This will follow the A1 level of the Common European Framework of Reference (CEFR). And we've focused on vocabulary that is particularly useful for professional settings.",
+  "domain": "その他",
+  "duration_text": "",
+  "level": "A1 (CEFR)",
+  "priority_for_user": "低",
+  "services": [
+   "Chinese"
+  ],
+  "summary_ja": "プロフェッショナルな場面を想定した中国語基礎のベータ認定 (CEFR A1 レベル)。中国語の構成要素を仕事に役立つ語彙中心で学ぶ、入門者向けカリキュラム。",
+  "title": "A1 Professional Chinese Certification (Beta)",
+  "type": "certification",
+  "url": "https://www.freecodecamp.org/learn/a1-professional-chinese/"
+ }
+]

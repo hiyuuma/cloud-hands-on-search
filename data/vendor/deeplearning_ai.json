@@ -1,0 +1,636 @@
+[
+ {
+  "title": "MCP: Build Rich-Context AI Apps with Anthropic",
+  "url": "https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 59m",
+  "description": "Build AI apps that access tools, data, and prompts using the Model Context Protocol. (Partner: Anthropic)",
+  "domain": "AIコーディング",
+  "services": [
+   "Anthropic"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Anthropic 共同制作。Model Context Protocol (MCP) を使い、ツール・データ・プロンプトにアクセスする AI アプリを構築する短編コース (約2時間)。MCP サーバー/クライアントの実装パターンを学ぶ。"
+ },
+ {
+  "title": "Build AI Apps with MCP Server: Working with Box Files",
+  "url": "https://www.deeplearning.ai/courses/build-ai-apps-with-mcp-server-working-with-box-files/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "37 min",
+  "description": "Build an LLM app that uses tools from the Box MCP server to discover Box files and extract text from them. Transform it into a multi-agent system that communicates using A2A. (Partner: Box)",
+  "domain": "AIエージェント",
+  "services": [
+   "Box"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Box 共同制作。MCP サーバー経由で Box ファイルにアクセスする AI アプリを構築する短編コース。MCP を実データソースに繋ぐ実践的な内容。"
+ },
+ {
+  "title": "Agent Skills with Anthropic",
+  "url": "https://www.deeplearning.ai/courses/agent-skills-with-anthropic/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "2h 19m",
+  "description": "Equip agents with expert on-demand knowledge to enable reliable coding, research, and data analysis workflows (Partner: Anthropic)",
+  "domain": "AIエージェント",
+  "services": [
+   "Anthropic"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Anthropic 共同制作。Claude の Agent Skills を使い、再利用可能なスキルをエージェントに持たせる方法を学ぶ短編コース (約2時間19分)。スキルの設計と適用を扱う。"
+ },
+ {
+  "title": "Claude Code: A Highly Agentic Coding Assistant",
+  "url": "https://www.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "2h 1m",
+  "description": "Explore, build, and refine codebases with Claude Code. (Partner: Anthropic)",
+  "domain": "AIコーディング",
+  "services": [
+   "Anthropic"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Anthropic 共同制作。Claude Code でコードベースの探索・構築・改善を行う短編コース (約2時間)。高度にエージェント的なコーディングアシスタントの使いこなしを学ぶ。"
+ },
+ {
+  "title": "Building toward Computer Use with Anthropic",
+  "url": "https://www.deeplearning.ai/courses/building-toward-computer-use-with-anthropic/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "1h 48m",
+  "description": "Learn how an AI Assistant is built to use and accomplish tasks on computers. (Partner: Anthropic)",
+  "domain": "AIコーディング",
+  "services": [
+   "Anthropic"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Anthropic 共同制作。Computer Use に向けたエージェント構築を学ぶ短編コース (約1時間48分)。画面を認識し操作するエージェントの基礎と安全面を扱う。"
+ },
+ {
+  "title": "Agentic AI",
+  "url": "https://www.deeplearning.ai/courses/agentic-ai/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "9h 55m",
+  "description": "In this course taught by Andrew Ng, you'll build agentic AI systems that take action through iterative, multi-step workflows. (Partner: DeepLearning.AI)",
+  "domain": "AIエージェント",
+  "services": [
+   "DeepLearning.AI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Andrew Ng 講師のコース (約9時間55分)。反復的なマルチステップワークフローで行動するエージェント AI システムを構築する。エージェント開発の基礎を体系的に学べる中級向け講座。"
+ },
+ {
+  "title": "Multi AI Agent Systems with crewAI",
+  "url": "https://www.deeplearning.ai/courses/multi-ai-agent-systems-with-crewai/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "3h 6m",
+  "description": "Automate business workflows with multi-AI agent systems. Exceed the performance of prompting a single LLM by designing and prompting a team of AI agents through natural language. (Partner: crewAI)",
+  "domain": "AIエージェント",
+  "services": [
+   "crewAI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "crewAI 共同制作。複数の AI エージェントをチームとして設計・プロンプトし、業務ワークフローを自動化する短編コース (約3時間6分)。単一 LLM を超える協調動作を学ぶ。"
+ },
+ {
+  "title": "Practical Multi AI Agents and Advanced Use Cases with crewAI",
+  "url": "https://www.deeplearning.ai/courses/practical-multi-ai-agents-and-advanced-use-cases-with-crewai/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "2h 49m",
+  "description": "Build agents that collaborate to solve complex business tasks. (Partner: crewAI)",
+  "domain": "AIエージェント",
+  "services": [
+   "crewAI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "crewAI 共同制作。複雑なビジネスタスクを協調して解くエージェントを構築する実践短編コース (約2時間49分)。crewAI の応用ユースケースを扱う。"
+ },
+ {
+  "title": "Design, Develop, and Deploy Multi-Agent Systems  with CrewAI",
+  "url": "https://www.deeplearning.ai/courses/design-develop-and-deploy-multi-agent-systems-with-crewai/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "13h 8m",
+  "description": "Build practical multi-agent systems that collaborate, use tools and memory, and scale reliably to production (Partner: CrewAI)",
+  "domain": "AIエージェント",
+  "services": [
+   "CrewAI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "crewAI 共同制作のコース (約13時間)。マルチエージェントシステムの設計・開発・デプロイを包括的に学ぶ。crewAI で本番投入までを通して経験できる。"
+ },
+ {
+  "title": "AI Agents in LangGraph",
+  "url": "https://www.deeplearning.ai/courses/ai-agents-in-langgraph/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 47m",
+  "description": "Build agentic AI workflows using LangChain's LangGraph and Tavily's agentic search.  (Partner: LangChain, Tavily)",
+  "domain": "AIエージェント",
+  "services": [
+   "LangChain",
+   "Tavily"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LangChain/Tavily 共同制作。LangGraph で AI エージェントを構築する短編コース (約1時間47分)。グラフ構造でエージェントの制御フローを実装する中級向け。"
+ },
+ {
+  "title": "Long-Term Agentic Memory With LangGraph",
+  "url": "https://www.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 25m",
+  "description": "Learn to build AI agents with long-term memory with LangGraph, using LangMem for memory management. (Partner: LangChain)",
+  "domain": "AIエージェント",
+  "services": [
+   "LangChain"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LangChain 共同制作。LangGraph で長期的なエージェントメモリを実装する短編コース (約1時間25分)。記憶の保存・検索・更新を扱う。"
+ },
+ {
+  "title": "Loop Engineering with LangChain Deep Agents",
+  "url": "https://www.deeplearning.ai/courses/loop-engineering-with-langchain-deep-agents/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 17m",
+  "description": "An agent loop lets an LLM act, observe results, and decide what to do next. In this course, youâll learn a framework for the loops around that cycle and how to build them: a verification loop that checks output against explicit criteria, an event-driven loop that triggers runs, and a hill-climbing loop that improves the agent across runs. (Partner: LangChain)",
+  "domain": "AIエージェント",
+  "services": [
+   "LangChain"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LangChain 共同制作。LangChain Deep Agents でループエンジニアリングを実践する短編コース (約1時間17分)。エージェントの反復実行と評価ループの設計を学ぶ。"
+ },
+ {
+  "title": "AI Agentic Design Patterns with AutoGen",
+  "url": "https://www.deeplearning.ai/courses/ai-agentic-design-patterns-with-autogen/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "1h 36m",
+  "description": "Use the AutoGen framework to build multi-agent systems with diverse roles and capabilities for implementing complex AI applications. (Partner: Microsoft, Penn State University)",
+  "domain": "AIエージェント",
+  "services": [
+   "Microsoft",
+   "Penn State University"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Microsoft/Penn State 共同制作。AutoGen でマルチエージェントのデザインパターンを実装する短編コース (約1時間36分)。会話型エージェントの協調パターンを学ぶ。"
+ },
+ {
+  "title": "A2A: The Agent2Agent Protocol",
+  "url": "https://www.deeplearning.ai/courses/a2a-the-agent2agent-protocol/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 28m",
+  "description": "Connect agents across different frameworks and teams using A2A, the open protocol standardizing agent-to-agent communication. (Partner: Google Cloud, IBM Research)",
+  "domain": "AIエージェント",
+  "services": [
+   "Google Cloud",
+   "IBM Research"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Google Cloud/IBM Research 共同制作。Agent2Agent (A2A) プロトコルを学ぶ短編コース (約1時間28分)。エージェント間の標準的な通信・連携の仕組みを扱う。"
+ },
+ {
+  "title": "Building Coding Agents with Tool Execution",
+  "url": "https://www.deeplearning.ai/courses/building-coding-agents-with-tool-execution/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 22m",
+  "description": "Build AI agents that write and execute code to accomplish tasks, running safely in sandboxed cloud environments that protect your systems from untrusted code. (Partner: E2B)",
+  "domain": "AIエージェント",
+  "services": [
+   "E2B"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "E2B 共同制作。ツール実行を備えたコーディングエージェントを構築する短編コース (約1時間22分)。サンドボックス環境でコードを安全に実行させる構成を学ぶ。"
+ },
+ {
+  "title": "Building Adaptive AI Agents",
+  "url": "https://www.deeplearning.ai/courses/building-adaptive-ai-agents/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 4m",
+  "description": "AI agents often repeat the same mistakes because they carry nothing forward between sessions. This course teaches three ways to fix that. Learners build a pipeline that turns agent traces into reusable, human-approved skills, build a code knowledge graph that improves retrieval in large codebases, and learn when to adapt the model itself. The result is agents that improve with every run. (Partner: Oracle)",
+  "domain": "AIエージェント",
+  "services": [
+   "Oracle"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Oracle 共同制作。状況に応じて適応する AI エージェントを構築する短編コース (約1時間4分)。動的に振る舞いを変えるエージェント設計を扱う。"
+ },
+ {
+  "title": "Build Interactive Agents with Generative UI",
+  "url": "https://www.deeplearning.ai/courses/build-interactive-agents-with-generative-ui/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "1h 28m",
+  "description": "Build fullstack agent apps that go beyond plain text, generating custom UIs like charts, forms, and whiteboards on demand. (Partner: CopilotKit)",
+  "domain": "AIコーディング",
+  "services": [
+   "CopilotKit"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "CopilotKit 共同制作。生成 UI で対話するインタラクティブなエージェントを構築する短編コース (約1時間28分)。エージェントの UI 統合を学ぶ初心者向け。"
+ },
+ {
+  "title": "NVIDIA's NeMo Agent Toolkit: Making Agents Reliable",
+  "url": "https://www.deeplearning.ai/courses/nvidia-nat-making-agents-reliable/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 21m",
+  "description": "Turn proof-of-concept agent demos into production-ready systems using observability, evaluation, and deployment tools from NVIDIA's NeMo Agent Toolkit. (Partner: Nvidia)",
+  "domain": "AIエージェント",
+  "services": [
+   "NVIDIA"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "NVIDIA 共同制作。NeMo Agent Toolkit でエージェントの信頼性を高める短編コース (約1時間21分)。評価・監視・改善の仕組みを扱う中級向け。"
+ },
+ {
+  "title": "Semantic Caching for AI Agents",
+  "url": "https://www.deeplearning.ai/courses/semantic-caching-for-ai-agents/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 25m",
+  "description": "Speed up and reduce the costs of your AI agents by implementing semantic caching that reuses responses based on meaning rather than exact text. (Partner: Redis)",
+  "domain": "AIエージェント",
+  "services": [
+   "Redis"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Redis 共同制作。エージェント向けセマンティックキャッシュを実装する短編コース (約1時間25分)。応答の再利用でレイテンシとコストを下げる技法を学ぶ。"
+ },
+ {
+  "title": "LLMs as Operating Systems: Agent Memory",
+  "url": "https://www.deeplearning.ai/courses/llms-as-operating-systems-agent-memory/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 32m",
+  "description": "Build systems with MemGPT agents that can autonomously manage their memory. (Partner: Letta)",
+  "domain": "AIエージェント",
+  "services": [
+   "Letta"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Letta 共同制作。LLM を OS に見立てたエージェントメモリ設計を学ぶ短編コース (約1時間32分)。永続メモリを持つエージェントの構築を扱う。"
+ },
+ {
+  "title": "Agent Memory: Building Memory-Aware Agents",
+  "url": "https://www.deeplearning.ai/courses/agent-memory-building-memory-aware-agents/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "2h 2m",
+  "description": "Build a complete agent memory system that lets an LLM store, retrieve, and refine knowledge across sessionsâturning a stateless agent into one that learns and improves over time. (Partner: Oracle)",
+  "domain": "AIエージェント",
+  "services": [
+   "Oracle"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Oracle 共同制作。メモリ対応エージェントを構築する短編コース (約2時間2分)。エージェントが過去の情報を保持・活用する仕組みを実装する。"
+ },
+ {
+  "title": "Building Your Own Database Agent",
+  "url": "https://www.deeplearning.ai/courses/building-your-own-database-agent/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "1h 9m",
+  "description": "Interact with tabular data and SQL databases using natural language, enabling more efficient and accessible data analysis. (Partner: Microsoft)",
+  "domain": "AIエージェント",
+  "services": [
+   "Microsoft"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Microsoft 共同制作。データベースに接続して質問応答を行う独自のエージェントを構築する短編コース (約1時間9分)。DB ツール連携の基本を学ぶ初心者向け。"
+ },
+ {
+  "title": "Functions, Tools and Agents with LangChain",
+  "url": "https://www.deeplearning.ai/courses/functions-tools-agents-langchain/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 55m",
+  "description": "Learn about the latest advancements in LLM APIs and use LangChain Expression Language (LCEL) to compose and customize chains and agents. (Partner: LangChain)",
+  "domain": "AIエージェント",
+  "services": [
+   "LangChain"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LangChain 共同制作。Function calling・ツール・エージェントを LangChain で扱う短編コース (約1時間55分)。エージェントに外部機能を持たせる実装を学ぶ。"
+ },
+ {
+  "title": "Building AI Browser Agents",
+  "url": "https://www.deeplearning.ai/courses/building-ai-browser-agents/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 5m",
+  "description": "Build agents that navigate and interact with websites, and learn how to make them more reliable. (Partner: AGI Inc)",
+  "domain": "AIエージェント",
+  "services": [
+   "AGI Inc"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "AGI Inc 共同制作。Web サイトを操作するブラウザエージェントを構築し、信頼性を高める方法を学ぶ短編コース (約1時間5分)。"
+ },
+ {
+  "title": "Spec-Driven Development with Coding Agents",
+  "url": "https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "1h 26m",
+  "description": "Move beyond vibe coding: write clear specs that give your coding agent the context it needs to build intentional, maintainable software. (Partner: JetBrains)",
+  "domain": "AIコーディング",
+  "services": [
+   "JetBrains"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "JetBrains 共同制作。仕様駆動でコーディングエージェントに開発させる短編コース (約1時間26分)。スペックを起点にエージェントの出力を制御する手法を学ぶ初心者向け。"
+ },
+ {
+  "title": "Evaluating AI Agents",
+  "url": "https://www.deeplearning.ai/courses/evaluating-ai-agents/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "2h 41m",
+  "description": "Learn how to systematically evaluate, improve, and iterate on AI agents using structured assessments. (Partner: Arize AI)",
+  "domain": "AIエージェント",
+  "services": [
+   "Arize AI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Arize AI 共同制作。AI エージェントの評価手法を学ぶ短編コース (約2時間41分)。トレース・メトリクス・評価設計でエージェントの品質を測る。"
+ },
+ {
+  "title": "Evaluating and Improving Agentic Applications",
+  "url": "https://www.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "15h 7m",
+  "description": "Build tests that show where your agent falls short, automate grading with code evaluators and validated LLM judges, and check whether each change is an improvement. (Partner: Arize AI)",
+  "domain": "AIエージェント",
+  "services": [
+   "Arize AI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Arize AI 共同制作のコース (約15時間)。エージェントアプリの評価と改善を体系的に扱う。評価基盤の構築から継続的な品質向上までをカバーする中級向け。"
+ },
+ {
+  "title": "Evaluating and Debugging Generative AI",
+  "url": "https://www.deeplearning.ai/courses/evaluating-debugging-generative-ai/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 0m",
+  "description": "Learn MLOps tools for managing, versioning, debugging, and experimenting in your ML workflow. (Partner: Weights & Biases)",
+  "domain": "評価・監視",
+  "services": [
+   "Weights & Biases"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Weights & Biases 共同制作。生成 AI の評価とデバッグを学ぶ短編コース (約1時間)。トレーシングと評価で LLM アプリの問題を切り分ける。"
+ },
+ {
+  "title": "Quality and Safety for LLM Applications",
+  "url": "https://www.deeplearning.ai/courses/quality-safety-llm-applications/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "2h 17m",
+  "description": "Learn how to evaluate the safety and security of your LLM applications and protect against risks. Monitor and enhance security measures to safeguard your apps. (Partner: WhyLabs)",
+  "domain": "AI安全性",
+  "services": [
+   "WhyLabs"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "WhyLabs 共同制作。LLM アプリの品質と安全性を確保する短編コース (約2時間17分)。モニタリングとガードの実装を学ぶ初心者向け。"
+ },
+ {
+  "title": "Automated Testing for LLMOps",
+  "url": "https://www.deeplearning.ai/courses/automated-testing-llmops/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 13m",
+  "description": "Learn how to create an automated CI pipeline to evaluate your LLM applications on every change, for faster and safer development. (Partner: CircleCI)",
+  "domain": "評価・監視",
+  "services": [
+   "CircleCI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "CircleCI 共同制作。LLMOps のための自動テストを構築する短編コース (約1時間13分)。CI パイプラインに LLM の評価を組み込む中級向け。"
+ },
+ {
+  "title": "Safe and reliable AI via guardrails",
+  "url": "https://www.deeplearning.ai/courses/safe-and-reliable-ai-via-guardrails/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "1h 42m",
+  "description": "Move your LLM-powered applications beyond proof-of-concept and into production with the added control of guardrails. (Partner: GuardrailsAI)",
+  "domain": "AI安全性",
+  "services": [
+   "GuardrailsAI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "GuardrailsAI 共同制作。ガードレールで安全かつ信頼性の高い AI を実現する短編コース (約1時間42分)。入力出力の検証と制御を学ぶ。"
+ },
+ {
+  "title": "Improving Accuracy of LLM Applications",
+  "url": "https://www.deeplearning.ai/courses/improving-accuracy-of-llm-applications/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 51m",
+  "description": "Systematically improve the accuracy of LLM applications with evaluation, prompting, and memory tuning. (Partner: Lamini, Meta)",
+  "domain": "AIエージェント",
+  "services": [
+   "Lamini, Meta"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Lamini/Meta 共同制作。LLM アプリの精度を向上させる手法を学ぶ短編コース (約1時間51分)。評価・ファインチューニング・プロンプト改善を組み合わせる中級向け。"
+ },
+ {
+  "title": "Retrieval Augmented Generation (RAG)",
+  "url": "https://www.deeplearning.ai/courses/retrieval-augmented-generation/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "26h 4m",
+  "description": "Gain fundamental understanding and the practical knowledge to develop production-ready RAG applications, from architecture to deployment and evaluation. (Partner: DeepLearning.AI)",
+  "domain": "データ処理",
+  "services": [
+   "DeepLearning.AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "RAG の本格コース (約26時間)。アーキテクチャからデプロイ・評価まで、本番品質の RAG アプリを開発する実践知識を体系的に学ぶ中級向け。"
+ },
+ {
+  "title": "Building Agentic RAG with Llamaindex",
+  "url": "https://www.deeplearning.ai/courses/building-agentic-rag-with-llamaindex/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "55 min",
+  "description": "Build autonomous agents that intelligently navigate and analyze your data. Learn to develop agentic RAG systems using LlamaIndex, enabling powerful document Q&A and summarization. Gain valuable skills in guiding agent reasoning and debugging. (Partner: LlamaIndex)",
+  "domain": "AIエージェント",
+  "services": [
+   "LlamaIndex"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LlamaIndex 共同制作。エージェント型 RAG を LlamaIndex で構築する短編コース (約55分)。ルーター・ツール・推論を備えた RAG の進化形を学ぶ。"
+ },
+ {
+  "title": "Building and Evaluating Advanced RAG",
+  "url": "https://www.deeplearning.ai/courses/building-evaluating-advanced-rag/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "2h 5m",
+  "description": "Learn advanced RAG retrieval methods like sentence-window and auto-merging that outperform baselines, and evaluate and iterate on your pipeline's performance.  (Partner: TruEra, LlamaIndex)",
+  "domain": "AIエージェント",
+  "services": [
+   "TruEra",
+   "LlamaIndex"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "TruEra/LlamaIndex 共同制作。高度な RAG の構築と評価を学ぶ短編コース (約2時間5分)。検索品質を測りながら RAG を改善する手法を扱う。"
+ },
+ {
+  "title": "Advanced Retrieval for AI with Chroma",
+  "url": "https://www.deeplearning.ai/courses/advanced-retrieval-for-ai/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 3m",
+  "description": "Learn advanced retrieval techniques to improve the relevancy of retrieved results. Learn to recognize poor query results and use LLMs to improve queries. (Partner: Chroma)",
+  "domain": "RAG・検索",
+  "services": [
+   "Chroma"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Chroma 共同制作。検索結果の関連性を高める高度なリトリーバル技法を学ぶ短編コース (約1時間2分)。悪いクエリ結果の見極めと LLM によるクエリ改善を扱う。"
+ },
+ {
+  "title": "Context Engineering",
+  "url": "https://www.deeplearning.ai/courses/context-engineering/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "19h 57m",
+  "description": "Learn to give AI agents the right information, in the right format, at the right time. In this course built with Chroma and taught by Jeff Huber, youâll develop practical skills for building better agents through better context.\n (Partner: Chroma)",
+  "domain": "プロンプト",
+  "services": [
+   "Chroma"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Chroma 共同制作のコース (約20時間)。コンテキストエンジニアリングを包括的に学ぶ。エージェントに渡す記憶・検索・プロンプトの情報設計を扱う中級向け。"
+ },
+ {
+  "title": "Knowledge Graphs for RAG",
+  "url": "https://www.deeplearning.ai/courses/knowledge-graphs-rag/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "2h 5m",
+  "description": "Learn how to build and use knowledge graph systems to improve your retrieval augmented generation applications. Use Neo4j's query language Cypher to manage and retrieve data. (Partner: Neo4j)",
+  "domain": "RAG・検索",
+  "services": [
+   "Neo4j"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Neo4j 共同制作。RAG にナレッジグラフを組み合わせる短編コース (約2時間5分)。グラフ構造で検索の質を高める手法を学ぶ中級向け。"
+ },
+ {
+  "title": "Event-Driven Agentic Document Workflows",
+  "url": "https://www.deeplearning.ai/courses/event-driven-agentic-document-workflows/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "1h 19m",
+  "description": "Build an event-driven agentic workflow to process documents and fill forms using RAG and human-in-the-loop feedback. (Partner: LlamaIndex)",
+  "domain": "AIエージェント",
+  "services": [
+   "LlamaIndex"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "LlamaIndex 共同制作。イベント駆動のエージェント型ドキュメントワークフローを構築する短編コース (約1時間19分)。文書処理の自動化をエージェントで実装する。"
+ },
+ {
+  "title": "LangChain Chat with Your Data",
+  "url": "https://www.deeplearning.ai/courses/langchain-chat-with-your-data/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "1h 19m",
+  "description": "Create a chatbot with LangChain to interface with your private data and documents. Learn from LangChain creator, Harrison Chase. (Partner: LangChain)",
+  "domain": "CV",
+  "services": [
+   "LangChain"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "LangChain 共同制作。自分のデータと会話できるアプリを LangChain で構築する短編コース (約1時間19分)。文書読み込み・埋め込み・検索・応答の流れを学ぶ。"
+ },
+ {
+  "title": "Orchestrating Workflows for GenAI Applications",
+  "url": "https://www.deeplearning.ai/courses/orchestrating-workflows-for-genai-applications/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 48m",
+  "description": "Turn your GenAI prototype into an automated pipeline using Apache Airflow (Partner: Astronomer)",
+  "domain": "データ基盤",
+  "services": [
+   "Astronomer"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Astronomer 共同制作。Apache Airflow で GenAI プロトタイプを自動パイプラインにする短編コース (約1時間48分)。ワークフロー基盤への載せ方を学ぶ。"
+ },
+ {
+  "title": "DSPy: Build and Optimize Agentic Apps",
+  "url": "https://www.deeplearning.ai/courses/dspy-build-optimize-agentic-apps/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 0m",
+  "description": "Build, debug, and optimize AI agents using DSPy and MLflow. (Partner: Databricks)",
+  "domain": "AIエージェント",
+  "services": [
+   "Databricks"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Databricks 共同制作。DSPy と MLflow でエージェントアプリを構築・デバッグ・最適化する短編コース (約1時間)。プロンプトを自動最適化する DSPy の流儀を学ぶ。"
+ },
+ {
+  "title": "Pydantic for LLM Workflows",
+  "url": "https://www.deeplearning.ai/courses/pydantic-for-llm-workflows/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 51m",
+  "description": "Build reliable LLM applications with structured outputs and validated data using Pydantic. (Partner: DeepLearning.AI)",
+  "domain": "評価・監視",
+  "services": [
+   "DeepLearning.AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "DeepLearning.AI 制作。Pydantic で構造化出力と検証済みデータを扱い、信頼できる LLM アプリを作る短編コース (約1時間51分)。"
+ },
+ {
+  "title": "Getting Started with Mistral",
+  "url": "https://www.deeplearning.ai/courses/getting-started-with-mistral/",
+  "type": "course",
+  "level": "Beginner",
+  "duration_text": "1h 3m",
+  "description": "Explore Mistral's open-source and commercial models, and leverage Mistral's JSON mode to generate structured LLM responses. Use Mistral's API to call user-defined functions for enhanced LLM capabilities. (Partner: Mistral AI)",
+  "domain": "RAG・検索",
+  "services": [
+   "Mistral AI"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Mistral AI 共同制作。Mistral モデルの利用を始める短編コース (約1時間3分)。API の使い方と基本的な応用を学ぶ初心者向け。"
+ },
+ {
+  "title": "Reasoning with o1",
+  "url": "https://www.deeplearning.ai/courses/reasoning-with-o1/",
+  "type": "course",
+  "level": "Intermediate",
+  "duration_text": "1h 44m",
+  "description": "Learn how to use and prompt OpenAI's o1 model for complex reasoning tasks. (Partner: OpenAI)",
+  "domain": "AIエージェント",
+  "services": [
+   "OpenAI"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "OpenAI 共同制作。o1 による推論を扱う短編コース (約1時間44分)。推論モデルの特性と効果的な使い方を学ぶ中級向け。"
+ }
+]

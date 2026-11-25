@@ -12,7 +12,7 @@
    "LangSmith"
   ],
   "priority_for_user": "高",
-  "summary_ja": "LangGraph 公式入門。状態・メモリ・HITL・デプロイまで55レッスンで学ぶ本命"
+  "summary_ja": "エージェント型・マルチエージェントアプリ構築フレームワーク LangGraph の公式入門コース (Python 版、55レッスン・約6時間の動画)。状態・メモリ・human-in-the-loop・デプロイまで、LangChain パッケージとは別系統の精密なワークフロー制御を学ぶ。"
  },
  {
   "title": "Introduction to LangChain - Python",
@@ -27,7 +27,7 @@
    "LangSmith"
   ],
   "priority_for_user": "高",
-  "summary_ja": "LangChain で AI エージェント構築を始める公式入門 (MCP・マルチエージェント含む)"
+  "summary_ja": "LangChain で AI エージェントを構築する公式入門コース (Python 版、30レッスン・約1.5時間の動画)。事前構築アーキテクチャとモデル連携で素早く始め、LangSmith Observability でデバッグまで行う。MCP・マルチエージェントも扱う。"
  },
  {
   "title": "Introduction to Deep Agents",
@@ -43,7 +43,7 @@
    "LangSmith"
   ],
   "priority_for_user": "高",
-  "summary_ja": "長時間稼働エージェント向けハーネス Deep Agents の公式入門"
+  "summary_ja": "複雑なワークフロー向けの長時間稼働エージェントを構築する LangChain オープンソースハーネス Deep Agents の公式入門 (46レッスン・約30分の動画)。エージェントハーネスの意義と LangSmith での改善方法を学ぶ。"
  },
  {
   "title": "Building and Deploying Managed Agents",
@@ -58,7 +58,7 @@
    "Managed Agents"
   ],
   "priority_for_user": "高",
-  "summary_ja": "LangSmith Managed Agents で本番エージェントを構築・デプロイする"
+  "summary_ja": "LangSmith Managed Agents で本番エージェントを構築・デプロイするコース (24レッスン)。マネージドランタイム・接続・ユーザー認証・早期に問題を捉える evals を扱う。"
  },
  {
   "title": "Project: Ambient Agents with LangGraph",
@@ -73,7 +73,7 @@
    "LangSmith"
   ],
   "priority_for_user": "高",
-  "summary_ja": "メール管理アンビエントエージェントを LangGraph で作るプロジェクトコース"
+  "summary_ja": "メールを管理するアンビエントエージェントを一から構築するプロジェクト型コース (28レッスン・約2.5時間の動画)。LangGraph の基礎を実装を通じて学び、LangSmith で性能評価まで行う。"
  },
  {
   "title": "Quickstart: LangChain Essentials - Python",
@@ -88,7 +88,7 @@
    "MCP"
   ],
   "priority_for_user": "高",
-  "summary_ja": "create_agent・ツール・MCP・構造化出力など LangChain の核を1時間で掴む"
+  "summary_ja": "LangChain の中核要素を1時間で掴むクイックスタート (Python 版、18レッスン)。create_agent でエージェントを作り、メッセージ・ツール・MCP・ストリーミング・構造化出力の扱いを学ぶ。"
  },
  {
   "title": "Quickstart: LangGraph Essentials - Python",
@@ -102,7 +102,7 @@
    "LangGraph"
   ],
   "priority_for_user": "高",
-  "summary_ja": "LangGraph の State・Node・Edge・Memory をメールワークフローで掴む短編"
+  "summary_ja": "LangGraph の必須要素 (State・Node・Edge・Memory) をメールワークフロー構築で実践するクイックスタート (Python 版、13レッスン・約1時間の動画)。"
  },
  {
   "title": "Quickstart: LangChain Essentials - TypeScript",
@@ -117,7 +117,7 @@
    "MCP"
   ],
   "priority_for_user": "中",
-  "summary_ja": "LangChain Essentials の TypeScript 版。create_agent と MCP を短時間で"
+  "summary_ja": "LangChain Essentials の TypeScript 版クイックスタート (17レッスン・約30分の動画)。create_agent を軸に、メッセージ・ツール・MCP・構造化出力など LangChain の核を短時間で学ぶ。"
  },
  {
   "title": "Quickstart: LangGraph Essentials - TypeScript",
@@ -131,7 +131,7 @@
    "LangGraph"
   ],
   "priority_for_user": "中",
-  "summary_ja": "LangGraph Essentials の TypeScript 版。メールワークフローで基礎を掴む"
+  "summary_ja": "LangGraph Essentials の TypeScript 版クイックスタート (13レッスン・約1時間の動画)。State・Node・Edge・Memory の基礎をメールワークフロー構築で掴む。"
  },
  {
   "title": "Introduction to Agent Observability & Evaluations",
@@ -145,7 +145,7 @@
    "LangSmith"
   ],
   "priority_for_user": "中",
-  "summary_ja": "LangSmith によるエージェントの可観測性と評価の基礎を7.5時間で学ぶ"
+  "summary_ja": "LangSmith によるエージェントの可観測性と評価 (evaluation) の基礎を学ぶコース (43レッスン・約7.5時間の動画)。オブザーバビリティ・評価・プロンプトエンジニアリングのツールでエージェントを継続改善する方法を扱う。"
  },
  {
   "title": "Quickstart: LangSmith Essentials",
@@ -159,7 +159,7 @@
    "LangSmith"
   ],
   "priority_for_user": "中",
-  "summary_ja": "LangSmith のトレーシング・評価・デプロイの要点を短時間で掴む"
+  "summary_ja": "エージェントエンジニアリング基盤 LangSmith の要点を短時間で掴むクイックスタート (22レッスン・約30分の動画)。本番データを活かした継続的テストと改善の考え方を学ぶ。"
  },
  {
   "title": "Building Reliable Agents with LangSmith",
@@ -173,7 +173,7 @@
    "LangSmith"
   ],
   "priority_for_user": "中",
-  "summary_ja": "観測と評価の反復でエージェントを本番品質に引き上げる実践コース"
+  "summary_ja": "エージェントを初回実行から本番対応システムへ、改善サイクルを回して引き上げる実践コース (29レッスン)。観測と評価のためのプラットフォーム LangSmith を使いこなす方法を学ぶ。"
  },
  {
   "title": "Autonomous Agent Improvement with LangSmith Engine",
@@ -188,7 +188,7 @@
    "LangSmith Engine"
   ],
   "priority_for_user": "中",
-  "summary_ja": "本番トレースから自動で改善案を出す LangSmith Engine と ADLC の実践"
+  "summary_ja": "LangSmith Engine による自律的なエージェント改善を学ぶコース (12レッスン)。本番トレースからエラーを特定し、修正案・検証実験・デプロイ後の回帰監視まで、エージェント開発ライフサイクル (ADLC) を回す実践。"
  },
  {
   "title": "Monitoring Production Agents",
@@ -202,7 +202,7 @@
    "LangSmith"
   ],
   "priority_for_user": "中",
-  "summary_ja": "本番エージェントのコスト・品質・レイテンシ監視を LangSmith で学ぶ"
+  "summary_ja": "本番エージェントの監視と改善を LangSmith で学ぶコース (37レッスン)。コスト追跡・トレース分析による傾向把握・品質とレイテンシの監視を扱う。"
  },
  {
   "title": "Introduction to LangSmith Agent Server",
@@ -217,7 +217,7 @@
    "LangGraph"
   ],
   "priority_for_user": "中",
-  "summary_ja": "LangSmith Agent Server へのエージェントのデプロイと運用・認証を学ぶ"
+  "summary_ja": "LangSmith Agent Server へのエージェントのデプロイ・管理・制御を学ぶコース (37レッスン)。エージェント運用と認証を含むサーバー機能を扱う。"
  },
  {
   "title": "dcode Essentials",
@@ -232,7 +232,7 @@
    "dcode"
   ],
   "priority_for_user": "中",
-  "summary_ja": "コーディングエージェント Deep Agents Code (dcode) の基礎。Skills・MCP・サブエージェント設定"
+  "summary_ja": "コーディングエージェント Deep Agents Code (dcode) の基礎コース (9レッスン)。Skills・MCP・サブエージェント設定を通じて、開発でコーディングエージェントを効果的に使うスキルを養う。"
  },
  {
   "title": "LangSmith Fleet",
@@ -247,7 +247,7 @@
    "LangSmith Fleet"
   ],
   "priority_for_user": "低",
-  "summary_ja": "自然言語でノーコードエージェントを作る LangSmith Fleet 入門"
+  "summary_ja": "自然言語でノーコードエージェントを作成する LangSmith Fleet の入門コース (約1.5時間の動画)。日常語で実務向けエージェントを作る方法を学ぶ。"
  },
  {
   "title": "LCAE Practice Exam",
@@ -261,6 +261,6 @@
    "LangChain"
   ],
   "priority_for_user": "低",
-  "summary_ja": "LangChain Certified Agent Engineer 認定試験の公式模擬試験 (無料)"
+  "summary_ja": "LangChain Certified Agent Engineer 認定試験の公式模擬試験 (5レッスン、無料)。受験前に出題形式と実力を確認するための練習用コンテンツ。"
  }
 ]

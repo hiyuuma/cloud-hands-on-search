@@ -1,0 +1,389 @@
+[
+ {
+  "title": "Speedrun: Your First End-to-End Workflow",
+  "url": "https://learn.palantir.com/speedrun-your-first-e2e-workflow",
+  "type": "course",
+  "level": "",
+  "duration_text": "60 minutes or less",
+  "description": "Build an end-to-end Foundry workflow from raw data to operational application as an introduction to the platform. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "生データから運用アプリケーションまで、Foundry のコアアプリを使ったエンドツーエンドのワークフローを60分以内で組み上げる入門コース。受講には Foundry へのアクセスが前提。Palantir の顧客導入 (FDE) 現場で使われる基礎動線をそのままなぞれる。"
+ },
+ {
+  "title": "Foundry & AIP Aware",
+  "url": "https://learn.palantir.com/foundry-aip-aware",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "This course ties together various courses on learn.palantir.com to create an immersive and hands-on learning experience covering Foundry and AIP. Requires access to a Foundry enrollment.",
+  "domain": "AIエージェント・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Palantir AIP"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Palantir Learn 上の複数コースを束ね、Foundry と AIP をハンズオンで横断的に学ぶ総合コース。Foundry アクセスが前提。FDE (Forward Deployed Engineer) が顧客環境で最初に押さえる全体像の学習パス。"
+ },
+ {
+  "title": "Introduction to Foundry & AIP for Enterprise Organizations",
+  "url": "https://learn.palantir.com/introduction-to-foundry-aip-for-enterprise-organizations",
+  "type": "course",
+  "level": "",
+  "duration_text": "15 min",
+  "description": "Discover this universal course on the conceptual basics of Foundry and AIP. Requires access to a Foundry enrollment.",
+  "domain": "AIエージェント・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Palantir AIP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Foundry と AIP の概念基礎を15分で概観するユニバーサルコース。エンタープライズ組織向けの導入第一歩で、ハンズオンに入る前の共通言語づくりに適する。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Scoping Use Cases for Foundry & AIP",
+  "url": "https://learn.palantir.com/scoping-use-cases-for-foundry-aip",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Understand questions to ask and key concepts to consider when scoping use cases to be built on Foundry and AIP. Requires access to a Foundry enrollment.",
+  "domain": "AIエージェント・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Palantir AIP"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Foundry/AIP で構築するユースケースをスコーピングするときの質問項目と検討概念を学ぶコース。顧客の要件を実装単位に落とす FDE の中核スキルに直結する内容。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Speedrun: Your First AIP Workflow",
+  "url": "https://learn.palantir.com/speedrun-your-e2e-aip-workflow",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Build an operational AI-powered workflow to parse PDF media sets using Foundry's AIP components. Requires access to a Foundry enrollment.",
+  "domain": "AIエージェント・FDE",
+  "services": [
+   "Palantir AIP",
+   "Palantir Foundry"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "AIP コンポーネントで PDF メディアセットを解析する AI 駆動の運用ワークフローを組むスピードランコース。LLM を組み込んだ業務フローの実装感覚を掴める。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Speedrun: Data Science Fundamentals",
+  "url": "https://learn.palantir.com/speedrun-data-science-fundamentals",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn how to use Foundry and AIP for Data Science. Requires access to a Foundry enrollment.",
+  "domain": "AIエージェント・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Palantir AIP"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Foundry と AIP をデータサイエンスに使うための基礎を学ぶスピードランコース。分析からモデル活用までの動線を短時間で体験する。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Speedrun: Your First Agentic AIP Workflow",
+  "url": "https://learn.palantir.com/speedrun-your-first-agentic-aip-workflow",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn how to leverage AIP and the Ontology for an agentic workflow and AIP-human teaming. Requires access to a Foundry enrollment.",
+  "domain": "AIエージェント・FDE",
+  "services": [
+   "Palantir AIP",
+   "Palantir Foundry"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "AIP と Ontology を使い、エージェント型ワークフローと AIP-人間チーミングを構築するスピードランコース。Palantir 流の AI エージェント実装を体験できる。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Speedrun: Your First Ontology Function",
+  "url": "https://learn.palantir.com/speedrun-your-first-ontology-function",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Develop Typescript-based Functions to pull data from and update Ontology Objects via a Workshop application. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "TypeScript"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "TypeScript ベースの Functions で Ontology オブジェクトの読み書きを行い、Workshop アプリから呼び出すスピードランコース。Ontology 上にロジックを載せる実践入門。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Speedrun: Mining Your First Business Process",
+  "url": "https://learn.palantir.com/speedrun-mining-your-first-business-process",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Use Foundry's Machinery application to visualize business processes, identify bottlenecks, and discover improvements. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Machinery"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Foundry の Machinery アプリで業務プロセスを可視化し、ボトルネック特定と改善発見を行うスピードランコース。プロセスマイニングの入門。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Deep Dive: Creating Your First Ontology",
+  "url": "https://learn.palantir.com/deep-dive-creating-your-first-ontology",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn what the Foundry Ontology is, why it is valuable, and how to build your own. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Ontology"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "Foundry Ontology とは何か・なぜ価値があるか・どう構築するかを学ぶ Deep Dive コース (60分程度の目安記載あり)。顧客データを運用可能なオブジェクトモデルに写す FDE の基礎技術。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Deep Dive: Building Your First Pipeline",
+  "url": "https://learn.palantir.com/deep-dive-building-your-first-pipeline",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn key features and best practices for manipulating data with Pipeline Builder, Foundry's point-and-click data transformation application. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Pipeline Builder"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Pipeline Builder でのデータ変換の主要機能とベストプラクティスを学ぶ Deep Dive コース。コードレスでパイプラインを組む Foundry データ加工の入門。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Deep Dive: Transforming your data with Code Repositories",
+  "url": "https://learn.palantir.com/deep-dive-transforming-your-data-with-code-repositories",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn key features and best practices for transforming data with Code Repositories, Foundry's code-first data transformation tool. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Code Repositories"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Code Repositories によるコードファーストのデータ変換を学ぶ Deep Dive コース。Pipeline Builder では足りない変換をコードで実装する開発者向け。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Deep Dive: Building Your First Application",
+  "url": "https://learn.palantir.com/deep-dive-building-your-first-application",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Utilize Workshop to build an interactive workflow for operational users on top of your Ontology. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Workshop"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Workshop で Ontology 上に運用ユーザー向けの対話型ワークフローを構築する Deep Dive コース。現場ユーザーに届けるアプリ開発の入門。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Deep Dive: Creating Your First Data Connection",
+  "url": "https://learn.palantir.com/deep-dive-data-connection",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn how to use Foundry's Data Connection application to securely and quickly retrieve data from external sources. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Data Connection"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Data Connection で外部ソースから安全かつ迅速にデータを取り込む方法を学ぶ Deep Dive コース。顧客環境の既存システムとの接続という導入の勘所を扱う。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Deep Dive: Data Governance Best Practices - Security Primitives",
+  "url": "https://learn.palantir.com/deep-dive-data-governance-best-practices-security-primitives",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn how to leverage Foundry tools to configure projects, apply markings to sensitive data, and manage access. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "プロジェクト設定・機微データへのマーキング・アクセス管理など、Foundry のセキュリティプリミティブによるデータガバナンスを学ぶ Deep Dive コース。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Deep Dive: Data Analysis in Contour",
+  "url": "https://learn.palantir.com/deep-dive-data-analysis-in-contour",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn how to transform, join, and visualize tabular data using Foundry's Contour application. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Contour"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Contour で表形式データの変換・結合・可視化を行う Deep Dive コース。分析系ユーザーの主要ツールを押さえる内容。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Deep Dive: Data Analysis in Quiver",
+  "url": "https://learn.palantir.com/deep-dive-data-analysis-in-quiver",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn how to navigate Quiver for analyzing, transforming, and visualizing data stored in Ontology Objects. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Quiver"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Quiver を使い、Ontology オブジェクトのデータを分析・変換・可視化する Deep Dive コース。時系列・センサーデータ系の分析に強いツールの使い方を押さえる。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Deep Dive: Data Protection Tools in Foundry",
+  "url": "https://learn.palantir.com/deep-dive-data-protection-tools-in-foundry",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Learn how to utilize Foundry tools to implement download controls, automate data scans, and apply data protection. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "ダウンロード制御・データスキャン自動化・データ保護の適用など、Foundry のデータ保護ツールを学ぶ Deep Dive コース。ガバナンス要件のある導入案件向け。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Applied Notional Project",
+  "url": "https://learn.palantir.com/applied-notional-project-automobile-inbox",
+  "type": "course",
+  "level": "",
+  "duration_text": "",
+  "description": "Build an operational workflow with minimal instructions based on requirements taken from a realistic notional scenario (automobile inbox). Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry"
+  ],
+  "priority_for_user": "高",
+  "summary_ja": "現実的な想定シナリオ (自動車関連のインボックス) の要件だけを頼りに、最小限の指示で運用ワークフローを構築する応用課題。要件から自力で実装へ落とす FDE 的な総合演習。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Introduction to Palantir Foundry",
+  "url": "https://learn.palantir.com/intro-to-foundry",
+  "type": "course",
+  "level": "",
+  "duration_text": "16 min",
+  "description": "Follow along with interactive exercises to learn how to navigate Foundry and discover the platform's core capabilities. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "対話型演習で Foundry の操作方法と中核機能を16分で掴む入門コース。プラットフォームの画面に触れながら基本概念を学べる。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Workshop",
+  "url": "https://learn.palantir.com/workshop-course",
+  "type": "course",
+  "level": "",
+  "duration_text": "1 hr 38 min",
+  "description": "In this training, you'll learn the fundamentals of building ontology-aware applications in Workshop. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Workshop"
+  ],
+  "priority_for_user": "中",
+  "summary_ja": "Ontology 対応アプリケーションを Workshop で構築する基礎を約1時間半で学ぶトレーニング。運用ユーザー向け画面づくりの実践編。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Slate",
+  "url": "https://learn.palantir.com/slate-course",
+  "type": "course",
+  "level": "",
+  "duration_text": "2 hr 49 min",
+  "description": "This training provides an introduction to Slate as well as a tutorial section and a deep dive. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Slate"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Foundry のアプリ構築ツール Slate の入門・チュートリアル・Deep Dive を含む約2時間49分のトレーニング。カスタム UI をコードで作る開発者向け。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Spark Optimization",
+  "url": "https://learn.palantir.com/spark-optimization",
+  "type": "course",
+  "level": "",
+  "duration_text": "1 hr 37 min",
+  "description": "This training teaches the basic concepts and tools needed to optimize pipelines for Spark in Foundry. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Spark"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Foundry 上の Spark パイプラインを最適化する基本概念とツールを約1時間半で学ぶトレーニング。大規模データ処理の性能改善を扱う。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Code Workbook",
+  "url": "https://learn.palantir.com/code-workbook",
+  "type": "course",
+  "level": "",
+  "duration_text": "1 hr 18 min",
+  "description": "In this training, you'll experience basic data transformations and visuals in Python, SQL, and R using Code Workbook. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Code Workbook",
+   "Python",
+   "SQL",
+   "R"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Code Workbook で Python・SQL・R によるデータ変換と可視化を体験する約1時間18分のトレーニング。分析コードを Foundry 上で回す基本を押さえる。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Pipeline Management",
+  "url": "https://learn.palantir.com/pipeline-management",
+  "type": "course",
+  "level": "",
+  "duration_text": "1 hr 39 min",
+  "description": "During this training, you'll learn the Foundry pipeline development toolkit and best practices. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Foundry のパイプライン開発ツールキットとベストプラクティスを約1時間39分で学ぶトレーニング。データパイプラインの運用管理を扱う。Foundry アクセスが前提。"
+ },
+ {
+  "title": "Advanced Contour",
+  "url": "https://learn.palantir.com/advanced-contour",
+  "type": "course",
+  "level": "",
+  "duration_text": "1 hr 29 min",
+  "description": "During this training, we'll focus on a more in-depth overview of the Foundry analytics tool Contour. Requires access to a Foundry enrollment.",
+  "domain": "データ基盤・FDE",
+  "services": [
+   "Palantir Foundry",
+   "Contour"
+  ],
+  "priority_for_user": "低",
+  "summary_ja": "Contour のより深い機能 overview に焦点を当てる約1時間29分の応用トレーニング。基本操作を超えた分析テクニックを学ぶ。Foundry アクセスが前提。"
+ }
+]

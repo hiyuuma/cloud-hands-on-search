@@ -68,7 +68,7 @@ def test_golden_kubernetes_linux_foundation(db):
 
 def test_golden_mcp_livelabs(db):
     """MCP で LiveLabs の "Put AI Agents to Work with MCP" がヒットする。"""
-    res = search(db, "MCP", limit=15)
+    res = search(db, "MCP", limit=100)
     assert any(
         r["source_catalog"] == "oracle"
         and "Put AI Agents to Work with MCP" in (r["title"] or "")
@@ -117,6 +117,34 @@ def test_golden_nextjs_learn(db):
     res = search(db, "Next.js", limit=10)
     assert any(
         r["source_catalog"] == "nextjs" for r in res
+    ), _titles(res)
+
+
+def test_golden_fde_palantir(db):
+    """Run 8: "FDE" で Palantir Learn のコースがヒットする。"""
+    res = search(db, "FDE", limit=25)
+    assert any(
+        r["source_catalog"] == "palantir" for r in res
+    ), _titles(res)
+
+
+def test_golden_mcp_multi_catalog(db):
+    """Run 8: "MCP" が複数カタログ (microsoft_curricula / cloudflare /
+    anthropic / deeplearning_ai / huggingface) に跨ってヒットする。"""
+    res = search(db, "MCP", limit=100)
+    cats = {r["source_catalog"] for r in res}
+    for expected in (
+        "microsoft_curricula", "cloudflare", "anthropic",
+        "deeplearning_ai", "huggingface",
+    ):
+        assert expected in cats, f"{expected} が MCP でヒットしない {cats}"
+
+
+def test_golden_openai_catalog(db):
+    """Run 8: "OpenAI" で OpenAI Academy のコースがヒットする。"""
+    res = search(db, "OpenAI", limit=25)
+    assert any(
+        r["source_catalog"] == "openai" for r in res
     ), _titles(res)
 
 

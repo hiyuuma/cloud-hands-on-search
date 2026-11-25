@@ -1,1 +1,173 @@
-[{"description":"This course offers a comprehensive introduction to agentic AI, focusing on autonomous software agents that perceive, reason, act, and learn within dynamic environments.","domain":"AI","duration_text":"1 Hour","level":"General interest","priority_for_user":"中","services":["NVIDIA DLI"],"summary_ja":"エージェントAIの基本概念（知覚・推論・行動・学習のループ）を1時間で学ぶ無料入門コース","title":"Agentic AI Explained","type":"course","url":"https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-39+V1"},{"description":"Go from single API calls to full agentic systems—grounded retrieval, deep planning, and safe execution—using NVIDIA NemoClaw and NVIDIA OpenShell as your reference stack and secure agent runtime.","domain":"AI","duration_text":"4 Hours","level":"Intermediate","priority_for_user":"中","services":["NVIDIA DLI","NemoClaw","OpenShell"],"summary_ja":"NemoClawとOpenShellでAIエージェントを構築し安全に実行する無料ハンズオンコース","title":"Securing Agents with NemoClaw and OpenShell","type":"course","url":"https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-43+V1"},{"description":"Explains a robot's architecture and the structure of autonomy software (sensors, perception, mapping, localization, navigation and control), along with current trends such as foundation models. No robotics knowledge is required.","domain":"その他","duration_text":"1 hour","level":"General interest","priority_for_user":"低","services":["NVIDIA DLI","Isaac Sim"],"summary_ja":"ロボットのアーキテクチャと自律ソフトウェアの構成を学ぶ無料入門コース","title":"A Beginner's Guide to Autonomous Robots","type":"course","url":"https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-35+V1"},{"description":"MobilityGen is a tool built on Isaac Sim that generates motion data for training and evaluating mobile robots. In the tutorial you record a humanoid robot's movement with the keyboard and replay the trajectory against the reference data.","domain":"その他","duration_text":"1 hour 30 min","level":"Intermediate","priority_for_user":"低","services":["NVIDIA DLI","Isaac Sim","MobilityGen"],"summary_ja":"Isaac Sim上のMobilityGenでロボット学習用のモーションデータを生成する無料コース","title":"Generating High-Quality Motion Data for Robotics With MobilityGen","type":"course","url":"https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-37+V1"},{"description":"The lab builds a digital twin with OpenUSD and Isaac Sim, adds virtual robots to it and validates their movements with ROS commands.","domain":"その他","duration_text":"2 hours","level":"Intermediate","priority_for_user":"低","services":["NVIDIA DLI","OpenUSD","Isaac Sim","ROS"],"summary_ja":"OpenUSD・Isaac Sim・ROSでロボットソフトをシミュレーション検証する無料ラボ","title":"Software-in-the-Loop Testing for Robots With OpenUSD, Isaac Sim, and ROS","type":"course","url":"https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-39+V1"},{"description":"Introduces the Kit SDK, the development kit used to create Omniverse applications, and the free starter templates; by the end you can download the kit-app-template GitHub repository and create a first application.","domain":"その他","duration_text":"2 hours","level":"","priority_for_user":"低","services":["NVIDIA DLI","Omniverse"],"summary_ja":"Omniverse Kit SDKとスターターテンプレートで最初のアプリを作る無料入門コース","title":"An Introduction to Developing With NVIDIA Omniverse","type":"course","url":"https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-11+V1"},{"description":"An introductory lab on layers, scene composition and data separation for reuse, with industrial examples.","domain":"その他","duration_text":"2 hours","level":"Beginner","priority_for_user":"低","services":["NVIDIA DLI","OpenUSD"],"summary_ja":"OpenUSDのレイヤーとシーン構成の基礎を学ぶ無料入門ラボ","title":"Fundamentals of Working With OpenUSD","type":"course","url":"https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-15+V1"},{"description":"Extensions are the building blocks of Omniverse applications. In this lab you build one from the Kit App Template, customize its interface and extract the application's commands to write its logic.","domain":"その他","duration_text":"2 hours","level":"Beginner","priority_for_user":"低","services":["NVIDIA DLI","Omniverse","Python"],"summary_ja":"PythonでOmniverse拡張機能を構築する無料ラボ","title":"Creating an Omniverse Extension With Python","type":"course","url":"https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-16+V1"},{"description":"A hands-on course for building a digital twin application with OpenUSD on Omniverse, with attention to data aggregation, interactivity and physics simulation.","domain":"その他","duration_text":"2 hours","level":"Beginner","priority_for_user":"低","services":["NVIDIA DLI","Omniverse","OpenUSD"],"summary_ja":"Omniverse Kitアプリを拡張してデジタルツインを構築する無料ハンズオン","title":"Extend Omniverse Kit Applications for Building Digital Twins","type":"course","url":"https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-13+V1"},{"description":"You create an Omniverse extension that generates realistic 3D materials from a natural-language description, relying on DGX Cloud, NVIDIA's cloud service for AI.","domain":"その他","duration_text":"2 hours","level":"Intermediate","priority_for_user":"低","services":["NVIDIA DLI","Omniverse","DGX Cloud"],"summary_ja":"DGX CloudのAIで3Dマテリアルを生成するOmniverse拡張を作る無料コース","title":"Building AI-Powered Material Generation for Omniverse With DGX Cloud","type":"course","url":"https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-53+V1"},{"description":"Learn OpenUSD is a free, open-source learning path designed to help you master the skills required to build efficient 3D workflows with OpenUSD (Universal Scene Description).","domain":"その他","duration_text":"8 hours","level":"","priority_for_user":"低","services":["NVIDIA DLI","OpenUSD"],"summary_ja":"OpenUSDの基礎から応用までを学ぶ無料オープンソース学習パス（認定試験対策）","title":"Learn OpenUSD: Foundations to Applied Concepts","type":"learning_path","url":"https://docs.nvidia.com/learn-openusd/latest/index.html"}]
+[
+ {
+  "description": "This course offers a comprehensive introduction to agentic AI, focusing on autonomous software agents that perceive, reason, act, and learn within dynamic environments.",
+  "domain": "AI",
+  "duration_text": "1 Hour",
+  "level": "General interest",
+  "priority_for_user": "中",
+  "services": [
+   "NVIDIA DLI"
+  ],
+  "summary_ja": "エージェント型 AI (agentic AI) の包括的入門コース (General interest、約1時間、無料)。動的環境で知覚・推論・行動・学習を行う自律ソフトウェアエージェントの基本概念を押さえる。",
+  "title": "Agentic AI Explained",
+  "type": "course",
+  "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-39+V1"
+ },
+ {
+  "description": "Go from single API calls to full agentic systems—grounded retrieval, deep planning, and safe execution—using NVIDIA NemoClaw and NVIDIA OpenShell as your reference stack and secure agent runtime.",
+  "domain": "AI",
+  "duration_text": "4 Hours",
+  "level": "Intermediate",
+  "priority_for_user": "中",
+  "services": [
+   "NVIDIA DLI",
+   "NemoClaw",
+   "OpenShell"
+  ],
+  "summary_ja": "NVIDIA NemoClaw と OpenShell を参照スタックに、単一 API 呼び出しから完全なエージェントシステムまでを構築する中級ハンズオンコース (約4時間、無料)。グラウンデッド検索・深い計画・安全な実行を扱う。",
+  "title": "Securing Agents with NemoClaw and OpenShell",
+  "type": "course",
+  "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-43+V1"
+ },
+ {
+  "description": "Explains a robot's architecture and the structure of autonomy software (sensors, perception, mapping, localization, navigation and control), along with current trends such as foundation models. No robotics knowledge is required.",
+  "domain": "その他",
+  "duration_text": "1 hour",
+  "level": "General interest",
+  "priority_for_user": "低",
+  "services": [
+   "NVIDIA DLI",
+   "Isaac Sim"
+  ],
+  "summary_ja": "ロボットのアーキテクチャと自律ソフトウェアの構造を学ぶ入門コース (General interest、約1時間、無料)。センサー・知覚・マッピング・定位・ナビゲーション・制御に加え、基盤モデルなどの最新動向も紹介。ロボティクス知識は不要。",
+  "title": "A Beginner's Guide to Autonomous Robots",
+  "type": "course",
+  "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-35+V1"
+ },
+ {
+  "description": "MobilityGen is a tool built on Isaac Sim that generates motion data for training and evaluating mobile robots. In the tutorial you record a humanoid robot's movement with the keyboard and replay the trajectory against the reference data.",
+  "domain": "その他",
+  "duration_text": "1 hour 30 min",
+  "level": "Intermediate",
+  "priority_for_user": "低",
+  "services": [
+   "NVIDIA DLI",
+   "Isaac Sim",
+   "MobilityGen"
+  ],
+  "summary_ja": "Isaac Sim 上のツール MobilityGen でモバイルロボットの学習・評価用モーションデータを生成するコース (Intermediate、約1時間半、無料)。キーボードでヒューマノイドの動きを記録し軌跡を参照データと比較するチュートリアル。",
+  "title": "Generating High-Quality Motion Data for Robotics With MobilityGen",
+  "type": "course",
+  "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-37+V1"
+ },
+ {
+  "description": "The lab builds a digital twin with OpenUSD and Isaac Sim, adds virtual robots to it and validates their movements with ROS commands.",
+  "domain": "その他",
+  "duration_text": "2 hours",
+  "level": "Intermediate",
+  "priority_for_user": "低",
+  "services": [
+   "NVIDIA DLI",
+   "OpenUSD",
+   "Isaac Sim",
+   "ROS"
+  ],
+  "summary_ja": "OpenUSD・Isaac Sim・ROS でロボットの Software-in-the-Loop テストを行う無料ラボ (Intermediate、約2時間)。デジタルツインを構築し仮想ロボットを配置、ROS コマンドで動作を検証する。",
+  "title": "Software-in-the-Loop Testing for Robots With OpenUSD, Isaac Sim, and ROS",
+  "type": "course",
+  "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-39+V1"
+ },
+ {
+  "description": "Introduces the Kit SDK, the development kit used to create Omniverse applications, and the free starter templates; by the end you can download the kit-app-template GitHub repository and create a first application.",
+  "domain": "その他",
+  "duration_text": "2 hours",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "NVIDIA DLI",
+   "Omniverse"
+  ],
+  "summary_ja": "NVIDIA Omniverse 開発の入門コース (約2時間、無料)。Kit SDK と無料スターターテンプレートを紹介し、kit-app-template リポジトリから最初のアプリケーション作成まで進める。",
+  "title": "An Introduction to Developing With NVIDIA Omniverse",
+  "type": "course",
+  "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-11+V1"
+ },
+ {
+  "description": "An introductory lab on layers, scene composition and data separation for reuse, with industrial examples.",
+  "domain": "その他",
+  "duration_text": "2 hours",
+  "level": "Beginner",
+  "priority_for_user": "低",
+  "services": [
+   "NVIDIA DLI",
+   "OpenUSD"
+  ],
+  "summary_ja": "OpenUSD のレイヤー・シーン合成・再利用のためのデータ分離を学ぶ入門ラボ (Beginner、約2時間、無料)。産業事例を交えた基礎的内容。",
+  "title": "Fundamentals of Working With OpenUSD",
+  "type": "course",
+  "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-15+V1"
+ },
+ {
+  "description": "Extensions are the building blocks of Omniverse applications. In this lab you build one from the Kit App Template, customize its interface and extract the application's commands to write its logic.",
+  "domain": "その他",
+  "duration_text": "2 hours",
+  "level": "Beginner",
+  "priority_for_user": "低",
+  "services": [
+   "NVIDIA DLI",
+   "Omniverse",
+   "Python"
+  ],
+  "summary_ja": "Omniverse アプリケーションの構成要素である拡張機能 (Extension) を Python で構築する入門ラボ (Beginner、約2時間、無料)。Kit App Template から拡張を作り、UI カスタマイズとコマンドロジックの実装まで行う。",
+  "title": "Creating an Omniverse Extension With Python",
+  "type": "course",
+  "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-16+V1"
+ },
+ {
+  "description": "A hands-on course for building a digital twin application with OpenUSD on Omniverse, with attention to data aggregation, interactivity and physics simulation.",
+  "domain": "その他",
+  "duration_text": "2 hours",
+  "level": "Beginner",
+  "priority_for_user": "低",
+  "services": [
+   "NVIDIA DLI",
+   "Omniverse",
+   "OpenUSD"
+  ],
+  "summary_ja": "Omniverse Kit アプリケーションを拡張して OpenUSD ベースのデジタルツインを構築するハンズオンコース (Beginner、約2時間、無料)。データ集約・インタラクティブ性・物理シミュレーションに配慮した実践的内容。",
+  "title": "Extend Omniverse Kit Applications for Building Digital Twins",
+  "type": "course",
+  "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-13+V1"
+ },
+ {
+  "description": "You create an Omniverse extension that generates realistic 3D materials from a natural-language description, relying on DGX Cloud, NVIDIA's cloud service for AI.",
+  "domain": "その他",
+  "duration_text": "2 hours",
+  "level": "Intermediate",
+  "priority_for_user": "低",
+  "services": [
+   "NVIDIA DLI",
+   "Omniverse",
+   "DGX Cloud"
+  ],
+  "summary_ja": "NVIDIA のクラウド AI サービス DGX Cloud を使い、自然言語の説明からリアルな 3D マテリアルを生成する Omniverse 拡張を作る中級コース (約2時間、無料)。",
+  "title": "Building AI-Powered Material Generation for Omniverse With DGX Cloud",
+  "type": "course",
+  "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-53+V1"
+ },
+ {
+  "description": "Learn OpenUSD is a free, open-source learning path designed to help you master the skills required to build efficient 3D workflows with OpenUSD (Universal Scene Description).",
+  "domain": "その他",
+  "duration_text": "8 hours",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "NVIDIA DLI",
+   "OpenUSD"
+  ],
+  "summary_ja": "OpenUSD (Universal Scene Description) の基礎から応用概念までを学ぶ無料のオープンソース学習パス (約8時間)。効率的な 3D ワークフロー構築に必要なスキルを習得し、認定試験対策にもなる構成。",
+  "title": "Learn OpenUSD: Foundations to Applied Concepts",
+  "type": "learning_path",
+  "url": "https://docs.nvidia.com/learn-openusd/latest/index.html"
+ }
+]

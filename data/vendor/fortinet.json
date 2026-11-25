@@ -9,7 +9,7 @@
    "FortiGate",
    "FortiOS"
   ],
-  "summary_ja": "FortiGateの主要機能と運用を学ぶ中核コース（NSE 4対応・現行はFortiOS 8.0）",
+  "summary_ja": "FortiGate の主要な機能と運用方法を学ぶ中核コース (NSE 4 対応、現行バージョンは FortiOS 8.0)。FortiGate のクラウド利用と FortiSASE の基礎もカバーし、Fortinet 管理の主軸となる内容。",
   "title": "FortiOS Administrator",
   "type": "course",
   "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortios-administrator"
@@ -24,7 +24,7 @@
    "FortiGate",
    "SD-WAN"
   ],
-  "summary_ja": "Fortinet SD-WANの設計・運用を学ぶコース",
+  "summary_ja": "Fortinet の SD-WAN ソリューションの設計と運用を学ぶコース。エンタープライズ環境での SD-WAN 導入・管理を担当するエンジニア向けの管理者系コンテンツ。",
   "title": "SD-WAN Enterprise Administrator",
   "type": "course",
   "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_sd-wan-architect"
@@ -39,7 +39,7 @@
    "Fortinet",
    "Public Cloud"
   ],
-  "summary_ja": "パブリッククラウド向けFortinetセキュリティの設計を学ぶコース",
+  "summary_ja": "パブリッククラウド環境に Fortinet セキュリティを適用する設計を学ぶコース。クラウド上でのセキュリティアーキテクチャを検討する設計者・アーキテクト向け。",
   "title": "Public Cloud Security Architect",
   "type": "course",
   "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_public-cloud-security-architect"
@@ -53,7 +53,7 @@
   "services": [
    "FortiManager"
   ],
-  "summary_ja": "FortiManagerによるFortiGate一元管理を学ぶコース",
+  "summary_ja": "FortiManager による FortiGate の一元管理を学ぶ管理者向けコース。複数台の FortiGate を集中管理する運用者向けの内容。",
   "title": "FortiManager Administrator",
   "type": "course",
   "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortimanager-administrator"
@@ -67,7 +67,7 @@
   "services": [
    "FortiAnalyzer"
   ],
-  "summary_ja": "FortiAnalyzerの管理・運用を学ぶコース",
+  "summary_ja": "FortiAnalyzer の管理と運用を学ぶコース。ログ収集・分析基盤としての FortiAnalyzer を導入・運用する管理者向け。",
   "title": "FortiAnalyzer Administrator",
   "type": "course",
   "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortianalyzer-administrator"
@@ -81,7 +81,7 @@
   "services": [
    "FortiAnalyzer"
   ],
-  "summary_ja": "FortiAnalyzerによるログ分析・レポート作成を学ぶコース",
+  "summary_ja": "FortiAnalyzer を使ったログ分析とレポート作成を学ぶアナリスト向けコース。収集したログからセキュリティ上の知見を引き出す分析業務の担当者向け。",
   "title": "FortiAnalyzer Analyst",
   "type": "course",
   "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortianalyzer-analyst"
@@ -95,7 +95,7 @@
   "services": [
    "FortiSIEM"
   ],
-  "summary_ja": "FortiSIEMによるセキュリティ監視・インシデント分析を学ぶコース",
+  "summary_ja": "FortiSIEM によるセキュリティ監視とインシデント分析を学ぶコース。SIEM を用いた監視・相関分析の運用を担う SOC アナリスト・エンジニア向け。",
   "title": "FortiSIEM Analyst",
   "type": "course",
   "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortisiem-analyst"
@@ -109,7 +109,7 @@
   "services": [
    "FortiSASE"
   ],
-  "summary_ja": "FortiSASEの管理・運用を学ぶコース",
+  "summary_ja": "FortiSASE の管理と運用を学ぶエンタープライズ管理者向けコース。SASE によるリモートアクセス・クラウドセキュリティの導入・運用を扱う。",
   "title": "FortiSASE Enterprise Administrator",
   "type": "course",
   "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortisase-enterprise-administrator"
@@ -123,7 +123,7 @@
   "services": [
    "FortiWeb"
   ],
-  "summary_ja": "FortiWeb（WAF）の管理・運用を学ぶコース",
+  "summary_ja": "FortiWeb (WAF) の管理と運用を学ぶコース。Web アプリケーションファイアウォールの設定・運用を担当するセキュリティエンジニア向け。",
   "title": "FortiWeb Administrator",
   "type": "course",
   "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortiweb-administrator"
@@ -137,7 +137,7 @@
   "services": [
    "Fortinet"
   ],
-  "summary_ja": "ネットワークセキュリティ製品のサポート・トラブルシューティングを学ぶコース",
+  "summary_ja": "Fortinet ネットワークセキュリティ製品のサポートとトラブルシューティングを学ぶコース。障害対応・切り分けを行うサポートエンジニア向けの実務的内容。",
   "title": "Network Security Support Engineer",
   "type": "course",
   "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_network-security-support-engineer"
@@ -154,7 +154,7 @@
    "FortiAuthenticator"
   ],
   "priority_for_user": "高",
-  "summary_ja": "FortiAuthenticatorによる認証基盤の管理を学ぶ無料セルフペース (講義12h+ラボ6h)"
+  "summary_ja": "FortiAuthenticator 8.0 による認証基盤の管理を学ぶ無料セルフペースコース (推定18時間: 講義12時間+ラボ6時間)。製品バージョンは FortiAuthenticator 8.0。"
  },
  {
   "title": "FortiSwitch 7.6 Administrator",
@@ -168,7 +168,7 @@
    "FortiSwitch"
   ],
   "priority_for_user": "中",
-  "summary_ja": "FortiSwitchの管理を学ぶ無料セルフペース"
+  "summary_ja": "FortiSwitch 7.6 の管理を学ぶ無料セルフペースコース (推定18時間)。スイッチ製品の設定・運用を担当するネットワーク管理者向け。"
  },
  {
   "title": "FortiGate 7.6 Operator",
@@ -183,6 +183,6 @@
    "FortiOS"
   ],
   "priority_for_user": "中",
-  "summary_ja": "FortiGateの運用操作を学ぶ無料セルフペース"
+  "summary_ja": "FortiGate (FortiOS 7.6) の運用操作を学ぶ無料セルフペースコース (推定8時間)。日常のオペレーションを担うオペレーター向けの実務的内容。"
  }
 ]

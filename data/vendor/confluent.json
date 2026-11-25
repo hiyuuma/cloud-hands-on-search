@@ -1,1 +1,391 @@
-[{"description":"Business events occur all the time in the world and Apache Kafka is the leading technology to store and process these events in real time. In this series of courses, we will guide you through the data in motion universe, starting with what Apache Kafka is, which pieces it comprises, and how to use them effectively to build real-time, data streaming applications.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka"],"summary_ja":"Kafkaの基礎から実践までを案内する入門コースシリーズ。","title":"Apache Kafka® 101","type":"course","url":"https://developer.confluent.io/courses/apache-kafka/events/"},{"description":"Why is Flink useful, and how does it work? This course uses Flink SQL to introduce the core concepts of stream processing with Flink and shows how they fit together to solve real problems.","domain":"データ基盤","duration_text":"Approximately 3 hours","level":"","priority_for_user":"中","services":["Apache Flink"],"summary_ja":"Flink SQLでストリーム処理の核となる概念を学ぶ入門コース。","title":"Apache Flink® 101","type":"course","url":"https://developer.confluent.io/courses/apache-flink/intro/"},{"description":"This is a course about Flink SQL, which is part of the Apache Flink project. Exploring what Flink SQL can do is a great way to get started with Apache Flink and stream processing.","domain":"データ基盤","duration_text":"Approximately 3 hours","level":"","priority_for_user":"中","services":["Apache Flink","Flink SQL"],"summary_ja":"ウィンドウ集計や結合などFlink SQLの実践機能を演習付きで学ぶコース。","title":"Apache Flink® SQL","type":"course","url":"https://developer.confluent.io/courses/flink-sql/overview/"},{"description":"Apache Iceberg is a modern, open-source table format for massive analytics datasets in data lakes. It brings database-like capabilities to object storage: ACID transactions, schema evolution, time travel, and hidden partitioning.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Iceberg"],"summary_ja":"データレイク向けテーブル形式Icebergの概念とTableflowを学ぶコース。","title":"Apache Iceberg™️","type":"course","url":"https://developer.confluent.io/courses/apache-iceberg/introduction/"},{"description":"Creating and storing events is useful, but being able to react to those events and process them is what is truly transformational to how businesses operate today. When you want the full control over the application logic, Kafka Streams is your go-to stream processing framework.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Kafka Streams"],"summary_ja":"Kafka Streamsによるストリーム処理アプリ開発の入門コース。","title":"Kafka Streams 101","type":"course","url":"https://developer.confluent.io/courses/kafka-streams/get-started/"},{"description":"If you're a Python developer, this course will show you how to harness the power of Apache Kafka in your applications. You'll learn how to build Kafka producer and consumer applications, how to work with the event schema, and take advantage of the Confluent Schema Registry and more.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka","Python"],"summary_ja":"PythonクライアントでKafkaアプリを構築する開発者向けコース。","title":"Kafka for Python Developers","type":"course","url":"https://developer.confluent.io/learn-kafka/kafka-python/intro/"},{"description":"Apache Kafka is a great fit for .NET applications due to its powerful real-time data processing features. Learn how to use Kafka to build a streaming application with .NET.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka",".NET"],"summary_ja":".NETクライアントでKafkaストリーミングアプリを構築するコース。","title":"Apache Kafka® for .NET Developers","type":"course","url":"https://developer.confluent.io/courses/apache-kafka-for-dotnet/kafka-messages/"},{"description":"In the event-driven world, schemas are essential as they can enforce the shape of the data and act as contracts between producers and consumers. The Schema Registry can manage those contracts and allow their evolution in a safe way.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Schema Registry"],"summary_ja":"スキーマを契約として管理するSchema Registryの入門コース。","title":"Schema Registry 101","type":"course","url":"https://developer.confluent.io/courses/schema-registry/key-concepts/"},{"description":"Kafka Connect is a component of Apache Kafka that's used to perform streaming integration between Kafka and other systems such as databases, cloud services, search indexes, file systems, and key-value stores. Thanks to the strong community behind Kafka, hundreds of connectors are readily available.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Kafka Connect"],"summary_ja":"Kafkaと外部システムを連携するKafka Connectの入門コース。","title":"Kafka Connect 101","type":"course","url":"https://developer.confluent.io/courses/kafka-connect/intro/"},{"description":"If you want to get instant insights from your data streams but don't want to go through the hassle of writing a full-fledged application and worry about the infrastructure, then ksqlDB is for you. Just write some good old SQL code and it's processing your business events in real-time.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["ksqlDB"],"summary_ja":"SQLでストリーム処理を書けるksqlDBの入門コース。","title":"ksqlDB 101","type":"course","url":"https://developer.confluent.io/courses/ksqldb/intro/"},{"description":"This course is about building systems with a Streamhouse architecture. A streamhouse is a data architecture that continuously captures, processes, governs, and serves the current state of a business as changes happen—so applications, AI agents, and analytics can use the same fresh, trusted data.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka","Apache Flink","Apache Iceberg","Confluent Cloud"],"summary_ja":"リアルタイム運用層「Streamhouse」アーキテクチャを構築するコース。","title":"Building a Streamhouse","type":"course","url":"https://developer.confluent.io/courses/streamhouse/intro/"},{"description":"Step into the future with streaming data! Data engineering traditionally focused on batch processing, however, modern businesses can't afford to wait. Learn how data streaming is reshaping data engineering and how to modernize systems to adapt.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka","Apache Flink"],"summary_ja":"バッチ処理からストリーミングへ移行するデータエンジニアリング実践コース。","title":"From Batch to Streaming: Modern Data Engineering Pipelines","type":"course","url":"https://developer.confluent.io/courses/data-engineering/overview/"},{"description":"How do you move from a simple proof of concept to a bulletproof data streaming system that is ready for production deployment? In this course, you will learn how to avoid pitfalls when scaling your data streaming platform. Additionally, you'll delve deep into the GitOps framework.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka"],"summary_ja":"Kafka基盤を本番運用レベルに引き上げるための実践コース。","title":"Mastering Production Data Streaming Systems with Apache Kafka®","type":"course","url":"https://developer.confluent.io/courses/data-streaming-systems/overview/"},{"description":"How about we get our hands dirty and write some code now? Get ready to learn how to develop a robust event streaming application using one of the most widely used Java frameworks. Spring Boot meets Kafka Streams.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka","Spring"],"summary_ja":"Spring BootとKafkaでイベントストリーミングアプリを開発するコース。","title":"Spring Framework and Apache Kafka®","type":"course","url":"https://developer.confluent.io/courses/spring/apache-kafka-intro/"},{"description":"Microservices are the foundation of Cloud-Native Distributed Systems. Learn the principles of microservices and how they can be extended to build Event-Driven Architectures.","domain":"データ基盤","duration_text":"Approximately 3 hours","level":"","priority_for_user":"中","services":["Apache Kafka"],"summary_ja":"イベント駆動マイクロサービスの設計原則とパターンを学ぶコース。","title":"Designing Event-Driven Microservices","type":"course","url":"https://developer.confluent.io/courses/microservices/overview/"},{"description":"Storing data as events rather than in relational databases working with traditional rows and columns brings many advantages, like recovering your system quickly by replaying events, a free audit log, or the ability to get better business insights. In this course, you'll learn about how events can be used as the storage model for your applications, what event sourcing is, how it works, and how it relates to approaches like CQRS and CDC.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka"],"summary_ja":"イベントソーシングとCQRS/CDCをKafkaで学ぶコース。","title":"Event Sourcing and Event Storage with Apache Kafka®","type":"course","url":"https://developer.confluent.io/courses/event-sourcing/event-driven-vs-state-based/"},{"description":"Earlier, you learned that events are the very foundation of real-time event-streaming applications. This course gives you design tips to craft top-notch events that are uniquely tailored to your business needs.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka"],"summary_ja":"イベントとイベントストリームの設計手法を学ぶコース。","title":"Designing Events and Event Streams","type":"course","url":"https://developer.confluent.io/courses/event-design/intro/"},{"description":"Event Modeling is a simple visual method for designing event-driven systems. In this course, learn how to build an event model and implement the modeled system.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"低","services":["Apache Kafka"],"summary_ja":"イベントモデリングという視覚的設計手法を学び実装するコース。","title":"Practical Event Modeling","type":"course","url":"https://developer.confluent.io/courses/event-modeling/intro/"},{"description":"Imagine if anyone had access to the key of your house? Well, it's the same if you don't secure your IT infrastructure and services. Kafka takes security seriously and has incorporated robust security features into all components.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka"],"summary_ja":"認証・認可・暗号化などKafkaのセキュリティ機能を学ぶコース。","title":"Apache Kafka® Security","type":"course","url":"https://developer.confluent.io/courses/security/intro/"},{"description":"From Apache Kafka security, authentication, and RBAC, to cloud data security and monitoring, learn how to use Confluent Cloud's security features to meet all your security and compliance needs.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Confluent Cloud"],"summary_ja":"Confluent Cloudの認証・RBAC・暗号化などのセキュリティ機能を学ぶコース。","title":"Confluent Cloud Security","type":"course","url":"https://developer.confluent.io/courses/cloud-security/intro/"},{"description":"How to integrate Confluent Cloud with on-prem, public, and private cloud data streaming applications to meet connectivity, privacy, and security requirements.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Confluent Cloud"],"summary_ja":"Confluent Cloudと自社ネットワークの接続方式を学ぶコース。","title":"Confluent Cloud Networking","type":"course","url":"https://developer.confluent.io/courses/confluent-cloud-networking/intro/"},{"description":"In this course, we look at some of the specific Stream Governance features in Confluent Cloud. You will have an opportunity to try out many of these features in the hands-on exercises.","domain":"データ基盤","duration_text":"Approximately 2-3 hours","level":"","priority_for_user":"中","services":["Confluent Cloud","Schema Registry"],"summary_ja":"Confluent Cloudのストリームガバナンス機能を演習付きで学ぶコース。","title":"Streaming Data Governance","type":"course","url":"https://developer.confluent.io/courses/governing-data-streams/overview/"},{"description":"In this video series you learn about Client-side Field-level Encryption (CSFLE). In addition to getting an introduction about this powerful technology, allowing you to encrypt specific fields of a Kafka message, you also learn about the underlying encryption technology, envelope encryption. Lastly, this series also includes an end-to-end demo walking you through the steps of configuring CSFLE.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"低","services":["Confluent Cloud"],"summary_ja":"Kafkaメッセージのフィールド単位暗号化（CSFLE）を学ぶ動画シリーズ。","title":"Client-side Field-level Encryption (CSFLE)","type":"course","url":"https://developer.confluent.io/courses/csfle/csfle-overview/"},{"description":"We believe it's important to know how a piece of technology works under the hood to understand its consistency, performance, security, and scalability characteristics. This course describes the architecture of Apache Kafka with lectures from Jun Rao, one of its original authors and a Confluent co-founder.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Kafka"],"summary_ja":"Kafkaの内部アーキテクチャを共同創業者が解説するコース。","title":"Apache Kafka® Internal Architecture","type":"course","url":"https://developer.confluent.io/courses/architecture/get-started/"},{"description":"ksqlDB looks like magic when you first use it, so let's take a tour and discover how it's been built with ease-of-use in mind but also security, scalability and performance.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["ksqlDB"],"summary_ja":"ksqlDBの内部構造とアーキテクチャを掘り下げるコース。","title":"Inside ksqlDB","type":"course","url":"https://developer.confluent.io/courses/inside-ksqldb/streaming-architecture/"},{"description":"A series of videos and hands-on exercises that will show how to use Flink to interact with Kafka topics as though they were relational database tables, using the Flink Table API in Java — no SQL knowledge required.","domain":"データ基盤","duration_text":"","level":"","priority_for_user":"中","services":["Apache Flink","Java"],"summary_ja":"JavaのTable APIでKafkaトピックをテーブルのように処理するFlinkコース。","title":"Apache Flink® Table API: Processing Data Streams in Java","type":"course","url":"https://developer.confluent.io/courses/flink-table-api-java/overview/"},{"description":"This course will introduce students to Apache Flink through a series of hands-on exercises. Students will build a basic application in Java that will consume a collection of Apache Kafka data streams. The data will be transformed using Flink and pushed back into new Kafka topics.","domain":"データ基盤","duration_text":"2-3 hours","level":"","priority_for_user":"中","services":["Apache Flink","Java"],"summary_ja":"JavaのDataStream APIでFlinkアプリを構築するハンズオンコース。","title":"Building Apache Flink Applications in Java","type":"course","url":"https://developer.confluent.io/courses/flink-java"}]
+[
+ {
+  "description": "Business events occur all the time in the world and Apache Kafka is the leading technology to store and process these events in real time. In this series of courses, we will guide you through the data in motion universe, starting with what Apache Kafka is, which pieces it comprises, and how to use them effectively to build real-time, data streaming applications.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka"
+  ],
+  "summary_ja": "Apache Kafka の基礎から実践までを案内する入門コースシリーズ。Kafka とは何か、どのコンポーネントで構成されるか、リアルタイムのデータストリーミングアプリをどう構築するかを順に学ぶ。",
+  "title": "Apache Kafka® 101",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/apache-kafka/events/"
+ },
+ {
+  "description": "Why is Flink useful, and how does it work? This course uses Flink SQL to introduce the core concepts of stream processing with Flink and shows how they fit together to solve real problems.",
+  "domain": "データ基盤",
+  "duration_text": "Approximately 3 hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Flink"
+  ],
+  "summary_ja": "Flink SQL を使って Apache Flink のストリーム処理の中核概念を学ぶ入門コース (約3時間)。Flink がなぜ有用でどう動くかを、実問題の解決を通じて理解する。",
+  "title": "Apache Flink® 101",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/apache-flink/intro/"
+ },
+ {
+  "description": "This is a course about Flink SQL, which is part of the Apache Flink project. Exploring what Flink SQL can do is a great way to get started with Apache Flink and stream processing.",
+  "domain": "データ基盤",
+  "duration_text": "Approximately 3 hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Flink",
+   "Flink SQL"
+  ],
+  "summary_ja": "Apache Flink プロジェクトの一部である Flink SQL を学ぶコース (約3時間)。ウィンドウ集計や結合などの実践機能を演習付きで体験し、ストリーム処理の入口としても適する。",
+  "title": "Apache Flink® SQL",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/flink-sql/overview/"
+ },
+ {
+  "description": "Apache Iceberg is a modern, open-source table format for massive analytics datasets in data lakes. It brings database-like capabilities to object storage: ACID transactions, schema evolution, time travel, and hidden partitioning.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Iceberg"
+  ],
+  "summary_ja": "データレイク向けオープンソーステーブル形式 Apache Iceberg の概念と Confluent の Tableflow を学ぶコース。ACID トランザクション・スキーマ進化・タイムトラベル・隠れパーティショニングなど、オブジェクトストレージに DB 的な能力を与える仕組みを扱う。",
+  "title": "Apache Iceberg™️",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/apache-iceberg/introduction/"
+ },
+ {
+  "description": "Creating and storing events is useful, but being able to react to those events and process them is what is truly transformational to how businesses operate today. When you want the full control over the application logic, Kafka Streams is your go-to stream processing framework.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Kafka Streams"
+  ],
+  "summary_ja": "Kafka Streams によるストリーム処理アプリケーション開発の入門コース。イベントに反応して処理するアプリケーションロジックをフルコントロールしたい開発者向けの内容。",
+  "title": "Kafka Streams 101",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/kafka-streams/get-started/"
+ },
+ {
+  "description": "If you're a Python developer, this course will show you how to harness the power of Apache Kafka in your applications. You'll learn how to build Kafka producer and consumer applications, how to work with the event schema, and take advantage of the Confluent Schema Registry and more.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka",
+   "Python"
+  ],
+  "summary_ja": "Python 開発者がアプリケーションに Apache Kafka の力を組み込む方法を学ぶコース。プロデューサー/コンシューマーアプリの構築、イベントスキーマの扱い、Confluent Schema Registry の活用を扱う。",
+  "title": "Kafka for Python Developers",
+  "type": "course",
+  "url": "https://developer.confluent.io/learn-kafka/kafka-python/intro/"
+ },
+ {
+  "description": "Apache Kafka is a great fit for .NET applications due to its powerful real-time data processing features. Learn how to use Kafka to build a streaming application with .NET.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka",
+   ".NET"
+  ],
+  "summary_ja": ".NET 開発者向けに Kafka によるストリーミングアプリケーション構築を学ぶコース。リアルタイムデータ処理の機能を .NET クライアントから活用する方法を扱う。",
+  "title": "Apache Kafka® for .NET Developers",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/apache-kafka-for-dotnet/kafka-messages/"
+ },
+ {
+  "description": "In the event-driven world, schemas are essential as they can enforce the shape of the data and act as contracts between producers and consumers. The Schema Registry can manage those contracts and allow their evolution in a safe way.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Schema Registry"
+  ],
+  "summary_ja": "スキーマをプロデューサーとコンシューマー間の「契約」として管理する Schema Registry の入門コース。データ形状の強制と安全なスキーマ進化の仕組みを学ぶ。",
+  "title": "Schema Registry 101",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/schema-registry/key-concepts/"
+ },
+ {
+  "description": "Kafka Connect is a component of Apache Kafka that's used to perform streaming integration between Kafka and other systems such as databases, cloud services, search indexes, file systems, and key-value stores. Thanks to the strong community behind Kafka, hundreds of connectors are readily available.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Kafka Connect"
+  ],
+  "summary_ja": "Kafka と外部システム (DB・クラウドサービス・検索インデックス・ファイルシステム等) をストリーミング連携する Kafka Connect の入門コース。コミュニティ提供の豊富なコネクタの活用も扱う。",
+  "title": "Kafka Connect 101",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/kafka-connect/intro/"
+ },
+ {
+  "description": "If you want to get instant insights from your data streams but don't want to go through the hassle of writing a full-fledged application and worry about the infrastructure, then ksqlDB is for you. Just write some good old SQL code and it's processing your business events in real-time.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "ksqlDB"
+  ],
+  "summary_ja": "本格的なアプリを書かず SQL だけでストリーム処理を実現する ksqlDB の入門コース。インフラを意識せずリアルタイムにイベントを処理したい人向け。",
+  "title": "ksqlDB 101",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/ksqldb/intro/"
+ },
+ {
+  "description": "This course is about building systems with a Streamhouse architecture. A streamhouse is a data architecture that continuously captures, processes, governs, and serves the current state of a business as changes happen—so applications, AI agents, and analytics can use the same fresh, trusted data.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka",
+   "Apache Flink",
+   "Apache Iceberg",
+   "Confluent Cloud"
+  ],
+  "summary_ja": "変化に応じてビジネスの最新状態を継続的に取り込み・処理・ガバナンス・提供する「Streamhouse」アーキテクチャを構築するコース。Kafka・Flink・Iceberg・Confluent Cloud を題材に、アプリ・AI エージェント・分析が同じ新鮮なデータを使う設計を学ぶ。",
+  "title": "Building a Streamhouse",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/streamhouse/intro/"
+ },
+ {
+  "description": "Step into the future with streaming data! Data engineering traditionally focused on batch processing, however, modern businesses can't afford to wait. Learn how data streaming is reshaping data engineering and how to modernize systems to adapt.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka",
+   "Apache Flink"
+  ],
+  "summary_ja": "バッチ処理中心のデータエンジニアリングからストリーミングへの移行を学ぶ実践コース。データストリーミングがデータエンジニアリングをどう変え、既存システムをどう近代化するかを扱う。",
+  "title": "From Batch to Streaming: Modern Data Engineering Pipelines",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/data-engineering/overview/"
+ },
+ {
+  "description": "How do you move from a simple proof of concept to a bulletproof data streaming system that is ready for production deployment? In this course, you will learn how to avoid pitfalls when scaling your data streaming platform. Additionally, you'll delve deep into the GitOps framework.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka"
+  ],
+  "summary_ja": "Kafka の概念実証から本番運用に耐えるストリーミングシステムへの引き上げを学ぶ実践コース。スケール時の落とし穴回避と、GitOps フレームワークによる運用を深く扱う。",
+  "title": "Mastering Production Data Streaming Systems with Apache Kafka®",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/data-streaming-systems/overview/"
+ },
+ {
+  "description": "How about we get our hands dirty and write some code now? Get ready to learn how to develop a robust event streaming application using one of the most widely used Java frameworks. Spring Boot meets Kafka Streams.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka",
+   "Spring"
+  ],
+  "summary_ja": "Spring Boot と Kafka で堅牢なイベントストリーミングアプリを開発するコース。広く使われる Java フレームワークと Kafka Streams を組み合わせ、実際にコードを書きながら学ぶ。",
+  "title": "Spring Framework and Apache Kafka®",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/spring/apache-kafka-intro/"
+ },
+ {
+  "description": "Microservices are the foundation of Cloud-Native Distributed Systems. Learn the principles of microservices and how they can be extended to build Event-Driven Architectures.",
+  "domain": "データ基盤",
+  "duration_text": "Approximately 3 hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka"
+  ],
+  "summary_ja": "イベント駆動マイクロサービスの設計原則とパターンを学ぶコース (約3時間)。クラウドネイティブ分散システムの基盤であるマイクロサービスの原則と、そのイベント駆動アーキテクチャへの拡張を扱う。",
+  "title": "Designing Event-Driven Microservices",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/microservices/overview/"
+ },
+ {
+  "description": "Storing data as events rather than in relational databases working with traditional rows and columns brings many advantages, like recovering your system quickly by replaying events, a free audit log, or the ability to get better business insights. In this course, you'll learn about how events can be used as the storage model for your applications, what event sourcing is, how it works, and how it relates to approaches like CQRS and CDC.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka"
+  ],
+  "summary_ja": "イベントをストレージモデルとして扱うイベントソーシングを Kafka で学ぶコース。イベント再生による復旧・監査ログ・CQRS/CDC など、リレーショナル DB と異なる設計の利点と仕組みを扱う。",
+  "title": "Event Sourcing and Event Storage with Apache Kafka®",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/event-sourcing/event-driven-vs-state-based/"
+ },
+ {
+  "description": "Earlier, you learned that events are the very foundation of real-time event-streaming applications. This course gives you design tips to craft top-notch events that are uniquely tailored to your business needs.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka"
+  ],
+  "summary_ja": "イベントとイベントストリームの設計手法を学ぶコース。ビジネス要件に合った質の高いイベントを設計するための指針を、リアルタイムアプリの土台として押さえる。",
+  "title": "Designing Events and Event Streams",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/event-design/intro/"
+ },
+ {
+  "description": "Event Modeling is a simple visual method for designing event-driven systems. In this course, learn how to build an event model and implement the modeled system.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Apache Kafka"
+  ],
+  "summary_ja": "イベント駆動システムを視覚的に設計する「イベントモデリング」の手法を学び実装するコース。イベントモデルの作り方から実装までを一通り体験する。",
+  "title": "Practical Event Modeling",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/event-modeling/intro/"
+ },
+ {
+  "description": "Imagine if anyone had access to the key of your house? Well, it's the same if you don't secure your IT infrastructure and services. Kafka takes security seriously and has incorporated robust security features into all components.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka"
+  ],
+  "summary_ja": "Kafka のセキュリティ機能を学ぶコース。認証・認可・暗号化など、Kafka 全コンポーネントに組み込まれた堅牢なセキュリティ機構を理解し、IT インフラを守る設定を学ぶ。",
+  "title": "Apache Kafka® Security",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/security/intro/"
+ },
+ {
+  "description": "From Apache Kafka security, authentication, and RBAC, to cloud data security and monitoring, learn how to use Confluent Cloud's security features to meet all your security and compliance needs.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Confluent Cloud"
+  ],
+  "summary_ja": "Confluent Cloud のセキュリティ機能を学ぶコース。Kafka セキュリティ、認証、RBAC からクラウドデータの保護・監視まで、セキュリティとコンプライアンス要件を満たす使い方を扱う。",
+  "title": "Confluent Cloud Security",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/cloud-security/intro/"
+ },
+ {
+  "description": "How to integrate Confluent Cloud with on-prem, public, and private cloud data streaming applications to meet connectivity, privacy, and security requirements.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Confluent Cloud"
+  ],
+  "summary_ja": "Confluent Cloud とオンプレ・パブリック/プライベートクラウドのデータストリーミングアプリを接続する方法を学ぶコース。接続性・プライバシー・セキュリティ要件を満たすネットワーク構成を扱う。",
+  "title": "Confluent Cloud Networking",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/confluent-cloud-networking/intro/"
+ },
+ {
+  "description": "In this course, we look at some of the specific Stream Governance features in Confluent Cloud. You will have an opportunity to try out many of these features in the hands-on exercises.",
+  "domain": "データ基盤",
+  "duration_text": "Approximately 2-3 hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Confluent Cloud",
+   "Schema Registry"
+  ],
+  "summary_ja": "Confluent Cloud のストリームガバナンス機能を学ぶコース (約2〜3時間)。Schema Registry 等のガバナンス機能をハンズオン演習で試しながら理解を深める。",
+  "title": "Streaming Data Governance",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/governing-data-streams/overview/"
+ },
+ {
+  "description": "In this video series you learn about Client-side Field-level Encryption (CSFLE). In addition to getting an introduction about this powerful technology, allowing you to encrypt specific fields of a Kafka message, you also learn about the underlying encryption technology, envelope encryption. Lastly, this series also includes an end-to-end demo walking you through the steps of configuring CSFLE.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "低",
+  "services": [
+   "Confluent Cloud"
+  ],
+  "summary_ja": "Kafka メッセージの特定フィールドを暗号化するクライアント側フィールドレベル暗号化 (CSFLE) を学ぶ動画シリーズ。基盤技術であるエンベロープ暗号の解説と、設定手順を追うエンドツーエンドのデモを含む。",
+  "title": "Client-side Field-level Encryption (CSFLE)",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/csfle/csfle-overview/"
+ },
+ {
+  "description": "We believe it's important to know how a piece of technology works under the hood to understand its consistency, performance, security, and scalability characteristics. This course describes the architecture of Apache Kafka with lectures from Jun Rao, one of its original authors and a Confluent co-founder.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Kafka"
+  ],
+  "summary_ja": "Apache Kafka の内部アーキテクチャを解説するコース。原作者の一人で Confluent 共同創業者の Jun Rao が講師を務め、一貫性・性能・セキュリティ・拡張性を支える内部構造を学ぶ。",
+  "title": "Apache Kafka® Internal Architecture",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/architecture/get-started/"
+ },
+ {
+  "description": "ksqlDB looks like magic when you first use it, so let's take a tour and discover how it's been built with ease-of-use in mind but also security, scalability and performance.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "ksqlDB"
+  ],
+  "summary_ja": "ksqlDB の内部構造とアーキテクチャを掘り下げるコース。使いやすさを意識した設計に加え、セキュリティ・拡張性・性能の仕組みを「中身」から理解する。",
+  "title": "Inside ksqlDB",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/inside-ksqldb/streaming-architecture/"
+ },
+ {
+  "description": "A series of videos and hands-on exercises that will show how to use Flink to interact with Kafka topics as though they were relational database tables, using the Flink Table API in Java — no SQL knowledge required.",
+  "domain": "データ基盤",
+  "duration_text": "",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Flink",
+   "Java"
+  ],
+  "summary_ja": "Java の Flink Table API で Kafka トピックをリレーショナルテーブルのように処理するコース。SQL 知識不要の動画シリーズとハンズオン演習で、Flink と Kafka の連携を学ぶ。",
+  "title": "Apache Flink® Table API: Processing Data Streams in Java",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/flink-table-api-java/overview/"
+ },
+ {
+  "description": "This course will introduce students to Apache Flink through a series of hands-on exercises. Students will build a basic application in Java that will consume a collection of Apache Kafka data streams. The data will be transformed using Flink and pushed back into new Kafka topics.",
+  "domain": "データ基盤",
+  "duration_text": "2-3 hours",
+  "level": "",
+  "priority_for_user": "中",
+  "services": [
+   "Apache Flink",
+   "Java"
+  ],
+  "summary_ja": "Java で Apache Flink アプリケーションを構築するハンズオンコース (約2〜3時間)。Kafka のデータストリームを消費し、Flink で変換して新しいトピックへ書き戻す基本アプリを演習で作る。",
+  "title": "Building Apache Flink Applications in Java",
+  "type": "course",
+  "url": "https://developer.confluent.io/courses/flink-java"
+ }
+]

@@ -1,0 +1,156 @@
+[
+ {
+  "title": "Build your first Durable Agent",
+  "url": "https://developers.cloudflare.com/agents/getting-started/quick-start/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Cloudflare Agents SDK で最初のエージェントを構築しデプロイするクイックスタート。"
+ },
+ {
+  "title": "Learn the Agents runtime",
+  "url": "https://developers.cloudflare.com/agents/getting-started/learn-the-runtime/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Durable Object 上のエージェントランタイム、永続状態、WebSocket を学ぶ。"
+ },
+ {
+  "title": "Testing your Agents",
+  "url": "https://developers.cloudflare.com/agents/getting-started/testing-your-agent/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Vitest と Workers テストプールでエージェントをテストする。"
+ },
+ {
+  "title": "Agentic patterns",
+  "url": "https://developers.cloudflare.com/agents/concepts/agentic-patterns/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "プロンプトチェーン・ルーティング・並列化・オーケストレーター等のエージェントパターン実装。"
+ },
+ {
+  "title": "Build a Remote MCP server",
+  "url": "https://developers.cloudflare.com/agents/model-context-protocol/guides/remote-mcp-server/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Cloudflare 上にリモート MCP サーバーを構築するガイド。"
+ },
+ {
+  "title": "Test a Remote MCP Server",
+  "url": "https://developers.cloudflare.com/agents/model-context-protocol/guides/test-remote-mcp-server/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "リモート MCP サーバーのテスト方法。"
+ },
+ {
+  "title": "Securing MCP servers",
+  "url": "https://developers.cloudflare.com/agents/model-context-protocol/guides/securing-mcp-server/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "MCP サーバーの認証・認可などセキュリティ強化。"
+ },
+ {
+  "title": "Connect to an MCP server",
+  "url": "https://developers.cloudflare.com/agents/model-context-protocol/guides/connect-mcp-client/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "MCP クライアントからサーバーへ接続する。"
+ },
+ {
+  "title": "Handle OAuth with MCP servers",
+  "url": "https://developers.cloudflare.com/agents/model-context-protocol/guides/oauth-mcp-client/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "MCP で OAuth 認証を扱う。"
+ },
+ {
+  "title": "Migrate to MCP SDK v2",
+  "url": "https://developers.cloudflare.com/agents/model-context-protocol/guides/migrate-to-mcp-sdk-v2/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "MCP SDK v2 への移行ガイド。"
+ },
+ {
+  "title": "Build a Code Mode MCP server",
+  "url": "https://developers.cloudflare.com/agents/model-context-protocol/guides/build-codemode-mcp-server/",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・MCP",
+  "services": [
+   "Cloudflare"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Code Mode 対応の MCP サーバーを構築する。"
+ }
+]

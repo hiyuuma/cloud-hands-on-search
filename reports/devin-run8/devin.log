@@ -1,0 +1,24 @@
+I have a good picture of the repo. Now I'll create the report skeleton, then start verifying official catalog pages.The Help Center confirms the 14 courses and that they're free. Now I need direct course URLs — checking the sub-pages.The Gradual `_next/data` endpoint exposes the full course list. Extracting it now.Verified the URL pattern. Now I'll verify each of the 14 course slugs actually renders its page with matching title.All 14 OpenAI courses verified. Writing the openai vendor file now.Palantir Learn is a Skilljar site — let me try its JSON catalog API.Palantir catalog extracted — 26 English courses. Writing the vendor file.Now I'll verify all the GitHub directory links for the three Microsoft curricula quickly.The full DeepLearning.AI catalog (271 courses) is embedded in the page payload. Let me check level conventions used in existing vendor files, then build the selection.Building the DeepLearning.AI selection (45 courses) with authored Japanese summaries.DeepLearning.AI and Microsoft curricula files already exist — good progress. One title has mojibake to fix. Let me check the current registration state.Now I'll write the remaining vendor files: vercel, cohere, cloudflare, plus additions to kaggle and huggingface.Now registering the new catalogs in etl.py and the access map in loaders.py.Counts computed. Now updating tests and checking golden queries against the built DB.Now updating the test files with new counts and golden queries.Build artifacts regenerated. Running the test suite.All 120 tests pass. Quick checks for the investigate-only providers, then docs/reports.Everything checks out. Finalizing REPORT.md.Formatting differs (indent 1 vs 2). Re-dumping the two modified files with the original indent style to keep diffs minimal.Run 8 is complete. Summary of what was done:
+
+**New catalogs (+168 records, plus 2 additions to existing)** — total 2,073 → 2,243:
+
+| catalog | file | count | access |
+|---|---|---|---|
+| openai | openai_academy.json | 14 | Free |
+| palantir | palantir_learn.json | 26 | unknown |
+| microsoft_curricula | microsoft_curricula.json | 52 | Free |
+| deeplearning_ai | deeplearning_ai.json | 45 | unknown |
+| cohere | cohere_llmu.json | 10 | Free |
+| cloudflare | cloudflare_agents.json | 11 | Free |
+| vercel | vercel_academy.json | 10 | unknown |
+| huggingface | +1 (Cookbook), nlp→llm-course URL | 13 | Free |
+| kaggle | +1 (5-Day AI Agents Intensive) | 18 | Free |
+| anthropic | diff check: 29 slugs, **差分なし** | 29 | unknown |
+
+**Investigate-only, not recorded**: Mistral (no catalog; covered via DeepLearning.AI), Meta, xAI, CrewAI (learn.crewai.com is just a DeepLearning.AI landing page), LlamaIndex (no academy).
+
+**Changes**: `etl.py` registered 7 new catalogs; `loaders.py` `_STAGED_ACCESS_BY_CATALOG` sets anthropic/deeplearning_ai/palantir/vercel to `unknown` (palantir/deeplearning_ai/vercel pricing unconfirmable). Tests updated: vendor counts, total 2243, `_raw_url_set`, billing, duration coverage (`kaggle: ["5 days"]` unconvertible), new golden tests (FDE→palantir, MCP multi-catalog, OpenAI→openai). Note: OpenAI Academy has no MCP course, so the MCP cross-catalog test pins the 5 catalogs that do hit — documented in REPORT.md.
+
+**Regenerated**: `build/unified.json`, `build/catalog.db`, `web/unified-compact.json` (same 15-key schema). README table now says 38 sources. Per-catalog reports in `reports/catalog-expansion/` (8 files). Run 7's uncommitted summary_ja changes untouched; no commits made.
+
+**Test result**: `120 passed` (was 117 + 3 new golden tests).

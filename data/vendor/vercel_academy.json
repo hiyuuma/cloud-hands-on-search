@@ -1,0 +1,142 @@
+[
+ {
+  "title": "AI SDK",
+  "url": "https://vercel.com/academy/ai-sdk",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・生成AI",
+  "services": [
+   "Vercel"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Vercel AI SDK でストリーミング UI・ツール呼び出し・エージェント的なフローを備えた AI アプリを構築する。"
+ },
+ {
+  "title": "AI Gateway",
+  "url": "https://vercel.com/academy/ai-gateway",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・生成AI",
+  "services": [
+   "Vercel"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Vercel AI Gateway で複数プロバイダのモデルを一元管理し、認証・レート制御・オブザーバビリティを設定する。"
+ },
+ {
+  "title": "Agent-Friendly APIs",
+  "url": "https://vercel.com/academy/agent-friendly-apis",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・生成AI",
+  "services": [
+   "Vercel"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "AI エージェントから呼び出しやすい API の設計・公開方法を学ぶ。"
+ },
+ {
+  "title": "Build an AI Agent Harness",
+  "url": "https://vercel.com/academy/build-ai-agent-harness",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・生成AI",
+  "services": [
+   "Vercel"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "エージェント実行のためのハーネス (ツール・ループ・制御) を自前で構築する実践コース。"
+ },
+ {
+  "title": "AI Summary App with Next.js",
+  "url": "https://vercel.com/academy/ai-summary-app-with-nextjs",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・生成AI",
+  "services": [
+   "Vercel"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Next.js と AI SDK で要約アプリをハンズオンで作る。"
+ },
+ {
+  "title": "Building Agents with Eve",
+  "url": "https://vercel.com/academy/building-agents-with-eve",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・生成AI",
+  "services": [
+   "Vercel"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Vercel のエージェント基盤 Eve を使ったエージェント構築の実践。"
+ },
+ {
+  "title": "Enterprise Apps & Agents",
+  "url": "https://vercel.com/academy/enterprise-apps-agents",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・生成AI",
+  "services": [
+   "Vercel"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "エンタープライズ向けアプリとエージェントを Vercel 上で構築・運用する。"
+ },
+ {
+  "title": "Filesystem Agents",
+  "url": "https://vercel.com/academy/filesystem-agents",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・生成AI",
+  "services": [
+   "Vercel"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "ファイルシステムを操作するエージェントの設計と実装。"
+ },
+ {
+  "title": "Slack Agents",
+  "url": "https://vercel.com/academy/slack-agents",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・生成AI",
+  "services": [
+   "Vercel"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Slack 上で動作する AI エージェントを構築する。"
+ },
+ {
+  "title": "Build and Launch with AI",
+  "url": "https://vercel.com/academy/build-and-launch-with-ai",
+  "type": "コース",
+  "level": "中級",
+  "duration_text": "",
+  "description": "",
+  "domain": "AIエージェント・生成AI",
+  "services": [
+   "Vercel"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "AI ツールを活用してアプリを素早く構築・公開するワークフロー。"
+ }
+]

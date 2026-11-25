@@ -1,0 +1,142 @@
+[
+ {
+  "title": "LLM基礎 (Cohereプラットフォーム)",
+  "url": "https://docs.cohere.com/docs/the-cohere-platform",
+  "type": "コース",
+  "level": "初級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Cohere"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "LLM University の基礎モジュールに相当。Cohere プラットフォームと大規模言語モデルの概念を概観する。"
+ },
+ {
+  "title": "Text Generation",
+  "url": "https://docs.cohere.com/docs/introduction-to-text-generation-at-cohere",
+  "type": "コース",
+  "level": "初級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Cohere"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "LLMU の Text Generation モジュール。プロンプトによるテキスト生成の基礎と API の使い方。"
+ },
+ {
+  "title": "Text Representation (Embeddings)",
+  "url": "https://docs.cohere.com/docs/cohere-embed",
+  "type": "コース",
+  "level": "初級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Cohere"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "LLMU の Text Representation モジュール。埋め込みの概念と Embed モデルの使い方。"
+ },
+ {
+  "title": "Semantic Search",
+  "url": "https://docs.cohere.com/docs/semantic-search-with-cohere",
+  "type": "コース",
+  "level": "初級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Cohere"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "埋め込みを使ったセマンティック検索システムの構築。"
+ },
+ {
+  "title": "Retrieval Augmented Generation (RAG)",
+  "url": "https://docs.cohere.com/docs/retrieval-augmented-generation-rag",
+  "type": "コース",
+  "level": "初級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Cohere"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "LLMU の RAG モジュール。検索拡張生成の仕組みと実装。"
+ },
+ {
+  "title": "Agentic RAG",
+  "url": "https://docs.cohere.com/docs/agentic-rag",
+  "type": "コース",
+  "level": "初級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Cohere"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "エージェント的な RAG パターン (検索の計画・反復) を学ぶ。"
+ },
+ {
+  "title": "Rerank",
+  "url": "https://docs.cohere.com/docs/rerank-overview",
+  "type": "コース",
+  "level": "初級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Cohere"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Rerank モデルによる検索結果の再ランキングで精度を上げる。"
+ },
+ {
+  "title": "Tool Use",
+  "url": "https://docs.cohere.com/docs/tool-use-overview",
+  "type": "コース",
+  "level": "初級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Cohere"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "関数呼び出し・ツール利用によるエージェント的な動作の実装。"
+ },
+ {
+  "title": "Agents",
+  "url": "https://docs.cohere.com/docs/building-an-agent-with-cohere",
+  "type": "コース",
+  "level": "初級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Cohere"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "Cohere でエージェントを構築するハンズオンガイド。"
+ },
+ {
+  "title": "Private Deployment",
+  "url": "https://docs.cohere.com/docs/private-deployment-overview",
+  "type": "コース",
+  "level": "初級",
+  "duration_text": "",
+  "description": "",
+  "domain": "生成AI・LLM",
+  "services": [
+   "Cohere"
+  ],
+  "priority_for_user": "medium",
+  "summary_ja": "LLMU の Deployment モジュールに相当。プライベート環境へのモデルデプロイの選択肢。"
+ }
+]
